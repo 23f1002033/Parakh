@@ -28,6 +28,7 @@ const cls = computed(() => (props.status === 'done' ? CLASSES[props.verdict] : '
     <p class="verdict-label">{{ label }}</p>
     <p v-if="status === 'running'" class="small">Searching. Results appear below as each check finishes.</p>
     <p v-else-if="status === 'failed'" class="small">Something went wrong on our side. Try the check again.</p>
+    <slot />
     <p class="small"><RouterLink to="/about">How this is decided</RouterLink></p>
   </section>
 </template>

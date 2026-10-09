@@ -97,3 +97,28 @@ def test_demos_and_rules(api):
     assert api.get("/api/demos/demo2/image").status_code == 404
     rules = api.get("/api/meta/rules").json()
     assert rules["price"]["bad_ratio"] == 3.0 and rules["verdict"]["reports"]["cap"] == 6
+
+
+def test_api_8_check_rate_limit(make_settings):
+    with TestClient(create_app(make_settings(serpapi_mode="replay"), serp=StubClient())) as c:
+        for _ in range(10):
+            assert post_check(c).status_code == 202
+        r = post_check(c)
+    assert r.status_code == 429
+    assert r.json()["error"]["code"] == "rate_limited" and "10 checks per hour" in r.json()["error"]["message"]
+    assert 3500 <= int(r.headers["Retry-After"]) <= 3600
+
+
+def test_rejected_input_does_not_use_the_check_limit(make_settings):
+    with TestClient(create_app(make_settings(serpapi_mode="replay", checks_per_hour=1), serp=StubClient())) as c:
+        assert post_check(c, instagram=None).status_code == 422
+        assert post_check(c).status_code == 202
+        assert post_check(c).status_code == 429
+
+
+def test_report_rate_limit(make_settings):
+    with TestClient(create_app(make_settings(serpapi_mode="replay", reports_per_hour=2), serp=StubClient())) as c:
+        post_check(c)
+        path = "/api/stores/instagram/red.store/reports"
+        assert [c.post(path, json={"outcome": "other"}).status_code for _ in range(3)] == [201, 201, 429]
+        assert "Retry-After" in c.post(path, json={"outcome": "other"}).headers

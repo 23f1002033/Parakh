@@ -52,3 +52,4 @@ def test_acc_5_missing_posts_info_only():
 def test_large_following_few_posts():
     r = account.evaluate(profile(followers=50_000, posts=posts(3, 400)), None, TODAY)
     assert "Large following, few posts" in findings(r, "info")
+    assert any(i.finding.startswith("50,000 followers") for i in r.items)

@@ -7,6 +7,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.checks.runner import CheckInputs, run_check
+from app.limits import client_key
 from app.models import Check, Evidence, Store, utcnow
 from app.normalize import instagram_handle, website_domain
 from app.schemas import ApiError, CheckCreated, CheckOut, StoreRef
@@ -83,6 +84,8 @@ async def create_check(
     image_url: str | None = Form(None),
     image: UploadFile | None = File(None),
 ):
+    who = client_key(request)
+    request.app.state.check_limit.check(who)
     handle, domain, name, url = parse_inputs(instagram, website, product_name, image_url)
     has_file = image is not None and bool(image.filename)
     if has_file and url:
@@ -103,6 +106,7 @@ async def create_check(
 
     inputs = CheckInputs(handle=handle, domain=domain, product_name=name, quoted_price=quoted_price,
                          image=ref, image_url=url)
+    request.app.state.check_limit.hit(who)
     background.add_task(run_check, check_id, inputs, request.app.state.serp, request.app.state.sessions)
     return CheckCreated(id=check_id)
 

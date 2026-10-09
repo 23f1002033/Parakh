@@ -17,6 +17,9 @@
   --bad-bg: #f8dfdc;
   --bad-fg: #8a1f14;
 
+  --input-bg: #ffffff;
+  --input-border: #b9b4aa;
+
   --radius: 8px;
   --gap: 16px;
   color-scheme: light dark;
@@ -32,6 +35,8 @@
     --accent: #7fb0e0;
     --accent-text: #0f1b27;
     --focus: #7fb0e0;
+    --input-bg: #101215;
+    --input-border: #4a5058;
 
     --good-bg: #1d3524;
     --good-fg: #9fd8ac;
@@ -73,6 +78,10 @@ body {
   max-width: 760px;
   margin: 0 auto;
   padding: 0 16px;
+}
+
+.wrap.wide {
+  max-width: 1120px;
 }
 
 main.wrap {
@@ -450,10 +459,22 @@ select {
   width: 100%;
   font: inherit;
   color: var(--text);
-  background: var(--bg);
-  border: 1px solid var(--border);
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
   border-radius: 6px;
-  padding: 8px 10px;
+  padding: 8px 12px;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="number"],
+select {
+  height: 46px;
+}
+
+::placeholder {
+  color: var(--muted);
+  opacity: 0.8;
 }
 
 input[type="file"] {
@@ -565,5 +586,92 @@ button:disabled {
 
   .price-table td.nowrap {
     color: var(--muted);
+  }
+}
+
+/* Check page: intro beside the form on wide screens */
+
+.check-layout {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.steps {
+  padding-left: 22px;
+  margin: 12px 0;
+}
+
+.steps li + li {
+  margin-top: 6px;
+}
+
+@media (min-width: 900px) {
+  .check-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+    gap: 40px;
+    align-items: start;
+  }
+
+  .check-intro {
+    position: sticky;
+    top: 24px;
+    padding-top: 8px;
+  }
+}
+
+/* Report page: verdict and summary beside the sections on wide screens */
+
+.report-layout {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.report-aside > * + *,
+.report-main > * + * {
+  margin-top: var(--gap);
+}
+
+.summary {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.summary li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 0;
+}
+
+.summary li + li {
+  border-top: 1px solid var(--border);
+}
+
+.wide-only {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .report-layout {
+    grid-template-columns: 340px minmax(0, 1fr);
+    gap: 24px;
+    align-items: start;
+  }
+
+  .report-aside {
+    position: sticky;
+    top: 24px;
+  }
+
+  .wide-only {
+    display: block;
+  }
+
+  .narrow-only {
+    display: none;
   }
 }

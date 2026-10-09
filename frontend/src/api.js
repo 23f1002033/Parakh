@@ -1,9 +1,11 @@
+const UNREACHABLE = 'Could not reach the Parakh server. Check your connection and try again.'
+
 async function request(path, options = {}) {
   let res
   try {
     res = await fetch(`/api${path}`, options)
   } catch {
-    throw new Error('Could not reach the Parakh server. Check your connection and try again.')
+    throw new Error(UNREACHABLE)
   }
   let body = null
   try {
@@ -12,7 +14,9 @@ async function request(path, options = {}) {
     body = null
   }
   if (!res.ok) {
-    const err = new Error(body?.error?.message || `Request failed (${res.status})`)
+    // A proxy or gateway error has no Parakh error body: treat it as the server being down.
+    const fallback = res.status >= 500 && !body ? UNREACHABLE : `Request failed (${res.status})`
+    const err = new Error(body?.error?.message || fallback)
     err.status = res.status
     throw err
   }

@@ -5,6 +5,19 @@ from app.signals import rules
 from app.signals.result import Item, SignalResult, domain_of, done, source
 
 
+def indian_number(n: int) -> str:
+    # Lakh/crore grouping, as Indian buyers read it: 1036292 -> 10,36,292.
+    s = str(abs(n))
+    head, tail = s[:-3], s[-3:]
+    groups = []
+    while len(head) > 2:
+        groups.insert(0, head[-2:])
+        head = head[:-2]
+    if head:
+        groups.insert(0, head)
+    return ("-" if n < 0 else "") + ",".join(groups + [tail])
+
+
 def evaluate(p: InstagramProfile, website: str | None, today: date) -> SignalResult:
     link = [source(f"@{p.handle} on Instagram", p.url, "instagram_profile")]
     dates = sorted(d for d in (post.posted_on for post in p.posts) if d)
@@ -23,7 +36,7 @@ def evaluate(p: InstagramProfile, website: str | None, today: date) -> SignalRes
                           f"You gave {website}; the profile links to {', '.join(bio_domains)}.", link))
     if p.followers is not None and p.followers >= rules.LARGE_FOLLOWING and len(p.posts) < rules.FEW_POSTS:
         items.append(Item("info", "Large following, few posts",
-                          f"{p.followers} followers but {len(p.posts)} visible posts.", link))
+                          f"{indian_number(p.followers)} followers but {len(p.posts)} visible posts.", link))
     if p.is_verified:
         items.append(Item("good", "Account is verified by Instagram", None, link))
 
@@ -35,8 +48,9 @@ def evaluate(p: InstagramProfile, website: str | None, today: date) -> SignalRes
         "full_name": p.full_name, "bio_domains": bio_domains,
     }
     span = f", posts dated {oldest.isoformat()} to {dates[-1].isoformat()}" if dates else ""
-    summary = (f"{p.followers if p.followers is not None else 'unknown'} followers, "
-               f"{p.following if p.following is not None else 'unknown'} following, "
+    followers = indian_number(p.followers) if p.followers is not None else "unknown"
+    following = indian_number(p.following) if p.following is not None else "unknown"
+    summary = (f"{followers} followers, {following} following, "
                f"{len(p.posts)} recent posts visible{span}")
     items.append(Item("info", summary, "Only recent posts are visible; older history cannot be seen.",
                       link, numbers))

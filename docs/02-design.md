@@ -1,8 +1,8 @@
 # Parakh - Design
 
-Version 1.3, 9 Oct 2026. Implements docs/01-requirements.md.
+Version 1.4, 10 Oct 2026. Implements docs/01-requirements.md.
 
-Changes in 1.1 to 1.3 come from the live recordings and the M2 review; see section 11.
+Changes in 1.1 to 1.4 come from the live recordings and milestone reviews; see section 11.
 
 ## 1. Architecture
 
@@ -91,6 +91,9 @@ runner while this maximum holds.
 | live | cache -> network; writes cache |
 | record | live, and also writes the response to tests/fixtures/serp/<cache_key>.json |
 | replay | fixture file only; missing fixture raises FixtureMissing; no key needed |
+
+In replay, `REPLAY_DELAY_MS` (default 0) makes each engine call wait a random
+0.5x to 1.5x of that value, so a demo report fills in one signal at a time.
 
 ### Cache key
 
@@ -292,9 +295,13 @@ Plain CSS, mobile first, no UI framework.
 ## 9. Security and limits
 
 - Key in `.env` only; `.env` gitignored; `.env.example` has placeholders.
-- Per-IP rate limit in memory (NFR-7), keyed by salted IP hash.
+- Per-IP rate limit in memory (NFR-7), keyed by salted IP hash: sliding one
+  hour window, `CHECKS_PER_HOUR` (10) on POST /checks and `REPORTS_PER_HOUR`
+  (5) on POST .../reports. Over the limit: 429 with the standard error JSON
+  and a Retry-After header. Rejected input does not use up the limit.
 - Reports: note stripped to plain text, 280 chars, rendered as text.
-- CORS only for the Vite dev origin.
+- No CORS: in development the Vite proxy forwards /api, and in production
+  FastAPI serves the built SPA from the same origin.
 - Logs never print params dicts that contain api_key.
 
 ## 10. Traceability
@@ -327,3 +334,4 @@ Plain CSS, mobile first, no UI framework.
 | 1.2 | lens_exact organic_results ignored for photo and price | they are web pages about the product, not copies of the photo; see docs/05-backlog.md |
 | 1.3 | Complaint relevance: exact handle or domain; spaced handle and full_name only with 2+ words plus a store-context word | 9 of 10 boat.nirvana forum results were boAt Nirvana product threads and counted as store mentions |
 | 1.3 | Price ratio <= 0.4 without a brand or major-retailer listing is info, not good | "Price is in line" was wrong for a very low quote |
+| 1.4 | CORS removed; rate limits and REPLAY_DELAY_MS are config | one origin in production, proxy in development; demos fill in visibly |

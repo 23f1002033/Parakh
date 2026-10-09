@@ -3,6 +3,7 @@ import { onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { getDemoImage, getJson, postForm } from '../api.js'
 import { rupees } from '../format.js'
+import { rememberCheck } from '../lastCheck.js'
 
 const MAX_IMAGE = 5 * 1024 * 1024
 const MAX_PRICE = 10_000_000
@@ -117,6 +118,7 @@ async function submit() {
   busy.value = true
   try {
     const { id } = await postForm('/checks', form)
+    rememberCheck(id, form)
     router.push({ name: 'report', params: { id } })
   } catch (e) {
     error.value = e.message
@@ -126,64 +128,76 @@ async function submit() {
 </script>
 
 <template>
-  <section class="page">
-    <div>
+  <div class="check-layout">
+    <section class="check-intro">
       <h1>Check a store before you pay</h1>
       <p class="muted">
-        Enter what the seller gave you. Parakh searches for the same product elsewhere, copies of the photo,
-        public complaints, and the account's history, and shows you where each finding came from.
+        Enter what the seller gave you. Parakh searches public data and shows what it found, with a link to
+        every source.
       </p>
-    </div>
+      <ol class="steps">
+        <li><strong>Price.</strong> What the same product sells for elsewhere.</li>
+        <li><strong>Photo.</strong> Whether the product photo appears on other sites.</li>
+        <li><strong>Complaints.</strong> Public posts that mention the store.</li>
+        <li><strong>Account and buyers.</strong> The Instagram account's history and reports from other buyers.</li>
+      </ol>
+      <p class="small muted">
+        Parakh shows signals and where they came from. It does not decide whether a store is honest.
+        Check the sources yourself.
+      </p>
+    </section>
 
-    <div v-if="demos.length" class="card">
-      <h2>Try a demo</h2>
-      <p class="small muted">Fills the form with a recorded example. Then press Check.</p>
-      <div class="row">
-        <button v-for="d in demos" :key="d.name" type="button" class="secondary" @click="useDemo(d)">
-          {{ d.instagram ? `@${d.instagram}` : d.website }}<template v-if="d.product_name">, {{ d.product_name }}</template>
-        </button>
+    <section class="check-main page">
+      <div v-if="demos.length" class="card">
+        <h2>Try a demo</h2>
+        <p class="small muted">Fills the form with a recorded example. Then press Check.</p>
+        <div class="row">
+          <button v-for="d in demos" :key="d.name" type="button" class="secondary" @click="useDemo(d)">
+            {{ d.instagram ? `@${d.instagram}` : d.website }}<template v-if="d.product_name">, {{ d.product_name }}</template>
+          </button>
+        </div>
       </div>
-    </div>
 
-    <form class="card" novalidate @submit.prevent="submit">
-      <div class="field">
-        <label for="instagram">Instagram handle or link</label>
-        <input id="instagram" v-model="instagram" type="text" autocomplete="off" autocapitalize="off"
-               spellcheck="false" placeholder="@storename or instagram.com/storename" />
-      </div>
-      <div class="field">
-        <label for="website">Website link</label>
-        <input id="website" v-model="website" type="text" autocomplete="off" autocapitalize="off"
-               spellcheck="false" placeholder="shopname.in" />
-        <span class="hint">Give at least one: the Instagram handle or the website.</span>
-      </div>
-      <div class="field">
-        <label for="product">Product name</label>
-        <input id="product" v-model="productName" type="text" maxlength="120" placeholder="boAt Rockerz 110" />
-        <span class="hint">Needed to compare prices.</span>
-      </div>
-      <div class="field">
-        <label for="price">Price quoted to you (Rs)</label>
-        <input id="price" v-model="price" type="number" inputmode="numeric" min="1" :max="MAX_PRICE" step="1"
-               placeholder="699" />
-      </div>
-      <div class="field">
-        <label for="photo">Product photo</label>
-        <input id="photo" ref="fileInput" type="file" accept="image/jpeg,image/png,image/webp" @change="onFile" />
-        <span class="hint">JPG, PNG or WebP, up to 5 MB. A screenshot from the seller works.</span>
-        <template v-if="preview">
-          <img :src="preview" alt="Selected product photo" class="preview" />
-          <p v-if="demoNote" class="small muted">{{ demoNote }}</p>
-          <button type="button" class="secondary" @click="clearPhoto">Remove photo</button>
-        </template>
-        <p class="or">or</p>
-        <label for="image-url">Image link</label>
-        <input id="image-url" v-model="imageUrl" type="url" autocomplete="off" placeholder="https://..." />
-      </div>
-      <div class="field">
-        <button type="submit" :disabled="busy">{{ busy ? 'Starting...' : 'Check' }}</button>
-      </div>
-      <p v-if="error" class="error" role="alert">{{ error }}</p>
-    </form>
-  </section>
+      <form class="card" novalidate @submit.prevent="submit">
+        <div class="field">
+          <label for="instagram">Instagram handle or link</label>
+          <input id="instagram" v-model="instagram" type="text" autocomplete="off" autocapitalize="off"
+                 spellcheck="false" placeholder="e.g. @storename" />
+        </div>
+        <div class="field">
+          <label for="website">Website link</label>
+          <input id="website" v-model="website" type="text" autocomplete="off" autocapitalize="off"
+                 spellcheck="false" placeholder="e.g. shopname.in" />
+          <span class="hint">Give at least one: the Instagram handle or the website.</span>
+        </div>
+        <div class="field">
+          <label for="product">Product name</label>
+          <input id="product" v-model="productName" type="text" maxlength="120" placeholder="e.g. boAt Rockerz 110" />
+          <span class="hint">Needed to compare prices.</span>
+        </div>
+        <div class="field">
+          <label for="price">Price quoted to you (Rs)</label>
+          <input id="price" v-model="price" type="number" inputmode="numeric" min="1" :max="MAX_PRICE" step="1"
+                 placeholder="e.g. 699" />
+        </div>
+        <div class="field">
+          <label for="photo">Product photo</label>
+          <input id="photo" ref="fileInput" type="file" accept="image/jpeg,image/png,image/webp" @change="onFile" />
+          <span class="hint">JPG, PNG or WebP, up to 5 MB. A screenshot from the seller works.</span>
+          <template v-if="preview">
+            <img :src="preview" alt="Selected product photo" class="preview" />
+            <p v-if="demoNote" class="small muted">{{ demoNote }}</p>
+            <button type="button" class="secondary" @click="clearPhoto">Remove photo</button>
+          </template>
+          <p class="or">or</p>
+          <label for="image-url">Image link</label>
+          <input id="image-url" v-model="imageUrl" type="url" autocomplete="off" placeholder="e.g. https://..." />
+        </div>
+        <div class="field">
+          <button type="submit" :disabled="busy">{{ busy ? 'Starting...' : 'Check' }}</button>
+        </div>
+        <p v-if="error" class="error" role="alert">{{ error }}</p>
+      </form>
+    </section>
+  </div>
 </template>

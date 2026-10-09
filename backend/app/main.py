@@ -10,6 +10,7 @@ from starlette.exceptions import HTTPException
 from app.api import checks, demos, meta, reports, stores
 from app.config import BACKEND_DIR, Settings, get_settings
 from app.db import init_db, make_engine, make_session_factory
+from app.limits import RateLimiter
 from app.schemas import ApiError
 from app.serp.client import SerpClient
 
@@ -17,8 +18,8 @@ from app.serp.client import SerpClient
 FRONTEND_DIST = BACKEND_DIR.parent / "frontend" / "dist"
 
 
-def error(status: int, code: str, message: str) -> JSONResponse:
-    return JSONResponse({"error": {"code": code, "message": message}}, status_code=status)
+def error(status: int, code: str, message: str, headers: dict | None = None) -> JSONResponse:
+    return JSONResponse({"error": {"code": code, "message": message}}, status_code=status, headers=headers)
 
 
 def _validation_message(exc: RequestValidationError) -> str:
@@ -59,10 +60,12 @@ def create_app(settings: Settings | None = None, serp: SerpClient | None = None,
     app = FastAPI(title="Parakh", lifespan=lifespan)
     app.state.settings = settings
     app.state.sessions = sessions
+    app.state.check_limit = RateLimiter(settings.checks_per_hour, "checks")
+    app.state.report_limit = RateLimiter(settings.reports_per_hour, "reports")
 
     @app.exception_handler(ApiError)
     async def api_error(request: Request, exc: ApiError):
-        return error(exc.status, exc.code, exc.message)
+        return error(exc.status, exc.code, exc.message, exc.headers)
 
     @app.exception_handler(RequestValidationError)
     async def validation_error(request: Request, exc: RequestValidationError):

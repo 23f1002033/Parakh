@@ -1,21 +1,31 @@
 <script setup>
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
-import { RouterLink } from 'vue-router'
-import { getJson } from '../api.js'
+import { RouterLink, useRouter } from 'vue-router'
+import { getJson, postForm } from '../api.js'
 import PriceTable from '../components/PriceTable.vue'
 import ReportForm from '../components/ReportForm.vue'
 import SignalSection from '../components/SignalSection.vue'
 import VerdictBanner from '../components/VerdictBanner.vue'
-import { OUTCOME_LABELS, SIGNALS, SIGNAL_TITLES, count, domainOf, formatDate, plural, rupees } from '../format.js'
+import { formFor, rememberCheck } from '../lastCheck.js'
+import MissingPage from './MissingPage.vue'
+import {
+  OUTCOME_LABELS, SEVERITY_LABELS, SIGNALS, SIGNAL_TITLES, count, domainOf, formatDate, plural, rupees,
+} from '../format.js'
 
 const POLL_MS = 1500
+const SEVERITY_ORDER = ['bad', 'warn', 'good', 'info']
+const STATUS_CHIPS = { pending: 'Checking', unavailable: 'Unavailable', skipped: 'Not run' }
 
 const props = defineProps({ id: { type: String, required: true } })
+const router = useRouter()
 
 const check = ref(null)
 const error = ref('')
 const storeCounts = ref({})
 const copied = ref('')
+const notFound = ref(false)
+const retrying = ref(false)
+const retryError = ref('')
 let timer = null
 let stopped = false
 
@@ -25,7 +35,10 @@ async function load() {
     error.value = ''
   } catch (e) {
     error.value = e.message
-    if (e.status === 404) return
+    if (e.status === 404) {
+      notFound.value = true
+      return
+    }
   }
   if (!stopped && (!check.value || check.value.status === 'running')) {
     timer = setTimeout(load, POLL_MS)
@@ -49,6 +62,7 @@ async function loadCounts() {
 watch(() => props.id, () => {
   clearTimeout(timer)
   check.value = null
+  notFound.value = false
   storeCounts.value = {}
   load()
 }, { immediate: true })
@@ -72,8 +86,41 @@ const totalSearches = computed(() => (check.value ? check.value.live_searches + 
 
 const yesNo = (v) => (v ? 'Yes' : 'No')
 
+// One line per signal for the summary: the most serious finding, or the section status.
+const summary = computed(() =>
+  SIGNALS.map((name) => {
+    const st = status(name)
+    const list = items(name)
+    const top = st === 'done' ? SEVERITY_ORDER.map((sev) => list.find((i) => i.severity === sev)).find(Boolean) : null
+    return {
+      name,
+      title: SIGNAL_TITLES[name],
+      severity: top ? top.severity : 'info',
+      label: top ? SEVERITY_LABELS[top.severity] : STATUS_CHIPS[st] || 'Done',
+    }
+  }),
+)
+
+const canRetry = computed(() => Boolean(formFor(props.id)))
+
+async function retry() {
+  const form = formFor(props.id)
+  if (!form) return
+  retrying.value = true
+  retryError.value = ''
+  try {
+    const { id } = await postForm('/checks', form)
+    rememberCheck(id, form)
+    router.push({ name: 'report', params: { id } })
+  } catch (e) {
+    retryError.value = e.message
+  } finally {
+    retrying.value = false
+  }
+}
+
 async function copyLink() {
-  const url = window.location.href
+  const url = `${window.location.origin}${window.location.pathname}`
   try {
     await navigator.clipboard.writeText(url)
     copied.value = 'Link copied.'
@@ -84,30 +131,63 @@ async function copyLink() {
 </script>
 
 <template>
-  <section class="page">
+  <MissingPage v-if="notFound" />
+  <section v-else class="page">
     <p v-if="error && !check" class="error" role="alert">{{ error }}</p>
 
-    <template v-if="check">
-      <div>
-        <h1>Store check</h1>
-        <p class="muted small">
-          Checked {{ formatDate(check.created_at) }}<template v-if="check.product_name">
-          for {{ check.product_name }}</template><template v-if="check.quoted_price">, quoted
-          {{ rupees(check.quoted_price) }}</template>.
-        </p>
-        <p class="small">
-          <template v-for="(s, i) in check.stores" :key="s.path">
-            <template v-if="i">, </template>
-            <RouterLink :to="s.path">Store page for {{ s.display }}</RouterLink>
+    <div v-if="check" class="report-layout">
+      <aside class="report-aside">
+        <div>
+          <h1>Store check</h1>
+          <p class="muted small">
+            Checked {{ formatDate(check.created_at) }}<template v-if="check.product_name">
+            for {{ check.product_name }}</template><template v-if="check.quoted_price">, quoted
+            {{ rupees(check.quoted_price) }}</template>.
+          </p>
+          <p class="small">
+            <template v-for="(s, i) in check.stores" :key="s.path">
+              <template v-if="i">, </template>
+              <RouterLink :to="s.path">Store page for {{ s.display }}</RouterLink>
+            </template>
+          </p>
+        </div>
+
+        <VerdictBanner :status="check.status" :verdict="check.verdict">
+          <template v-if="check.status === 'failed'">
+            <p v-if="canRetry" class="row">
+              <button type="button" :disabled="retrying" @click="retry">{{ retrying ? 'Starting...' : 'Try again' }}</button>
+            </p>
+            <p v-else><RouterLink to="/">Try again</RouterLink> with a new check.</p>
+            <p v-if="retryError" class="error" role="alert">{{ retryError }}</p>
           </template>
-        </p>
-      </div>
+        </VerdictBanner>
+        <p v-if="error" class="error" role="alert">{{ error }}</p>
 
-      <VerdictBanner :status="check.status" :verdict="check.verdict" />
-      <p v-if="error" class="error" role="alert">{{ error }}</p>
+        <nav class="card wide-only" aria-label="Summary">
+          <h2>Summary</h2>
+          <ul class="summary">
+            <li v-for="row in summary" :key="row.name">
+              <RouterLink :to="{ hash: `#sig-${row.name}` }">{{ row.title }}</RouterLink>
+              <span class="chip" :class="`chip-${row.severity}`">{{ row.label }}</span>
+            </li>
+          </ul>
+        </nav>
 
+        <footer class="card small wide-only">
+          <p v-if="check.status !== 'running'">
+            This check used {{ plural(totalSearches, 'search', 'searches') }}: {{ check.live_searches }} live,
+            {{ check.cached_searches }} from cache.
+          </p>
+          <div class="row">
+            <button type="button" class="secondary" @click="copyLink">Copy link</button>
+            <span v-if="copied" role="status">{{ copied }}</span>
+          </div>
+        </footer>
+      </aside>
+
+      <div class="report-main">
       <template v-for="name in SIGNALS" :key="name">
-        <SignalSection v-if="name === 'price'" :title="SIGNAL_TITLES.price" :status="status('price')"
+        <SignalSection v-if="name === 'price'" id="sig-price" :title="SIGNAL_TITLES.price" :status="status('price')"
                        :items="items('price')" :show-sources="false"
                        :show-detail="!price?.median">
           <template v-if="price">
@@ -130,7 +210,7 @@ async function copyLink() {
           </template>
         </SignalSection>
 
-        <SignalSection v-else-if="name === 'complaints'" :title="SIGNAL_TITLES.complaints"
+        <SignalSection v-else-if="name === 'complaints'" id="sig-complaints" :title="SIGNAL_TITLES.complaints"
                        :status="status('complaints')" :items="items('complaints')" :show-sources="false">
           <template v-if="complaints">
             <p class="small muted">
@@ -150,7 +230,7 @@ async function copyLink() {
           </template>
         </SignalSection>
 
-        <SignalSection v-else-if="name === 'account'" :title="SIGNAL_TITLES.account" :status="status('account')"
+        <SignalSection v-else-if="name === 'account'" id="sig-account" :title="SIGNAL_TITLES.account" :status="status('account')"
                        :items="items('account')">
           <template v-if="account">
             <dl class="stats">
@@ -171,7 +251,7 @@ async function copyLink() {
           </template>
         </SignalSection>
 
-        <SignalSection v-else-if="name === 'community'" :title="SIGNAL_TITLES.community"
+        <SignalSection v-else-if="name === 'community'" id="sig-community" :title="SIGNAL_TITLES.community"
                        :status="status('community')" :items="items('community')">
           <template #extra>
             <div v-for="s in check.stores" :key="s.path" class="field">
@@ -187,20 +267,21 @@ async function copyLink() {
           </template>
         </SignalSection>
 
-        <SignalSection v-else :title="SIGNAL_TITLES[name]" :status="status(name)" :items="items(name)" />
+        <SignalSection v-else :id="`sig-${name}`" :title="SIGNAL_TITLES[name]" :status="status(name)" :items="items(name)" />
       </template>
 
-      <footer class="card small">
-        <p v-if="check.status !== 'running'">
-          This check used {{ plural(totalSearches, 'search', 'searches') }}: {{ check.live_searches }} live,
-          {{ check.cached_searches }} from cache.
-        </p>
-        <div class="row">
-          <button type="button" class="secondary" @click="copyLink">Copy link</button>
-          <span v-if="copied" role="status">{{ copied }}</span>
-        </div>
-      </footer>
-    </template>
+        <footer class="card small narrow-only">
+          <p v-if="check.status !== 'running'">
+            This check used {{ plural(totalSearches, 'search', 'searches') }}: {{ check.live_searches }} live,
+            {{ check.cached_searches }} from cache.
+          </p>
+          <div class="row">
+            <button type="button" class="secondary" @click="copyLink">Copy link</button>
+            <span v-if="copied" role="status">{{ copied }}</span>
+          </div>
+        </footer>
+      </div>
+    </div>
 
     <p v-else-if="!error" class="placeholder">Loading...</p>
   </section>

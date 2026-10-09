@@ -22,6 +22,10 @@ class Settings(BaseSettings):
     daily_search_cap: int = 40
     ip_salt: str = ""
     fixture_dir: str = "tests/fixtures/serp"
+    checks_per_hour: int = 10
+    reports_per_hour: int = 5
+    # Replay only: spread fixture answers over time so the report fills in one signal at a time.
+    replay_delay_ms: int = 0
 
     @field_validator("serpapi_key", mode="before")
     @classmethod

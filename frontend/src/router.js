@@ -4,8 +4,8 @@ import CheckPage from './pages/CheckPage.vue'
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/', name: 'check', component: CheckPage },
-    { path: '/c/:id', name: 'report', component: () => import('./pages/ReportPage.vue'), props: true },
+    { path: '/', name: 'check', component: CheckPage, meta: { wide: true } },
+    { path: '/c/:id', name: 'report', component: () => import('./pages/ReportPage.vue'), props: true, meta: { wide: true } },
     {
       path: '/s/:kind/:key',
       name: 'store',
@@ -16,7 +16,12 @@ const router = createRouter({
     { path: '/about', name: 'about', component: () => import('./pages/AboutPage.vue') },
     { path: '/:rest(.*)*', name: 'missing', component: () => import('./pages/MissingPage.vue') },
   ],
-  scrollBehavior: () => ({ top: 0 }),
+  scrollBehavior(to, from, saved) {
+    if (saved) return saved
+    if (to.hash) return { el: to.hash, top: 16, behavior: 'smooth' }
+    if (to.path === from.path) return false
+    return { top: 0 }
+  },
 })
 
 router.afterEach((to) => {

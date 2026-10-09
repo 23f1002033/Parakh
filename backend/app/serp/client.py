@@ -1,5 +1,7 @@
+import asyncio
 import hashlib
 import json
+import random
 import re
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
@@ -98,6 +100,8 @@ class SerpClient:
         mode = self.settings.serpapi_mode
 
         if mode == "replay":
+            if self.settings.replay_delay_ms > 0:
+                await asyncio.sleep(self.settings.replay_delay_ms / 1000 * random.uniform(0.5, 1.5))
             path = self.settings.fixture_path / f"{key}.json"
             if not path.exists():
                 self._ledger(check_id, engine, key, hit=True, ok=False, error="fixture missing")
