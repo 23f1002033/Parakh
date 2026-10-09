@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from statistics import median
 
-from app.normalize import tokens
+from app.normalize import normalize_text, tokens
 from app.serp.engines import LensResult, ShoppingResult
 from app.signals import rules
 from app.signals.result import Item, SignalResult, domain_of, done, is_brand_site, is_major_retailer, skipped, source
@@ -43,8 +43,22 @@ def same_product(product_name: str, title: str | None, condition: str | None) ->
     return all(t in words for t in name if any(c.isdigit() for c in t))
 
 
+def _dedupe(listings: list[Listing]) -> list[Listing]:
+    # The same offer often appears twice under different URLs (e.g. two Flipkart paths).
+    out, urls, offers = [], set(), set()
+    for x in listings:
+        url = (x.link or "").split("#")[0].rstrip("/").lower()
+        offer = (domain_of(x.link), x.price_inr, normalize_text(x.title))
+        if (url and url in urls) or offer in offers:
+            continue
+        urls.add(url)
+        offers.add(offer)
+        out.append(x)
+    return out
+
+
 def kept(product_name: str, listings: list[Listing]) -> list[Listing]:
-    return [x for x in listings if x.price_inr and same_product(product_name, x.title, x.condition)]
+    return _dedupe([x for x in listings if x.price_inr and same_product(product_name, x.title, x.condition)])
 
 
 def lens_is_enough(product_name: str | None, lens: LensResult | None) -> bool:

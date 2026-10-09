@@ -1,15 +1,20 @@
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import JSONResponse
+from fastapi.responses import FileResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
 from starlette.exceptions import HTTPException
 
 from app.api import checks, demos, meta, reports, stores
-from app.config import Settings, get_settings
+from app.config import BACKEND_DIR, Settings, get_settings
 from app.db import init_db, make_engine, make_session_factory
 from app.schemas import ApiError
 from app.serp.client import SerpClient
+
+
+FRONTEND_DIST = BACKEND_DIR.parent / "frontend" / "dist"
 
 
 def error(status: int, code: str, message: str) -> JSONResponse:
@@ -22,7 +27,23 @@ def _validation_message(exc: RequestValidationError) -> str:
     return f"{field}: {first.get('msg', 'invalid value')}"
 
 
-def create_app(settings: Settings | None = None, serp: SerpClient | None = None) -> FastAPI:
+def mount_spa(app: FastAPI, dist: Path) -> None:
+    root = dist.resolve()
+    app.mount("/assets", StaticFiles(directory=root / "assets", check_dir=False), name="assets")
+
+    @app.get("/{path:path}", include_in_schema=False)
+    def spa(path: str):
+        if path == "api" or path.startswith("api/"):
+            raise ApiError(404, "not_found", "Not found")
+        file = (root / path).resolve()
+        if path and file.is_file() and file.is_relative_to(root):
+            return FileResponse(file)
+        # Client-side routes (/c/<id>, /s/..., /about) all load the SPA shell.
+        return FileResponse(root / "index.html")
+
+
+def create_app(settings: Settings | None = None, serp: SerpClient | None = None,
+               frontend_dist: Path | None = FRONTEND_DIST) -> FastAPI:
     settings = settings or get_settings()
     engine = make_engine(settings.database_url)
     sessions = make_session_factory(engine)
@@ -53,6 +74,8 @@ def create_app(settings: Settings | None = None, serp: SerpClient | None = None)
 
     for module in (meta, checks, stores, reports, demos):
         app.include_router(module.router, prefix="/api")
+    if frontend_dist and (frontend_dist / "index.html").is_file():
+        mount_spa(app, frontend_dist)
     return app
 
 

@@ -12,7 +12,7 @@ def lens(*rows):
 
 
 def same(prices, link="https://shop.example.in/x"):
-    return lens(*[(f"boAt Rockerz 110 Neckband {i}", p, link) for i, p in enumerate(prices)])
+    return lens(*[(f"boAt Rockerz 110 Neckband {i}", p, f"{link}/{i}") for i, p in enumerate(prices)])
 
 
 def item(result):
@@ -51,7 +51,7 @@ def test_price_5_containment_and_model_number():
 
 
 def test_price_6_far_below_with_brand_listing():
-    data = lens(*[(f"boAt Rockerz 110 v{i}", p, "https://www.boat-lifestyle.com/p") for i, p in enumerate([1800, 2000, 2200])])
+    data = lens(*[(f"boAt Rockerz 110 v{i}", p, f"https://www.boat-lifestyle.com/p/{i}") for i, p in enumerate([1800, 2000, 2200])])
     it = item(price.evaluate(NAME, 150, data, None))
     assert it.severity == "warn" and it.finding.startswith("Far below other listings")
 
@@ -92,6 +92,17 @@ def test_lens_used_when_enough_even_if_shopping_given():
     shop = ShoppingResult(items=[ShoppingItem("boAt Rockerz 110", "https://g/1", "X", 5000)] * 3)
     assert price.lens_is_enough(NAME, same([400, 500, 600]))
     assert item(price.evaluate(NAME, 550, same([400, 500, 600]), shop)).data["source"] == "google_lens"
+
+
+def test_kept_listings_deduped_by_url_then_offer():
+    data = lens(("boAt Rockerz 110 A", 699, "https://www.flipkart.com/p/1"),
+                ("boAt Rockerz 110 B", 650, "https://www.flipkart.com/p/1/"),
+                ("boAt Rockerz 110 A", 699, "https://www.flipkart.com/or/p/1?pid=2"),
+                ("boAt Rockerz 110 A", 749, "https://www.flipkart.com/p/3"),
+                ("boAt Rockerz 110 A", 699, "https://www.amazon.in/p/1"))
+    kept = price.kept(NAME, price.lens_listings(data))
+    assert [(x.link, x.price_inr) for x in kept] == [
+        ("https://www.flipkart.com/p/1", 699), ("https://www.flipkart.com/p/3", 749), ("https://www.amazon.in/p/1", 699)]
 
 
 def test_five_cheapest_sources():
