@@ -1,6 +1,6 @@
 # Parakh - Software Requirements Specification
 
-Version 1.0, 9 Oct 2026
+Version 1.1, 9 Oct 2026
 
 ## 1. Purpose
 
@@ -42,7 +42,7 @@ Priority uses MoSCoW: M = Must, S = Should, C = Could.
 |---|---|---|
 | FR-1 | User can submit a check with an Instagram handle or profile URL, a website URL, or both. At least one is required. | M |
 | FR-2 | User can attach a product image (JPG, PNG, WebP, up to 5 MB) or paste an image URL. Optional. | M |
-| FR-3 | User can enter the quoted price in INR and an optional product name. | M |
+| FR-3 | User can enter the quoted price in INR and the product name. The product name is required for the price check (design 1.1). | M |
 | FR-4 | Handles and URLs are normalized (strip @, query strings, trailing slashes, "www.", case) so the same store maps to one record. | M |
 
 ### Signals

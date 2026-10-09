@@ -1,6 +1,6 @@
 # Parakh - Test Plan
 
-Version 1.0, 9 Oct 2026. Results go in docs/04-test-report.md.
+Version 1.3, 9 Oct 2026 (matches design 1.3). Results go in docs/04-test-report.md.
 
 ## Levels
 
@@ -23,19 +23,23 @@ a written reason in the test report.
 | T-NORM-3 | price {"value": "Rs 1,299.00", "extracted_value": 1299} | 1299 INR |
 | T-NORM-4 | price with USD currency | dropped |
 | T-NORM-5 | accessibility caption "Photo by X on September 05, 2026. May be..." | date 2026-09-05 |
-| T-PRICE-1 | 5 exact matches median 500, quote 2000 | bad, ratio 4.0 |
+| T-PRICE-1 | 5 kept matches median 500, quote 2000 | bad, ratio 4.0 |
 | T-PRICE-2 | median 500, quote 1000 | warn |
 | T-PRICE-3 | median 500, quote 550 | good |
 | T-PRICE-4 | 2 priced matches | info "Not enough priced matches", no ratio |
-| T-PRICE-5 | look-alike titles, no exact flag, product_name given, low similarity | filtered out |
+| T-PRICE-5 | product "boAt Rockerz 110": titles "boAt Rockerz 255 Pro" and "Rockerz neckband" dropped, "BoAt Rockerz 110 Wireless Neckband" kept | model-number rule and containment work |
+| T-PRICE-7 | no product_name | info "Add the product name", no ratio |
+| T-PRICE-8 | listing with condition "Refurbished" | dropped |
 | T-PRICE-6 | quote 150, median 2000, one listing on brand domain | warn below-market |
+| T-PRICE-9 | quote 150, median 2000, no brand or major-retailer listing | info "Much cheaper than other listings", never good |
 | T-PHOTO-1 | exact match on aliexpress | warn naming marketplace |
-| T-PHOTO-2 | exact match only on store's own domain | good |
+| T-PHOTO-2 | 0 exact matches | info "No exact copies found...", never good |
 | T-PHOTO-3 | 4 unrelated domains | info with count 4 |
 | T-COMP-1 | 2 relevant results with "not delivered" | bad |
 | T-COMP-2 | result mentions "scam" but not the store key | not counted |
 | T-COMP-3 | 0 relevant results | info, not good |
 | T-COMP-4 | 3 relevant results with "received" and "genuine" | good |
+| T-COMP-5 | recorded boat.nirvana forum results (boAt Nirvana product threads) | product threads are not counted as store mentions |
 | T-ACC-1 | is_private true | warn |
 | T-ACC-2 | 5 posts, oldest 20 days ago | warn very new |
 | T-ACC-3 | bio link domain differs from given website | warn |
@@ -57,7 +61,7 @@ a written reason in the test report.
 | T-SERP-4 | record mode writes fixture | file has no "api_key" substring |
 | T-SERP-5 | cap reached | CapReached; cached call still succeeds |
 | T-SERP-6 | Lens cache keyed by image sha | second check with same image skips upload |
-| T-RUN-1 | full demo check in replay | status done, 4 signals done, verdict set |
+| T-RUN-1 | demo 1 (boat.nirvana, boAt Rockerz 110, Rs 699) in replay | status done, verdict "No red flags found", price ratio near 1, prices from Google Lens or Google Shopping |
 | T-RUN-2 | forums engine raises | complaints still uses google; status done |
 
 ## API tests

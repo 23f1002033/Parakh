@@ -1,6 +1,8 @@
 # Parakh - Design
 
-Version 1.0, 9 Oct 2026. Implements docs/01-requirements.md.
+Version 1.3, 9 Oct 2026. Implements docs/01-requirements.md.
+
+Changes in 1.1 to 1.3 come from the live recordings and the M2 review; see section 11.
 
 ## 1. Architecture
 
@@ -60,7 +62,8 @@ All calls go through `SerpClient.search(engine, params, check_id)`.
 
 | Signal | Engine | Key params | Fields used |
 |---|---|---|---|
-| Price | google_lens, type=all | url or image_id, country=in, hl=en, q=product_name (optional) | visual_matches[].title, link, source, price.extracted_value, price.currency, in_stock, condition, exact_matches |
+| Price | google_lens, type=all | url or image_id, country=in, hl=en (no q) | visual_matches[].title, link, source, price.extracted_value, price.currency, in_stock, condition |
+| Price (fallback) | google_shopping | q=product_name, gl=in, hl=en | shopping_results[].title, price, extracted_price, source, link or product_link |
 | Photo | google_lens, type=exact_matches | url or image_id, country=in | exact_matches[] title, link, source |
 | Complaints | google | q, gl=in, hl=en | organic_results[] title, link, snippet, date, source |
 | Complaints | google_forums | q, gl=in, hl=en | organic_results[] title, link, snippet, date, source, displayed_meta |
@@ -70,12 +73,16 @@ All calls go through `SerpClient.search(engine, params, check_id)`.
 
 Image upload: `POST https://serpapi.com/image` multipart field `image` plus
 `api_key`. Returns `image_id`, valid 10 minutes. Server converts any upload to
-JPEG and downscales until it is at most 480 KB. Whether the upload counts as a
-search is checked once in M1 using the account endpoint and written to the
-README.
+JPEG and downscales until it is at most 480 KB. Measured in M1: the upload does
+not count as a search (account showed 250 before and after).
+
+Forums calls use a 30 s timeout and one retry; the engine timed out once at
+20 s during recording.
 
 Searches per full check: Lens all (1) + Lens exact (1) + Instagram (1) + Google
-(1) + Forums (1) = 5. Website footprint adds 1.
+(1) + Forums (1) = 5, plus Shopping (1) only when Lens gives fewer than 3 kept
+INR listings. Maximum 6. Website footprint (Should) is not run by the check
+runner while this maximum holds.
 
 ### Modes (env SERPAPI_MODE)
 
@@ -167,17 +174,34 @@ values.
 
 1. Take Lens type=all `visual_matches` whose `price.currency` is Indian
    rupees ("Rs", "INR", or the rupee sign U+20B9) -> store as INR integer.
+   Source choice: if Lens gives >= 3 kept listings (rule 2), use Lens.
+   Otherwise call google_shopping with q=product_name and apply the same
+   filter to `shopping_results` (price string and extracted_price). Lens can
+   return only `ai_overview` for an image that gave 60 matches before, so
+   Shopping is the fallback. Every price evidence item names the source it
+   used (Google Lens or Google Shopping).
    `normalize.parse_currency` handles this; source files stay ASCII by
    writing the sign as the escape `\u20b9`.
-2. Same-product filter. Keep a match if `exact_matches` is true, or if the
-   token Jaccard similarity between normalized title and product_name is
-   at least 0.35. Without product_name, keep exact-match items only.
-3. Need n >= 3 kept items, else evidence info "Not enough priced matches".
+2. Same-product filter. The Lens `exact_matches` field is not a per-listing
+   flag (60 matches, 0 flagged in recording), so it is not used. A listing is
+   kept when:
+   - containment = share of product_name tokens found in the normalized
+     title, and containment >= 0.6, and
+   - every token of product_name that contains a digit (model numbers like
+     "110", "141") appears in the title, and
+   - `condition` is empty or "new" (drop used and refurbished).
+   Tokens are lowercased alphanumerics; brand casing like "boAt" does not
+   matter.
+3. product_name is required for the price signal. Without it the signal
+   returns info "Add the product name to compare prices" and no ratio.
+   Need n >= 3 kept items, else info "Not enough priced matches".
 4. ratio = quoted / median.
    - ratio >= 3.0 -> bad "Quoted price is Nx the median of N matching listings"
    - 1.8 <= ratio < 3.0 -> warn
    - ratio <= 0.4 and any kept listing is from a brand or major retailer
      domain -> warn "Far below other listings; check if genuine"
+   - ratio <= 0.4 otherwise -> info "Much cheaper than other listings; check
+     what is included" (never good below 0.4)
    - else -> good "Price is in line with N listings"
 5. Always attach the 5 cheapest kept listings as sources.
 
@@ -188,14 +212,26 @@ domain or instagram.com/<handle>. Group by domain.
 - any domain in MARKETPLACES (aliexpress, alibaba, temu, dhgate, meesho,
   indiamart, shein) -> warn "Same photo appears on <marketplace>"
 - else 3 or more other domains -> info "Photo is used on N other sites"
-- else none -> good "No other site uses this exact photo"
+- else every remaining match is on the brand's own site named in the
+  product_name or on a major retailer -> info "Photo is the brand's own
+  product image"
+- else none -> info "No exact copies found. Screenshots and edited photos
+  often have none, so this is not proof the photo is original."
+Never good: a screenshot rarely matches anything exactly (seen in M1).
 
 ### 6.3 Complaints (FR-9, 10)
 
 Queries: google `"<key>" scam OR fraud OR fake OR "not delivered" OR refund`;
 google_forums `"<key>"`.
-A result counts as relevant if its title or snippet contains the store key
-(or display name) after normalization. A relevant result is negative if it
+A result counts as relevant if its title or snippet contains:
+- the exact Instagram handle (with or without @) or the website domain, or
+- the handle with "." and "_" as spaces, or the Instagram full_name, only
+  when that name has 2 or more words AND the same result contains a
+  store-context word (order, ordered, seller, delivery, delivered, refund,
+  instagram, insta, page, shop, store, website, cod).
+Loose names need context because they are often product names too: the forum
+results for "boat.nirvana" were threads about boAt Nirvana earbuds.
+Google and Forums results are merged and deduped by URL. A relevant result is negative if it
 contains a NEGATIVE term (scam, fraud, fake, not delivered, never received,
 no refund, blocked me, cheated, duplicate) and positive if it contains a
 POSITIVE term (received, genuine, legit, delivered on time, original) and no
@@ -276,3 +312,18 @@ Plain CSS, mobile first, no UI framework.
 | NFR-2, 3, 4, 5 | 3 | T-SERP-1..6 |
 | NFR-6 | 7 | T-RUN-2 |
 | NFR-7 | 9 | T-API-8 |
+
+## 11. Change log
+
+| Version | Change | Reason |
+|---|---|---|
+| 1.1 | Lens type=all no longer sends q | Cause unknown. For the same image Lens returned 60 visual matches (17 INR) with q="PRODUCT NAME", and only ai_overview with q="boAt Rockerz 110" and with no q. Lens sometimes returns only ai_overview; dropping q did not fix it |
+| 1.1 | Same-product filter uses name containment + model-number match, not the exact flag | exact_matches was absent on all 60 matches |
+| 1.1 | product_name required for price signal | filter needs it |
+| 1.1 | Photo signal never returns good | a screenshot of a genuine product returned 0 exact matches |
+| 1.1 | Forums timeout 30 s + 1 retry | ReadTimeout at 20 s in recording |
+| 1.1 | Image upload is free | measured with account endpoint |
+| 1.2 | google_shopping added as price fallback when Lens gives fewer than 3 kept INR listings; max 6 searches per check | Lens is unreliable for prices (see the 1.1 row on q) |
+| 1.2 | lens_exact organic_results ignored for photo and price | they are web pages about the product, not copies of the photo; see docs/05-backlog.md |
+| 1.3 | Complaint relevance: exact handle or domain; spaced handle and full_name only with 2+ words plus a store-context word | 9 of 10 boat.nirvana forum results were boAt Nirvana product threads and counted as store mentions |
+| 1.3 | Price ratio <= 0.4 without a brand or major-retailer listing is info, not good | "Price is in line" was wrong for a very low quote |
