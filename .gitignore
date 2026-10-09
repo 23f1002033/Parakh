@@ -1,0 +1,10 @@
+.env
+*.db
+CLAUDE.md
+dev/
+node_modules/
+dist/
+__pycache__/
+.venv/
+.pytest_cache/
+.DS_Store
