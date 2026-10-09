@@ -1,0 +1,349 @@
+{
+ "search_metadata": {
+  "id": "6ac90a9d65f7013f04400caa",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/hfUguhnNv2TgJp82bT1ztZptxORkxrY5VaWET-owW44/6ac90a9d65f7013f04400caa.json",
+  "markdown_endpoint": "https://serpapi.com/searches/hfUguhnNv2TgJp82bT1ztZptxORkxrY5VaWET-owW44/6ac90a9d65f7013f04400caa.md",
+  "created_at": "2026-10-09 15:39:09 UTC",
+  "processed_at": "2026-10-09 15:39:09 UTC",
+  "google_forums_url": "https://www.google.com/search?q=%22boat.nirvana%22&hl=en&gl=in&device=desktop&udm=18",
+  "raw_html_file": "https://serpapi.com/searches/hfUguhnNv2TgJp82bT1ztZptxORkxrY5VaWET-owW44/6ac90a9d65f7013f04400caa.html",
+  "total_time_taken": 44.84
+ },
+ "search_parameters": {
+  "q": "\"boat.nirvana\"",
+  "engine": "google_forums",
+  "device": "desktop",
+  "gl": "in",
+  "hl": "en"
+ },
+ "search_information": {
+  "organic_results_state": "Results for exact spelling"
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "title": "Boat nirvana ION is so annoying that it makes me want to ...",
+   "link": "https://www.reddit.com/r/IndiaTech/comments/1da1x9l/boat_nirvana_ion_is_so_annoying_that_it_makes_me/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESoAEB6zswFWf4vD9n39bJvN-DkylbeEQYIy9v_3Ohoqanvp3DdTLhU4oEAPElbGnppeDBX5Dmb6gsAoLIP5bRyNgSp4tS7NHJMlfqbvhrGaW6rWE6pYbv6-IuTw__LvjdrpJtxXje0nxpMkzJdT_ZSxwmESIsrpd5DCzM3y7tyX7omNturvF99vUbWrHfrgfpeProuSfS_Z-PCzvnRG4D3jp3&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECCgQAQ&uoh=1",
+   "displayed_meta": "40+ comments \u00b7 2 years ago",
+   "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+   "snippet": "Boat nirvana ION is so annoying that it makes me want to punch something. Opinion. The main issue is that it keeps on falling out of my ears ...",
+   "snippet_highlighted_words": [
+    "Boat nirvana"
+   ],
+   "sitelinks": {
+    "list": [
+     {
+      "title": "Thoughts on Boat Nirvana Eutopia 2 if anyone's tried ...",
+      "link": "https://www.reddit.com/r/headphonesindia/comments/1vmzrz9/thoughts_on_boat_nirvana_eutopia_2_if_anyones/",
+      "answer_count": 21,
+      "date": "13 Aug 2026"
+     },
+     {
+      "title": "My boAt Nirvana Ion earbud housing has separated. How ...",
+      "link": "https://www.reddit.com/r/headphonesindia/comments/1x0wrf3/my_boat_nirvana_ion_earbud_housing_has_separated/",
+      "answer_count": 10,
+      "date": "8 Oct 2026"
+     }
+    ]
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Boat nirvana ION is so annoying that it makes me want to punch something. Opinion. The main issue is that it keeps on falling out of my ears ...",
+     "source_info_link": "https://www.reddit.com/r/IndiaTech/comments/1da1x9l/boat_nirvana_ion_is_so_annoying_that_it_makes_me/",
+     "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CuYBL2dvdG8_dXJsPUNBRVNvQUVCNnpzd0ZXZjR2RDluMzliSnZOLURreWxiZUVRWUl5OXZfM09ob3FhbnZwM0RkVExoVTRvRUFQRWxiR25wcGVEQlg1RG1iNmdzQW9MSVA1YlJ5TmdTcDR0UzdOSEpNbGZxYnZockdhVzZyV0U2cFlidjYtSXVUd19fTHZqZHJwSnR4WGplMG54cE1rekpkVF9aU3h3bUVTSXNycGQ1REN6TTN5N3R5WDdvbU50dXJ2Rjk5dlViV3JIZnJnZnBlUHJvdVNmU19aLVBDenZuUkc0RDNqcDMSBBoCCAAamAQSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDyAwgAEAAYACAAKgsKBGJvYXQVGch4QCoOCgduaXJ2YW5hFWqYbkAy5gEvZ290bz91cmw9Q0FFU29BRUI2enN3RldmNHZEOW4zOWJKdk4tRGt5bGJlRVFZSXk5dl8zT2hvcWFudnAzRGRUTGhVNG9FQVBFbGJHbnBwZURCWDVEbWI2Z3NBb0xJUDViUnlOZ1NwNHRTN05ISk1sZnFidmhyR2FXNnJXRTZwWWJ2Ni1JdVR3X19MdmpkcnBKdHhYamUwbnhwTWt6SmRUX1pTeHdtRVNJc3JwZDVEQ3pNM3k3dHlYN29tTnR1cnZGOTl2VWJXckhmcmdmcGVQcm91U2ZTX1otUEN6dm5SRzREM2pwMzpDPGI-Qm9hdCBuaXJ2YW5hPC9iPiBJT04gaXMgc28gYW5ub3lpbmcgdGhhdCBpdCBtYWtlcyBtZSB3YW50IHRvIC4uLkKcATxiPkJvYXQgbmlydmFuYTwvYj4gSU9OIGlzIHNvIGFubm95aW5nIHRoYXQgaXQgbWFrZXMgbWUgd2FudCB0byBwdW5jaCBzb21ldGhpbmcuIE9waW5pb24uIFRoZSBtYWluIGlzc3VlIGlzIHRoYXQgaXQga2VlcHMgb24gZmFsbGluZyBvdXQgb2YgbXkgZWFycyZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CuYBL2dvdG8_dXJsPUNBRVNvQUVCNnpzd0ZXZjR2RDluMzliSnZOLURreWxiZUVRWUl5OXZfM09ob3FhbnZwM0RkVExoVTRvRUFQRWxiR25wcGVEQlg1RG1iNmdzQW9MSVA1YlJ5TmdTcDR0UzdOSEpNbGZxYnZockdhVzZyV0U2cFlidjYtSXVUd19fTHZqZHJwSnR4WGplMG54cE1rekpkVF9aU3h3bUVTSXNycGQ1REN6TTN5N3R5WDdvbU50dXJ2Rjk5dlViV3JIZnJnZnBlUHJvdVNmU19aLVBDenZuUkc0RDNqcDMSBBoCCAAamAQSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDyAwgAEAAYACAAKgsKBGJvYXQVGch4QCoOCgduaXJ2YW5hFWqYbkAy5gEvZ290bz91cmw9Q0FFU29BRUI2enN3RldmNHZEOW4zOWJKdk4tRGt5bGJlRVFZSXk5dl8zT2hvcWFudnAzRGRUTGhVNG9FQVBFbGJHbnBwZURCWDVEbWI2Z3NBb0xJUDViUnlOZ1NwNHRTN05ISk1sZnFidmhyR2FXNnJXRTZwWWJ2Ni1JdVR3X19MdmpkcnBKdHhYamUwbnhwTWt6SmRUX1pTeHdtRVNJc3JwZDVEQ3pNM3k3dHlYN29tTnR1cnZGOTl2VWJXckhmcmdmcGVQcm91U2ZTX1otUEN6dm5SRzREM2pwMzpDPGI-Qm9hdCBuaXJ2YW5hPC9iPiBJT04gaXMgc28gYW5ub3lpbmcgdGhhdCBpdCBtYWtlcyBtZSB3YW50IHRvIC4uLkKcATxiPkJvYXQgbmlydmFuYTwvYj4gSU9OIGlzIHNvIGFubm95aW5nIHRoYXQgaXQgbWFrZXMgbWUgd2FudCB0byBwdW5jaCBzb21ldGhpbmcuIE9waW5pb24uIFRoZSBtYWluIGlzc3VlIGlzIHRoYXQgaXQga2VlcHMgb24gZmFsbGluZyBvdXQgb2YgbXkgZWFycyZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Reddit \u00b7 r/IndiaTech",
+   "read_more_link": "https://www.reddit.com/r/IndiaTech/comments/1da1x9l/boat_nirvana_ion_is_so_annoying_that_it_makes_me/#:~:text=Boat%20nirvana%20ION%20is%20so,falling%20out%20of%20my%20ears."
+  },
+  {
+   "position": 2,
+   "title": "\ud83d\udd25 boAt Nirvana Earbuds \u2013 Premium Sound ...",
+   "link": "https://www.facebook.com/groups/2855918564655215/posts/4346068308973559/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFWztUgqjjM1yMFttvmRwS2m4bmHyLZ4YDsr0CrLMwz7DFHOQJGulgrdf_qn5b9MWxZPyZCKaYOdyp-Q6JUxoQ7MltTqSCoeUJ7-kqwOGA8-xIKNReeU6OSJojGNH2ZaLpNqciSwbQCJWaMwCcHU8Y-XwdwMjk-gtnLc_CMBn-g&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECCMQAQ&uoh=1",
+   "displayed_meta": "1 comment \u00b7 7 months ago",
+   "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+   "snippet": "boAt Nirvana Earbuds - Wireless Bluetooth earbuds with Crystal Bionic Sound and 120HRS battery backup. boAt Nirvana earbuds with ergonomic, ...",
+   "snippet_highlighted_words": [
+    "boAt Nirvana",
+    "boAt Nirvana"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "boAt Nirvana Earbuds - Wireless Bluetooth earbuds with Crystal Bionic Sound and 120HRS battery backup. boAt Nirvana earbuds with ergonomic, ...",
+     "source_info_link": "https://www.facebook.com/groups/2855918564655215/posts/4346068308973559/",
+     "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZXenRVZ3Fqak0xeU1GdHR2bVJ3UzJtNGJtSHlMWjRZRHNyMENyTE13ejdERkhPUUpHdWxncmRmX3FuNWI5TVd4WlB5WkNLYVlPZHlwLVE2SlV4b1E3TWx0VHFTQ29lVUo3LWtxd09HQTgteElLTlJlZVU2T1NKb2pHTkgyWmFMcE5xY2lTd2JRQ0pXYU13Q2NIVThZLVh3ZHdNamstZ3RuTGNfQ01Cbi1nEgQaAggAGoYEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQOIDCAAQABgAIAAqCwoEYm9hdBXxGLFAKg4KB25pcnZhbmEV1lKVQDLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGV3p0VWdxampNMXlNRnR0dm1Sd1MybTRibUh5TFo0WURzcjBDckxNd3o3REZIT1FKR3VsZ3JkZl9xbjViOU1XeFpQeVpDS2FZT2R5cC1RNkpVeG9RN01sdFRxU0NvZVVKNy1rcXdPR0E4LXhJS05SZWVVNk9TSm9qR05IMlphTHBOcWNpU3diUUNKV2FNd0NjSFU4WS1Yd2R3TWprLWd0bkxjX0NNQm4tZzpTPGI-Ym9BdCBOaXJ2YW5hPC9iPiBFYXJidWRzIOKAkyBQcmVtaXVtIFNvdW5kIG9uIEJ1ZGdldCEg4Kav4Kam4Ka_IOCmhuCmquCmqOCmvyAuLi5CogE8Yj5ib0F0IE5pcnZhbmE8L2I-IEVhcmJ1ZHMgLSBXaXJlbGVzcyBCbHVldG9vdGggZWFyYnVkcyB3aXRoIENyeXN0YWwgQmlvbmljIFNvdW5kIGFuZCAxMjBIUlMgYmF0dGVyeSBiYWNrdXAuIDxiPmJvQXQgTmlydmFuYTwvYj4gZWFyYnVkcyB3aXRoIGVyZ29ub21pYywmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZXenRVZ3Fqak0xeU1GdHR2bVJ3UzJtNGJtSHlMWjRZRHNyMENyTE13ejdERkhPUUpHdWxncmRmX3FuNWI5TVd4WlB5WkNLYVlPZHlwLVE2SlV4b1E3TWx0VHFTQ29lVUo3LWtxd09HQTgteElLTlJlZVU2T1NKb2pHTkgyWmFMcE5xY2lTd2JRQ0pXYU13Q2NIVThZLVh3ZHdNamstZ3RuTGNfQ01Cbi1nEgQaAggAGoYEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQOIDCAAQABgAIAAqCwoEYm9hdBXxGLFAKg4KB25pcnZhbmEV1lKVQDLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGV3p0VWdxampNMXlNRnR0dm1Sd1MybTRibUh5TFo0WURzcjBDckxNd3o3REZIT1FKR3VsZ3JkZl9xbjViOU1XeFpQeVpDS2FZT2R5cC1RNkpVeG9RN01sdFRxU0NvZVVKNy1rcXdPR0E4LXhJS05SZWVVNk9TSm9qR05IMlphTHBOcWNpU3diUUNKV2FNd0NjSFU4WS1Yd2R3TWprLWd0bkxjX0NNQm4tZzpTPGI-Ym9BdCBOaXJ2YW5hPC9iPiBFYXJidWRzIOKAkyBQcmVtaXVtIFNvdW5kIG9uIEJ1ZGdldCEg4Kav4Kam4Ka_IOCmhuCmquCmqOCmvyAuLi5CogE8Yj5ib0F0IE5pcnZhbmE8L2I-IEVhcmJ1ZHMgLSBXaXJlbGVzcyBCbHVldG9vdGggZWFyYnVkcyB3aXRoIENyeXN0YWwgQmlvbmljIFNvdW5kIGFuZCAxMjBIUlMgYmF0dGVyeSBiYWNrdXAuIDxiPmJvQXQgTmlydmFuYTwvYj4gZWFyYnVkcyB3aXRoIGVyZ29ub21pYywmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "Facebook \u00b7 TWS Earphone_Wireless Bluetooth Earbuds",
+   "read_more_link": "https://www.facebook.com/groups/2855918564655215/posts/4346068308973559/#:~:text=Anup%20Saxena"
+  },
+  {
+   "position": 3,
+   "title": "How can I connect my boAt NIRVANA ION ANC earbuds to ...",
+   "link": "https://www.quora.com/How-can-I-connect-my-boAt-NIRVANA-ION-ANC-earbuds-to-my-Windows-laptop",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlwEB6zswFb23ZA7iaOH7U9dGwAornyFGbrQNW5loD7pl8woqwtXylHGA0KAN961BXckZDRhrgUAczAjgqPU0o6F7tq2fhv-HFh-I0ZYWB4jGq8bTIA2hkVpFpttt_NTBrsKzs5cYEQ1GR6StTDcWeduKeNx3HgBc-a67O65qhxe8agkKYq_ciktltBFAbtrSu6JIdPZsznyN&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECCcQAQ&uoh=1",
+   "displayed_meta": "30+ answers \u00b7 2 years ago",
+   "favicon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp",
+   "snippet": "How can I connect my boAt NIRVANA ION ANC earbuds to my Windows laptop?",
+   "sitelinks": {
+    "list": [
+     {
+      "title": "Should I buy a Boat Nirvanaa 1007 ANC? - Quora",
+      "link": "https://www.quora.com/Should-I-buy-a-Boat-Nirvanaa-1007-ANC",
+      "answer_count": 32,
+      "date": "11 Oct 2020"
+     },
+     {
+      "title": "What are the standout features of the newly launched ...",
+      "link": "https://www.quora.com/What-are-the-standout-features-of-the-newly-launched-boAt-Nirvana-Ivy-Pro-earbuds",
+      "answer_count": 31,
+      "date": "4 Aug 2025"
+     }
+    ]
+   },
+   "about_this_result": {
+    "source": {
+     "description": "How can I connect my boAt NIRVANA ION ANC earbuds to my Windows laptop? \u00b7 I would start by reading the manuals for the headphones and the laptop.",
+     "source_info_link": "https://www.quora.com/How-can-I-connect-my-boAt-NIRVANA-ION-ANC-earbuds-to-my-Windows-laptop",
+     "icon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZiMjNaQTdpYU9IN1U5ZEd3QW9ybnlGR2JyUU5XNWxvRDdwbDh3b3F3dFh5bEhHQTBLQU45NjFCWGNrWkRSaHJnVUFjekFqZ3FQVTBvNkY3dHEyZmh2LUhGaC1JMFpZV0I0akdxOGJUSUEyaGtWcEZwdHR0X05UQnJzS3pzNWNZRVExR1I2U3RURGNXZWR1S2VOeDNIZ0JjLWE2N082NXFoeGU4YWdrS1lxX2Npa3RsdEJGQWJ0clN1NkpJZFBac3pueU4SBBoCCAAaiwQSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA5wMIABAAGAAgACoLCgRib2F0FR-_ckAqDgoHbmlydmFuYRXcLGdAMtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZiMjNaQTdpYU9IN1U5ZEd3QW9ybnlGR2JyUU5XNWxvRDdwbDh3b3F3dFh5bEhHQTBLQU45NjFCWGNrWkRSaHJnVUFjekFqZ3FQVTBvNkY3dHEyZmh2LUhGaC1JMFpZV0I0akdxOGJUSUEyaGtWcEZwdHR0X05UQnJzS3pzNWNZRVExR1I2U3RURGNXZWR1S2VOeDNIZ0JjLWE2N082NXFoeGU4YWdrS1lxX2Npa3RsdEJGQWJ0clN1NkpJZFBac3pueU46QUhvdyB0byBjb25uZWN0IG15IDxiPmJvQXQgTklSVkFOQTwvYj4gSU9OIEFOQyBlYXJidWRzIC4uLiAtIFF1b3JhQp8BSG93IGNhbiBJIGNvbm5lY3QgbXkgPGI-Ym9BdCBOSVJWQU5BPC9iPiBJT04gQU5DIGVhcmJ1ZHMgdG8gbXkgV2luZG93cyBsYXB0b3A_ICZtaWRkb3Q7IEkgd291bGQgc3RhcnQgYnkgcmVhZGluZyB0aGUgbWFudWFscyBmb3IgdGhlIGhlYWRwaG9uZXMgYW5kIHRoZSBsYXB0b3AuIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZiMjNaQTdpYU9IN1U5ZEd3QW9ybnlGR2JyUU5XNWxvRDdwbDh3b3F3dFh5bEhHQTBLQU45NjFCWGNrWkRSaHJnVUFjekFqZ3FQVTBvNkY3dHEyZmh2LUhGaC1JMFpZV0I0akdxOGJUSUEyaGtWcEZwdHR0X05UQnJzS3pzNWNZRVExR1I2U3RURGNXZWR1S2VOeDNIZ0JjLWE2N082NXFoeGU4YWdrS1lxX2Npa3RsdEJGQWJ0clN1NkpJZFBac3pueU4SBBoCCAAaiwQSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA5wMIABAAGAAgACoLCgRib2F0FR-_ckAqDgoHbmlydmFuYRXcLGdAMtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZiMjNaQTdpYU9IN1U5ZEd3QW9ybnlGR2JyUU5XNWxvRDdwbDh3b3F3dFh5bEhHQTBLQU45NjFCWGNrWkRSaHJnVUFjekFqZ3FQVTBvNkY3dHEyZmh2LUhGaC1JMFpZV0I0akdxOGJUSUEyaGtWcEZwdHR0X05UQnJzS3pzNWNZRVExR1I2U3RURGNXZWR1S2VOeDNIZ0JjLWE2N082NXFoeGU4YWdrS1lxX2Npa3RsdEJGQWJ0clN1NkpJZFBac3pueU46QUhvdyB0byBjb25uZWN0IG15IDxiPmJvQXQgTklSVkFOQTwvYj4gSU9OIEFOQyBlYXJidWRzIC4uLiAtIFF1b3JhQp8BSG93IGNhbiBJIGNvbm5lY3QgbXkgPGI-Ym9BdCBOSVJWQU5BPC9iPiBJT04gQU5DIGVhcmJ1ZHMgdG8gbXkgV2luZG93cyBsYXB0b3A_ICZtaWRkb3Q7IEkgd291bGQgc3RhcnQgYnkgcmVhZGluZyB0aGUgbWFudWFscyBmb3IgdGhlIGhlYWRwaG9uZXMgYW5kIHRoZSBsYXB0b3AuIgIQAUgAWABoAA",
+   "source": "Quora"
+  },
+  {
+   "position": 4,
+   "title": "Keep FiiO JD1 or swap for a Type-C IEM under \u20b92000? I ...",
+   "link": "https://www.theindianaudiophileforum.com/c/beginner-audiophiles-looking-for-advice/keep-fiio-jd1-or-swap-for-a-type-c-iem-under-2-000-i-prefer-strong-bass-liked-boat-nirvana-anc-tws-more",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAES9gEB6zswFXZT_x2sZKwzQhEZ0NdsNVBomg1oBStzJtx_SVr7-sajqttS7j2ZGVckP5O2-Ly1ZbiQ6AXFx3844Zu3dL_3IC7XvuQXAgx_03zC5T1xH1IDuR4OIn_uiWXlJKoP9s5RushzrAQoQ-4WpPWX_YOh3m3j7IQ9BnqPWSwj7UG7bkOw-5QuxthWLpkNIwL3t-0WPfX4x_Fu7hhQnM0Fj83SGpsRK0cdPamauxRc56QIVD5GSrcZdq19ybDKCpIqKEqd3djLFNKNXuhO-Z0uValG3HLvqwqjHXIJMTlyewnd-yyWkVWjyM8p0-PgK1eORopGL0I&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECB8QAQ&uoh=1",
+   "displayed_link": "https://www.theindianaudiophileforum.com \u203a keep-fiio-j...",
+   "snippet": "Hi all! New here and looking for advice. I bought the FiiO JD1 after seeing a lot of hype (people saying it beats AirPods and has great bass).",
+   "about_this_result": {
+    "source": {
+     "description": "Hi all! New here and looking for advice. I bought the FiiO JD1 after seeing a lot of hype (people saying it beats AirPods and has great bass).",
+     "source_info_link": "https://www.theindianaudiophileforum.com/c/beginner-audiophiles-looking-for-advice/keep-fiio-jd1-or-swap-for-a-type-c-iem-under-2-000-i-prefer-strong-bass-liked-boat-nirvana-anc-tws-more"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CtkCL2dvdG8_dXJsPUNBRVM5Z0VCNnpzd0ZYWlRfeDJzWkt3elFoRVowTmRzTlZCb21nMW9CU3R6SnR4X1NWcjctc2FqcXR0UzdqMlpHVmNrUDVPMi1MeTFaYmlRNkFYRngzODQ0WnUzZExfM0lDN1h2dVFYQWd4XzAzekM1VDF4SDFJRHVSNE9Jbl91aVdYbEpLb1A5czVSdXNoenJBUW9RLTRXcFBXWF9ZT2gzbTNqN0lROUJucVBXU3dqN1VHN2JrT3ctNVF1eHRoV0xwa05Jd0wzdC0wV1BmWDR4X0Z1N2hoUW5NMEZqODNTR3BzUkswY2RQYW1hdXhSYzU2UUlWRDVHU3JjWmRxMTl5YkRLQ3BJcUtFcWQzZGpMRk5LTlh1aE8tWjB1VmFsRzNITHZxd3FqSFhJSk1UbHlld25kLXl5V2tWV2p5TThwMC1QZ0sxZU9Sb3BHTDBJEgQaAggAGvQEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQNAECAAQABgAIAAqCwoEYm9hdBVBg90_Kg4KB25pcnZhbmEVQYPdPzLZAi9nb3RvP3VybD1DQUVTOWdFQjZ6c3dGWFpUX3gyc1pLd3pRaEVaME5kc05WQm9tZzFvQlN0ekp0eF9TVnI3LXNhanF0dFM3ajJaR1Zja1A1TzItTHkxWmJpUTZBWEZ4Mzg0NFp1M2RMXzNJQzdYdnVRWEFneF8wM3pDNVQxeEgxSUR1UjRPSW5fdWlXWGxKS29QOXM1UnVzaHpyQVFvUS00V3BQV1hfWU9oM20zajdJUTlCbnFQV1N3ajdVRzdia093LTVRdXh0aFdMcGtOSXdMM3QtMFdQZlg0eF9GdTdoaFFuTTBGajgzU0dwc1JLMGNkUGFtYXV4UmM1NlFJVkQ1R1NyY1pkcTE5eWJES0NwSXFLRXFkM2RqTEZOS05YdWhPLVowdVZhbEczSEx2cXdxakhYSUpNVGx5ZXduZC15eVdrVldqeU04cDAtUGdLMWVPUm9wR0wwSTo8S2VlcCBGaWlPIEpEMSBvciBzd2FwIGZvciBhIFR5cGUtQyBJRU0gdW5kZXIg4oK5MiwwMDA_IEkgLi4uQo4BSGkgYWxsISBOZXcgaGVyZSBhbmQgbG9va2luZyBmb3IgYWR2aWNlLiBJIGJvdWdodCB0aGUgRmlpTyBKRDEgYWZ0ZXIgc2VlaW5nIGEgbG90IG9mIGh5cGUgKHBlb3BsZSBzYXlpbmcgaXQgYmVhdHMgQWlyUG9kcyBhbmQgaGFzIGdyZWF0IGJhc3MpLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CtkCL2dvdG8_dXJsPUNBRVM5Z0VCNnpzd0ZYWlRfeDJzWkt3elFoRVowTmRzTlZCb21nMW9CU3R6SnR4X1NWcjctc2FqcXR0UzdqMlpHVmNrUDVPMi1MeTFaYmlRNkFYRngzODQ0WnUzZExfM0lDN1h2dVFYQWd4XzAzekM1VDF4SDFJRHVSNE9Jbl91aVdYbEpLb1A5czVSdXNoenJBUW9RLTRXcFBXWF9ZT2gzbTNqN0lROUJucVBXU3dqN1VHN2JrT3ctNVF1eHRoV0xwa05Jd0wzdC0wV1BmWDR4X0Z1N2hoUW5NMEZqODNTR3BzUkswY2RQYW1hdXhSYzU2UUlWRDVHU3JjWmRxMTl5YkRLQ3BJcUtFcWQzZGpMRk5LTlh1aE8tWjB1VmFsRzNITHZxd3FqSFhJSk1UbHlld25kLXl5V2tWV2p5TThwMC1QZ0sxZU9Sb3BHTDBJEgQaAggAGvQEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQNAECAAQABgAIAAqCwoEYm9hdBVBg90_Kg4KB25pcnZhbmEVQYPdPzLZAi9nb3RvP3VybD1DQUVTOWdFQjZ6c3dGWFpUX3gyc1pLd3pRaEVaME5kc05WQm9tZzFvQlN0ekp0eF9TVnI3LXNhanF0dFM3ajJaR1Zja1A1TzItTHkxWmJpUTZBWEZ4Mzg0NFp1M2RMXzNJQzdYdnVRWEFneF8wM3pDNVQxeEgxSUR1UjRPSW5fdWlXWGxKS29QOXM1UnVzaHpyQVFvUS00V3BQV1hfWU9oM20zajdJUTlCbnFQV1N3ajdVRzdia093LTVRdXh0aFdMcGtOSXdMM3QtMFdQZlg0eF9GdTdoaFFuTTBGajgzU0dwc1JLMGNkUGFtYXV4UmM1NlFJVkQ1R1NyY1pkcTE5eWJES0NwSXFLRXFkM2RqTEZOS05YdWhPLVowdVZhbEczSEx2cXdxakhYSUpNVGx5ZXduZC15eVdrVldqeU04cDAtUGdLMWVPUm9wR0wwSTo8S2VlcCBGaWlPIEpEMSBvciBzd2FwIGZvciBhIFR5cGUtQyBJRU0gdW5kZXIg4oK5MiwwMDA_IEkgLi4uQo4BSGkgYWxsISBOZXcgaGVyZSBhbmQgbG9va2luZyBmb3IgYWR2aWNlLiBJIGJvdWdodCB0aGUgRmlpTyBKRDEgYWZ0ZXIgc2VlaW5nIGEgbG90IG9mIGh5cGUgKHBlb3BsZSBzYXlpbmcgaXQgYmVhdHMgQWlyUG9kcyBhbmQgaGFzIGdyZWF0IGJhc3MpLiICEAFIAFgAaAA",
+   "source": "The Indian Audiophile Forum"
+  },
+  {
+   "position": 5,
+   "title": "I'm using a Pixel 6a with Boat Nirvana Space AirPods. ...",
+   "link": "https://support.google.com/pixelphone/thread/331179989/i-m-using-a-pixel-6a-with-boat-nirvana-space-airpods-during-calls-the-volume-increases-on-its-own?hl=en",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://support.google.com/pixelphone/thread/331179989/i-m-using-a-pixel-6a-with-boat-nirvana-space-airpods-during-calls-the-volume-increases-on-its-own%3Fhl%3Den&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECBsQAQ",
+   "displayed_link": "https://support.google.com \u203a pixelphone \u203a thread \u203a i-m-...",
+   "favicon": "https://serpapi.com/images/i/UklGRq4AAABXRUJQVlA4IKIAAADwAgCdASoQABAAAsBMJbACdDiAN4z-0AFj302FejU2AAD-9nwIHnctDt4yPbFvK77LGPb6brAEqY6T1zYyWbjXB1uF9_Uj7wHz6zN7NYUQSHV49IiqjS-X2Ma8SvIJ1Yz1zaTOUQdbJFjhPMWxQQ-L8rWiceEEj1--p48_g8UrXrinoKsbx2bf93Q4BjOi9thY669Kz4H3_8YLw06o8JwAAAA.webp",
+   "date": "14 Mar 2025",
+   "snippet": "I'm using a Pixel 6a with Boat Nirvana Space AirPods and facing a volume issue. The AirPods work fine on my mom's phone, so the problem ...",
+   "snippet_highlighted_words": [
+    "Boat Nirvana"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "I'm using a Pixel 6a with Boat Nirvana Space AirPods and facing a volume issue. The AirPods work fine on my mom's phone, so the problem ...",
+     "source_info_link": "https://support.google.com/pixelphone/thread/331179989/i-m-using-a-pixel-6a-with-boat-nirvana-space-airpods-during-calls-the-volume-increases-on-its-own?hl=en",
+     "icon": "https://serpapi.com/images/i/UklGRq4AAABXRUJQVlA4IKIAAADwAgCdASoQABAAAsBMJbACdDiAN4z-0AFj302FejU2AAD-9nwIHnctDt4yPbFvK77LGPb6brAEqY6T1zYyWbjXB1uF9_Uj7wHz6zN7NYUQSHV49IiqjS-X2Ma8SvIJ1Yz1zaTOUQdbJFjhPMWxQQ-L8rWiceEEj1--p48_g8UrXrinoKsbx2bf93Q4BjOi9thY669Kz4H3_8YLw06o8JwAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cp4BaHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vcGl4ZWxwaG9uZS90aHJlYWQvMzMxMTc5OTg5L2ktbS11c2luZy1hLXBpeGVsLTZhLXdpdGgtYm9hdC1uaXJ2YW5hLXNwYWNlLWFpcnBvZHMtZHVyaW5nLWNhbGxzLXRoZS12b2x1bWUtaW5jcmVhc2VzLW9uLWl0cy1vd24_aGw9ZW4SBBoCCAAa2QMSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJAtQMIABAAGAAgACoLCgRib2F0FQr-iUAqDgoHbmlydmFuYRUK_olAMp4BaHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vcGl4ZWxwaG9uZS90aHJlYWQvMzMxMTc5OTg5L2ktbS11c2luZy1hLXBpeGVsLTZhLXdpdGgtYm9hdC1uaXJ2YW5hLXNwYWNlLWFpcnBvZHMtZHVyaW5nLWNhbGxzLXRoZS12b2x1bWUtaW5jcmVhc2VzLW9uLWl0cy1vd24_aGw9ZW46S0kmIzM5O20gdXNpbmcgYSBQaXhlbCA2YSB3aXRoIDxiPkJvYXQgTmlydmFuYTwvYj4gU3BhY2UgQWlyUG9kcy4gRHVyaW5nIC4uLkKfAUkmIzM5O20gdXNpbmcgYSBQaXhlbCA2YSB3aXRoIDxiPkJvYXQgTmlydmFuYTwvYj4gU3BhY2UgQWlyUG9kcyBhbmQgZmFjaW5nIGEgdm9sdW1lIGlzc3VlLiBUaGUgQWlyUG9kcyB3b3JrIGZpbmUgb24gbXkgbW9tJiMzOTtzIHBob25lLCBzbyB0aGUgcHJvYmxlbSZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cp4BaHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vcGl4ZWxwaG9uZS90aHJlYWQvMzMxMTc5OTg5L2ktbS11c2luZy1hLXBpeGVsLTZhLXdpdGgtYm9hdC1uaXJ2YW5hLXNwYWNlLWFpcnBvZHMtZHVyaW5nLWNhbGxzLXRoZS12b2x1bWUtaW5jcmVhc2VzLW9uLWl0cy1vd24_aGw9ZW4SBBoCCAAa2QMSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJAtQMIABAAGAAgACoLCgRib2F0FQr-iUAqDgoHbmlydmFuYRUK_olAMp4BaHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vcGl4ZWxwaG9uZS90aHJlYWQvMzMxMTc5OTg5L2ktbS11c2luZy1hLXBpeGVsLTZhLXdpdGgtYm9hdC1uaXJ2YW5hLXNwYWNlLWFpcnBvZHMtZHVyaW5nLWNhbGxzLXRoZS12b2x1bWUtaW5jcmVhc2VzLW9uLWl0cy1vd24_aGw9ZW46S0kmIzM5O20gdXNpbmcgYSBQaXhlbCA2YSB3aXRoIDxiPkJvYXQgTmlydmFuYTwvYj4gU3BhY2UgQWlyUG9kcy4gRHVyaW5nIC4uLkKfAUkmIzM5O20gdXNpbmcgYSBQaXhlbCA2YSB3aXRoIDxiPkJvYXQgTmlydmFuYTwvYj4gU3BhY2UgQWlyUG9kcyBhbmQgZmFjaW5nIGEgdm9sdW1lIGlzc3VlLiBUaGUgQWlyUG9kcyB3b3JrIGZpbmUgb24gbXkgbW9tJiMzOTtzIHBob25lLCBzbyB0aGUgcHJvYmxlbSZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Google Help",
+   "read_more_link": "https://support.google.com/pixelphone/thread/331179989/i-m-using-a-pixel-6a-with-boat-nirvana-space-airpods-during-calls-the-volume-increases-on-its-own?hl=en#:~:text=I'm%20using%20a%20Pixel%206a,to%20be%20with%20my%20device."
+  },
+  {
+   "position": 6,
+   "title": "Wrong product recived",
+   "link": "https://consumercourt.net/threads/wrong-product-recived.3090/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESeAHrOzAVfRuE5PEFAim-WZkz_YnTrVGsP-V8KQBcctQZiuzqJSBgRLJwNeTKiELS7X38m3UdF76jJV3Pj9kajjH9Gep6ZQY__sKigLOl6b9T4jj0yWW8oXs9MSTCP6YmeRhNG2YboNkFBBhtawwqSP1XRuFhGaY9ZQ&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECBwQAQ&uoh=1",
+   "displayed_link": "https://consumercourt.net \u203a Forums \u203a Online Shopping",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACwBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yy8LPpt1PbKPLx-AfSiuIMwD9Mw-3puoM315hyCiMJXMoLKzQQ6ejqCUQAP6bsQKQIuHJQByDt5EccrpBPKbarEb73pMqZTiW_uT-0UBfhiUDnmrht56kfc2qLsttxgLi0-IH_uRFJT0UOuHVy__3bjYhZY1EC0OOmTUqqIDc4QYyWUuan311w9IaCqA7qjUn-v6NHxRPZhfesmpswjZ9z7UNvcqVY0o8av29He-G7zgwkcsAUhgYvH9vWKNwTnuF9cDBCJFr6bdCCYEBXhqG6h-G8W38GFKUcxBPq55Obrg_9pRmzdpUb6qJU_LCsvnFOJmMd1ojnHuJsOFjYYtvoMZfaHSUVl1tmSBIUe0-wsCih56ejWEqH4zx8r9IMdWbyNtstSPRviLN4Aub29vX7f7lmXJavcfIzr0XyPo2x1qXh326w5ZjWsAA.webp",
+   "date": "20 Nov 2025",
+   "snippet": "Seller Name: Amazon seller private limited ; Company Name: boAt ; Product Name: Boat nirvana ion Anc pro ; Website Name: https://www.boat-lifestyle ...",
+   "snippet_highlighted_words": [
+    "Boat nirvana"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Seller Name: Amazon seller private limited ; Company Name: boAt ; Product Name: Boat nirvana ion Anc pro ; Website Name: https://www.boat-lifestyle ...",
+     "source_info_link": "https://consumercourt.net/threads/wrong-product-recived.3090/",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACwBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yy8LPpt1PbKPLx-AfSiuIMwD9Mw-3puoM315hyCiMJXMoLKzQQ6ejqCUQAP6bsQKQIuHJQByDt5EccrpBPKbarEb73pMqZTiW_uT-0UBfhiUDnmrht56kfc2qLsttxgLi0-IH_uRFJT0UOuHVy__3bjYhZY1EC0OOmTUqqIDc4QYyWUuan311w9IaCqA7qjUn-v6NHxRPZhfesmpswjZ9z7UNvcqVY0o8av29He-G7zgwkcsAUhgYvH9vWKNwTnuF9cDBCJFr6bdCCYEBXhqG6h-G8W38GFKUcxBPq55Obrg_9pRmzdpUb6qJU_LCsvnFOJmMd1ojnHuJsOFjYYtvoMZfaHSUVl1tmSBIUe0-wsCih56ejWEqH4zx8r9IMdWbyNtstSPRviLN4Aub29vX7f7lmXJavcfIzr0XyPo2x1qXh326w5ZjWsAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVmZSdUU1UEVGQWltLVdaa3pfWW5UclZHc1AtVjhLUUJjY3RRWml1enFKU0JnUkxKd05lVEtpRUxTN1gzOG0zVWRGNzZqSlYzUGo5a2Fqakg5R2VwNlpRWV9fc0tpZ0xPbDZiOVQ0amoweVdXOG9YczlNU1RDUDZZbWVSaE5HMllib05rRkJCaHRhd3dxU1AxWFJ1RmhHYVk5WlESBBoCCAAa0wMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJArwMIABAAGAAgACoLCgRib2F0FW7eC0AqDgoHbmlydmFuYRXo4g9AMrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVmZSdUU1UEVGQWltLVdaa3pfWW5UclZHc1AtVjhLUUJjY3RRWml1enFKU0JnUkxKd05lVEtpRUxTN1gzOG0zVWRGNzZqSlYzUGo5a2Fqakg5R2VwNlpRWV9fc0tpZ0xPbDZiOVQ0amoweVdXOG9YczlNU1RDUDZZbWVSaE5HMllib05rRkJCaHRhd3dxU1AxWFJ1RmhHYVk5WlE6L1dyb25nIHByb2R1Y3QgcmVjaXZlZCB8IENvbnN1bWVyIENvdXJ0IEFkdmlzb3IuQqMBU2VsbGVyIE5hbWU6IEFtYXpvbiBzZWxsZXIgcHJpdmF0ZSBsaW1pdGVkIDsgQ29tcGFueSBOYW1lOiBib0F0IDsgUHJvZHVjdCBOYW1lOiA8Yj5Cb2F0IG5pcnZhbmE8L2I-IGlvbiBBbmMgcHJvIDsgV2Vic2l0ZSBOYW1lOiBodHRwczovL3d3dy5ib2F0LWxpZmVzdHlsZSZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVmZSdUU1UEVGQWltLVdaa3pfWW5UclZHc1AtVjhLUUJjY3RRWml1enFKU0JnUkxKd05lVEtpRUxTN1gzOG0zVWRGNzZqSlYzUGo5a2Fqakg5R2VwNlpRWV9fc0tpZ0xPbDZiOVQ0amoweVdXOG9YczlNU1RDUDZZbWVSaE5HMllib05rRkJCaHRhd3dxU1AxWFJ1RmhHYVk5WlESBBoCCAAa0wMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJArwMIABAAGAAgACoLCgRib2F0FW7eC0AqDgoHbmlydmFuYRXo4g9AMrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVmZSdUU1UEVGQWltLVdaa3pfWW5UclZHc1AtVjhLUUJjY3RRWml1enFKU0JnUkxKd05lVEtpRUxTN1gzOG0zVWRGNzZqSlYzUGo5a2Fqakg5R2VwNlpRWV9fc0tpZ0xPbDZiOVQ0amoweVdXOG9YczlNU1RDUDZZbWVSaE5HMllib05rRkJCaHRhd3dxU1AxWFJ1RmhHYVk5WlE6L1dyb25nIHByb2R1Y3QgcmVjaXZlZCB8IENvbnN1bWVyIENvdXJ0IEFkdmlzb3IuQqMBU2VsbGVyIE5hbWU6IEFtYXpvbiBzZWxsZXIgcHJpdmF0ZSBsaW1pdGVkIDsgQ29tcGFueSBOYW1lOiBib0F0IDsgUHJvZHVjdCBOYW1lOiA8Yj5Cb2F0IG5pcnZhbmE8L2I-IGlvbiBBbmMgcHJvIDsgV2Vic2l0ZSBOYW1lOiBodHRwczovL3d3dy5ib2F0LWxpZmVzdHlsZSZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Consumer Court Advisor.",
+   "read_more_link": "https://consumercourt.net/threads/wrong-product-recived.3090/#:~:text=Seller%20Name,Amazon%20seller%20private%20limited&text=Company%20Name,boAt&text=Product%20Name,Boat%20nirvana%20ion%20Anc%20pro&text=Website%20Name,https%3A%2F%2Fwww.boat%2Dlifestyle.com%2Fpages%2Fwho%2Dare%2Dwe%3Fsrsltid%3DAfmBOoqfYn_GsW1SFwHaP%2DhXPifNIvxc2PjBcvK%2DPlbTkHmGAlUJuhQT"
+  },
+  {
+   "position": 7,
+   "title": "Rs.450 only",
+   "link": "https://www.facebook.com/groups/1652421451435354/posts/25211367218447446/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShAEB6zswFfkfTQt4gkIChrKhfOs4ACsidF-cZ_PbPNzXzL03r2WP1DfGfP51bqgrCtfFoOGcCPN0p484BVInE78VwT4VfVl0w6xqawC1SUKIBYUVvfe1OhVyw8lt2wjaUSBEdTAuZFMjp_ufIqTPubnbNjgovug-GcUsDoCBNX8uzC9v1Kc&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECEEQAQ&uoh=1",
+   "displayed_meta": "2 comments \u00b7 1 year ago",
+   "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+   "snippet": "OCR: NIRVANA bont boat NIRVANA NIRVANACORE CORE wl W t0 D SeAL SGALNO Bode N0 Sp Aado LM Amazing Traders Mongshangei makha leikai 7005305255 .",
+   "snippet_highlighted_words": [
+    "boat NIRVANA"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "OCR: NIRVANA bont boat NIRVANA NIRVANACORE CORE wl W t0 D SeAL SGALNO Bode N0 Sp Aado LM Amazing Traders Mongshangei makha leikai 7005305255 .",
+     "source_info_link": "https://www.facebook.com/groups/1652421451435354/posts/25211367218447446/",
+     "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0Zma2ZUUXQ0Z2tJQ2hyS2hmT3M0QUNzaWRGLWNaX1BiUE56WHpMMDNyMldQMURmR2ZQNTFicWdyQ3RmRm9PR2NDUE4wcDQ4NEJWSW5FNzhWd1Q0VmZWbDB3NnhxYXdDMVNVS0lCWVVWdmZlMU9oVnl3OGx0MndqYVVTQkVkVEF1WkZNanBfdWZJcVRQdWJuYk5qZ292dWctR2NVc0RvQ0JOWDh1ekM5djFLYxIEGgIIABq9AxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCZAwgAEAAYACAAKgsKBGJvYXQVQYOdPyoOCgduaXJ2YW5hFcmi4T8ywQEvZ290bz91cmw9Q0FFU2hBRUI2enN3RmZrZlRRdDRna0lDaHJLaGZPczRBQ3NpZEYtY1pfUGJQTnpYekwwM3IyV1AxRGZHZlA1MWJxZ3JDdGZGb09HY0NQTjBwNDg0QlZJbkU3OFZ3VDRWZlZsMHc2eHFhd0MxU1VLSUJZVVZ2ZmUxT2hWeXc4bHQyd2phVVNCRWRUQXVaRk1qcF91ZklxVFB1Ym5iTmpnb3Z1Zy1HY1VzRG9DQk5YOHV6Qzl2MUtjOhZScy40NTAgb25seSAtIEZhY2Vib29rQpUBT0NSOiBOSVJWQU5BIGJvbnQgPGI-Ym9hdCBOSVJWQU5BPC9iPiBOSVJWQU5BQ09SRSBDT1JFIHdsIFcgdDAgRCBTZUFMIFNHQUxOTyBCb2RlIE4wIFNwIEFhZG8gTE0gQW1hemluZyBUcmFkZXJzIE1vbmdzaGFuZ2VpIG1ha2hhIGxlaWthaSA3MDA1MzA1MjU1IC4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0Zma2ZUUXQ0Z2tJQ2hyS2hmT3M0QUNzaWRGLWNaX1BiUE56WHpMMDNyMldQMURmR2ZQNTFicWdyQ3RmRm9PR2NDUE4wcDQ4NEJWSW5FNzhWd1Q0VmZWbDB3NnhxYXdDMVNVS0lCWVVWdmZlMU9oVnl3OGx0MndqYVVTQkVkVEF1WkZNanBfdWZJcVRQdWJuYk5qZ292dWctR2NVc0RvQ0JOWDh1ekM5djFLYxIEGgIIABq9AxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCZAwgAEAAYACAAKgsKBGJvYXQVQYOdPyoOCgduaXJ2YW5hFcmi4T8ywQEvZ290bz91cmw9Q0FFU2hBRUI2enN3RmZrZlRRdDRna0lDaHJLaGZPczRBQ3NpZEYtY1pfUGJQTnpYekwwM3IyV1AxRGZHZlA1MWJxZ3JDdGZGb09HY0NQTjBwNDg0QlZJbkU3OFZ3VDRWZlZsMHc2eHFhd0MxU1VLSUJZVVZ2ZmUxT2hWeXc4bHQyd2phVVNCRWRUQXVaRk1qcF91ZklxVFB1Ym5iTmpnb3Z1Zy1HY1VzRG9DQk5YOHV6Qzl2MUtjOhZScy40NTAgb25seSAtIEZhY2Vib29rQpUBT0NSOiBOSVJWQU5BIGJvbnQgPGI-Ym9hdCBOSVJWQU5BPC9iPiBOSVJWQU5BQ09SRSBDT1JFIHdsIFcgdDAgRCBTZUFMIFNHQUxOTyBCb2RlIE4wIFNwIEFhZG8gTE0gQW1hemluZyBUcmFkZXJzIE1vbmdzaGFuZ2VpIG1ha2hhIGxlaWthaSA3MDA1MzA1MjU1IC4iAhABSABYAGgA",
+   "source": "Facebook \u00b7 olx manipur",
+   "read_more_link": "https://www.facebook.com/groups/1652421451435354/posts/25211367218447446/#:~:text=OCR%3A%20NIRVANA%20bont%20boat%20NIRVANA,Mongshangei%20makha%20leikai%207005305255%20."
+  },
+  {
+   "position": 8,
+   "title": "Credit Card Portfolio Suggestion",
+   "link": "https://www.desidime.com/discussions/credit-card-portfolio-suggestion-2123711",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFfYR-wKytOsf6J7EGqTZhMWwoCNs4yRMc1lPtUqpQOhXQKKSOR1WddLg48RwjShZeim2ekU5cqCH4rrFcczE9xE1Nq9NypGGRnLlH9uoQ_ioUXDj47xFcSzuN9g9ShY71tvqrYXdMps3Sthe_Ma_Q_r8CyMpmCUeVdmXY7bx99yH1hh9&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECD8QAQ&uoh=1",
+   "displayed_link": "https://www.desidime.com \u203a Finance",
+   "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAUVBMVEVHcEz_8Of-YwD____-YwH-YgD-mGr-YwH-YwH-YwH-VgD-YAD-WwD-f0P_vKL_1sb-jl3_y7f-rY3_4NP-nXT-TwD-dC__8uv_6uH-ahv-RgDmxbLCAAAACnRSTlMAwP__bSK6tKS8yFVJbgAAAPxJREFUKJF9k9mWgyAMhinRsQ0Jm6K27_-gE8A6bmOOFzl-hGw_Sm2sbZpW_WNPLfa8Zi9drLthl3RlF7QyY65oZgYNs0Y60szQ9yA2DbinhVmYInOcod_FLizgO7D-DNBvYks-BpfIgmMYIwxrbJkLOpBK33bEAdI84TKrthSP4PIPMjr1MULtt1VNdcBSdcgGD1z6bc4wWA_jAr_X5hJlDOKxBVyuXQtiY3j2pnep5q_L62orE-Zeffi4mnJZrFDpACZOnpJ2EHG79I6GPFaYrZX57plSP0L8GPKBMNJRLA_wZAhJPnNkEkt_SjhLobth9wK7l-a9qM_P4RepJQ0EgnljVAAAAABJRU5ErkJggg.png",
+   "date": "12 Jun 2026",
+   "snippet": "boAt Nirvana 751 ANC, 65Hrs Battery, Hybrid Active Noise Cancellation. 2\u00b0 boAt Nirvana 751 ANC, 65Hrs Battery, Hybrid Active Noise Cancellation.",
+   "snippet_highlighted_words": [
+    "boAt Nirvana",
+    "boAt Nirvana"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "boAt Nirvana 751 ANC, 65Hrs Battery, Hybrid Active Noise Cancellation. 2\u00b0 boAt Nirvana 751 ANC, 65Hrs Battery, Hybrid Active Noise Cancellation.",
+     "source_info_link": "https://www.desidime.com/discussions/credit-card-portfolio-suggestion-2123711",
+     "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAUVBMVEVHcEz_8Of-YwD____-YwH-YgD-mGr-YwH-YwH-YwH-VgD-YAD-WwD-f0P_vKL_1sb-jl3_y7f-rY3_4NP-nXT-TwD-dC__8uv_6uH-ahv-RgDmxbLCAAAACnRSTlMAwP__bSK6tKS8yFVJbgAAAPxJREFUKJF9k9mWgyAMhinRsQ0Jm6K27_-gE8A6bmOOFzl-hGw_Sm2sbZpW_WNPLfa8Zi9drLthl3RlF7QyY65oZgYNs0Y60szQ9yA2DbinhVmYInOcod_FLizgO7D-DNBvYks-BpfIgmMYIwxrbJkLOpBK33bEAdI84TKrthSP4PIPMjr1MULtt1VNdcBSdcgGD1z6bc4wWA_jAr_X5hJlDOKxBVyuXQtiY3j2pnep5q_L62orE-Zeffi4mnJZrFDpACZOnpJ2EHG79I6GPFaYrZX57plSP0L8GPKBMNJRLA_wZAhJPnNkEkt_SjhLobth9wK7l-a9qM_P4RepJQ0EgnljVAAAAABJRU5ErkJggg.png"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZmWVItd0t5dE9zZjZKN0VHcVRaaE1Xd29DTnM0eVJNYzFsUHRVcXBRT2hYUUtLU09SMVdkZExnNDhSd2pTaFplaW0yZWtVNWNxQ0g0cnJGY2N6RTl4RTFOcTlOeXBHR1JuTGxIOXVvUV9pb1VYRGo0N3hGY1N6dU45ZzlTaFk3MXR2cXJZWGRNcHMzU3RoZV9NYV9RX3I4Q3lNcG1DVWVWZG1YWTdieDk5eUgxaGg5EgQaAggAGuEDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQL0DCAAQABgAIAAqCwoEYm9hdBUl2IQ_Kg4KB25pcnZhbmEVfTA2PzLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGZllSLXdLeXRPc2Y2SjdFR3FUWmhNV3dvQ05zNHlSTWMxbFB0VXFwUU9oWFFLS1NPUjFXZGRMZzQ4UndqU2haZWltMmVrVTVjcUNINHJyRmNjekU5eEUxTnE5TnlwR0dSbkxsSDl1b1FfaW9VWERqNDd4RmNTenVOOWc5U2hZNzF0dnFyWVhkTXBzM1N0aGVfTWFfUV9yOEN5TXBtQ1VlVmRtWFk3Yng5OXlIMWhoOTorQ3JlZGl0IENhcmQgUG9ydGZvbGlvIFN1Z2dlc3Rpb24gLSBEZXNpZGltZUKfATxiPmJvQXQgTmlydmFuYTwvYj4gNzUxIEFOQywgNjVIcnMgQmF0dGVyeSwgSHlicmlkIEFjdGl2ZSBOb2lzZSBDYW5jZWxsYXRpb24uIDLCsCA8Yj5ib0F0IE5pcnZhbmE8L2I-IDc1MSBBTkMsIDY1SHJzIEJhdHRlcnksIEh5YnJpZCBBY3RpdmUgTm9pc2UgQ2FuY2VsbGF0aW9uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZmWVItd0t5dE9zZjZKN0VHcVRaaE1Xd29DTnM0eVJNYzFsUHRVcXBRT2hYUUtLU09SMVdkZExnNDhSd2pTaFplaW0yZWtVNWNxQ0g0cnJGY2N6RTl4RTFOcTlOeXBHR1JuTGxIOXVvUV9pb1VYRGo0N3hGY1N6dU45ZzlTaFk3MXR2cXJZWGRNcHMzU3RoZV9NYV9RX3I4Q3lNcG1DVWVWZG1YWTdieDk5eUgxaGg5EgQaAggAGuEDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQL0DCAAQABgAIAAqCwoEYm9hdBUl2IQ_Kg4KB25pcnZhbmEVfTA2PzLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGZllSLXdLeXRPc2Y2SjdFR3FUWmhNV3dvQ05zNHlSTWMxbFB0VXFwUU9oWFFLS1NPUjFXZGRMZzQ4UndqU2haZWltMmVrVTVjcUNINHJyRmNjekU5eEUxTnE5TnlwR0dSbkxsSDl1b1FfaW9VWERqNDd4RmNTenVOOWc5U2hZNzF0dnFyWVhkTXBzM1N0aGVfTWFfUV9yOEN5TXBtQ1VlVmRtWFk3Yng5OXlIMWhoOTorQ3JlZGl0IENhcmQgUG9ydGZvbGlvIFN1Z2dlc3Rpb24gLSBEZXNpZGltZUKfATxiPmJvQXQgTmlydmFuYTwvYj4gNzUxIEFOQywgNjVIcnMgQmF0dGVyeSwgSHlicmlkIEFjdGl2ZSBOb2lzZSBDYW5jZWxsYXRpb24uIDLCsCA8Yj5ib0F0IE5pcnZhbmE8L2I-IDc1MSBBTkMsIDY1SHJzIEJhdHRlcnksIEh5YnJpZCBBY3RpdmUgTm9pc2UgQ2FuY2VsbGF0aW9uLiICEAFIAFgAaAA",
+   "source": "Desidime",
+   "read_more_link": "https://www.desidime.com/discussions/credit-card-portfolio-suggestion-2123711#:~:text=2%C2%B0%20boAt%20Nirvana%20751%20ANC%2C,Battery%2C%20Hybrid%20Active%20Noise%20Cancellation"
+  },
+  {
+   "position": 9,
+   "title": "boAt Nirvana Zenith Pro",
+   "link": "https://broadband.forum/threads/boat-nirvana-zenith-pro.235019/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESegHrOzAVx-cIJeKi8G7dkEXtMwXxiF19eCsAvYiE9RESO7vKWkT4H-DXMY4HMbhCaVV7HIzGp1pcLIzhJn8bkvurNIkyvZX8THXq5fELWmrj892a9Oet1n46Ayje1EWYE_1oX4mrOv7Ag_pdKONUn69YpYgg5oNFfQy4&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECEAQAQ&uoh=1",
+   "displayed_link": "https://broadband.forum \u203a ... \u203a Amazon Deals",
+   "favicon": "https://serpapi.com/images/i/UklGRrgAAABXRUJQVlA4IKwAAACwBACdASocABwAPrUurVanIacnG_DgFolpAA5wLRepR8voJLYLG_89Hx6mk2AAAP74rP60KottDFzJI_v6rhPCsA3cgNHnyh4mPK8lexbhikvUqrcwJd7Rc1e8toFljZZisoygvkx4mtYIVefVYJeOIQVFyg6nri8LctGdZeJrKrl8zVkH3eUo1FXK8GuQHtIEEpf1na1sadAFJwx0S3i_g8ZNjU8hcY-4oAAA.webp",
+   "date": "26 Jul 2025",
+   "snippet": "boAt Nirvana Zenith Pro Special launch price \u20b9 ... boAt Nirvana Zenith Pro. Thread starter IBF; Start date Jul 26, 2025; Replies 0; Views ...",
+   "snippet_highlighted_words": [
+    "boAt Nirvana",
+    "boAt Nirvana"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "boAt Nirvana Zenith Pro Special launch price \u20b9 ... boAt Nirvana Zenith Pro. Thread starter IBF; Start date Jul 26, 2025; Replies 0; Views ...",
+     "source_info_link": "https://broadband.forum/threads/boat-nirvana-zenith-pro.235019/",
+     "icon": "https://serpapi.com/images/i/UklGRrgAAABXRUJQVlA4IKwAAACwBACdASocABwAPrUurVanIacnG_DgFolpAA5wLRepR8voJLYLG_89Hx6mk2AAAP74rP60KottDFzJI_v6rhPCsA3cgNHnyh4mPK8lexbhikvUqrcwJd7Rc1e8toFljZZisoygvkx4mtYIVefVYJeOIQVFyg6nri8LctGdZeJrKrl8zVkH3eUo1FXK8GuQHtIEEpf1na1sadAFJwx0S3i_g8ZNjU8hcY-4oAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVngtY0lKZUtpOEc3ZGtFWHRNd1h4aUYxOWVDc0F2WWlFOVJFU083dktXa1Q0SC1EWE1ZNEhNYmhDYVZWN0hJekdwMXBjTEl6aEpuOGJrdnVyTklreXZaWDhUSFhxNWZFTFdtcmo4OTJhOU9ldDFuNDZBeWplMUVXWUVfMW9YNG1yT3Y3QWdfcGRLT05VbjY5WXBZZ2c1b05GZlF5NBIEGgIIABrbAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkC3AwgAEAAYACAAKgsKBGJvYXQVhcOpQCoOCgduaXJ2YW5hFbxclkAysgEvZ290bz91cmw9Q0FFU2VnSHJPekFWeC1jSUplS2k4Rzdka0VYdE13WHhpRjE5ZUNzQXZZaUU5UkVTTzd2S1drVDRILURYTVk0SE1iaENhVlY3SEl6R3AxcGNMSXpoSm44Ymt2dXJOSWt5dlpYOFRIWHE1ZkVMV21yajg5MmE5T2V0MW40NkF5amUxRVdZRV8xb1g0bXJPdjdBZ19wZEtPTlVuNjlZcFlnZzVvTkZmUXk0OjY8Yj5ib0F0IE5pcnZhbmE8L2I-IFplbml0aCBQcm8gLSBJbmRpYSBCcm9hZGJhbmQgRm9ydW1CogE8Yj5ib0F0IE5pcnZhbmE8L2I-IFplbml0aCBQcm8gU3BlY2lhbCBsYXVuY2ggcHJpY2Ug4oK5IC4uLiA8Yj5ib0F0IE5pcnZhbmE8L2I-IFplbml0aCBQcm8uIFRocmVhZCBzdGFydGVyIElCRjsgU3RhcnQgZGF0ZSBKdWwgMjYsIDIwMjU7IFJlcGxpZXMgMDsgVmlld3MmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVngtY0lKZUtpOEc3ZGtFWHRNd1h4aUYxOWVDc0F2WWlFOVJFU083dktXa1Q0SC1EWE1ZNEhNYmhDYVZWN0hJekdwMXBjTEl6aEpuOGJrdnVyTklreXZaWDhUSFhxNWZFTFdtcmo4OTJhOU9ldDFuNDZBeWplMUVXWUVfMW9YNG1yT3Y3QWdfcGRLT05VbjY5WXBZZ2c1b05GZlF5NBIEGgIIABrbAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkC3AwgAEAAYACAAKgsKBGJvYXQVhcOpQCoOCgduaXJ2YW5hFbxclkAysgEvZ290bz91cmw9Q0FFU2VnSHJPekFWeC1jSUplS2k4Rzdka0VYdE13WHhpRjE5ZUNzQXZZaUU5UkVTTzd2S1drVDRILURYTVk0SE1iaENhVlY3SEl6R3AxcGNMSXpoSm44Ymt2dXJOSWt5dlpYOFRIWHE1ZkVMV21yajg5MmE5T2V0MW40NkF5amUxRVdZRV8xb1g0bXJPdjdBZ19wZEtPTlVuNjlZcFlnZzVvTkZmUXk0OjY8Yj5ib0F0IE5pcnZhbmE8L2I-IFplbml0aCBQcm8gLSBJbmRpYSBCcm9hZGJhbmQgRm9ydW1CogE8Yj5ib0F0IE5pcnZhbmE8L2I-IFplbml0aCBQcm8gU3BlY2lhbCBsYXVuY2ggcHJpY2Ug4oK5IC4uLiA8Yj5ib0F0IE5pcnZhbmE8L2I-IFplbml0aCBQcm8uIFRocmVhZCBzdGFydGVyIElCRjsgU3RhcnQgZGF0ZSBKdWwgMjYsIDIwMjU7IFJlcGxpZXMgMDsgVmlld3MmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "India Broadband Forum",
+   "read_more_link": "https://broadband.forum/threads/boat-nirvana-zenith-pro.235019/#:~:text=boAt%20Nirvana%20Zenith%20Pro,Views%201"
+  },
+  {
+   "position": 10,
+   "title": "Best ANC headphones. Please suggest",
+   "link": "https://www.glassdoor.co.in/Community/nagarro/best-anc-headphones-please-suggest",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiwEB6zswFaczUeu0XcZOtlD1SOUK1pFax_aSw9r5htZmb3N3CfatagDg8KugFbmKaHztUhiZqJhg1yOQxaKSJHENHTvQNc6-0K_V9SWItmR8LG9xTQlkd7qvHtbPVxNoTizry6nP_kyKT9dbf1R27yOzSCWt6TnqkCeentmgn0yRw6AE_S2bSCfYt_DM&ved=2ahUKEwig6NPGoq2XAxUxVUEAHS1cE3QQFnoECD4QAQ&uoh=1",
+   "displayed_link": "https://www.glassdoor.co.in \u203a Community \u203a nagarro",
+   "favicon": "https://serpapi.com/images/i/UklGRrAAAABXRUJQVlA4IKQAAACQBACdASocABwAPtEutFooIagoGAEAGglsAM7saF_XElmMaLG_KCQCvZpciAAA_v7CJie1yWsSMQay3bxkbCDg7QbT_JTP8U8d7XkD8LO6-5-7Qe8_1Pf4nS2K4HSOvWmMQHKAXaN1VOxNWFQNWN1-7nUbUIspZr6WPaQrhzuSMFc6JoZ2pUHgoU_G1G4j_nwLdFrIc1OHAtnJ-TrXcj8HtwAAAA.webp",
+   "date": "5 Feb 2026",
+   "snippet": "Share. Software Developer 1. 4mo. Company Wale bhi ni dete. They claim no stock. Like. Share. Software Engineer 1. 4mo. Boat Nirvana. Like.",
+   "snippet_highlighted_words": [
+    "Boat Nirvana"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Share. Software Developer 1. 4mo. Company Wale bhi ni dete. They claim no stock. Like. Share. Software Engineer 1. 4mo. Boat Nirvana. Like.",
+     "source_info_link": "https://www.glassdoor.co.in/Community/nagarro/best-anc-headphones-please-suggest",
+     "icon": "https://serpapi.com/images/i/UklGRrAAAABXRUJQVlA4IKQAAACQBACdASocABwAPtEutFooIagoGAEAGglsAM7saF_XElmMaLG_KCQCvZpciAAA_v7CJie1yWsSMQay3bxkbCDg7QbT_JTP8U8d7XkD8LO6-5-7Qe8_1Pf4nS2K4HSOvWmMQHKAXaN1VOxNWFQNWN1-7nUbUIspZr6WPaQrhzuSMFc6JoZ2pUHgoU_G1G4j_nwLdFrIc1OHAtnJ-TrXcj8HtwAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZhY3pVZXUwWGNaT3RsRDFTT1VLMXBGYXhfYVN3OXI1aHRabWIzTjNDZmF0YWdEZzhLdWdGYm1LYUh6dFVoaVpxSmhnMXlPUXhhS1NKSEVOSFR2UU5jNi0wS19WOVNXSXRtUjhMRzl4VFFsa2Q3cXZIdGJQVnhOb1RpenJ5Nm5QX2t5S1Q5ZGJmMVIyN3lPelNDV3Q2VG5xa0NlZW50bWduMHlSdzZBRV9TMmJTQ2ZZdF9ETRIEGgIIABriAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkC-AwgAEAAYACAAKgsKBGJvYXQVOyyLPioOCgduaXJ2YW5hFTssiz4yygEvZ290bz91cmw9Q0FFU2l3RUI2enN3RmFjelVldTBYY1pPdGxEMVNPVUsxcEZheF9hU3c5cjVodFptYjNOM0NmYXRhZ0RnOEt1Z0ZibUthSHp0VWhpWnFKaGcxeU9ReGFLU0pIRU5IVHZRTmM2LTBLX1Y5U1dJdG1SOExHOXhUUWxrZDdxdkh0YlBWeE5vVGl6cnk2blBfa3lLVDlkYmYxUjI3eU96U0NXdDZUbnFrQ2VlbnRtZ24weVJ3NkFFX1MyYlNDZll0X0RNOjVCZXN0IEFOQyBoZWFkcGhvbmVzLiBQbGVhc2Ugc3VnZ2VzdCB8IEdsYXNzZG9vciBGb3J1bUKSAVNoYXJlLiBTb2Z0d2FyZSBEZXZlbG9wZXIgMS4gNG1vLiBDb21wYW55IFdhbGUgYmhpIG5pIGRldGUuIFRoZXkgY2xhaW0gbm8gc3RvY2suIExpa2UuIFNoYXJlLiBTb2Z0d2FyZSBFbmdpbmVlciAxLiA0bW8uIDxiPkJvYXQgTmlydmFuYTwvYj4uIExpa2UuIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZhY3pVZXUwWGNaT3RsRDFTT1VLMXBGYXhfYVN3OXI1aHRabWIzTjNDZmF0YWdEZzhLdWdGYm1LYUh6dFVoaVpxSmhnMXlPUXhhS1NKSEVOSFR2UU5jNi0wS19WOVNXSXRtUjhMRzl4VFFsa2Q3cXZIdGJQVnhOb1RpenJ5Nm5QX2t5S1Q5ZGJmMVIyN3lPelNDV3Q2VG5xa0NlZW50bWduMHlSdzZBRV9TMmJTQ2ZZdF9ETRIEGgIIABriAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkC-AwgAEAAYACAAKgsKBGJvYXQVOyyLPioOCgduaXJ2YW5hFTssiz4yygEvZ290bz91cmw9Q0FFU2l3RUI2enN3RmFjelVldTBYY1pPdGxEMVNPVUsxcEZheF9hU3c5cjVodFptYjNOM0NmYXRhZ0RnOEt1Z0ZibUthSHp0VWhpWnFKaGcxeU9ReGFLU0pIRU5IVHZRTmM2LTBLX1Y5U1dJdG1SOExHOXhUUWxrZDdxdkh0YlBWeE5vVGl6cnk2blBfa3lLVDlkYmYxUjI3eU96U0NXdDZUbnFrQ2VlbnRtZ24weVJ3NkFFX1MyYlNDZll0X0RNOjVCZXN0IEFOQyBoZWFkcGhvbmVzLiBQbGVhc2Ugc3VnZ2VzdCB8IEdsYXNzZG9vciBGb3J1bUKSAVNoYXJlLiBTb2Z0d2FyZSBEZXZlbG9wZXIgMS4gNG1vLiBDb21wYW55IFdhbGUgYmhpIG5pIGRldGUuIFRoZXkgY2xhaW0gbm8gc3RvY2suIExpa2UuIFNoYXJlLiBTb2Z0d2FyZSBFbmdpbmVlciAxLiA0bW8uIDxiPkJvYXQgTmlydmFuYTwvYj4uIExpa2UuIgIQAUgAWABoAA",
+   "source": "Glassdoor",
+   "read_more_link": "https://www.glassdoor.co.in/Community/nagarro/best-anc-headphones-please-suggest#:~:text=Share,Share"
+  }
+ ],
+ "serpapi_pagination": {
+  "current": 1,
+  "next": "https://serpapi.com/search.json?device=desktop&engine=google_forums&gl=in&hl=en&q=%22boat.nirvana%22&start=10"
+ }
+}

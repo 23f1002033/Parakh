@@ -3,6 +3,7 @@ from sqlalchemy import func, select
 
 from app.models import ApiCall
 from app.serp.client import UPLOAD_ENGINE, day_start, live_searches_today
+from app.signals.rules import rules_as_data
 
 router = APIRouter()
 
@@ -26,3 +27,8 @@ def credits(request: Request):
         "cache_hit_rate_today": round(hits / total, 3) if total else None,
         "mode": settings.serpapi_mode,
     }
+
+
+@router.get("/meta/rules")
+def rules():
+    return rules_as_data()

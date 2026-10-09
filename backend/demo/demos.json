@@ -1,0 +1,29 @@
+[
+  {
+    "name": "boat",
+    "instagram": "boat.nirvana",
+    "website": null,
+    "product_name": "boAt Rockerz 110",
+    "quoted_price": 699,
+    "image": "boat.png",
+    "todo": false
+  },
+  {
+    "name": "demo2",
+    "instagram": null,
+    "website": null,
+    "product_name": null,
+    "quoted_price": null,
+    "image": null,
+    "todo": true
+  },
+  {
+    "name": "demo3",
+    "instagram": null,
+    "website": null,
+    "product_name": null,
+    "quoted_price": null,
+    "image": null,
+    "todo": true
+  }
+]

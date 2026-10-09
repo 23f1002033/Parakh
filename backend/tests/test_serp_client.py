@@ -103,13 +103,14 @@ async def test_serp_6_lens_cache_keyed_by_image_sha(make_client, sessions):
     client = make_client()
     data = png_bytes()
 
-    await engines.lens_all(client, image=ImageRef.from_bytes(data), product_name="red shirt")
+    await engines.lens_all(client, image=ImageRef.from_bytes(data))
     # Second check: new upload object for the same photo; image_id would differ, sha does not.
-    await engines.lens_all(client, image=ImageRef.from_bytes(data), product_name="red shirt")
+    await engines.lens_all(client, image=ImageRef.from_bytes(data))
 
     assert upload.call_count == 1
     assert search.call_count == 1
     assert search.calls[0].request.url.params["image_id"] == "img-1"
+    assert "q" not in search.calls[0].request.url.params
     assert [r.engine for r in ledger(sessions)] == ["image_upload", "google_lens", "google_lens"]
 
 
@@ -166,3 +167,11 @@ def test_day_start_is_ist_midnight():
     assert day_start(datetime(2026, 10, 9, 20, 0, tzinfo=timezone.utc)) == datetime(2026, 10, 9, 18, 30)
     # 10:00 UTC is 15:30 IST the same day.
     assert day_start(datetime(2026, 10, 9, 10, 0, tzinfo=timezone.utc)) == datetime(2026, 10, 8, 18, 30)
+
+
+@respx.mock
+async def test_timeout_raises_engine_timeout(make_client):
+    from app.serp.client import EngineTimeout
+    respx.get(SEARCH_URL).mock(side_effect=httpx.ReadTimeout("slow"))
+    with pytest.raises(EngineTimeout):
+        await make_client().search("google_forums", {"q": "x"}, timeout=30)

@@ -34,6 +34,10 @@ class EngineError(Exception):
     pass
 
 
+class EngineTimeout(EngineError):
+    pass
+
+
 def canonical_json(obj) -> str:
     return json.dumps(obj, sort_keys=True, separators=(",", ":"), ensure_ascii=True)
 
@@ -83,7 +87,8 @@ class SerpClient:
     async def aclose(self) -> None:
         await self.http.aclose()
 
-    async def search(self, engine: str, params: dict, check_id: str | None = None, image: ImageRef | None = None) -> dict:
+    async def search(self, engine: str, params: dict, check_id: str | None = None, image: ImageRef | None = None,
+                     timeout: float | None = None) -> dict:
         params = {k: v for k, v in params.items() if v is not None}
         key_params = dict(params)
         if image is not None:
@@ -115,7 +120,7 @@ class SerpClient:
         try:
             if image is not None:
                 params["image_id"] = await self._ensure_image_id(image, check_id)
-            data = await self._fetch(engine, params)
+            data = await self._fetch(engine, params, timeout)
         except EngineError as e:
             self._ledger(check_id, engine, key, hit=False, ok=False, error=str(e))
             raise
@@ -137,10 +142,13 @@ class SerpClient:
     def _scrub_msg(self, msg: str) -> str:
         return scrub(msg, self.settings.api_key())
 
-    async def _fetch(self, engine: str, params: dict) -> dict:
+    async def _fetch(self, engine: str, params: dict, timeout: float | None = None) -> dict:
         api_key = self._require_key()
+        extra = {"timeout": timeout} if timeout else {}
         try:
-            resp = await self.http.get(SEARCH_URL, params={**params, "engine": engine, "api_key": api_key})
+            resp = await self.http.get(SEARCH_URL, params={**params, "engine": engine, "api_key": api_key}, **extra)
+        except httpx.TimeoutException as e:
+            raise EngineTimeout(f"{engine}: {type(e).__name__}") from None
         except httpx.HTTPError as e:
             raise EngineError(f"{engine}: {type(e).__name__}") from None
         try:

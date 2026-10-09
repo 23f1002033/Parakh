@@ -20,6 +20,9 @@ def fake_serp(request):
         body["exact_matches"] = [{"title": "Red shirt", "link": "https://aliexpress.com/1", "source": "AE"}]
     elif engine == "instagram_profile":
         body["profile_results"] = {"followers": 50, "posts": [{"shortcode": "A", "accessibility_caption": "on May 2, 2026"}]}
+    elif engine == "google_shopping":
+        body["shopping_results"] = [{"title": "boAt Rockerz 110", "price": "Rs 799", "extracted_price": 799,
+                                     "source": "Flipkart", "product_link": "https://g.co/p/1"}]
     elif engine == "google_maps":
         body["local_results"] = [{"title": "Shop", "rating": 4.1, "reviews": 20, "place_id": "p1"}]
     else:
@@ -37,10 +40,10 @@ async def test_record_then_replay_prints_same_summary(make_settings, tmp_path):
         respx.post(UPLOAD_URL).mock(return_value=httpx.Response(200, json={"image_id": "i1"}))
         search = respx.get(SEARCH_URL).mock(side_effect=fake_serp)
         recorded = await run(parse_args(argv), make_settings())
-    assert search.call_count == 7
+    assert search.call_count == 8
 
     files = list(make_settings().fixture_path.glob("*.json"))
-    assert len(files) == 7
+    assert len(files) == 8
     assert not any("api_key" in f.read_text() or FAKE_KEY in f.read_text() for f in files)
 
     with respx.mock:
@@ -49,3 +52,4 @@ async def test_record_then_replay_prints_same_summary(make_settings, tmp_path):
     assert "unavailable" not in recorded
     assert summary(recorded) == summary(replayed)
     assert "1 priced in INR" in recorded and "posts visible=1" in recorded
+    assert "google_shopping: 1 results, 1 priced in INR" in recorded

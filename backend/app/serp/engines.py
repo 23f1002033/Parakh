@@ -2,10 +2,12 @@ from dataclasses import dataclass, field
 from datetime import date
 
 from app.normalize import parse_caption_date, parse_currency
-from app.serp.client import SerpClient
+from app.serp.client import EngineTimeout, SerpClient
 from app.serp.images import ImageRef
 
 COMPLAINT_TERMS = 'scam OR fraud OR fake OR "not delivered" OR refund'
+# Forums timed out at 20 s during the M1 recording.
+FORUMS_TIMEOUT = 30
 
 
 def complaints_query(store_key: str) -> str:
@@ -44,7 +46,7 @@ def _bool(v) -> bool:
 
 def _search_url(data: dict) -> str | None:
     meta = _dict(data.get("search_metadata"))
-    for k in ("google_lens_url", "google_url", "google_maps_url", "instagram_url"):
+    for k in ("google_lens_url", "google_shopping_url", "google_url", "google_maps_url", "instagram_url"):
         if _str(meta.get(k)):
             return meta[k]
     return None
@@ -81,6 +83,7 @@ class InstagramPost:
 class InstagramProfile:
     handle: str
     url: str
+    full_name: str | None = None
     followers: int | None = None
     following: int | None = None
     is_private: bool = False
@@ -109,6 +112,21 @@ class SearchResults:
 
 
 @dataclass
+class ShoppingItem:
+    title: str | None
+    link: str | None
+    source: str | None = None
+    price_inr: int | None = None
+    price_text: str | None = None
+
+
+@dataclass
+class ShoppingResult:
+    items: list[ShoppingItem] = field(default_factory=list)
+    search_url: str | None = None
+
+
+@dataclass
 class Place:
     title: str | None
     link: str | None
@@ -133,8 +151,9 @@ def _lens_params(kind: str, url: str | None, image: ImageRef | None) -> dict:
 
 
 async def lens_all(client: SerpClient, *, url: str | None = None, image: ImageRef | None = None,
-                   product_name: str | None = None, check_id: str | None = None) -> LensResult:
-    params = {**_lens_params("all", url, image), "hl": "en", "q": product_name or None}
+                   check_id: str | None = None) -> LensResult:
+    # No q: with a product name Lens returned 0 visual matches; name filtering happens in our code.
+    params = {**_lens_params("all", url, image), "hl": "en"}
     data = await client.search("google_lens", params, check_id, image=image)
     matches = []
     for m in _list(data.get("visual_matches")):
@@ -186,6 +205,7 @@ async def instagram_profile(client: SerpClient, handle: str, check_id: str | Non
     return InstagramProfile(
         handle=handle,
         url=f"https://www.instagram.com/{handle}/",
+        full_name=_str(p.get("full_name")),
         followers=_int(p.get("followers")),
         following=_int(p.get("following")),
         is_private=_bool(p.get("is_private")),
@@ -224,8 +244,27 @@ async def website_footprint(client: SerpClient, domain: str, check_id: str | Non
 
 
 async def google_forums(client: SerpClient, q: str, check_id: str | None = None) -> SearchResults:
-    data = await client.search("google_forums", {"q": q, "gl": "in", "hl": "en"}, check_id)
+    params = {"q": q, "gl": "in", "hl": "en"}
+    try:
+        data = await client.search("google_forums", params, check_id, timeout=FORUMS_TIMEOUT)
+    except EngineTimeout:
+        data = await client.search("google_forums", params, check_id, timeout=FORUMS_TIMEOUT)
     return _results(data)
+
+
+async def google_shopping(client: SerpClient, q: str, check_id: str | None = None) -> ShoppingResult:
+    data = await client.search("google_shopping", {"q": q, "gl": "in", "hl": "en"}, check_id)
+    items = []
+    for r in map(_dict, _list(data.get("shopping_results"))):
+        value = r.get("extracted_price")
+        items.append(ShoppingItem(
+            title=_str(r.get("title")),
+            link=_str(r.get("link")) or _str(r.get("product_link")),
+            source=_str(r.get("source")),
+            price_inr=parse_currency({"value": r.get("price"), "extracted_value": value}),
+            price_text=_str(r.get("price")),
+        ))
+    return ShoppingResult(items=items, search_url=_search_url(data))
 
 
 async def google_maps(client: SerpClient, q: str, check_id: str | None = None) -> MapsResult:

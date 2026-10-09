@@ -1,0 +1,327 @@
+{
+ "search_metadata": {
+  "id": "6ac90a8deb6ec5efefe2d57f",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/Hr5Uk0OpCRzd8YhFX-vmMPP6CBdasNx5HA6bkPHuyT0/6ac90a8deb6ec5efefe2d57f.json",
+  "markdown_endpoint": "https://serpapi.com/searches/Hr5Uk0OpCRzd8YhFX-vmMPP6CBdasNx5HA6bkPHuyT0/6ac90a8deb6ec5efefe2d57f.md",
+  "created_at": "2026-10-09 15:38:53 UTC",
+  "processed_at": "2026-10-09 15:38:53 UTC",
+  "raw_html_file": "https://serpapi.com/searches/Hr5Uk0OpCRzd8YhFX-vmMPP6CBdasNx5HA6bkPHuyT0/6ac90a8deb6ec5efefe2d57f.html",
+  "total_time_taken": 11.99
+ },
+ "search_parameters": {
+  "engine": "google_lens",
+  "country": "IN",
+  "type": "exact_matches",
+  "image_id": "GQuMo3icu2lgZmqcmpxqkZZiaG6UZGFuZm5pZmBhaZxkbGlmlGaZmqyXVZCaHm9obmloamZgbGgJAHG0Dcw"
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "title": "boAt Rockerz 110 - Wireless Bluetooth Earphone",
+   "link": "https://www.boat-lifestyle.com/products/rockerz-110?srsltid=AU7gw4ULVtHRywDP6sg8JeSFgzQVdyJZOL_ifqdC9WvVOr-rp9bOlsQT",
+   "redirect_link": "https://lens.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrwEB6zswFaYRGzy_9-N4gCI-wdV9cRYtpqUs5ov38Jq3nsYplj10j1Vsee3a6otP9Ybufcck0vvvdVrHThEIyV-sxtIxdU15FOg6pAIoTSGldzpnWtasAZjrLxp6EoHeIPxbeVZWiD6rYqYC7ML7efMYZ6bP349WAuD4ncemKBgGtzrdfsvFRzJIbwTI3UeSL0tJHW9Lh3GVVCROMNU0zlzj72XJH8vwnew9Re7rIu7I&ved=2ahUKEwiUsaWvoq2XAxXOjuEIHVyVOmsQFnoECCEQAQ&uoh=1",
+   "displayed_link": "https://www.boat-lifestyle.com \u203a products \u203a rockerz-110",
+   "thumbnail": "https://serpapi.com/searches/6ac90a8deb6ec5efefe2d57f/images/vaQk9Tj3dkC4MLM5bkwNY__Cure-6f3vJ2d89v2MM44.jpeg",
+   "favicon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAACwBQCdASocABwAPtEutFooIagoGAEAGglsAMHhB27AAgC6bjfQhu_2GSjHX3vBAa0SBS9RmIAA_v6gXgYnSQFIOSJjnclIu8gSJWWdLLxVZBv9UPxMwILWBVJf_5Gn_Uczj-__8Xde4xYr2a6uS48d9YnmemXdl3QfIQThwUtfV-QY6WaH1hrKEJrrk1kn927XQaUzQek6YRoq74X_BxnbW02Ie6jhShgHgdvUQiDRJ0rbhfXUHgoAAAA.webp",
+   "snippet": "Sound Excellence Redefined: Feel every beat of music with deep, resonating bass, finely tuned for an unparalleled audio experience. Immerse yourself in ...",
+   "snippet_highlighted_words": [
+    "deep, resonating bass"
+   ],
+   "rich_snippet": {
+    "top": {
+     "detected_extensions": {
+      "rating": 4.8,
+      "reviews": 246,
+      "price_from": 664.05,
+      "price_to": 699.0,
+      "currency": "\u20b9",
+      "save_festive_copied": 5
+     },
+     "extensions": [
+      "4.8(246)",
+      "\u20b9664.05 to \u20b9699.00",
+      "In stock",
+      "Free delivery",
+      "Save 5%(Copy code)FESTIVE)Copied("
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Sound Excellence Redefined: Feel every beat of music with deep, resonating bass, finely tuned for an unparalleled audio experience. Immerse yourself in ...",
+     "source_info_link": "https://www.boat-lifestyle.com/products/rockerz-110?srsltid=AU7gw4ULVtHRywDP6sg8JeSFgzQVdyJZOL_ifqdC9WvVOr-rp9bOlsQT",
+     "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAACwBQCdASocABwAPtEutFooIagoGAEAGglsAMHhB27AAgC6bjfQhu_2GSjHX3vBAa0SBS9RmIAA_v6gXgYnSQFIOSJjnclIu8gSJWWdLLxVZBv9UPxMwILWBVJf_5Gn_Uczj-__8Xde4xYr2a6uS48d9YnmemXdl3QfIQThwUtfV-QY6WaH1hrKEJrrk1kn927XQaUzQek6YRoq74X_BxnbW02Ie6jhShgHgdvUQiDRJ0rbhfXUHgoAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://lens.google.com/search/about-this-result?origin=www.google.com&req=CvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZhWVJHenlfOS1ONGdDSS13ZFY5Y1JZdHBxVXM1b3YzOEpxM25zWXBsajEwajFWc2VlM2E2b3RQOVlidWZjY2swdnZ2ZFZySFRoRUl5Vi1zeHRJeGRVMTVGT2c2cEFJb1RTR2xkenBuV3Rhc0FaanJMeHA2RW9IZUlQeGJlVlpXaUQ2cllxWUM3TUw3ZWZNWVo2YlAzNDlXQXVENG5jZW1LQmdHdHpyZGZzdkZSekpJYndUSTNVZVNMMHRKSFc5TGgzR1ZWQ1JPTU5VMHpsemo3MlhKSDh2d25ldzlSZTdySXU3SRIEGgIIABokEgIIABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZhWVJHenlfOS1ONGdDSS13ZFY5Y1JZdHBxVXM1b3YzOEpxM25zWXBsajEwajFWc2VlM2E2b3RQOVlidWZjY2swdnZ2ZFZySFRoRUl5Vi1zeHRJeGRVMTVGT2c2cEFJb1RTR2xkenBuV3Rhc0FaanJMeHA2RW9IZUlQeGJlVlpXaUQ2cllxWUM3TUw3ZWZNWVo2YlAzNDlXQXVENG5jZW1LQmdHdHpyZGZzdkZSekpJYndUSTNVZVNMMHRKSFc5TGgzR1ZWQ1JPTU5VMHpsemo3MlhKSDh2d25ldzlSZTdySXU3SRIEGgIIABokEgIIABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "source": "boAt Lifestyle",
+   "read_more_link": "https://www.boat-lifestyle.com/products/rockerz-110?srsltid=AU7gw4ULVtHRywDP6sg8JeSFgzQVdyJZOL_ifqdC9WvVOr-rp9bOlsQT#:~:text=Sound%20Excellence%20Redefined%3A%20Feel%20every,powered%20by%20boAt%20Signature%20Sound."
+  },
+  {
+   "position": 2,
+   "title": "boAt Rockerz 110 with 40 HRS Playback, ENx Technology ...",
+   "link": "https://www.flipkart.com/boat-rockerz-110-40-hrs-playback-enx-technology-beast-mode-asap-charge-bluetooth-headset/p/itmdd861465ee8b1",
+   "redirect_link": "https://lens.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESwAEB6zswFeFXRZBjmxx4M_h1dCn80-qlsh6PCHrxQap7GyI-Yx_c7Dxd1WJM23L4ntco3nCp9CeSwk_-yb6GFVJh0duu8mWRC_YZYHi-15E1SqLzme2NXKNYZzf01sVFleuRowk9br5UGszphVYhnurtmcEmXmcuoiwTit-c0o6jqLp2EuWZUHfJXbnuWdV0rZgvtfyydgNwmtL6vriia9SY2LMR8AiL-wStla5zKnKjkAlgtrfnWuPff44b7FqNQpU&ved=2ahUKEwiUsaWvoq2XAxXOjuEIHVyVOmsQFnoECBoQAQ&uoh=1",
+   "displayed_link": "https://www.flipkart.com \u203a boat-rockerz-110-40-hrs-pla...",
+   "thumbnail": "https://serpapi.com/searches/6ac90a8deb6ec5efefe2d57f/images/vaQk9Tj3dkC4MLM5bkwNY_1K-nppc4_H9zdR6f1nDI0.jpeg",
+   "favicon": "https://serpapi.com/images/i/UklGRjgBAABXRUJQVlA4ICwBAADwBwCdASocABwAPtFAtFooIqgoFAEAGglsAJ0yhHA3i35Gfhnz7m5rpJ_WbLAOez9jbydiZcPHmtE6EOr1iwEdJaHVio9OusAA_vcBazwDa6quIRhrmRPDgGJzmI92T90OxDym5YGt17_-6dMX4VQYoerf-1_pKH9vf8aBK5Mv6_4oPxh_Ng9jhFQocQs2TMeRfsnGcOAxAQoMZ5AXtPm6oEjTUIIYCI4o-8GEj6pHugP4Qqz9W5ayKoV6eWfux4d7MywuT3x9Dmue0O6pHbpdnQX5EDRqw_9hzhyhB7P7C6XIef8ue7hnxAeY5dkoo2_a7vEdDR2zl0fVUefLO2vn7pv2oT_MlLG70jX_nvzI2n3sbdnDZtgiCJqrxslqilLTH5HmtMDT2xoAAAA.webp",
+   "snippet": "Buy boAt Rockerz 110 with 40 HRS Playback, ENx Technology, Beast Mode & ASAP Charge Bluetooth for Rs.2490 Online, Also get boAt Rockerz 110 with 40 HRS ...",
+   "snippet_highlighted_words": [
+    "boAt Rockerz 110 with 40 HRS Playback"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Buy boAt Rockerz 110 with 40 HRS Playback, ENx Technology, Beast Mode & ASAP Charge Bluetooth for Rs.2490 Online, Also get boAt Rockerz 110 with 40 HRS ...",
+     "source_info_link": "https://www.flipkart.com/boat-rockerz-110-40-hrs-playback-enx-technology-beast-mode-asap-charge-bluetooth-headset/p/itmdd861465ee8b1",
+     "icon": "https://serpapi.com/images/i/UklGRjgBAABXRUJQVlA4ICwBAADwBwCdASocABwAPtFAtFooIqgoFAEAGglsAJ0yhHA3i35Gfhnz7m5rpJ_WbLAOez9jbydiZcPHmtE6EOr1iwEdJaHVio9OusAA_vcBazwDa6quIRhrmRPDgGJzmI92T90OxDym5YGt17_-6dMX4VQYoerf-1_pKH9vf8aBK5Mv6_4oPxh_Ng9jhFQocQs2TMeRfsnGcOAxAQoMZ5AXtPm6oEjTUIIYCI4o-8GEj6pHugP4Qqz9W5ayKoV6eWfux4d7MywuT3x9Dmue0O6pHbpdnQX5EDRqw_9hzhyhB7P7C6XIef8ue7hnxAeY5dkoo2_a7vEdDR2zl0fVUefLO2vn7pv2oT_MlLG70jX_nvzI2n3sbdnDZtgiCJqrxslqilLTH5HmtMDT2xoAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://lens.google.com/search/about-this-result?origin=www.google.com&req=CpECL2dvdG8_dXJsPUNBRVN3QUVCNnpzd0ZlRlhSWkJqbXh4NE1faDFkQ244MC1xbHNoNlBDSHJ4UWFwN0d5SS1ZeF9jN0R4ZDFXSk0yM0w0bnRjbzNuQ3A5Q2VTd2tfLXliNkdGVkpoMGR1dThtV1JDX1laWUhpLTE1RTFTcUx6bWUyTlhLTllaemYwMXNWRmxldVJvd2s5YnI1VUdzenBoVllobnVydG1jRW1YbWN1b2l3VGl0LWMwbzZqcUxwMkV1V1pVSGZKWGJudVdkVjByWmd2dGZ5eWRnTndtdEw2dnJpaWE5U1kyTE1SOEFpTC13U3RsYTV6S25LamtBbGd0cmZuV3VQZmY0NGI3RnFOUXBVEgQaAggAGiQSAggAGgIIASIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegAiAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpECL2dvdG8_dXJsPUNBRVN3QUVCNnpzd0ZlRlhSWkJqbXh4NE1faDFkQ244MC1xbHNoNlBDSHJ4UWFwN0d5SS1ZeF9jN0R4ZDFXSk0yM0w0bnRjbzNuQ3A5Q2VTd2tfLXliNkdGVkpoMGR1dThtV1JDX1laWUhpLTE1RTFTcUx6bWUyTlhLTllaemYwMXNWRmxldVJvd2s5YnI1VUdzenBoVllobnVydG1jRW1YbWN1b2l3VGl0LWMwbzZqcUxwMkV1V1pVSGZKWGJudVdkVjByWmd2dGZ5eWRnTndtdEw2dnJpaWE5U1kyTE1SOEFpTC13U3RsYTV6S25LamtBbGd0cmZuV3VQZmY0NGI3RnFOUXBVEgQaAggAGiQSAggAGgIIASIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegAiAhABSABYAGgA",
+   "source": "Flipkart"
+  },
+  {
+   "position": 3,
+   "title": "boAt Rockerz 110 Wireless Neckband with Up to 40 hrs ...",
+   "link": "https://www.amazon.in/boAt-Launched-Rockerz-110-Interface/dp/B0CKJ8JL1Y",
+   "redirect_link": "https://lens.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFR_jPHD1J926Q6_Hfc5cqTV5GIbPsstU1zTcPBwOUxlR6tDABaloaFg6--eh6p8DIXymYuqcfn2zuKHWW7SwIOUzvc-JCkzi4KnAYaRAoSyO0-wJpYcBLBgZsKCpqGlTxadMXgw_JpSsTUc3O434YC8Y-TmvfWecezd4dytH&ved=2ahUKEwiUsaWvoq2XAxXOjuEIHVyVOmsQFnoECB0QAQ&uoh=1",
+   "displayed_link": "https://www.amazon.in \u203a boAt-Launched-Rockerz-110-I...",
+   "thumbnail": "https://serpapi.com/searches/6ac90a8deb6ec5efefe2d57f/images/vaQk9Tj3dkC4MLM5bkwNY-eAnHL0YFQenRmikLKoIRU.png",
+   "favicon": "https://serpapi.com/images/i/UklGRgABAABXRUJQVlA4IPQAAACQBgCdASogACAAPrkurlcnIacnG_DgFwlsAJ05QVS9IBfbUgOf_skkiKt1WV__usEhX-9coTL7-50nxt2AAP7rwfv_wVU6YaR6HeZ8T0iiG1fjH-GInxDGplesPRL-O0x4-jLXLJVrMvO3_cJvMj_cRa0JBzOTvJo39P3-X3Vbv2mx--9K7GQfTSHM8rIPEivpW__F5Xr97_T-1Jjmwo86nAPgea8JWswphczyD4Oqa1VSV0cEvnU9Rq9yu8GxSRqQWixFre199AVlKmMOuBLCVngQ9Ht61Y3zlYz_jWnBUkEzf052rF1dTRWK5wiGpvFFxYAA.webp",
+   "snippet": "Dual Device Pairing: Switch between making calls on your phone and tuning into the latest web episode on your laptop without lifting a finger. Dual pairing lets ...",
+   "snippet_highlighted_words": [
+    "Switch between making calls on your phone and tuning into the latest web episode on your laptop"
+   ],
+   "rich_snippet": {
+    "top": {
+     "detected_extensions": {
+      "rating": 4.0,
+      "reviews": 3912
+     },
+     "extensions": [
+      "4.0(3,912)",
+      "Free delivery"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Dual Device Pairing: Switch between making calls on your phone and tuning into the latest web episode on your laptop without lifting a finger. Dual pairing lets ...",
+     "source_info_link": "https://www.amazon.in/boAt-Launched-Rockerz-110-Interface/dp/B0CKJ8JL1Y",
+     "icon": "https://serpapi.com/images/i/UklGRgABAABXRUJQVlA4IPQAAACQBgCdASogACAAPrkurlcnIacnG_DgFwlsAJ05QVS9IBfbUgOf_skkiKt1WV__usEhX-9coTL7-50nxt2AAP7rwfv_wVU6YaR6HeZ8T0iiG1fjH-GInxDGplesPRL-O0x4-jLXLJVrMvO3_cJvMj_cRa0JBzOTvJo39P3-X3Vbv2mx--9K7GQfTSHM8rIPEivpW__F5Xr97_T-1Jjmwo86nAPgea8JWswphczyD4Oqa1VSV0cEvnU9Rq9yu8GxSRqQWixFre199AVlKmMOuBLCVngQ9Ht61Y3zlYz_jWnBUkEzf052rF1dTRWK5wiGpvFFxYAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://lens.google.com/search/about-this-result?origin=www.google.com&req=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZSX2pQSEQxSjkyNlE2X0hmYzVjcVRWNUdJYlBzc3RVMXpUY1BCd09VeGxSNnREQUJhbG9hRmc2LS1laDZwOERJWHltWXVxY2ZuMnp1S0hXVzdTd0lPVXp2Yy1KQ2t6aTRLbkFZYVJBb1N5TzAtd0pwWWNCTEJnWnNLQ3BxR2xUeGFkTVhnd19KcFNzVFVjM080MzRZQzhZLVRtdmZXZWNlemQ0ZHl0SBIEGgIIABokEgIIABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZSX2pQSEQxSjkyNlE2X0hmYzVjcVRWNUdJYlBzc3RVMXpUY1BCd09VeGxSNnREQUJhbG9hRmc2LS1laDZwOERJWHltWXVxY2ZuMnp1S0hXVzdTd0lPVXp2Yy1KQ2t6aTRLbkFZYVJBb1N5TzAtd0pwWWNCTEJnWnNLQ3BxR2xUeGFkTVhnd19KcFNzVFVjM080MzRZQzhZLVRtdmZXZWNlemQ0ZHl0SBIEGgIIABokEgIIABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "source": "Amazon.in",
+   "read_more_link": "https://www.amazon.in/boAt-Launched-Rockerz-110-Interface/dp/B0CKJ8JL1Y#:~:text=Dual%20Device%20Pairing%3A%20Switch%20between,two%20devices%20for%20uninterrupted%20relaxation."
+  },
+  {
+   "position": 4,
+   "title": "Rockerz 110",
+   "link": "https://support.boat-lifestyle.com/articles/rockerz-wireless/rockerz-110/6604186e8aa81d0618f75ac3",
+   "redirect_link": "https://lens.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnAEB6zswFc4sWcZceI2MyC0NVVwP5mKypuCdSwGiMF4czSVj9freIElHdEArRkYuy8coTQ_TpIx4T8cVLe2mXjHld2ZKwxvrmIfPAo1gT4Afc-rvQ2dqnZunJbAX3g7oiN1Q2SVFQkl9Bzga6EWNn1Rx_URsV1EAiex_MikjgNHDu7ZtzPTOQn7XoAsa-7od3Txao1i93_KdgZlracQ&ved=2ahUKEwiUsaWvoq2XAxXOjuEIHVyVOmsQFnoECCIQAQ&uoh=1",
+   "displayed_link": "https://support.boat-lifestyle.com \u203a Rockerz Wireless",
+   "thumbnail": "https://serpapi.com/searches/6ac90a8deb6ec5efefe2d57f/images/vaQk9Tj3dkC4MLM5bkwNYwzCohWvsf4vcyEqJZFh3xg.png",
+   "favicon": "https://serpapi.com/images/i/UklGRuoAAABXRUJQVlA4IN4AAAAwBgCdASocABwAPtE-tFooIigoFAEAGglsAL53XqQP4Bz4-mS7zED8RTOVAeEI7c-MHt-5iNAdow9AAP792srzOG7s9LFuURhL2fsJQjKRwQpcPT9srs3d9-f_a_-nn-n_HlSJ3_-dB_1EDf1bPRt90-oXCXYl353_zOd9jK4u6BZpP-fob4vZ6FuTy2j7cihpL7zdg7e5IAdXq8R4M12ay0DN8yZf4c8pFB9oIz-h_cJOIgsFwmjtYhgFdS4iyB1NGYAkoShSpn-5uWfo3_DYS56zfxO_q-WKc9kQAAA.webp",
+   "snippet": "How to Power ON/OFF Rockerz 110? Power On : In power off mode, press and hold the MFB (Multi-function Button) for 3 seconds. A voice tone will confirm the same.",
+   "snippet_highlighted_words": [
+    "How to Power ON/OFF Rockerz 110"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "How to Power ON/OFF Rockerz 110? Power On : In power off mode, press and hold the MFB (Multi-function Button) for 3 seconds. A voice tone will confirm the same.",
+     "source_info_link": "https://support.boat-lifestyle.com/articles/rockerz-wireless/rockerz-110/6604186e8aa81d0618f75ac3",
+     "icon": "https://serpapi.com/images/i/UklGRuoAAABXRUJQVlA4IN4AAAAwBgCdASocABwAPtE-tFooIigoFAEAGglsAL53XqQP4Bz4-mS7zED8RTOVAeEI7c-MHt-5iNAdow9AAP792srzOG7s9LFuURhL2fsJQjKRwQpcPT9srs3d9-f_a_-nn-n_HlSJ3_-dB_1EDf1bPRt90-oXCXYl353_zOd9jK4u6BZpP-fob4vZ6FuTy2j7cihpL7zdg7e5IAdXq8R4M12ay0DN8yZf4c8pFB9oIz-h_cJOIgsFwmjtYhgFdS4iyB1NGYAkoShSpn-5uWfo3_DYS56zfxO_q-WKc9kQAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://lens.google.com/search/about-this-result?origin=www.google.com&req=CuEBL2dvdG8_dXJsPUNBRVNuQUVCNnpzd0ZjNHNXY1pjZUkyTXlDME5WVndQNW1LeXB1Q2RTd0dpTUY0Y3pTVmo5ZnJlSUVsSGRFQXJSa1l1eThjb1RRX1RwSXg0VDhjVkxlMm1YakhsZDJaS3d4dnJtSWZQQW8xZ1Q0QWZjLXJ2UTJkcW5adW5KYkFYM2c3b2lOMVEyU1ZGUWtsOUJ6Z2E2RVdObjFSeF9VUnNWMUVBaWV4X01pa2pnTkhEdTdadHpQVE9RbjdYb0FzYS03b2QzVHhhbzFpOTNfS2RnWmxyYWNREgQaAggAGiQSAggAGgIIASIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegAiAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CuEBL2dvdG8_dXJsPUNBRVNuQUVCNnpzd0ZjNHNXY1pjZUkyTXlDME5WVndQNW1LeXB1Q2RTd0dpTUY0Y3pTVmo5ZnJlSUVsSGRFQXJSa1l1eThjb1RRX1RwSXg0VDhjVkxlMm1YakhsZDJaS3d4dnJtSWZQQW8xZ1Q0QWZjLXJ2UTJkcW5adW5KYkFYM2c3b2lOMVEyU1ZGUWtsOUJ6Z2E2RVdObjFSeF9VUnNWMUVBaWV4X01pa2pnTkhEdTdadHpQVE9RbjdYb0FzYS03b2QzVHhhbzFpOTNfS2RnWmxyYWNREgQaAggAGiQSAggAGgIIASIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegAiAhABSABYAGgA",
+   "source": "boAt Lifestyle",
+   "read_more_link": "https://support.boat-lifestyle.com/articles/rockerz-wireless/rockerz-110/6604186e8aa81d0618f75ac3#:~:text=How%20to%20Power%20ON%2FOFF%20Rockerz,110%3F"
+  },
+  {
+   "position": 5,
+   "title": "Black BoAt Rockerz 110 Neckband, 40 Hours",
+   "link": "https://www.indiamart.com/proddetail/boat-rockerz-110-neckband-2857367227133.html?srsltid=AU7gw4X3A1I4HpCqELikh5XvMBGvafFuMoYqXZFZGMu8EqgECxI9uiSM",
+   "redirect_link": "https://lens.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESzgEB6zswFR2A5pJbUNp4CPJsl760MzaUqrVJZjTcwvxdWRRCO3-uMhZjO9RkFK41iBWUwD_Tdirb1hIRf6X5G-kigeZS8ACpN6ZHn_Uq5wqdUtKWn9q_I7CroniHthp5VzWXhz1qrIqoeUe6-HJOZRBA9IcYceubWlGxcAwrUvKZzWlVmvx3xKp9H4lHsRxAKy1M0rOjQ8Ii6J2L4hxwH3yUgZ5INebYnFgrhZ10TRPwYNvJgWNvlEXwX9WSZu2RqEWAWlSXfb0fIeuKw5m26w&ved=2ahUKEwiUsaWvoq2XAxXOjuEIHVyVOmsQFnoECBkQAQ&uoh=1",
+   "displayed_link": "https://www.indiamart.com \u203a ... \u203a Boat Neckband",
+   "thumbnail": "https://serpapi.com/searches/6ac90a8deb6ec5efefe2d57f/images/vaQk9Tj3dkC4MLM5bkwNYwP15GL_RZyWe4qc-8ay93A.jpeg",
+   "favicon": "https://serpapi.com/images/i/UklGRn4BAABXRUJQVlA4IHIBAADQBwCdASocABwAPtE-tFooIigoFAEAGglsALUXgaba1IRjbn3aBGr-fxVBhgmewvK0EuP6c6H_p9huzY3uXlyjYJnCwIJAAAD-9hHIcNWD-hjYKsRhXTMnw6-yGpAuOkENUY183OJhyj-p0sD2GTFzzx_CCN3JGbqHPCePV-yXbABdTpLTsYsIpWelck5NOHEwru8A4gvAA8tUD8l-B5NEuNbyIxLx6GyIRW_52nYUObwgAPrlXVn2UN1lY9DVctki4fH-SdPcnQ0yKNkgPJolrOdhwRBztOznOrIGC9KP_j6tAUuMag73S8hMzV9Zy6na61Nmvtxcy26i_uGJHQPgETPcNnJJFt5Mv4neyzrzfQA6Ydjy8ZGUiS7G_OTogx_qg05TJbvlv-83UVzETGLeH2v-ONU5IOYSlwr_GmV4BYEuTOA2pNXzzCEYXBUNVpIQ0qU-P0x3s3SPD18MeGDTS6DDfbB7YOPc4inP7QgCAAAA.webp",
+   "snippet": "Green Turtle Automation - Offering Black BoAt Rockerz 110 Neckband, 40 Hours at \u20b9 899 in Indore, Madhya Pradesh. Get Boat Neckband at lowest price | ID: ...",
+   "snippet_highlighted_words": [
+    "Black BoAt Rockerz 110 Neckband"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Green Turtle Automation - Offering Black BoAt Rockerz 110 Neckband, 40 Hours at \u20b9 899 in Indore, Madhya Pradesh. Get Boat Neckband at lowest price | ID: ...",
+     "source_info_link": "https://www.indiamart.com/proddetail/boat-rockerz-110-neckband-2857367227133.html?srsltid=AU7gw4X3A1I4HpCqELikh5XvMBGvafFuMoYqXZFZGMu8EqgECxI9uiSM",
+     "icon": "https://serpapi.com/images/i/UklGRn4BAABXRUJQVlA4IHIBAADQBwCdASocABwAPtE-tFooIigoFAEAGglsALUXgaba1IRjbn3aBGr-fxVBhgmewvK0EuP6c6H_p9huzY3uXlyjYJnCwIJAAAD-9hHIcNWD-hjYKsRhXTMnw6-yGpAuOkENUY183OJhyj-p0sD2GTFzzx_CCN3JGbqHPCePV-yXbABdTpLTsYsIpWelck5NOHEwru8A4gvAA8tUD8l-B5NEuNbyIxLx6GyIRW_52nYUObwgAPrlXVn2UN1lY9DVctki4fH-SdPcnQ0yKNkgPJolrOdhwRBztOznOrIGC9KP_j6tAUuMag73S8hMzV9Zy6na61Nmvtxcy26i_uGJHQPgETPcNnJJFt5Mv4neyzrzfQA6Ydjy8ZGUiS7G_OTogx_qg05TJbvlv-83UVzETGLeH2v-ONU5IOYSlwr_GmV4BYEuTOA2pNXzzCEYXBUNVpIQ0qU-P0x3s3SPD18MeGDTS6DDfbB7YOPc4inP7QgCAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://lens.google.com/search/about-this-result?origin=www.google.com&req=CqQCL2dvdG8_dXJsPUNBRVN6Z0VCNnpzd0ZSMkE1cEpiVU5wNENQSnNsNzYwTXphVXFyVkpaalRjd3Z4ZFdSUkNPMy11TWhaak85UmtGSzQxaUJXVXdEX1RkaXJiMWhJUmY2WDVHLWtpZ2VaUzhBQ3BONlpIbl9VcTV3cWRVdEtXbjlxX0k3Q3JvbmlIdGhwNVZ6V1hoejFxcklxb2VVZTYtSEpPWlJCQTlJY1ljZXViV2xHeGNBd3JVdktaeldsVm12eDN4S3A5SDRsSHNSeEFLeTFNMHJPalE4SWk2SjJMNGh4d0gzeVVnWjVJTmViWW5GZ3JoWjEwVFJQd1lOdkpnV052bEVYd1g5V1NadTJScUVXQVdsU1hmYjBmSWV1S3c1bTI2dxIEGgIIABokEgIIABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqQCL2dvdG8_dXJsPUNBRVN6Z0VCNnpzd0ZSMkE1cEpiVU5wNENQSnNsNzYwTXphVXFyVkpaalRjd3Z4ZFdSUkNPMy11TWhaak85UmtGSzQxaUJXVXdEX1RkaXJiMWhJUmY2WDVHLWtpZ2VaUzhBQ3BONlpIbl9VcTV3cWRVdEtXbjlxX0k3Q3JvbmlIdGhwNVZ6V1hoejFxcklxb2VVZTYtSEpPWlJCQTlJY1ljZXViV2xHeGNBd3JVdktaeldsVm12eDN4S3A5SDRsSHNSeEFLeTFNMHJPalE4SWk2SjJMNGh4d0gzeVVnWjVJTmViWW5GZ3JoWjEwVFJQd1lOdkpnV052bEVYd1g5V1NadTJScUVXQVdsU1hmYjBmSWV1S3c1bTI2dxIEGgIIABokEgIIABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "source": "IndiaMART"
+  },
+  {
+   "position": 6,
+   "title": "boAt Rockerz 111 - Wireless Bluetooth Neckband Online",
+   "link": "https://www.boat-lifestyle.com/products/rockerz-111-neckband?srsltid=AU7gw4XhYC6TI3_fjCu5WLWI7fCh_NoyZZscsohJgP7mT_DUajRClUU7",
+   "redirect_link": "https://lens.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESuAEB6zswFSFV-50jzcdTAeqQ_tci-yWApJJ1hbmFJWNigcybbV8zZGa1YmJo_MslBfX0qja8L5NaZGEEiiIJaYCpJXn-FmYSulyoO5szBPA2O2MKMhJmApB-xtFhohW38qiyhOIKdF4mB76qJGeoKD2GOlhvpiASGEpT9pYrjpomALUjvrmTLLx22ieKVQrwKGljb-hca7VmBhOVPLtno79fUbNDsuMd5ukuXQcpzEI4LI1VFFYQbTG8&ved=2ahUKEwiUsaWvoq2XAxXOjuEIHVyVOmsQFnoECEcQAQ&uoh=1",
+   "displayed_link": "https://www.boat-lifestyle.com \u203a products \u203a rockerz-11...",
+   "thumbnail": "https://serpapi.com/searches/6ac90a8deb6ec5efefe2d57f/images/vaQk9Tj3dkC4MLM5bkwNYyLP-JOo82tK9y-sNWTlr9A.png",
+   "favicon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAACwBQCdASocABwAPtEutFooIagoGAEAGglsAMHhB27AAgC6bjfQhu_2GSjHX3vBAa0SBS9RmIAA_v6gXgYnSQFIOSJjnclIu8gSJWWdLLxVZBv9UPxMwILWBVJf_5Gn_Uczj-__8Xde4xYr2a6uS48d9YnmemXdl3QfIQThwUtfV-QY6WaH1hrKEJrrk1kn927XQaUzQek6YRoq74X_BxnbW02Ie6jhShgHgdvUQiDRJ0rbhfXUHgoAAAA.webp",
+   "snippet": "Sound Redefined: Feel the pulse of music with thumping bass, tuned for an unrivalled audio experience. Indulge in soundscapes that redefine your music & rock to ...",
+   "snippet_highlighted_words": [
+    "thumping bass, tuned for an unrivalled audio experience"
+   ],
+   "rich_snippet": {
+    "top": {
+     "detected_extensions": {
+      "rating": 4.7,
+      "reviews": 67,
+      "price": 1299.0,
+      "currency": "\u20b9"
+     },
+     "extensions": [
+      "4.7(67)",
+      "\u20b91,299.00",
+      "Out of stock"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Sound Redefined: Feel the pulse of music with thumping bass, tuned for an unrivalled audio experience. Indulge in soundscapes that redefine your music & rock to ...",
+     "source_info_link": "https://www.boat-lifestyle.com/products/rockerz-111-neckband?srsltid=AU7gw4XhYC6TI3_fjCu5WLWI7fCh_NoyZZscsohJgP7mT_DUajRClUU7",
+     "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAACwBQCdASocABwAPtEutFooIagoGAEAGglsAMHhB27AAgC6bjfQhu_2GSjHX3vBAa0SBS9RmIAA_v6gXgYnSQFIOSJjnclIu8gSJWWdLLxVZBv9UPxMwILWBVJf_5Gn_Uczj-__8Xde4xYr2a6uS48d9YnmemXdl3QfIQThwUtfV-QY6WaH1hrKEJrrk1kn927XQaUzQek6YRoq74X_BxnbW02Ie6jhShgHgdvUQiDRJ0rbhfXUHgoAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://lens.google.com/search/about-this-result?origin=www.google.com&req=CoYCL2dvdG8_dXJsPUNBRVN1QUVCNnpzd0ZTRlYtNTBqemNkVEFlcVFfdGNpLXlXQXBKSjFoYm1GSldOaWdjeWJiVjh6WkdhMVltSm9fTXNsQmZYMHFqYThMNU5hWkdFRWlpSUphWUNwSlhuLUZtWVN1bHlvTzVzekJQQTJPMk1LTWhKbUFwQi14dEZob2hXMzhxaXloT0lLZEY0bUI3NnFKR2VvS0QyR09saHZwaUFTR0VwVDlwWXJqcG9tQUxVanZybVRMTHgyMmllS1ZRcndLR2xqYi1oY2E3Vm1CaE9WUEx0bm83OWZVYk5Ec3VNZDV1a3VYUWNwekVJNExJMVZGRllRYlRHOBIEGgIIABokEgIIABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CoYCL2dvdG8_dXJsPUNBRVN1QUVCNnpzd0ZTRlYtNTBqemNkVEFlcVFfdGNpLXlXQXBKSjFoYm1GSldOaWdjeWJiVjh6WkdhMVltSm9fTXNsQmZYMHFqYThMNU5hWkdFRWlpSUphWUNwSlhuLUZtWVN1bHlvTzVzekJQQTJPMk1LTWhKbUFwQi14dEZob2hXMzhxaXloT0lLZEY0bUI3NnFKR2VvS0QyR09saHZwaUFTR0VwVDlwWXJqcG9tQUxVanZybVRMTHgyMmllS1ZRcndLR2xqYi1oY2E3Vm1CaE9WUEx0bm83OWZVYk5Ec3VNZDV1a3VYUWNwekVJNExJMVZGRllRYlRHOBIEGgIIABokEgIIABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "source": "boAt Lifestyle",
+   "read_more_link": "https://www.boat-lifestyle.com/products/rockerz-111-neckband?srsltid=AU7gw4XhYC6TI3_fjCu5WLWI7fCh_NoyZZscsohJgP7mT_DUajRClUU7#:~:text=Sound%20Redefined%3A%20Feel%20the%20pulse,Signature%20Sound%20%26%2010mm%20Drivers."
+  },
+  {
+   "position": 7,
+   "title": "Rockerz 109",
+   "link": "https://support.boat-lifestyle.com/articles/rockerz-wireless/rockerz-109/660419f18aa81d0618f75b15",
+   "redirect_link": "https://lens.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnAEB6zswFfYx7Q73uIp7YhPptnoiEU0Qm6hd7LupMWCO635hIkXUH-cYKF5EN3QkbhaIBQigvuz5Ze70cOa2Wvz7S22YjkfZ0QbfIEldO052b4SwaN5759vnRG4ygOfFn-ddq77jtDkwLMjRVzBOKQ-ikl7ph0IL3rdF-Xk94NGGy_RoG8Lk1251XDWK9q-Zcklayg3Bkfj0wTc2vCk&ved=2ahUKEwiUsaWvoq2XAxXOjuEIHVyVOmsQFnoECEIQAQ&uoh=1",
+   "displayed_link": "https://support.boat-lifestyle.com \u203a Rockerz Wireless",
+   "thumbnail": "https://serpapi.com/searches/6ac90a8deb6ec5efefe2d57f/images/vaQk9Tj3dkC4MLM5bkwNYzwP-CCnUDd-0drgUAxGEng.png",
+   "favicon": "https://serpapi.com/images/i/UklGRuoAAABXRUJQVlA4IN4AAAAwBgCdASocABwAPtE-tFooIigoFAEAGglsAL53XqQP4Bz4-mS7zED8RTOVAeEI7c-MHt-5iNAdow9AAP792srzOG7s9LFuURhL2fsJQjKRwQpcPT9srs3d9-f_a_-nn-n_HlSJ3_-dB_1EDf1bPRt90-oXCXYl353_zOd9jK4u6BZpP-fob4vZ6FuTy2j7cihpL7zdg7e5IAdXq8R4M12ay0DN8yZf4c8pFB9oIz-h_cJOIgsFwmjtYhgFdS4iyB1NGYAkoShSpn-5uWfo3_DYS56zfxO_q-WKc9kQAAA.webp",
+   "snippet": "How to Power ON/OFF Rockerz 109? Power On : In power off mode, press and hold the MFB (Multi-function Button) for 3 seconds. A voice tone will confirm the same.",
+   "snippet_highlighted_words": [
+    "How to Power ON/OFF Rockerz 109"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "How to Power ON/OFF Rockerz 109? Power On : In power off mode, press and hold the MFB (Multi-function Button) for 3 seconds. A voice tone will confirm the same.",
+     "source_info_link": "https://support.boat-lifestyle.com/articles/rockerz-wireless/rockerz-109/660419f18aa81d0618f75b15",
+     "icon": "https://serpapi.com/images/i/UklGRuoAAABXRUJQVlA4IN4AAAAwBgCdASocABwAPtE-tFooIigoFAEAGglsAL53XqQP4Bz4-mS7zED8RTOVAeEI7c-MHt-5iNAdow9AAP792srzOG7s9LFuURhL2fsJQjKRwQpcPT9srs3d9-f_a_-nn-n_HlSJ3_-dB_1EDf1bPRt90-oXCXYl353_zOd9jK4u6BZpP-fob4vZ6FuTy2j7cihpL7zdg7e5IAdXq8R4M12ay0DN8yZf4c8pFB9oIz-h_cJOIgsFwmjtYhgFdS4iyB1NGYAkoShSpn-5uWfo3_DYS56zfxO_q-WKc9kQAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://lens.google.com/search/about-this-result?origin=www.google.com&req=CuEBL2dvdG8_dXJsPUNBRVNuQUVCNnpzd0ZmWXg3UTczdUlwN1loUHB0bm9pRVUwUW02aGQ3THVwTVdDTzYzNWhJa1hVSC1jWUtGNUVOM1FrYmhhSUJRaWd2dXo1WmU3MGNPYTJXdno3UzIyWWprZlowUWJmSUVsZE8wNTJiNFN3YU41NzU5dm5SRzR5Z09mRm4tZGRxNzdqdERrd0xNalJWekJPS1EtaWtsN3BoMElMM3JkRi1Yazk0TkdHeV9Sb0c4TGsxMjUxWERXSzlxLVpja2xheWczQmtmajB3VGMydkNrEgQaAggAGiQSAggAGgIIASIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegAiAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CuEBL2dvdG8_dXJsPUNBRVNuQUVCNnpzd0ZmWXg3UTczdUlwN1loUHB0bm9pRVUwUW02aGQ3THVwTVdDTzYzNWhJa1hVSC1jWUtGNUVOM1FrYmhhSUJRaWd2dXo1WmU3MGNPYTJXdno3UzIyWWprZlowUWJmSUVsZE8wNTJiNFN3YU41NzU5dm5SRzR5Z09mRm4tZGRxNzdqdERrd0xNalJWekJPS1EtaWtsN3BoMElMM3JkRi1Yazk0TkdHeV9Sb0c4TGsxMjUxWERXSzlxLVpja2xheWczQmtmajB3VGMydkNrEgQaAggAGiQSAggAGgIIASIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegAiAhABSABYAGgA",
+   "source": "boAt Support",
+   "read_more_link": "https://support.boat-lifestyle.com/articles/rockerz-wireless/rockerz-109/660419f18aa81d0618f75b15#:~:text=How%20to%20Power%20ON%2FOFF%20Rockerz,109%3F"
+  },
+  {
+   "position": 8,
+   "title": "Boat Rockerz 110 Review \u2013 Best \u20b9699 Neckband for Calls? ...",
+   "link": "https://www.youtube.com/watch?v=feEAsZPGIWg",
+   "displayed_link": "25.6K+ views \u00b7 1 year ago",
+   "thumbnail": "https://serpapi.com/searches/6ac90a8deb6ec5efefe2d57f/images/vaQk9Tj3dkC4MLM5bkwNYyRs4_sbfkSmY8JsMVbX4kg.jpeg",
+   "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAQAwCdASoQABAAAsBMJbACdEyAZIBvHZEVF_xH8jFr8RAA_vdfqk7B4h7c7SA9EXLm1jvCcvS12TTPc4SgLiYbbdnDtj5mFYsy9rYK8egN-m_wy1bF7_lqaJwe1kOFY9IH8jmlO7DbAWe9V_-WsvvcWurSf-Cp-rbcVf_uF_E7k7jxw1wX2r_PvJ3PjrggAAA.webp",
+   "snippet": "#ASKUSB #SIVABHARANI Description I bought the Boat Rockerz 110 Neckband for my mom, just to help her with calls and media playback ...",
+   "duration": "8:55",
+   "about_this_result": {
+    "source": {
+     "description": "#ASKUSB #SIVABHARANI Description I bought the Boat Rockerz 110 Neckband for my mom, just to help her with calls and media playback ...",
+     "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAQAwCdASoQABAAAsBMJbACdEyAZIBvHZEVF_xH8jFr8RAA_vdfqk7B4h7c7SA9EXLm1jvCcvS12TTPc4SgLiYbbdnDtj5mFYsy9rYK8egN-m_wy1bF7_lqaJwe1kOFY9IH8jmlO7DbAWe9V_-WsvvcWurSf-Cp-rbcVf_uF_E7k7jxw1wX2r_PvJ3PjrggAAA.webp"
+    }
+   },
+   "about_page_link": "https://lens.google.com/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVnlqMlpuMGY2a3Z3Yk5QVEtZV3JCS2lqbG9LVVVMWDZSVElCQ2JBbW0yMXp3RDZNTjNSOWxVYVBpMnZ4QkV2dHp0LWhPc05mMUNVdVlBODFTakdYWExiN3ZhOGRkcEFHc2dSV2k3MlRYeFNjSEFHZFpCMmxsOFg1azh3bFN6dDRwMncSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVnlqMlpuMGY2a3Z3Yk5QVEtZV3JCS2lqbG9LVVVMWDZSVElCQ2JBbW0yMXp3RDZNTjNSOWxVYVBpMnZ4QkV2dHp0LWhPc05mMUNVdVlBODFTakdYWExiN3ZhOGRkcEFHc2dSV2k3MlRYeFNjSEFHZFpCMmxsOFg1azh3bFN6dDRwMncSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+   "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTiMzLq-8DbQthOHdV90O_hyvaWc-gmCxqJ_A",
+   "source": "YouTube \u00b7 Siva Bharani Udaya Selvan"
+  },
+  {
+   "position": 9,
+   "title": "Buy Black True Wireless for Electronics & Appliances ... - Ajio",
+   "link": "https://www.ajio.com/boat-bluetooth-headphones-rockerz-110/p/494496161",
+   "redirect_link": "https://lens.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgQEB6zswFTU8tQ1NHjcBxD8XZkICIWFe3s6nlOZ9kVfMuKG2BNHq9aFUTu5rcjENxx9o5pocOiWSV4TJLhPerjIIeoRULsinXpIDKPYYgrzd-IpDltSMpnV4ZVxIdKI-qvwbmPrAGEQtzRlDqeXxtcff-tCPyXx7EyYt2DqiT7jends&ved=2ahUKEwiUsaWvoq2XAxXOjuEIHVyVOmsQFnoECD8QAQ&uoh=1",
+   "displayed_link": "https://www.ajio.com \u203a boat-bluetooth-headphones-rock...",
+   "thumbnail": "https://serpapi.com/searches/6ac90a8deb6ec5efefe2d57f/images/vaQk9Tj3dkC4MLM5bkwNYx47LsxHP3OEx-4Cb8hMYNk.png",
+   "favicon": "https://serpapi.com/images/i/UklGRhoBAABXRUJQVlA4IA4BAAAwBgCdASoYABgAPtE-tFooIigoFAEAGgljAJ0yzHdJVgDQnL1wFQkX1VXCdVQHUd7Ofa2l3juNUMIAAP72F3wynZmLNnBPcE6jRQu5U8tfw_HzplwybiLyHnyKkQ2IBQzg0JR9MIDL_w4GNV53x2_rk9kG_nzmhvcTl5ss8Aa0szMc37KVVSIZZ14Uu-uEANJzb_vhxYQknAnLMAg_XZmeN7GFSXqhTpL-tPhG4225Hx_gxVRqVgmvqCgOxMI_0jnKqbTmbKwZ0dP3VU5qVASqnX4Zqkjlz-7PEfkIaoMw1Ni1MPwxRlODM0-CN7TGwGuwLDW-nUrP4HVefC4VmmKlNmBJYgxSTZtudCYAAAA.webp",
+   "snippet": "Buy Black True Wireless for Electronics & Appliances by boAt Online in India at Rs. 2490. Shop for more boAt True Wirelesss at Ajio.com and avail great ...",
+   "snippet_highlighted_words": [
+    "Black True Wireless for Electronics & Appliances by boAt"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Buy Black True Wireless for Electronics & Appliances by boAt Online in India at Rs. 2490. Shop for more boAt True Wirelesss at Ajio.com and avail great ...",
+     "source_info_link": "https://www.ajio.com/boat-bluetooth-headphones-rockerz-110/p/494496161",
+     "icon": "https://serpapi.com/images/i/UklGRhoBAABXRUJQVlA4IA4BAAAwBgCdASoYABgAPtE-tFooIigoFAEAGgljAJ0yzHdJVgDQnL1wFQkX1VXCdVQHUd7Ofa2l3juNUMIAAP72F3wynZmLNnBPcE6jRQu5U8tfw_HzplwybiLyHnyKkQ2IBQzg0JR9MIDL_w4GNV53x2_rk9kG_nzmhvcTl5ss8Aa0szMc37KVVSIZZ14Uu-uEANJzb_vhxYQknAnLMAg_XZmeN7GFSXqhTpL-tPhG4225Hx_gxVRqVgmvqCgOxMI_0jnKqbTmbKwZ0dP3VU5qVASqnX4Zqkjlz-7PEfkIaoMw1Ni1MPwxRlODM0-CN7TGwGuwLDW-nUrP4HVefC4VmmKlNmBJYgxSTZtudCYAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://lens.google.com/search/about-this-result?origin=www.google.com&req=Cr0BL2dvdG8_dXJsPUNBRVNnUUVCNnpzd0ZUVTh0UTFOSGpjQnhEOFhaa0lDSVdGZTNzNm5sT1o5a1ZmTXVLRzJCTkhxOWFGVVR1NXJjakVOeHg5bzVwb2NPaVdTVjRUSkxoUGVyaklJZW9SVUxzaW5YcElES1BZWWdyemQtSXBEbHRTTXBuVjRaVnhJZEtJLXF2d2JtUHJBR0VRdHpSbERxZVh4dGNmZi10Q1B5WHg3RXlZdDJEcWlUN2plbmRzEgQaAggAGiISABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cr0BL2dvdG8_dXJsPUNBRVNnUUVCNnpzd0ZUVTh0UTFOSGpjQnhEOFhaa0lDSVdGZTNzNm5sT1o5a1ZmTXVLRzJCTkhxOWFGVVR1NXJjakVOeHg5bzVwb2NPaVdTVjRUSkxoUGVyaklJZW9SVUxzaW5YcElES1BZWWdyemQtSXBEbHRTTXBuVjRaVnhJZEtJLXF2d2JtUHJBR0VRdHpSbERxZVh4dGNmZi10Q1B5WHg3RXlZdDJEcWlUN2plbmRzEgQaAggAGiISABoCCAEiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAIgIQAUgAWABoAA",
+   "source": "Ajio"
+  }
+ ],
+ "search_information": {
+  "images_results_state": "Fully empty"
+ },
+ "error": "Google Lens hasn't returned any results for this query."
+}

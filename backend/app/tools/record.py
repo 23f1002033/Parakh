@@ -21,12 +21,12 @@ def parse_args(argv):
     p.add_argument("--instagram")
     p.add_argument("--website")
     p.add_argument("--image", help="local file path or http(s) URL")
-    p.add_argument("--product", help="product name")
+    p.add_argument("--product", help="product name; used for Google Shopping, not sent to Lens")
     p.add_argument("--maps", help="Google Maps query, for example 'Store name Jaipur'")
     p.add_argument("--mode", choices=["record", "replay"], default="record")
     args = p.parse_args(argv)
-    if not (args.instagram or args.website or args.image or args.maps):
-        p.error("give at least one of --instagram, --website, --image, --maps")
+    if not (args.instagram or args.website or args.image or args.product or args.maps):
+        p.error("give at least one of --instagram, --website, --image, --product, --maps")
     return args
 
 
@@ -59,6 +59,10 @@ def _results(r):
     return f"{len(r.results)} results"
 
 
+def _shopping(r):
+    return f"{len(r.items)} results, {sum(1 for i in r.items if i.price_inr)} priced in INR"
+
+
 def _maps(r):
     first = r.places[0] if r.places else None
     head = f"{len(r.places)} places"
@@ -88,8 +92,10 @@ async def run(args, settings: Settings) -> str:
     lines = []
     try:
         if url or image:
-            await _try(lines, "lens_all", engines.lens_all(client, url=url, image=image, product_name=args.product, check_id=run_id), _lens_all)
+            await _try(lines, "lens_all", engines.lens_all(client, url=url, image=image, check_id=run_id), _lens_all)
             await _try(lines, "lens_exact", engines.lens_exact(client, url=url, image=image, check_id=run_id), _lens_exact)
+        if args.product:
+            await _try(lines, "google_shopping", engines.google_shopping(client, args.product, run_id), _shopping)
         if handle:
             await _try(lines, "instagram_profile", engines.instagram_profile(client, handle, run_id), _profile)
         if store_key:
