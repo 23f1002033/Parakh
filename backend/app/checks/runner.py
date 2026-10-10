@@ -23,6 +23,7 @@ class CheckInputs:
     domain: str | None = None
     product_name: str | None = None
     quoted_price: int | None = None
+    claimed_mrp: int | None = None
     image: ImageRef | None = None
     image_url: str | None = None
 
@@ -72,13 +73,14 @@ class Runner:
         if self.inp.image or self.inp.image_url:
             lens, lens_err = await _attempt(engines.lens_all(
                 self.client, url=self.inp.image_url, image=self.inp.image, check_id=self.id))
-        if price.lens_is_enough(name, lens):
-            return price.evaluate(name, self.inp.quoted_price, lens, None)
+        domain, mrp = self.inp.domain, self.inp.claimed_mrp
+        if price.lens_is_enough(name, lens, domain):
+            return price.evaluate(name, self.inp.quoted_price, lens, None, domain, mrp)
         shop, shop_err = await _attempt(engines.google_shopping(self.client, name, self.id))
         # A needed fallback that failed would make "not enough matches" a false claim.
         if shop is None:
             return unavailable(reason_for(shop_err or lens_err))
-        return price.evaluate(name, self.inp.quoted_price, lens, shop)
+        return price.evaluate(name, self.inp.quoted_price, lens, shop, domain, mrp)
 
     async def photo(self) -> SignalResult:
         if not (self.inp.image or self.inp.image_url):
@@ -99,12 +101,15 @@ class Runner:
             profile, _ = await _attempt(self.profile_task)
             full_name = profile.full_name if profile else None
         terms = complaints.store_terms(self.inp.handle, self.inp.domain, full_name)
-        return complaints.evaluate(google, forums, terms)
+        return complaints.evaluate(google, forums, terms, handle, domain)
 
     async def account(self) -> SignalResult:
         if not self.profile_task:
             return skipped("No Instagram handle given")
-        profile = await self.profile_task
+        try:
+            profile = await self.profile_task
+        except engines.ProfileNotFound:
+            return account.not_found(self.inp.handle)
         return account.evaluate(profile, self.inp.domain, self.today)
 
     def community(self) -> tuple[SignalResult, int, int]:

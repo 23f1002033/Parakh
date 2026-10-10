@@ -1,6 +1,6 @@
 # Parakh - Test Plan
 
-Version 1.3, 9 Oct 2026 (matches design 1.3). Results go in docs/04-test-report.md.
+Version 1.6, 10 Oct 2026 (matches design 1.6). Results go in docs/04-test-report.md.
 
 ## Levels
 
@@ -32,6 +32,8 @@ a written reason in the test report.
 | T-PRICE-8 | listing with condition "Refurbished" | dropped |
 | T-PRICE-6 | quote 150, median 2000, one listing on brand domain | warn below-market |
 | T-PRICE-9 | quote 150, median 2000, no brand or major-retailer listing | info "Much cheaper than other listings", never good |
+| T-PRICE-10 | kept listings include the store's own domain | own listings dropped before counting |
+| T-PRICE-11 | claimed_mrp 1999, median 500 | extra warn "The original price shown ... may be overstated"; none below 2.0x or without a median |
 | T-PHOTO-1 | exact match on aliexpress | warn naming marketplace |
 | T-PHOTO-2 | 0 exact matches | info "No exact copies found...", never good |
 | T-PHOTO-3 | 4 unrelated domains | info with count 4 |
@@ -40,11 +42,13 @@ a written reason in the test report.
 | T-COMP-3 | 0 relevant results | info, not good |
 | T-COMP-4 | 3 relevant results with "received" and "genuine" | good |
 | T-COMP-5 | recorded boat.nirvana forum results (boAt Nirvana product threads) | product threads are not counted as store mentions |
+| T-COMP-6 | results on the store's own domain and instagram.com/<handle> | dropped before counting |
 | T-ACC-1 | is_private true | warn |
 | T-ACC-2 | 5 posts, oldest 20 days ago | warn very new |
 | T-ACC-3 | bio link domain differs from given website | warn |
 | T-ACC-4 | verified | good |
 | T-ACC-5 | missing posts field | no crash, info only |
+| T-ACC-6 | instagram_profile answers "Instagram profile not found" | account done with one warn; other errors stay unavailable |
 | T-VERD-1 | one signal with data | Not enough data |
 | T-VERD-2 | 1 bad + 2 warn | High risk (5) |
 | T-VERD-3 | 2 warn | Be careful |

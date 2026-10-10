@@ -44,6 +44,19 @@ def domain_of(url: str | None) -> str:
     return website_domain(host) if host else ""
 
 
+def is_own_url(url: str | None, handle: str | None, store_domain: str | None) -> bool:
+    """True for the store's own website (any subdomain) or its own Instagram profile."""
+    domain = domain_of(url)
+    if not domain:
+        return False
+    if store_domain and (domain == store_domain or domain.endswith("." + store_domain)):
+        return True
+    if handle and domain == "instagram.com":
+        path = url.split("instagram.com", 1)[1].strip("/").lower()
+        return path.split("/")[0].split("?")[0] == handle
+    return False
+
+
 def domain_labels(domain: str) -> list[str]:
     return [p for p in domain.split(".") if p]
 

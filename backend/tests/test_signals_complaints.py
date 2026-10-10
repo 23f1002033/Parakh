@@ -70,3 +70,17 @@ def test_one_negative_is_warn_and_dedupe_by_url():
     f = SearchResults(results=[SearchResult("red.store fake", "https://f.in/1", "fake item")])
     r = complaints.evaluate(g, f, TERMS)
     assert r.items[0].severity == "warn" and r.items[0].data["searched"] == 1
+
+
+def test_store_own_pages_are_dropped():
+    g = SearchResults(results=[
+        SearchResult("Red Store fake or real?", "https://www.red-store.in/blog/fake-or-real", "red.store answers"),
+        SearchResult("red.store", "https://www.instagram.com/red.store/", "red.store genuine products"),
+        SearchResult("red.store", "https://www.instagram.com/p/abc/", "ordered from red.store, received"),
+        SearchResult("red.store review", "https://forum.in/1", "red.store fake product"),
+    ])
+    r = complaints.evaluate(g, None, complaints.store_terms("red.store", "red-store.in", None), "red.store", "red-store.in")
+    d = r.items[0].data
+    assert [x["url"] for x in d["own_dropped"]] == ["https://www.red-store.in/blog/fake-or-real", "https://www.instagram.com/red.store/"]
+    assert d["searched"] == 2 and d["negatives"] == 1 and d["positives"] == 1
+    assert r.items[0].severity == "warn"

@@ -3,7 +3,7 @@ from dataclasses import dataclass, field
 from datetime import date
 
 from app.normalize import parse_caption_date, parse_currency
-from app.serp.client import EngineTimeout, SerpClient
+from app.serp.client import PROFILE_NOT_FOUND, EngineError, EngineTimeout, SerpClient
 from app.serp.images import ImageRef
 
 COMPLAINT_TERMS = 'scam OR fraud OR fake OR "not delivered" OR refund'
@@ -13,6 +13,10 @@ FORUMS_TIMEOUT = 30
 # keep the plain query (spaced two-word names are usually product names, and demo 1
 # fixtures depend on the old query).
 SPACED_HANDLE_MIN_WORDS = 3
+
+
+class ProfileNotFound(EngineError):
+    pass
 
 
 def store_query_term(handle: str | None, domain: str | None) -> str:
@@ -200,6 +204,8 @@ async def lens_exact(client: SerpClient, *, url: str | None = None, image: Image
 
 async def instagram_profile(client: SerpClient, handle: str, check_id: str | None = None) -> InstagramProfile:
     data = await client.search("instagram_profile", {"profile_id": handle}, check_id)
+    if PROFILE_NOT_FOUND in str(data.get("error") or "").lower():
+        raise ProfileNotFound(f"instagram_profile: {data['error']}")
     p = _dict(data.get("profile_results"))
     bio_links = []
     for b in _list(p.get("bio_links")):

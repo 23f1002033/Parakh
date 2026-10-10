@@ -201,6 +201,12 @@ async function copyLink() {
                 {{ price.kept }} of {{ plural(price.listings_inr, 'listing') }} with prices in rupees matched the
                 product ({{ price.listings_total }} listings found in total).
               </li>
+              <li v-if="price.claimed_mrp && price.mrp_ratio !== undefined">
+                Original price shown {{ rupees(price.claimed_mrp) }}: {{ price.mrp_ratio }}x the median.
+              </li>
+              <li v-if="price.own_listings_dropped">
+                {{ plural(price.own_listings_dropped, "listing") }} from the store's own website left out.
+              </li>
               <li>Prices came from {{ price.source_label }}. They are seller listings, not verified prices.</li>
             </ul>
             <template v-if="price.cheapest.length">

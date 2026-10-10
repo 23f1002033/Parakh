@@ -81,6 +81,7 @@ async def create_check(
     website: str | None = Form(None),
     product_name: str | None = Form(None),
     quoted_price: int | None = Form(None, ge=1, le=10_000_000),
+    claimed_mrp: int | None = Form(None, ge=1, le=10_000_000),
     image_url: str | None = Form(None),
     image: UploadFile | None = File(None),
 ):
@@ -97,7 +98,7 @@ async def create_check(
         web = upsert_store(s, "website", domain, domain) if domain else None
         check = Check(
             instagram_store_id=ig.id if ig else None, website_store_id=web.id if web else None,
-            product_name=name, quoted_price=quoted_price, image_sha256=ref.sha256 if ref else None,
+            product_name=name, quoted_price=quoted_price, claimed_mrp=claimed_mrp, image_sha256=ref.sha256 if ref else None,
             image_url=url, status="running", signal_status={n: "pending" for n in SIGNALS},
         )
         s.add(check)
@@ -105,6 +106,7 @@ async def create_check(
         check_id = check.id
 
     inputs = CheckInputs(handle=handle, domain=domain, product_name=name, quoted_price=quoted_price,
+                         claimed_mrp=claimed_mrp,
                          image=ref, image_url=url)
     request.app.state.check_limit.hit(who)
     background.add_task(run_check, check_id, inputs, request.app.state.serp, request.app.state.sessions)
@@ -127,7 +129,8 @@ def get_check(check_id: str, request: Request):
         )
     return CheckOut(
         id=check.id, status=check.status, created_at=check.created_at, finished_at=check.finished_at,
-        product_name=check.product_name, quoted_price=check.quoted_price, has_image=bool(check.image_sha256),
+        product_name=check.product_name, quoted_price=check.quoted_price, claimed_mrp=check.claimed_mrp,
+        has_image=bool(check.image_sha256),
         image_url=check.image_url, stores=[store_ref(st) for st in stores], signal_status=check.signal_status or {},
         verdict=check.verdict, risk_points=check.risk_points, evidence=evidence,
         live_searches=check.live_searches or 0, cached_searches=check.cached_searches or 0,

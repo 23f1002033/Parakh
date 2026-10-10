@@ -109,3 +109,28 @@ def test_five_cheapest_sources():
     it = item(price.evaluate(NAME, 550, same([900, 100, 800, 200, 700, 300, 600]), None))
     assert [c["price"] for c in it.data["cheapest"]] == [100, 200, 300, 600, 700]
     assert len(it.sources) == 5
+
+
+def test_store_own_listing_is_dropped():
+    data = lens(("boAt Rockerz 110", 699, "https://www.mystore.in/p/1"), ("boAt Rockerz 110 A", 500, "https://a.in/1"),
+                ("boAt Rockerz 110 B", 550, "https://b.in/1"), ("boAt Rockerz 110 C", 600, "https://shop.mystore.in/2"))
+    assert len(price.kept(NAME, price.lens_listings(data))) == 4
+    kept = price.kept(NAME, price.lens_listings(data), "mystore.in")
+    assert [x.link for x in kept] == ["https://a.in/1", "https://b.in/1"]
+    it = item(price.evaluate(NAME, 699, data, None, "mystore.in"))
+    assert it.finding == "Not enough priced matches" and it.data["own_listings_dropped"] == 2
+
+
+def test_mrp_far_above_median_adds_caution():
+    r = price.evaluate(NAME, 550, same([400, 500, 600]), None, None, 1999)
+    assert [i.severity for i in r.items] == ["good", "warn"]
+    assert r.items[1].finding == ("The original price shown (Rs 1999) is 4.0x the median of 3 listings. "
+                                  "The discount may be overstated.")
+    assert r.items[0].data["mrp_ratio"] == 4.0
+
+
+def test_mrp_near_median_adds_nothing_and_needs_a_median():
+    assert len(price.evaluate(NAME, 550, same([400, 500, 600]), None, None, 999).items) == 1
+    r = price.evaluate(NAME, 550, same([400, 500]), None, None, 5000)
+    assert [i.finding for i in r.items] == ["Not enough priced matches"]
+    assert all(i.severity != "good" for i in price.evaluate(NAME, None, same([400, 500, 600]), None, None, 9999).items)

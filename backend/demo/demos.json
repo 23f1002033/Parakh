@@ -9,21 +9,22 @@
     "todo": false
   },
   {
-    "name": "demo2",
-    "instagram": null,
-    "website": null,
-    "product_name": null,
-    "quoted_price": null,
-    "image": null,
-    "todo": true
+    "name": "shopyvision",
+    "instagram": "shopyvision",
+    "website": "https://www.shopyvision.com",
+    "product_name": "astronaut galaxy projector",
+    "quoted_price": 899,
+    "claimed_mrp": 1999,
+    "image": "projector.jpg",
+    "todo": false
   },
   {
-    "name": "demo3",
-    "instagram": null,
+    "name": "shanaya",
+    "instagram": "fashion_insta_by_shanaya",
     "website": null,
     "product_name": null,
     "quoted_price": null,
     "image": null,
-    "todo": true
+    "todo": false
   }
 ]

@@ -14,6 +14,7 @@ const instagram = ref('')
 const website = ref('')
 const productName = ref('')
 const price = ref('')
+const claimedMrp = ref('')
 const imageUrl = ref('')
 const imageFile = ref(null)
 const preview = ref('')
@@ -74,6 +75,7 @@ async function useDemo(demo) {
   website.value = demo.website || ''
   productName.value = demo.product_name || ''
   price.value = demo.quoted_price ? String(demo.quoted_price) : ''
+  claimedMrp.value = demo.claimed_mrp ? String(demo.claimed_mrp) : ''
   imageUrl.value = ''
   if (fileInput.value) fileInput.value.value = ''
   setFile(null)
@@ -91,9 +93,10 @@ async function useDemo(demo) {
 function validate() {
   if (!instagram.value.trim() && !website.value.trim()) return 'Enter an Instagram handle or a website link.'
   if (productName.value.trim().length > 120) return 'Keep the product name under 120 characters.'
-  if (price.value !== '') {
-    const n = Number(price.value)
-    if (!Number.isInteger(n) || n < 1 || n > MAX_PRICE) return `Enter the price as a whole number from 1 to ${rupees(MAX_PRICE)}.`
+  for (const [value, what] of [[price.value, 'price'], [claimedMrp.value, 'original price']]) {
+    if (value === '') continue
+    const n = Number(value)
+    if (!Number.isInteger(n) || n < 1 || n > MAX_PRICE) return `Enter the ${what} as a whole number from 1 to ${rupees(MAX_PRICE)}.`
   }
   const link = imageUrl.value.trim()
   if (link && !/^https?:\/\/\S+$/i.test(link)) return 'The image link must start with http:// or https://.'
@@ -111,6 +114,7 @@ async function submit() {
     website: website.value.trim(),
     product_name: productName.value.trim(),
     quoted_price: String(price.value).trim(),
+    claimed_mrp: String(claimedMrp.value).trim(),
     image_url: imageUrl.value.trim(),
   }
   for (const [k, v] of Object.entries(fields)) if (v) form.append(k, v)
@@ -179,6 +183,12 @@ async function submit() {
           <label for="price">Price quoted to you (Rs)</label>
           <input id="price" v-model="price" type="number" inputmode="numeric" min="1" :max="MAX_PRICE" step="1"
                  placeholder="e.g. 699" />
+        </div>
+        <div class="field">
+          <label for="mrp">Original price shown by the store (optional)</label>
+          <input id="mrp" v-model="claimedMrp" type="number" inputmode="numeric" min="1" :max="MAX_PRICE" step="1"
+                 placeholder="e.g. 1999" />
+          <span class="hint">The crossed-out "MRP" or "was" price, in Rs.</span>
         </div>
         <div class="field">
           <label for="photo">Product photo</label>

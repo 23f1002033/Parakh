@@ -90,7 +90,8 @@ def test_bad_inputs(api):
 
 def test_demos_and_rules(api):
     demos = api.get("/api/demos").json()
-    assert [d["name"] for d in demos] == ["boat"]
+    assert [d["name"] for d in demos] == ["boat", "shopyvision", "shanaya"]
+    assert demos[1]["claimed_mrp"] == 1999 and demos[2]["image_path"] is None
     assert demos[0]["quoted_price"] == 699 and demos[0]["product_name"] == "boAt Rockerz 110"
     img = api.get(demos[0]["image_path"])
     assert img.status_code == 200 and img.headers["content-type"] == "image/png"
@@ -122,3 +123,12 @@ def test_report_rate_limit(make_settings):
         path = "/api/stores/instagram/red.store/reports"
         assert [c.post(path, json={"outcome": "other"}).status_code for _ in range(3)] == [201, 201, 429]
         assert "Retry-After" in c.post(path, json={"outcome": "other"}).headers
+
+
+def test_claimed_mrp_is_stored_and_validated(api):
+    assert post_check(api, claimed_mrp="0").status_code == 422
+    r = post_check(api, claimed_mrp="1999", image_url="https://i.in/a.jpg")
+    body = api.get(f"/api/checks/{r.json()['id']}").json()
+    assert body["claimed_mrp"] == 1999
+    mrp = [i for i in body["evidence"]["price"] if "original price" in i["finding"]]
+    assert mrp and mrp[0]["severity"] == "warn"

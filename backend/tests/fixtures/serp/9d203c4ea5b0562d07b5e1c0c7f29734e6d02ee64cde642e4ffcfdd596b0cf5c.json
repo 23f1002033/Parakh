@@ -1,0 +1,24 @@
+{
+ "search_metadata": {
+  "id": "6ac9f9250e285d92f702c912",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/chik5Uexb6DTDIQFMQzLm7jNoD7jlYQxXLN2T3BLNe8/6ac9f9250e285d92f702c912.json",
+  "markdown_endpoint": "https://serpapi.com/searches/chik5Uexb6DTDIQFMQzLm7jNoD7jlYQxXLN2T3BLNe8/6ac9f9250e285d92f702c912.md",
+  "created_at": "2026-10-10 08:36:53 UTC",
+  "processed_at": "2026-10-10 08:36:53 UTC",
+  "google_forums_url": "https://www.google.com/search?q=%28%22fashion_insta_by_shanaya%22+OR+%22fashion+insta+by+shanaya%22%29&hl=en&gl=in&device=desktop&udm=18",
+  "raw_html_file": "https://serpapi.com/searches/chik5Uexb6DTDIQFMQzLm7jNoD7jlYQxXLN2T3BLNe8/6ac9f9250e285d92f702c912.html",
+  "total_time_taken": 11.84
+ },
+ "search_parameters": {
+  "q": "(\"fashion_insta_by_shanaya\" OR \"fashion insta by shanaya\")",
+  "engine": "google_forums",
+  "device": "desktop",
+  "gl": "in",
+  "hl": "en"
+ },
+ "search_information": {
+  "organic_results_state": "Fully empty"
+ },
+ "error": "Google Forums hasn't returned any results for this query."
+}

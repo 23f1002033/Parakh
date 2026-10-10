@@ -42,3 +42,18 @@ async def test_replay_delay_waits_in_replay_only(make_client, monkeypatch):
     with pytest.raises(Exception):
         await make_client(serpapi_mode="replay").search("google", {"q": "none"})
     assert waits == []
+
+
+def test_init_db_adds_claimed_mrp_to_an_old_checks_table(tmp_path):
+    from sqlalchemy import inspect, text
+
+    from app.db import init_db, make_engine
+    engine = make_engine(f"sqlite:///{tmp_path / 'old.db'}")
+    with engine.begin() as conn:
+        conn.execute(text("CREATE TABLE checks (id VARCHAR(32) PRIMARY KEY, quoted_price INTEGER)"))
+        conn.execute(text("INSERT INTO checks (id, quoted_price) VALUES ('a', 699)"))
+    init_db(engine)
+    init_db(engine)
+    assert "claimed_mrp" in {c["name"] for c in inspect(engine).get_columns("checks")}
+    with engine.connect() as conn:
+        assert conn.execute(text("SELECT quoted_price, claimed_mrp FROM checks")).one() == (699, None)

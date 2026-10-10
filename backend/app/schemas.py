@@ -43,6 +43,7 @@ class CheckOut(BaseModel):
     finished_at: datetime | None
     product_name: str | None
     quoted_price: int | None
+    claimed_mrp: int | None
     has_image: bool
     image_url: str | None
     stores: list[StoreRef]
@@ -89,5 +90,6 @@ class Demo(BaseModel):
     website: str | None
     product_name: str | None
     quoted_price: int | None
+    claimed_mrp: int | None = None
     image: str | None
     image_path: str | None

@@ -1,6 +1,6 @@
 # Parakh - Test Report
 
-Date: 10 Oct 2026. Test plan: docs/03-test-plan.md version 1.3. Design 1.5.
+Date: 10 Oct 2026. Test plan: docs/03-test-plan.md version 1.6. Design 1.6.
 
 ## Environment
 
@@ -15,27 +15,27 @@ Date: 10 Oct 2026. Test plan: docs/03-test-plan.md version 1.3. Design 1.5.
 
 ## pytest result
 
-Command: `cd backend && uv run pytest -q`. Result: **92 passed, 0 failed, 0
+Command: `cd backend && uv run pytest -q`. Result: **100 passed, 0 failed, 0
 skipped**. One warning comes from a library (Starlette notes that its test
 client uses httpx); it does not affect results.
 
 | File | Tests | Passed |
 |---|---|---|
-| tests/test_api.py | 12 | 12 |
+| tests/test_api.py | 13 | 13 |
 | tests/test_api_meta.py | 1 | 1 |
 | tests/test_engines.py | 6 | 6 |
-| tests/test_limits.py | 3 | 3 |
+| tests/test_limits.py | 4 | 4 |
 | tests/test_normalize.py | 6 | 6 |
 | tests/test_record_tool.py | 1 | 1 |
-| tests/test_runner.py | 6 | 6 |
-| tests/test_serp_client.py | 13 | 13 |
+| tests/test_runner.py | 7 | 7 |
+| tests/test_serp_client.py | 14 | 14 |
 | tests/test_signals_account.py | 7 | 7 |
-| tests/test_signals_complaints.py | 8 | 8 |
+| tests/test_signals_complaints.py | 9 | 9 |
 | tests/test_signals_photo.py | 5 | 5 |
-| tests/test_signals_price.py | 14 | 14 |
+| tests/test_signals_price.py | 17 | 17 |
 | tests/test_signals_verdict.py | 8 | 8 |
 | tests/test_spa.py | 2 | 2 |
-| **Total** | **92** | **92** |
+| **Total** | **100** | **100** |
 
 ## Results by test ID
 
@@ -57,6 +57,8 @@ client uses httpx); it does not affect results.
 | T-PRICE-7 | test_signals_price.py::test_price_7_no_product_name | Pass |
 | T-PRICE-8 | test_signals_price.py::test_price_8_refurbished_dropped | Pass |
 | T-PRICE-9 | test_signals_price.py::test_price_9_far_below_without_brand_is_info_not_good | Pass |
+| T-PRICE-10 | test_signals_price.py::test_store_own_listing_is_dropped | Pass |
+| T-PRICE-11 | test_signals_price.py::test_mrp_far_above_median_adds_caution, test_mrp_near_median_adds_nothing_and_needs_a_median | Pass |
 | T-PHOTO-1 | test_signals_photo.py::test_photo_1_marketplace | Pass |
 | T-PHOTO-2 | test_signals_photo.py::test_photo_2_no_matches_is_never_good | Pass |
 | T-PHOTO-3 | test_signals_photo.py::test_photo_3_many_sites | Pass |
@@ -65,11 +67,13 @@ client uses httpx); it does not affect results.
 | T-COMP-3 | test_signals_complaints.py::test_comp_3_nothing_is_info_not_good | Pass |
 | T-COMP-4 | test_signals_complaints.py::test_comp_4_positive_is_good | Pass |
 | T-COMP-5 | test_signals_complaints.py::test_comp_5_boat_nirvana_product_threads_do_not_count | Pass (see note 1) |
+| T-COMP-6 | test_signals_complaints.py::test_store_own_pages_are_dropped | Pass |
 | T-ACC-1 | test_signals_account.py::test_acc_1_private | Pass |
 | T-ACC-2 | test_signals_account.py::test_acc_2_very_new | Pass |
 | T-ACC-3 | test_signals_account.py::test_acc_3_bio_link_differs | Pass |
 | T-ACC-4 | test_signals_account.py::test_acc_4_verified | Pass |
 | T-ACC-5 | test_signals_account.py::test_acc_5_missing_posts_info_only | Pass |
+| T-ACC-6 | test_runner.py::test_instagram_profile_not_found_is_a_caution | Pass |
 | T-VERD-1 | test_signals_verdict.py::test_verd_1_one_signal | Pass |
 | T-VERD-2 | test_signals_verdict.py::test_verd_2_high_risk | Pass |
 | T-VERD-3 | test_signals_verdict.py::test_verd_3_careful | Pass |

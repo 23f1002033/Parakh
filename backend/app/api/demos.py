@@ -19,7 +19,7 @@ def load_demos() -> list[dict]:
 @router.get("/demos", response_model=list[Demo])
 def list_demos():
     return [
-        Demo(**{k: e.get(k) for k in ("name", "instagram", "website", "product_name", "quoted_price", "image")},
+        Demo(**{k: e.get(k) for k in ("name", "instagram", "website", "product_name", "quoted_price", "claimed_mrp", "image")},
              image_path=f"/api/demos/{e['name']}/image" if e.get("image") else None)
         for e in load_demos()
     ]

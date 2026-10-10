@@ -6,6 +6,8 @@ PRICE_CONTAINMENT = 0.6
 PRICE_BAD_RATIO = 3.0
 PRICE_WARN_RATIO = 1.8
 PRICE_LOW_RATIO = 0.4
+# A store's "original price" this far above the median makes the discount look bigger than it is.
+PRICE_MRP_RATIO = 2.0
 PRICE_SOURCES_SHOWN = 5
 ALLOWED_CONDITIONS = ("", "new")
 
@@ -66,6 +68,7 @@ def rules_as_data() -> dict:
             "bad_ratio": PRICE_BAD_RATIO,
             "warn_ratio": PRICE_WARN_RATIO,
             "low_ratio": PRICE_LOW_RATIO,
+            "mrp_ratio": PRICE_MRP_RATIO,
             "sources": ["Google Lens", "Google Shopping (when Lens has fewer than 3 matching listings)"],
             "major_retailers": list(MAJOR_RETAILERS),
         },

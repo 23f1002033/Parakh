@@ -18,6 +18,15 @@ def indian_number(n: int) -> str:
     return ("-" if n < 0 else "") + ",".join(groups + [tail])
 
 
+NOT_FOUND = ("No Instagram account found with this handle. It may have been deleted or renamed, "
+             "or the handle may be mistyped.")
+
+
+def not_found(handle: str) -> SignalResult:
+    link = [source(f"instagram.com/{handle}", f"https://www.instagram.com/{handle}/", "instagram_profile")]
+    return done(Item("warn", NOT_FOUND, None, link, {"handle": handle, "found": False}))
+
+
 def evaluate(p: InstagramProfile, website: str | None, today: date) -> SignalResult:
     link = [source(f"@{p.handle} on Instagram", p.url, "instagram_profile")]
     dates = sorted(d for d in (post.posted_on for post in p.posts) if d)

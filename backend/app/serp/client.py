@@ -19,8 +19,11 @@ SEARCH_URL = "https://serpapi.com/search.json"
 KEY_EXCLUDED = {"api_key", "no_cache", "output"}
 UPLOAD_ENGINE = "image_upload"
 CAP_ERROR = "daily limit reached"
-# SerpApi reports an empty result page through the "error" field; that is data, not a failure.
+# SerpApi reports these outcomes through the "error" field; they are answers, not failures,
+# so they are cached and recorded like any other response.
 NO_RESULTS = "hasn't returned any results"
+PROFILE_NOT_FOUND = "profile not found"
+DATA_ERRORS = (NO_RESULTS, PROFILE_NOT_FOUND)
 KEY_IN_URL = re.compile(r"[?&]api_key=[^&\"'\s]*")
 
 
@@ -160,7 +163,7 @@ class SerpClient:
         except ValueError:
             raise EngineError(f"{engine}: HTTP {resp.status_code}, body is not JSON") from None
         error = data.get("error") if isinstance(data, dict) else "unexpected response"
-        if error and NO_RESULTS not in str(error):
+        if error and not any(m in str(error).lower() for m in DATA_ERRORS):
             raise EngineError(self._scrub_msg(f"{engine}: HTTP {resp.status_code}: {error}"))
         if resp.status_code >= 400:
             raise EngineError(f"{engine}: HTTP {resp.status_code}")

@@ -128,3 +128,28 @@ async def test_same_check_twice_spends_no_live_searches(make_settings, sessions)
     assert b.live_searches == 0 and b.cached_searches == 5
     assert route.call_count == 5
     await client.aclose()
+
+
+async def test_instagram_profile_not_found_is_a_caution(sessions):
+    from app.serp.client import EngineError
+
+    class NotFound(StubClient):
+        async def search(self, engine, params, check_id=None, image=None, timeout=None):
+            if engine == "instagram_profile":
+                self.calls.append(engine)
+                return {"search_metadata": {"status": "Success"}, "error": "Instagram profile not found."}
+            return await super().search(engine, params, check_id, image, timeout)
+
+    check_id = new_check(sessions)
+    await Runner(check_id, CheckInputs(handle="red.store"), NotFound(), sessions).run()
+    c, ev = load(sessions, check_id)
+    assert c.status == "done" and c.signal_status["account"] == "done"
+    acc = [e for e in ev if e.signal == "account"]
+    assert [(e.severity, e.finding[:43]) for e in acc] == [("warn", "No Instagram account found with this handle")]
+    assert c.signal_status["complaints"] == "done"
+
+    other = StubClient(fail={"instagram_profile": EngineError("instagram_profile: HTTP 200: Instagram profile is private API error")})
+    check_id = new_check(sessions, "red.store9")
+    await Runner(check_id, CheckInputs(handle="red.store"), other, sessions).run()
+    c, _ = load(sessions, check_id)
+    assert c.signal_status["account"] == "unavailable"

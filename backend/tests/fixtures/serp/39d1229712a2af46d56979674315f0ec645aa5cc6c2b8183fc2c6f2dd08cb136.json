@@ -1,0 +1,333 @@
+{
+ "search_metadata": {
+  "id": "6ac9fa00fbbebb3c0fa47605",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/DBhoJ7Uf41V_u016SZH1BbGV2PPvo58N2kG3Jliw5nM/6ac9fa00fbbebb3c0fa47605.json",
+  "markdown_endpoint": "https://serpapi.com/searches/DBhoJ7Uf41V_u016SZH1BbGV2PPvo58N2kG3Jliw5nM/6ac9fa00fbbebb3c0fa47605.md",
+  "created_at": "2026-10-10 08:40:32 UTC",
+  "processed_at": "2026-10-10 08:40:32 UTC",
+  "google_forums_url": "https://www.google.com/search?q=%22shopyvision%22&hl=en&gl=in&device=desktop&udm=18",
+  "raw_html_file": "https://serpapi.com/searches/DBhoJ7Uf41V_u016SZH1BbGV2PPvo58N2kG3Jliw5nM/6ac9fa00fbbebb3c0fa47605.html",
+  "total_time_taken": 6.31
+ },
+ "search_parameters": {
+  "q": "\"shopyvision\"",
+  "engine": "google_forums",
+  "device": "desktop",
+  "gl": "in",
+  "hl": "en"
+ },
+ "search_information": {
+  "organic_results_state": "Results for exact spelling"
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "title": "Is shopy vision genuine?",
+   "link": "https://www.quora.com/Is-shopy-vision-genuine",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaAHrOzAV-0IuhJryd4JsYQV24Hr0We1nqpSj5PFnI3Ld3hcoHoRnodnySPZhrjJzewdP-EUfhHYijR0NRMx_BLlO6Pyu6fZE2jPNMVW8LXQAj_c52MKc3Bne2zWgK9Ra5RPzByjHLYqA&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECB8QAQ&uoh=1",
+   "displayed_meta": "60+ answers \u00b7 2 years ago",
+   "favicon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp",
+   "snippet": "Is shopy vision genuine?",
+   "sitelinks": {
+    "list": [
+     {
+      "title": "Is Shopy Vision trustworthy?",
+      "link": "https://www.quora.com/Is-Shopy-Vision-trustworthy",
+      "answer_count": 44,
+      "date": "19 Jul 2021"
+     },
+     {
+      "title": "How is Shopy Vision?",
+      "link": "https://www.quora.com/How-is-Shopy-Vision",
+      "answer_count": 20,
+      "date": "17 Jan 2024"
+     }
+    ]
+   },
+   "about_this_result": {
+    "source": {
+     "description": "I ordered a Mobile in 2025 through shopyvision and got a defective one. They don't replace or refund. When complained, they asked to contact ...",
+     "source_info_link": "https://www.quora.com/Is-shopy-vision-genuine",
+     "icon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpoBL2dvdG8_dXJsPUNBRVNhQUhyT3pBVi0wSXVoSnJ5ZDRKc1lRVjI0SHIwV2UxbnFwU2o1UEZuSTNMZDNoY29Ib1Jub2RueVNQWmhyakp6ZXdkUC1FVWZoSFlpalIwTlJNeF9CTGxPNlB5dTZmWkUyalBOTVZXOExYUUFqX2M1Mk1LYzNCbmUyeldnSzlSYTVSUHpCeWpITFlxQRIEGgIIABqiAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD-AggAEAAYACAAKhIKC3Nob3B5dmlzaW9uFdKgnDwymgEvZ290bz91cmw9Q0FFU2FBSHJPekFWLTBJdWhKcnlkNEpzWVFWMjRIcjBXZTFucXBTajVQRm5JM0xkM2hjb0hvUm5vZG55U1BaaHJqSnpld2RQLUVVZmhIWWlqUjBOUk14X0JMbE82UHl1NmZaRTJqUE5NVlc4TFhRQWpfYzUyTUtjM0JuZTJ6V2dLOVJhNVJQekJ5akhMWXFBOiBJcyBzaG9weSB2aXNpb24gZ2VudWluZT8gLSBRdW9yYUKgAUkgb3JkZXJlZCBhIE1vYmlsZSBpbiAyMDI1IHRocm91Z2ggPGI-c2hvcHl2aXNpb248L2I-IGFuZCBnb3QgYSBkZWZlY3RpdmUgb25lLiBUaGV5IGRvbiYjMzk7dCByZXBsYWNlIG9yIHJlZnVuZC4gV2hlbiBjb21wbGFpbmVkLCB0aGV5IGFza2VkIHRvIGNvbnRhY3QmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpoBL2dvdG8_dXJsPUNBRVNhQUhyT3pBVi0wSXVoSnJ5ZDRKc1lRVjI0SHIwV2UxbnFwU2o1UEZuSTNMZDNoY29Ib1Jub2RueVNQWmhyakp6ZXdkUC1FVWZoSFlpalIwTlJNeF9CTGxPNlB5dTZmWkUyalBOTVZXOExYUUFqX2M1Mk1LYzNCbmUyeldnSzlSYTVSUHpCeWpITFlxQRIEGgIIABqiAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD-AggAEAAYACAAKhIKC3Nob3B5dmlzaW9uFdKgnDwymgEvZ290bz91cmw9Q0FFU2FBSHJPekFWLTBJdWhKcnlkNEpzWVFWMjRIcjBXZTFucXBTajVQRm5JM0xkM2hjb0hvUm5vZG55U1BaaHJqSnpld2RQLUVVZmhIWWlqUjBOUk14X0JMbE82UHl1NmZaRTJqUE5NVlc4TFhRQWpfYzUyTUtjM0JuZTJ6V2dLOVJhNVJQekJ5akhMWXFBOiBJcyBzaG9weSB2aXNpb24gZ2VudWluZT8gLSBRdW9yYUKgAUkgb3JkZXJlZCBhIE1vYmlsZSBpbiAyMDI1IHRocm91Z2ggPGI-c2hvcHl2aXNpb248L2I-IGFuZCBnb3QgYSBkZWZlY3RpdmUgb25lLiBUaGV5IGRvbiYjMzk7dCByZXBsYWNlIG9yIHJlZnVuZC4gV2hlbiBjb21wbGFpbmVkLCB0aGV5IGFza2VkIHRvIGNvbnRhY3QmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "Quora"
+  },
+  {
+   "position": 2,
+   "title": "UTM Analytics Overview and Data Not Loading the website",
+   "link": "https://wordpress.org/support/topic/utm-analytics-overview-and-data-not-loading-the-website/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlwEB6zswFZfXcurFgMBx8egFgfnhVQxOAN1brd4fAC1tV0WXVc9x_gqq7a-K_i8ArdpLytDPe3dmlwY14eRZf2rqt3hXtj89MSZGPyjQ99L1tiUPjQHP8cfYAUBe0bG2tPNY5NXOwzOfo-xadBeNydnL3Wq70kAZ92KRam3qCf5gM6S1s2oa2Ij-93-aE6egQkz0Zm3TlDMC&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECBkQAQ&uoh=1",
+   "displayed_link": "https://wordpress.org \u203a support \u203a topic \u203a utm-analytics-...",
+   "favicon": "https://serpapi.com/images/i/UklGRgwBAABXRUJQVlA4IAABAABwBgCdASocABwAPtE-tFooIigoFAEAGglpAAgQOIGL6ZkXp3UK_0zDs1LcDD6WypINoMGC0Fq8x9Kc2QAA_vYC3rmLm46ijr47sLvwW_HYjV5-d8GScCzfY18SI5ndiUTMeei30YQTY7jt-euo_cf0quDKX76EhX6cf3XvlB8yltoQVtBp6GQV8G5QZ3xOlz5hXcLquMz2eFCXTaT2j7QvF4uC4atbw9IED9lFmKML_R549WqGBGLve-4gtszUcplr5e--jyOMG9rm7yCCNTJzejprof-z50rAJh1N3lH3m91xzeba-UL1tF9_Rijhb6zLP6nnrs05p1oo90HkoAAA.webp",
+   "snippet": "Probably the plugin conflict with others plugin. Can you check the problem after deactivated other plugin one by one? Thanks. Thread Starter shopyvision.",
+   "snippet_highlighted_words": [
+    "shopyvision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Probably the plugin conflict with others plugin. Can you check the problem after deactivated other plugin one by one? Thanks. Thread Starter shopyvision.",
+     "source_info_link": "https://wordpress.org/support/topic/utm-analytics-overview-and-data-not-loading-the-website/",
+     "icon": "https://serpapi.com/images/i/UklGRgwBAABXRUJQVlA4IAABAABwBgCdASocABwAPtE-tFooIigoFAEAGglpAAgQOIGL6ZkXp3UK_0zDs1LcDD6WypINoMGC0Fq8x9Kc2QAA_vYC3rmLm46ijr47sLvwW_HYjV5-d8GScCzfY18SI5ndiUTMeei30YQTY7jt-euo_cf0quDKX76EhX6cf3XvlB8yltoQVtBp6GQV8G5QZ3xOlz5hXcLquMz2eFCXTaT2j7QvF4uC4atbw9IED9lFmKML_R549WqGBGLve-4gtszUcplr5e--jyOMG9rm7yCCNTJzejprof-z50rAJh1N3lH3m91xzeba-UL1tF9_Rijhb6zLP6nnrs05p1oo90HkoAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZaZlhjdXJGZ01CeDhlZ0ZnZm5oVlF4T0FOMWJyZDRmQUMxdFYwV1hWYzl4X2dxcTdhLUtfaThBcmRwTHl0RFBlM2RtbHdZMTRlUlpmMnJxdDNoWHRqODlNU1pHUHlqUTk5TDF0aVVQalFIUDhjZllBVUJlMGJHMnRQTlk1TlhPd3pPZm8teGFkQmVOeWRuTDNXcTcwa0FaOTJLUmFtM3FDZjVnTTZTMXMyb2EySWotOTMtYUU2ZWdRa3owWm0zVGxETUMSBBoCCAAa-QMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA1QMIABAAGAAgACoSCgtzaG9weXZpc2lvbhXScx4_MtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZaZlhjdXJGZ01CeDhlZ0ZnZm5oVlF4T0FOMWJyZDRmQUMxdFYwV1hWYzl4X2dxcTdhLUtfaThBcmRwTHl0RFBlM2RtbHdZMTRlUlpmMnJxdDNoWHRqODlNU1pHUHlqUTk5TDF0aVVQalFIUDhjZllBVUJlMGJHMnRQTlk1TlhPd3pPZm8teGFkQmVOeWRuTDNXcTcwa0FaOTJLUmFtM3FDZjVnTTZTMXMyb2EySWotOTMtYUU2ZWdRa3owWm0zVGxETUM6N1VUTSBBbmFseXRpY3MgT3ZlcnZpZXcgYW5kIERhdGEgTm90IExvYWRpbmcgdGhlIHdlYnNpdGVCoAFQcm9iYWJseSB0aGUgcGx1Z2luIGNvbmZsaWN0IHdpdGggb3RoZXJzIHBsdWdpbi4gQ2FuIHlvdSBjaGVjayB0aGUgcHJvYmxlbSBhZnRlciBkZWFjdGl2YXRlZCBvdGhlciBwbHVnaW4gb25lIGJ5IG9uZT8gVGhhbmtzLiBUaHJlYWQgU3RhcnRlciA8Yj5zaG9weXZpc2lvbjwvYj4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZaZlhjdXJGZ01CeDhlZ0ZnZm5oVlF4T0FOMWJyZDRmQUMxdFYwV1hWYzl4X2dxcTdhLUtfaThBcmRwTHl0RFBlM2RtbHdZMTRlUlpmMnJxdDNoWHRqODlNU1pHUHlqUTk5TDF0aVVQalFIUDhjZllBVUJlMGJHMnRQTlk1TlhPd3pPZm8teGFkQmVOeWRuTDNXcTcwa0FaOTJLUmFtM3FDZjVnTTZTMXMyb2EySWotOTMtYUU2ZWdRa3owWm0zVGxETUMSBBoCCAAa-QMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA1QMIABAAGAAgACoSCgtzaG9weXZpc2lvbhXScx4_MtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZaZlhjdXJGZ01CeDhlZ0ZnZm5oVlF4T0FOMWJyZDRmQUMxdFYwV1hWYzl4X2dxcTdhLUtfaThBcmRwTHl0RFBlM2RtbHdZMTRlUlpmMnJxdDNoWHRqODlNU1pHUHlqUTk5TDF0aVVQalFIUDhjZllBVUJlMGJHMnRQTlk1TlhPd3pPZm8teGFkQmVOeWRuTDNXcTcwa0FaOTJLUmFtM3FDZjVnTTZTMXMyb2EySWotOTMtYUU2ZWdRa3owWm0zVGxETUM6N1VUTSBBbmFseXRpY3MgT3ZlcnZpZXcgYW5kIERhdGEgTm90IExvYWRpbmcgdGhlIHdlYnNpdGVCoAFQcm9iYWJseSB0aGUgcGx1Z2luIGNvbmZsaWN0IHdpdGggb3RoZXJzIHBsdWdpbi4gQ2FuIHlvdSBjaGVjayB0aGUgcHJvYmxlbSBhZnRlciBkZWFjdGl2YXRlZCBvdGhlciBwbHVnaW4gb25lIGJ5IG9uZT8gVGhhbmtzLiBUaHJlYWQgU3RhcnRlciA8Yj5zaG9weXZpc2lvbjwvYj4uIgIQAUgAWABoAA",
+   "source": "WordPress.org",
+   "read_more_link": "https://wordpress.org/support/topic/utm-analytics-overview-and-data-not-loading-the-website/#:~:text=There%20is%20no%20error%20I'm,shopyvision"
+  },
+  {
+   "position": 3,
+   "title": "Charging pin tarie jakklna sikgipade raangbo gital dkainga ...",
+   "link": "https://www.facebook.com/groups/2098377243789008/posts/3838478039778911/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFSo-pXIIKruWEiVa7usjRi6BPu0rP6I8f6PN_U85LTAQkrVktwLIazciBPk4rAFP5zfr-mgpzWeVN9qj5-2qV_YrQFmchJbqE-JAgp_aNx0JEjsm_43U1iXpeTIeNZ-CstEIfVG8WjEVM3NCXd2y-3k3L-98VQxXaY6P6OC2uQ&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECBsQAQ&uoh=1",
+   "displayed_meta": "7 comments \u00b7 10 months ago",
+   "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+   "snippet": "OCR: 5:53 PM O \u03b8 Shopy ShopyVision Vision X LAVA Buy Lava T81N 4G Calling Tablet OFF \u20b98,999.00* 50% In stock Visit Check website for or ...",
+   "snippet_highlighted_words": [
+    "ShopyVision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "OCR: 5:53 PM O \u03b8 Shopy ShopyVision Vision X LAVA Buy Lava T81N 4G Calling Tablet OFF \u20b98,999.00* 50% In stock Visit Check website for or ...",
+     "source_info_link": "https://www.facebook.com/groups/2098377243789008/posts/3838478039778911/",
+     "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZTby1wWElJS3J1V0VpVmE3dXNqUmk2QlB1MHJQNkk4ZjZQTl9VODVMVEFRa3JWa3R3TElhemNpQlBrNHJBRlA1emZyLW1ncHpXZVZOOXFqNS0ycVZfWXJRRm1jaEpicUUtSkFncF9hTngwSkVqc21fNDNVMWlYcGVUSWVOWi1Dc3RFSWZWRzhXakVWTTNOQ1hkMnktM2szTC05OFZReFhhWTZQNk9DMnVREgQaAggAGuADEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQLwDCAAQABgAIAAqEgoLc2hvcHl2aXNpb24VMEFKPzLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGU28tcFhJSUtydVdFaVZhN3VzalJpNkJQdTByUDZJOGY2UE5fVTg1TFRBUWtyVmt0d0xJYXpjaUJQazRyQUZQNXpmci1tZ3B6V2VWTjlxajUtMnFWX1lyUUZtY2hKYnFFLUpBZ3BfYU54MEpFanNtXzQzVTFpWHBlVEllTlotQ3N0RUlmVkc4V2pFVk0zTkNYZDJ5LTNrM0wtOThWUXhYYVk2UDZPQzJ1UTo-Q2hhcmdpbmcgcGluIHRhcmllIGpha2tsbmEgc2lrZ2lwYWRlIHJhYW5nYm8gZ2l0YWwgZGthaW5nYSAuLi5CmgFPQ1I6IDU6NTMgUE0gTyDOuCBTaG9weSA8Yj5TaG9weVZpc2lvbjwvYj4gVmlzaW9uIFggTEFWQSBCdXkgTGF2YSBUODFOIDRHIENhbGxpbmcgVGFibGV0IE9GRiDigrk4LDk5OS4wMCogNTAlIEluIHN0b2NrIFZpc2l0IENoZWNrIHdlYnNpdGUgZm9yIG9yJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZTby1wWElJS3J1V0VpVmE3dXNqUmk2QlB1MHJQNkk4ZjZQTl9VODVMVEFRa3JWa3R3TElhemNpQlBrNHJBRlA1emZyLW1ncHpXZVZOOXFqNS0ycVZfWXJRRm1jaEpicUUtSkFncF9hTngwSkVqc21fNDNVMWlYcGVUSWVOWi1Dc3RFSWZWRzhXakVWTTNOQ1hkMnktM2szTC05OFZReFhhWTZQNk9DMnVREgQaAggAGuADEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQLwDCAAQABgAIAAqEgoLc2hvcHl2aXNpb24VMEFKPzLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGU28tcFhJSUtydVdFaVZhN3VzalJpNkJQdTByUDZJOGY2UE5fVTg1TFRBUWtyVmt0d0xJYXpjaUJQazRyQUZQNXpmci1tZ3B6V2VWTjlxajUtMnFWX1lyUUZtY2hKYnFFLUpBZ3BfYU54MEpFanNtXzQzVTFpWHBlVEllTlotQ3N0RUlmVkc4V2pFVk0zTkNYZDJ5LTNrM0wtOThWUXhYYVk2UDZPQzJ1UTo-Q2hhcmdpbmcgcGluIHRhcmllIGpha2tsbmEgc2lrZ2lwYWRlIHJhYW5nYm8gZ2l0YWwgZGthaW5nYSAuLi5CmgFPQ1I6IDU6NTMgUE0gTyDOuCBTaG9weSA8Yj5TaG9weVZpc2lvbjwvYj4gVmlzaW9uIFggTEFWQSBCdXkgTGF2YSBUODFOIDRHIENhbGxpbmcgVGFibGV0IE9GRiDigrk4LDk5OS4wMCogNTAlIEluIHN0b2NrIFZpc2l0IENoZWNrIHdlYnNpdGUgZm9yIG9yJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Facebook \u00b7 Garobadha OLX",
+   "read_more_link": "https://www.facebook.com/groups/2098377243789008/posts/3838478039778911/#:~:text=OCR%3A%205%3A53%20PM%20O%20%CE%B8,or%20latest%20pricing%20and%20availability."
+  },
+  {
+   "position": 4,
+   "title": "Is this fake, Help me guys : r/CMFTech",
+   "link": "https://www.reddit.com/r/CMFTech/comments/1wvzhx0/is_this_fake_help_me_guys/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShwEB6zswFf5GVxaONmNtJfhenCZbCvSpL2B1x8cTt8Syg0hpTdKlOEH38GMwWzxnkEpPUQEK3As4KxdZTE9DuuaINQnNh0uhIiJMbJ_cEDGBmsI2K_tgDSXI3xJ1buAdOqGfWhUx3lNbf_AgE3dvQiDkQ6KGZf3DuLgEjOCnNb-JqJ2IZ5HdSZ8&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECCAQAQ&uoh=1",
+   "displayed_meta": "50+ comments \u00b7 1 week ago",
+   "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+   "snippet": "calls or messages after delivery. Here are the fake sellers I purchased from: Shopy Vision (\u20b92999) - https://www.shopyvision.com/product ...",
+   "snippet_highlighted_words": [
+    "shopyvision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "calls or messages after delivery. Here are the fake sellers I purchased from: Shopy Vision (\u20b92999) - https://www.shopyvision.com/product ...",
+     "source_info_link": "https://www.reddit.com/r/CMFTech/comments/1wvzhx0/is_this_fake_help_me_guys/",
+     "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZmNUdWeGFPTm1OdEpmaGVuQ1piQ3ZTcEwyQjF4OGNUdDhTeWcwaHBUZEtsT0VIMzhHTXdXenhua0VwUFVRRUszQXM0S3hkWlRFOUR1dWFJTlFuTmgwdWhJaUpNYkpfY0VER0Jtc0kyS190Z0RTWEkzeEoxYnVBZE9xR2ZXaFV4M2xOYmZfQWdFM2R2UWlEa1E2S0daZjNEdUxnRWpPQ25OYi1KcUoySVo1SGRTWjgSBBoCCAAa1gMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAsgMIABAAGAAgACoSCgtzaG9weXZpc2lvbhUn3gY8MsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZmNUdWeGFPTm1OdEpmaGVuQ1piQ3ZTcEwyQjF4OGNUdDhTeWcwaHBUZEtsT0VIMzhHTXdXenhua0VwUFVRRUszQXM0S3hkWlRFOUR1dWFJTlFuTmgwdWhJaUpNYkpfY0VER0Jtc0kyS190Z0RTWEkzeEoxYnVBZE9xR2ZXaFV4M2xOYmZfQWdFM2R2UWlEa1E2S0daZjNEdUxnRWpPQ25OYi1KcUoySVo1SGRTWjg6L0lzIHRoaXMgZmFrZSwgSGVscCBtZSBndXlzIDogci9DTUZUZWNoIC0gUmVkZGl0QpoBY2FsbHMgb3IgbWVzc2FnZXMgYWZ0ZXIgZGVsaXZlcnkuIEhlcmUgYXJlIHRoZSBmYWtlIHNlbGxlcnMgSSBwdXJjaGFzZWQgZnJvbTogU2hvcHkgVmlzaW9uICjigrkyOTk5KSAtIGh0dHBzOi8vd3d3LjxiPnNob3B5dmlzaW9uPC9iPi5jb20vcHJvZHVjdCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZmNUdWeGFPTm1OdEpmaGVuQ1piQ3ZTcEwyQjF4OGNUdDhTeWcwaHBUZEtsT0VIMzhHTXdXenhua0VwUFVRRUszQXM0S3hkWlRFOUR1dWFJTlFuTmgwdWhJaUpNYkpfY0VER0Jtc0kyS190Z0RTWEkzeEoxYnVBZE9xR2ZXaFV4M2xOYmZfQWdFM2R2UWlEa1E2S0daZjNEdUxnRWpPQ25OYi1KcUoySVo1SGRTWjgSBBoCCAAa1gMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAsgMIABAAGAAgACoSCgtzaG9weXZpc2lvbhUn3gY8MsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZmNUdWeGFPTm1OdEpmaGVuQ1piQ3ZTcEwyQjF4OGNUdDhTeWcwaHBUZEtsT0VIMzhHTXdXenhua0VwUFVRRUszQXM0S3hkWlRFOUR1dWFJTlFuTmgwdWhJaUpNYkpfY0VER0Jtc0kyS190Z0RTWEkzeEoxYnVBZE9xR2ZXaFV4M2xOYmZfQWdFM2R2UWlEa1E2S0daZjNEdUxnRWpPQ25OYi1KcUoySVo1SGRTWjg6L0lzIHRoaXMgZmFrZSwgSGVscCBtZSBndXlzIDogci9DTUZUZWNoIC0gUmVkZGl0QpoBY2FsbHMgb3IgbWVzc2FnZXMgYWZ0ZXIgZGVsaXZlcnkuIEhlcmUgYXJlIHRoZSBmYWtlIHNlbGxlcnMgSSBwdXJjaGFzZWQgZnJvbTogU2hvcHkgVmlzaW9uICjigrkyOTk5KSAtIGh0dHBzOi8vd3d3LjxiPnNob3B5dmlzaW9uPC9iPi5jb20vcHJvZHVjdCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Reddit \u00b7 r/CMFTech",
+   "read_more_link": "https://www.reddit.com/r/CMFTech/comments/1wvzhx0/is_this_fake_help_me_guys/#:~:text=calls%20or%20messages%20after%20delivery.,https%3A%2F%2Fwww.shopyvision.com%2Fproduct"
+  },
+  {
+   "position": 5,
+   "title": "Woocommerce -> Status -> Tools Showing ERROR",
+   "link": "https://wordpress.org/support/topic/woocommerce-status-tools-showing-error/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShgEB6zswFc5iYI-eKoJgGujURX4eNa6Ldlxm-teH2KbiEDyaa9oxO0qWIA0S9XovpVQ8XlZAMMZmr1YPAMGGDkSTVoPId2DwNbRZNTUUkYKUcVsJfG44UHDIMN80ZfDBOB0eFb6eodJZOoWSWPdE1yrPAj120fP21dIdyJJEuG0TlunZiLccmg&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECDIQAQ&uoh=1",
+   "displayed_link": "https://wordpress.org \u203a support \u203a topic \u203a woocommerce...",
+   "favicon": "https://serpapi.com/images/i/UklGRgwBAABXRUJQVlA4IAABAABwBgCdASocABwAPtE-tFooIigoFAEAGglpAAgQOIGL6ZkXp3UK_0zDs1LcDD6WypINoMGC0Fq8x9Kc2QAA_vYC3rmLm46ijr47sLvwW_HYjV5-d8GScCzfY18SI5ndiUTMeei30YQTY7jt-euo_cf0quDKX76EhX6cf3XvlB8yltoQVtBp6GQV8G5QZ3xOlz5hXcLquMz2eFCXTaT2j7QvF4uC4atbw9IED9lFmKML_R549WqGBGLve-4gtszUcplr5e--jyOMG9rm7yCCNTJzejprof-z50rAJh1N3lH3m91xzeba-UL1tF9_Rijhb6zLP6nnrs05p1oo90HkoAAA.webp",
+   "date": "5 Jul 2025",
+   "snippet": "Hi @shopyvision,. Thanks for reaching out and for checking by disabling all plugins. To better assist you, could you please share the exact ...",
+   "snippet_highlighted_words": [
+    "shopyvision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Hi @shopyvision,. Thanks for reaching out and for checking by disabling all plugins. To better assist you, could you please share the exact ...",
+     "source_info_link": "https://wordpress.org/support/topic/woocommerce-status-tools-showing-error/",
+     "icon": "https://serpapi.com/images/i/UklGRgwBAABXRUJQVlA4IAABAABwBgCdASocABwAPtE-tFooIigoFAEAGglpAAgQOIGL6ZkXp3UK_0zDs1LcDD6WypINoMGC0Fq8x9Kc2QAA_vYC3rmLm46ijr47sLvwW_HYjV5-d8GScCzfY18SI5ndiUTMeei30YQTY7jt-euo_cf0quDKX76EhX6cf3XvlB8yltoQVtBp6GQV8G5QZ3xOlz5hXcLquMz2eFCXTaT2j7QvF4uC4atbw9IED9lFmKML_R549WqGBGLve-4gtszUcplr5e--jyOMG9rm7yCCNTJzejprof-z50rAJh1N3lH3m91xzeba-UL1tF9_Rijhb6zLP6nnrs05p1oo90HkoAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsQBL2dvdG8_dXJsPUNBRVNoZ0VCNnpzd0ZjNWlZSS1lS29KZ0d1alVSWDRlTmE2TGRseG0tdGVIMktiaUVEeWFhOW94TzBxV0lBMFM5WG92cFZROFhsWkFNTVptcjFZUEFNR0dEa1NUVm9QSWQyRHdOYlJaTlRVVWtZS1VjVnNKZkc0NFVIRElNTjgwWmZEQk9CMGVGYjZlb2RKWk9vV1NXUGRFMXlyUEFqMTIwZlAyMWRJZHlKSkV1RzBUbHVuWmlMY2NtZxIEGgIIABrZAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkC1AwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFeFpKT8yxAEvZ290bz91cmw9Q0FFU2hnRUI2enN3RmM1aVlJLWVLb0pnR3VqVVJYNGVOYTZMZGx4bS10ZUgyS2JpRUR5YWE5b3hPMHFXSUEwUzlYb3ZwVlE4WGxaQU1NWm1yMVlQQU1HR0RrU1RWb1BJZDJEd05iUlpOVFVVa1lLVWNWc0pmRzQ0VUhESU1OODBaZkRCT0IwZUZiNmVvZEpaT29XU1dQZEUxeXJQQWoxMjBmUDIxZElkeUpKRXVHMFRsdW5aaUxjY21nOjJXb29jb21tZXJjZSAtJmd0OyBTdGF0dXMgLSZndDsgVG9vbHMgU2hvd2luZyBFUlJPUkKbAUhpIEA8Yj5zaG9weXZpc2lvbjwvYj4sLiBUaGFua3MgZm9yIHJlYWNoaW5nIG91dCBhbmQgZm9yIGNoZWNraW5nIGJ5IGRpc2FibGluZyBhbGwgcGx1Z2lucy4gVG8gYmV0dGVyIGFzc2lzdCB5b3UsIGNvdWxkIHlvdSBwbGVhc2Ugc2hhcmUgdGhlIGV4YWN0Jm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsQBL2dvdG8_dXJsPUNBRVNoZ0VCNnpzd0ZjNWlZSS1lS29KZ0d1alVSWDRlTmE2TGRseG0tdGVIMktiaUVEeWFhOW94TzBxV0lBMFM5WG92cFZROFhsWkFNTVptcjFZUEFNR0dEa1NUVm9QSWQyRHdOYlJaTlRVVWtZS1VjVnNKZkc0NFVIRElNTjgwWmZEQk9CMGVGYjZlb2RKWk9vV1NXUGRFMXlyUEFqMTIwZlAyMWRJZHlKSkV1RzBUbHVuWmlMY2NtZxIEGgIIABrZAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkC1AwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFeFpKT8yxAEvZ290bz91cmw9Q0FFU2hnRUI2enN3RmM1aVlJLWVLb0pnR3VqVVJYNGVOYTZMZGx4bS10ZUgyS2JpRUR5YWE5b3hPMHFXSUEwUzlYb3ZwVlE4WGxaQU1NWm1yMVlQQU1HR0RrU1RWb1BJZDJEd05iUlpOVFVVa1lLVWNWc0pmRzQ0VUhESU1OODBaZkRCT0IwZUZiNmVvZEpaT29XU1dQZEUxeXJQQWoxMjBmUDIxZElkeUpKRXVHMFRsdW5aaUxjY21nOjJXb29jb21tZXJjZSAtJmd0OyBTdGF0dXMgLSZndDsgVG9vbHMgU2hvd2luZyBFUlJPUkKbAUhpIEA8Yj5zaG9weXZpc2lvbjwvYj4sLiBUaGFua3MgZm9yIHJlYWNoaW5nIG91dCBhbmQgZm9yIGNoZWNraW5nIGJ5IGRpc2FibGluZyBhbGwgcGx1Z2lucy4gVG8gYmV0dGVyIGFzc2lzdCB5b3UsIGNvdWxkIHlvdSBwbGVhc2Ugc2hhcmUgdGhlIGV4YWN0Jm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "WordPress.org",
+   "read_more_link": "https://wordpress.org/support/topic/woocommerce-status-tools-showing-error/#:~:text=Hi%20%40shopyvision%2C,you%20please%20share%20the%20exact"
+  },
+  {
+   "position": 6,
+   "title": "How to buy Nokia 2720 or 2780 flip phone in India ...",
+   "link": "https://www.reddit.com/r/KaiOS/comments/1kpgc2o/how_to_buy_nokia_2720_or_2780_flip_phone_in_india/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnQEB6zswFYMjLKqdSmEw67JYVMEAgaBowbBWwK4luFzgzwx0ySOFLAv0WgHJyAqpyRKyHtaVaWtah9_2E5erYRznP57JJm9Pz3dFb_pbNHP9FJL4K6RA_iKxTl8vhtnYT0d_dbITpFJsyJ6YeBJIbbn7TPsLfU7QS-f27tXxbnvLOuva0b1Nv2_C96LKqZdeqvBw3h3hIq9oc4jvUi0F&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECDYQAQ&uoh=1",
+   "displayed_meta": "20+ comments \u00b7 1 year ago",
+   "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+   "snippet": "BIG WARNING: To anyone reading this \u2014 please do not buy anything from ShopyVision. They are complete scammers. They sold me a cheap fake ...",
+   "snippet_highlighted_words": [
+    "ShopyVision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "BIG WARNING: To anyone reading this \u2014 please do not buy anything from ShopyVision. They are complete scammers. They sold me a cheap fake ...",
+     "source_info_link": "https://www.reddit.com/r/KaiOS/comments/1kpgc2o/how_to_buy_nokia_2720_or_2780_flip_phone_in_india/",
+     "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZZTWpMS3FkU21FdzY3SllWTUVBZ2FCb3diQld3SzRsdUZ6Z3p3eDB5U09GTEF2MFdnSEp5QXFweVJLeUh0YVZhV3RhaDlfMkU1ZXJZUnpuUDU3SkptOVB6M2RGYl9wYk5IUDlGSkw0SzZSQV9pS3hUbDh2aHRuWVQwZF9kYklUcEZKc3lKNlllQkpJYmJuN1RQc0xmVTdRUy1mMjd0WHhibnZMT3V2YTBiMU52Ml9DOTZMS3FaZGVxdkJ3M2gzaElxOW9jNGp2VWkwRhIEGgIIABqABBIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDcAwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFRVmIz4y4gEvZ290bz91cmw9Q0FFU25RRUI2enN3RllNakxLcWRTbUV3NjdKWVZNRUFnYUJvd2JCV3dLNGx1Rnpnend4MHlTT0ZMQXYwV2dISnlBcXB5Ukt5SHRhVmFXdGFoOV8yRTVlcllSem5QNTdKSm05UHozZEZiX3BiTkhQOUZKTDRLNlJBX2lLeFRsOHZodG5ZVDBkX2RiSVRwRkpzeUo2WWVCSkliYm43VFBzTGZVN1FTLWYyN3RYeGJudkxPdXZhMGIxTnYyX0M5NkxLcVpkZXF2QnczaDNoSXE5b2M0anZVaTBGOjxIb3cgdG8gYnV5IE5va2lhIDI3MjAgb3IgMjc4MCBmbGlwIHBob25lIGluIEluZGlhIFJhamFzdGhhbi5CmgFCSUcgV0FSTklORzogVG8gYW55b25lIHJlYWRpbmcgdGhpcyDigJQgcGxlYXNlIGRvIG5vdCBidXkgYW55dGhpbmcgZnJvbSA8Yj5TaG9weVZpc2lvbjwvYj4uIFRoZXkgYXJlIGNvbXBsZXRlIHNjYW1tZXJzLiBUaGV5IHNvbGQgbWUgYSBjaGVhcCBmYWtlJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZZTWpMS3FkU21FdzY3SllWTUVBZ2FCb3diQld3SzRsdUZ6Z3p3eDB5U09GTEF2MFdnSEp5QXFweVJLeUh0YVZhV3RhaDlfMkU1ZXJZUnpuUDU3SkptOVB6M2RGYl9wYk5IUDlGSkw0SzZSQV9pS3hUbDh2aHRuWVQwZF9kYklUcEZKc3lKNlllQkpJYmJuN1RQc0xmVTdRUy1mMjd0WHhibnZMT3V2YTBiMU52Ml9DOTZMS3FaZGVxdkJ3M2gzaElxOW9jNGp2VWkwRhIEGgIIABqABBIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDcAwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFRVmIz4y4gEvZ290bz91cmw9Q0FFU25RRUI2enN3RllNakxLcWRTbUV3NjdKWVZNRUFnYUJvd2JCV3dLNGx1Rnpnend4MHlTT0ZMQXYwV2dISnlBcXB5Ukt5SHRhVmFXdGFoOV8yRTVlcllSem5QNTdKSm05UHozZEZiX3BiTkhQOUZKTDRLNlJBX2lLeFRsOHZodG5ZVDBkX2RiSVRwRkpzeUo2WWVCSkliYm43VFBzTGZVN1FTLWYyN3RYeGJudkxPdXZhMGIxTnYyX0M5NkxLcVpkZXF2QnczaDNoSXE5b2M0anZVaTBGOjxIb3cgdG8gYnV5IE5va2lhIDI3MjAgb3IgMjc4MCBmbGlwIHBob25lIGluIEluZGlhIFJhamFzdGhhbi5CmgFCSUcgV0FSTklORzogVG8gYW55b25lIHJlYWRpbmcgdGhpcyDigJQgcGxlYXNlIGRvIG5vdCBidXkgYW55dGhpbmcgZnJvbSA8Yj5TaG9weVZpc2lvbjwvYj4uIFRoZXkgYXJlIGNvbXBsZXRlIHNjYW1tZXJzLiBUaGV5IHNvbGQgbWUgYSBjaGVhcCBmYWtlJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Reddit \u00b7 r/KaiOS",
+   "read_more_link": "https://www.reddit.com/r/KaiOS/comments/1kpgc2o/how_to_buy_nokia_2720_or_2780_flip_phone_in_india/#:~:text=BIG%20WARNING%3A%20To%20anyone%20reading,didn't%20even%20refund%20my%20money."
+  },
+  {
+   "position": 7,
+   "title": "Realme brick 5 (W) thla khat poh la kawl tling lo... A ri ...",
+   "link": "https://www.facebook.com/groups/776660377931058/posts/1100537715543321/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFScC8BaS2vvSY16I3po_r9FdzTsLsgHwo4erCmMAgRj3HyxNeR9AjOPQpOHd9zXGT-FQ0TdrPkWDo0shqd9wLgGsEVHaEfohl6WppJ30IXZdkU0sjT9vysnBcGAWCxkgW40wec6EqMV0D5OHNmXwSqnLVw5Z4Z_6BiiAd1Ps&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECDUQAQ&uoh=1",
+   "displayed_meta": "3 comments \u00b7 1 year ago",
+   "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+   "snippet": "04:42 f shopyvision. com/prc + FIND IT. LOVE IT. BUY MENU SHOPY VISI Search for Speaker| 100 100% GENUINE PRODUCTS Home Audio UNBEATABLE ...",
+   "snippet_highlighted_words": [
+    "shopyvision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "04:42 f shopyvision. com/prc + FIND IT. LOVE IT. BUY MENU SHOPY VISI Search for Speaker| 100 100% GENUINE PRODUCTS Home Audio UNBEATABLE ...",
+     "source_info_link": "https://www.facebook.com/groups/776660377931058/posts/1100537715543321/",
+     "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZTY0M4QmFTMnZ2U1kxNkkzcG9fcjlGZHpUc0xzZ0h3bzRlckNtTUFnUmozSHl4TmVSOUFqT1BRcE9IZDl6WEdULUZRMFRkclBrV0RvMHNocWQ5d0xnR3NFVkhhRWZvaGw2V3BwSjMwSVhaZGtVMHNqVDl2eXNuQmNHQVdDeGtnVzQwd2VjNkVxTVYwRDVPSE5tWHdTcW5MVnc1WjRaXzZCaWlBZDFQcxIEGgIIABreAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkC6AwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFRm4fT8yvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RlNjQzhCYVMydnZTWTE2STNwb19yOUZkelRzTHNnSHdvNGVyQ21NQWdSajNIeXhOZVI5QWpPUFFwT0hkOXpYR1QtRlEwVGRyUGtXRG8wc2hxZDl3TGdHc0VWSGFFZm9obDZXcHBKMzBJWFpka1Uwc2pUOXZ5c25CY0dBV0N4a2dXNDB3ZWM2RXFNVjBENU9ITm1Yd1NxbkxWdzVaNFpfNkJpaUFkMVBzOkBSZWFsbWUgYnJpY2sgNSAoVykgdGhsYSBraGF0IHBvaCBsYSBrYXdsIHRsaW5nIGxvIC4uLiAtIEZhY2Vib29rQpgBMDQ6NDIgZiA8Yj5zaG9weXZpc2lvbjwvYj4uIGNvbS9wcmMgKyBGSU5EIElULiBMT1ZFIElULiBCVVkgTUVOVSBTSE9QWSBWSVNJIFNlYXJjaCBmb3IgU3BlYWtlcnwgMTAwIDEwMCUgR0VOVUlORSBQUk9EVUNUUyBIb21lIEF1ZGlvIFVOQkVBVEFCTEUmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZTY0M4QmFTMnZ2U1kxNkkzcG9fcjlGZHpUc0xzZ0h3bzRlckNtTUFnUmozSHl4TmVSOUFqT1BRcE9IZDl6WEdULUZRMFRkclBrV0RvMHNocWQ5d0xnR3NFVkhhRWZvaGw2V3BwSjMwSVhaZGtVMHNqVDl2eXNuQmNHQVdDeGtnVzQwd2VjNkVxTVYwRDVPSE5tWHdTcW5MVnc1WjRaXzZCaWlBZDFQcxIEGgIIABreAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkC6AwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFRm4fT8yvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RlNjQzhCYVMydnZTWTE2STNwb19yOUZkelRzTHNnSHdvNGVyQ21NQWdSajNIeXhOZVI5QWpPUFFwT0hkOXpYR1QtRlEwVGRyUGtXRG8wc2hxZDl3TGdHc0VWSGFFZm9obDZXcHBKMzBJWFpka1Uwc2pUOXZ5c25CY0dBV0N4a2dXNDB3ZWM2RXFNVjBENU9ITm1Yd1NxbkxWdzVaNFpfNkJpaUFkMVBzOkBSZWFsbWUgYnJpY2sgNSAoVykgdGhsYSBraGF0IHBvaCBsYSBrYXdsIHRsaW5nIGxvIC4uLiAtIEZhY2Vib29rQpgBMDQ6NDIgZiA8Yj5zaG9weXZpc2lvbjwvYj4uIGNvbS9wcmMgKyBGSU5EIElULiBMT1ZFIElULiBCVVkgTUVOVSBTSE9QWSBWSVNJIFNlYXJjaCBmb3IgU3BlYWtlcnwgMTAwIDEwMCUgR0VOVUlORSBQUk9EVUNUUyBIb21lIEF1ZGlvIFVOQkVBVEFCTEUmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "Facebook \u00b7 All mizoram drinkers association",
+   "read_more_link": "https://www.facebook.com/groups/776660377931058/posts/1100537715543321/#:~:text=04%3A42%20f%20shopyvision.%20com%2Fprc%20%2B,Realme%2020W%20Brick%20Bluetooth%20Spe..."
+  },
+  {
+   "position": 8,
+   "title": "WooCommerce Webhook Not Firing",
+   "link": "https://wordpress.org/support/topic/woocommerce-webhook-not-firing/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfgHrOzAV0AhCxBNZqU5NmYOjZCqGACaVW-wCrPg8dEARvDREJyJyYHVdlZ9W18X1CeQ4IHUlGXwUAXoq01dZAvDgKjqwHZctvgKR4cQplzQ-aYJ6LyJmaBXJCThHhPV_Fl1btXshlijLc1xoaCbSM-wu39J1lQgfwdhhIYKRvw&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECC8QAQ&uoh=1",
+   "displayed_link": "https://wordpress.org \u203a support \u203a topic \u203a woocommerce...",
+   "favicon": "https://serpapi.com/images/i/UklGRgwBAABXRUJQVlA4IAABAABwBgCdASocABwAPtE-tFooIigoFAEAGglpAAgQOIGL6ZkXp3UK_0zDs1LcDD6WypINoMGC0Fq8x9Kc2QAA_vYC3rmLm46ijr47sLvwW_HYjV5-d8GScCzfY18SI5ndiUTMeei30YQTY7jt-euo_cf0quDKX76EhX6cf3XvlB8yltoQVtBp6GQV8G5QZ3xOlz5hXcLquMz2eFCXTaT2j7QvF4uC4atbw9IED9lFmKML_R549WqGBGLve-4gtszUcplr5e--jyOMG9rm7yCCNTJzejprof-z50rAJh1N3lH3m91xzeba-UL1tF9_Rijhb6zLP6nnrs05p1oo90HkoAAA.webp",
+   "date": "5 Jul 2025",
+   "snippet": "@shopyvision Who are you hosted with? Ask your host if they support WP-CLI. You'll need a dev for this as it's more complex then just adding a ...",
+   "snippet_highlighted_words": [
+    "shopyvision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "@shopyvision Who are you hosted with? Ask your host if they support WP-CLI. You'll need a dev for this as it's more complex then just adding a ...",
+     "source_info_link": "https://wordpress.org/support/topic/woocommerce-webhook-not-firing/",
+     "icon": "https://serpapi.com/images/i/UklGRgwBAABXRUJQVlA4IAABAABwBgCdASocABwAPtE-tFooIigoFAEAGglpAAgQOIGL6ZkXp3UK_0zDs1LcDD6WypINoMGC0Fq8x9Kc2QAA_vYC3rmLm46ijr47sLvwW_HYjV5-d8GScCzfY18SI5ndiUTMeei30YQTY7jt-euo_cf0quDKX76EhX6cf3XvlB8yltoQVtBp6GQV8G5QZ3xOlz5hXcLquMz2eFCXTaT2j7QvF4uC4atbw9IED9lFmKML_R549WqGBGLve-4gtszUcplr5e--jyOMG9rm7yCCNTJzejprof-z50rAJh1N3lH3m91xzeba-UL1tF9_Rijhb6zLP6nnrs05p1oo90HkoAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrgBL2dvdG8_dXJsPUNBRVNmZ0hyT3pBVjBBaEN4Qk5acVU1Tm1ZT2paQ3FHQUNhVlctd0NyUGc4ZEVBUnZEUkVKeUp5WUhWZGxaOVcxOFgxQ2VRNElIVWxHWHdVQVhvcTAxZFpBdkRnS2pxd0haY3R2Z0tSNGNRcGx6US1hWUo2THlKbWFCWEpDVGhIaFBWX0ZsMWJ0WHNobGlqTGMxeG9hQ2JTTS13dTM5SjFsUWdmd2RoaElZS1J2dxIEGgIIABrUAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCwAwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFcwiQT8yuAEvZ290bz91cmw9Q0FFU2ZnSHJPekFWMEFoQ3hCTlpxVTVObVlPalpDcUdBQ2FWVy13Q3JQZzhkRUFSdkRSRUp5SnlZSFZkbFo5VzE4WDFDZVE0SUhVbEdYd1VBWG9xMDFkWkF2RGdLanF3SFpjdHZnS1I0Y1FwbHpRLWFZSjZMeUptYUJYSkNUaEhoUFZfRmwxYnRYc2hsaWpMYzF4b2FDYlNNLXd1MzlKMWxRZ2Z3ZGhoSVlLUnZ3Oi5Xb29Db21tZXJjZSBXZWJob29rIE5vdCBGaXJpbmcgfCBXb3JkUHJlc3Mub3JnQqYBQDxiPnNob3B5dmlzaW9uPC9iPiBXaG8gYXJlIHlvdSBob3N0ZWQgd2l0aD8gQXNrIHlvdXIgaG9zdCBpZiB0aGV5IHN1cHBvcnQgV1AtQ0xJLiBZb3UmIzM5O2xsIG5lZWQgYSBkZXYgZm9yIHRoaXMgYXMgaXQmIzM5O3MgbW9yZSBjb21wbGV4IHRoZW4ganVzdCBhZGRpbmcgYSZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrgBL2dvdG8_dXJsPUNBRVNmZ0hyT3pBVjBBaEN4Qk5acVU1Tm1ZT2paQ3FHQUNhVlctd0NyUGc4ZEVBUnZEUkVKeUp5WUhWZGxaOVcxOFgxQ2VRNElIVWxHWHdVQVhvcTAxZFpBdkRnS2pxd0haY3R2Z0tSNGNRcGx6US1hWUo2THlKbWFCWEpDVGhIaFBWX0ZsMWJ0WHNobGlqTGMxeG9hQ2JTTS13dTM5SjFsUWdmd2RoaElZS1J2dxIEGgIIABrUAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCwAwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFcwiQT8yuAEvZ290bz91cmw9Q0FFU2ZnSHJPekFWMEFoQ3hCTlpxVTVObVlPalpDcUdBQ2FWVy13Q3JQZzhkRUFSdkRSRUp5SnlZSFZkbFo5VzE4WDFDZVE0SUhVbEdYd1VBWG9xMDFkWkF2RGdLanF3SFpjdHZnS1I0Y1FwbHpRLWFZSjZMeUptYUJYSkNUaEhoUFZfRmwxYnRYc2hsaWpMYzF4b2FDYlNNLXd1MzlKMWxRZ2Z3ZGhoSVlLUnZ3Oi5Xb29Db21tZXJjZSBXZWJob29rIE5vdCBGaXJpbmcgfCBXb3JkUHJlc3Mub3JnQqYBQDxiPnNob3B5dmlzaW9uPC9iPiBXaG8gYXJlIHlvdSBob3N0ZWQgd2l0aD8gQXNrIHlvdXIgaG9zdCBpZiB0aGV5IHN1cHBvcnQgV1AtQ0xJLiBZb3UmIzM5O2xsIG5lZWQgYSBkZXYgZm9yIHRoaXMgYXMgaXQmIzM5O3MgbW9yZSBjb21wbGV4IHRoZW4ganVzdCBhZGRpbmcgYSZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "WordPress.org",
+   "read_more_link": "https://wordpress.org/support/topic/woocommerce-webhook-not-firing/#:~:text=%40shopyvision%20Who%20are%20you%20hosted,the%20database%20using%20a%20plugin."
+  },
+  {
+   "position": 9,
+   "title": "The Home Air Purifier Thread : Reviews & Comparisons",
+   "link": "https://www.team-bhp.com/forum/gadgets-computers-software/228686-home-air-purifier-thread-reviews-comparisons-5.html",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrwEB6zswFaI1qww4d9kPGLA-_HQcNNDs6KfK_QuD7wKGcQs5tFUM30YcK7SK14KX-SfzHhQfh-gbSah19RMjIRLVehP4ukP6f6D_xcQf5TPJee2-VWI38mgKfY-4y4CgK55NsRIFw0Fw_2fadMGPsUghVxDkYjfOVXZZaczxir_TU3yKhr4J-JtIIMI8jDJ37E41RobXpbCI91mRJHNcKYBEZ3vlO8M2BfWmvGtgFhlY&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECDMQAQ&uoh=1",
+   "displayed_link": "https://www.team-bhp.com \u203a gadgets-computers-software",
+   "favicon": "https://serpapi.com/images/i/UklGRoYAAABXRUJQVlA4IHoAAAAwAgCdASoQABAAAsBMJbACdDBAAYprofNawAD--o7P8aFSAOrQnx6zzVqElT3FRnLSKE7IBqT-WzKpuFcP8b18LAME5GZo77snhBz3FLvAHOID3H-xSRRsU_61-7OZz9USOurq8Q15yFhUK2GUWxp-BD9IH6lKpA6AAA.webp",
+   "date": "23 Oct 2020",
+   "snippet": "... shopyvision.com/product/...carbon-filter/ Because it wasn't in stock anywhere else. I think the 3 is a full function smart purifier compared ...",
+   "snippet_highlighted_words": [
+    "shopyvision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "... shopyvision.com/product/...carbon-filter/ Because it wasn't in stock anywhere else. I think the 3 is a full function smart purifier compared ...",
+     "source_info_link": "https://www.team-bhp.com/forum/gadgets-computers-software/228686-home-air-purifier-thread-reviews-comparisons-5.html",
+     "icon": "https://serpapi.com/images/i/UklGRoYAAABXRUJQVlA4IHoAAAAwAgCdASoQABAAAsBMJbACdDBAAYprofNawAD--o7P8aFSAOrQnx6zzVqElT3FRnLSKE7IBqT-WzKpuFcP8b18LAME5GZo77snhBz3FLvAHOID3H-xSRRsU_61-7OZz9USOurq8Q15yFhUK2GUWxp-BD9IH6lKpA6AAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZhSTFxd3c0ZDlrUEdMQS1fSFFjTk5EczZLZktfUXVEN3dLR2NRczV0RlVNMzBZY0s3U0sxNEtYLVNmekhoUWZoLWdiU2FoMTlSTWpJUkxWZWhQNHVrUDZmNkRfeGNRZjVUUEplZTItVldJMzhtZ0tmWS00eTRDZ0s1NU5zUklGdzBGd18yZmFkTUdQc1VnaFZ4RGtZamZPVlhaWmFjenhpcl9UVTN5S2hyNEotSnRJSU1JOGpESjM3RTQxUm9iWHBiQ0k5MW1SSkhOY0tZQkVaM3ZsTzhNMkJmV212R3RnRmhsWRIEGgIIABqeBBIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkD6AwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFelziT0y-gEvZ290bz91cmw9Q0FFU3J3RUI2enN3RmFJMXF3dzRkOWtQR0xBLV9IUWNOTkRzNktmS19RdUQ3d0tHY1FzNXRGVU0zMFljSzdTSzE0S1gtU2Z6SGhRZmgtZ2JTYWgxOVJNaklSTFZlaFA0dWtQNmY2RF94Y1FmNVRQSmVlMi1WV0kzOG1nS2ZZLTR5NENnSzU1TnNSSUZ3MEZ3XzJmYWRNR1BzVWdoVnhEa1lqZk9WWFpaYWN6eGlyX1RVM3lLaHI0Si1KdElJTUk4akRKMzdFNDFSb2JYcGJDSTkxbVJKSE5jS1lCRVozdmxPOE0yQmZXbXZHdGdGaGxZOjhUaGUgSG9tZSBBaXIgUHVyaWZpZXIgVGhyZWFkIDogUmV2aWV3cyAmYW1wOyBDb21wYXJpc29uc0KkAS4uLiA8Yj5zaG9weXZpc2lvbjwvYj4uY29tL3Byb2R1Y3QvLi4uY2FyYm9uLWZpbHRlci8gQmVjYXVzZSBpdCB3YXNuJiMzOTt0IGluIHN0b2NrIGFueXdoZXJlIGVsc2UuIEkgdGhpbmsgdGhlIDMgaXMgYSBmdWxsIGZ1bmN0aW9uIHNtYXJ0IHB1cmlmaWVyIGNvbXBhcmVkJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZhSTFxd3c0ZDlrUEdMQS1fSFFjTk5EczZLZktfUXVEN3dLR2NRczV0RlVNMzBZY0s3U0sxNEtYLVNmekhoUWZoLWdiU2FoMTlSTWpJUkxWZWhQNHVrUDZmNkRfeGNRZjVUUEplZTItVldJMzhtZ0tmWS00eTRDZ0s1NU5zUklGdzBGd18yZmFkTUdQc1VnaFZ4RGtZamZPVlhaWmFjenhpcl9UVTN5S2hyNEotSnRJSU1JOGpESjM3RTQxUm9iWHBiQ0k5MW1SSkhOY0tZQkVaM3ZsTzhNMkJmV212R3RnRmhsWRIEGgIIABqeBBIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkD6AwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFelziT0y-gEvZ290bz91cmw9Q0FFU3J3RUI2enN3RmFJMXF3dzRkOWtQR0xBLV9IUWNOTkRzNktmS19RdUQ3d0tHY1FzNXRGVU0zMFljSzdTSzE0S1gtU2Z6SGhRZmgtZ2JTYWgxOVJNaklSTFZlaFA0dWtQNmY2RF94Y1FmNVRQSmVlMi1WV0kzOG1nS2ZZLTR5NENnSzU1TnNSSUZ3MEZ3XzJmYWRNR1BzVWdoVnhEa1lqZk9WWFpaYWN6eGlyX1RVM3lLaHI0Si1KdElJTUk4akRKMzdFNDFSb2JYcGJDSTkxbVJKSE5jS1lCRVozdmxPOE0yQmZXbXZHdGdGaGxZOjhUaGUgSG9tZSBBaXIgUHVyaWZpZXIgVGhyZWFkIDogUmV2aWV3cyAmYW1wOyBDb21wYXJpc29uc0KkAS4uLiA8Yj5zaG9weXZpc2lvbjwvYj4uY29tL3Byb2R1Y3QvLi4uY2FyYm9uLWZpbHRlci8gQmVjYXVzZSBpdCB3YXNuJiMzOTt0IGluIHN0b2NrIGFueXdoZXJlIGVsc2UuIEkgdGhpbmsgdGhlIDMgaXMgYSBmdWxsIGZ1bmN0aW9uIHNtYXJ0IHB1cmlmaWVyIGNvbXBhcmVkJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Team-BHP",
+   "read_more_link": "https://www.team-bhp.com/forum/gadgets-computers-software/228686-home-air-purifier-thread-reviews-comparisons-5.html#:~:text=I%20have%20now%20accumulated%205,full%20function%20smart%20purifier%20compared"
+  },
+  {
+   "position": 10,
+   "title": "Where can I buy the apple lightning to 3.5 cable?",
+   "link": "https://www.reddit.com/r/iPhoneWale/comments/1pjtypr/where_can_i_buy_the_apple_lightning_to_35_cable/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESoAEB6zswFRTGauu_lXXOC_oJ96ZRxIyrN2162b7O7GHfR8E-l01pdM04EqD6rszW5XYLxptrj1voZCD2BI13W94Tx-PsNPvSV5rAnvi4YejdW0yRP7FYgj-_KXGzSjYYlSveriYiISfC49drhZecp8IMDdBNtyrrtJAaCiS4kMq-hA7ObHCE2WlMr1Nk90B1mhSxbaLkVlVwq723IvUnHgxw&ved=2ahUKEwi76L7ahq-XAxVHLUQIHa5fDocQFnoECDgQAQ&uoh=1",
+   "displayed_meta": "9 comments \u00b7 10 months ago",
+   "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+   "snippet": "https://www.shopyvision.com/product/apple-lightning-to-3-5mm-headphone-jack-adapter/?gad_source=1&gad_campaignid=20129654763&gclid=CjwKCAiAl ...",
+   "snippet_highlighted_words": [
+    "shopyvision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "https://www.shopyvision\n.com/product/apple-lightning-to-3-5mm-headphone-jack-adapter/?gad_source=1&gad_campaignid=20129654763&gclid=CjwKCAiAl ...",
+     "source_info_link": "https://www.reddit.com/r/iPhoneWale/comments/1pjtypr/where_can_i_buy_the_apple_lightning_to_35_cable/",
+     "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CuYBL2dvdG8_dXJsPUNBRVNvQUVCNnpzd0ZSVEdhdXVfbFhYT0Nfb0o5NlpSeEl5ck4yMTYyYjdPN0dIZlI4RS1sMDFwZE0wNEVxRDZyc3pXNVhZTHhwdHJqMXZvWkNEMkJJMTNXOTRUeC1Qc05QdlNWNXJBbnZpNFllamRXMHlSUDdGWWdqLV9LWEd6U2pZWWxTdmVyaVlpSVNmQzQ5ZHJoWmVjcDhJTURkQk50eXJydEpBYUNpUzRrTXEtaEE3T2JIQ0UyV2xNcjFOazkwQjFtaFN4YmFMa1ZsVndxNzIzSXZVbkhneHcSBBoCCAAajAQSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJA6AMIABAAGAAgACoSCgtzaG9weXZpc2lvbhWkJhY-MuYBL2dvdG8_dXJsPUNBRVNvQUVCNnpzd0ZSVEdhdXVfbFhYT0Nfb0o5NlpSeEl5ck4yMTYyYjdPN0dIZlI4RS1sMDFwZE0wNEVxRDZyc3pXNVhZTHhwdHJqMXZvWkNEMkJJMTNXOTRUeC1Qc05QdlNWNXJBbnZpNFllamRXMHlSUDdGWWdqLV9LWEd6U2pZWWxTdmVyaVlpSVNmQzQ5ZHJoWmVjcDhJTURkQk50eXJydEpBYUNpUzRrTXEtaEE3T2JIQ0UyV2xNcjFOazkwQjFtaFN4YmFMa1ZsVndxNzIzSXZVbkhneHc6OldoZXJlIGNhbiBJIGJ1eSB0aGUgYXBwbGUgbGlnaHRuaW5nIHRvIDMuNSBjYWJsZT8gLSBSZWRkaXRCpAFodHRwczovL3d3dy48Yj5zaG9weXZpc2lvbjwvYj4uY29tL3Byb2R1Y3QvYXBwbGUtbGlnaHRuaW5nLXRvLTMtNW1tLWhlYWRwaG9uZS1qYWNrLWFkYXB0ZXIvP2dhZF9zb3VyY2U9MSZhbXA7Z2FkX2NhbXBhaWduaWQ9MjAxMjk2NTQ3NjMmYW1wO2djbGlkPUNqd0tDQWlBbCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CuYBL2dvdG8_dXJsPUNBRVNvQUVCNnpzd0ZSVEdhdXVfbFhYT0Nfb0o5NlpSeEl5ck4yMTYyYjdPN0dIZlI4RS1sMDFwZE0wNEVxRDZyc3pXNVhZTHhwdHJqMXZvWkNEMkJJMTNXOTRUeC1Qc05QdlNWNXJBbnZpNFllamRXMHlSUDdGWWdqLV9LWEd6U2pZWWxTdmVyaVlpSVNmQzQ5ZHJoWmVjcDhJTURkQk50eXJydEpBYUNpUzRrTXEtaEE3T2JIQ0UyV2xNcjFOazkwQjFtaFN4YmFMa1ZsVndxNzIzSXZVbkhneHcSBBoCCAAajAQSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJA6AMIABAAGAAgACoSCgtzaG9weXZpc2lvbhWkJhY-MuYBL2dvdG8_dXJsPUNBRVNvQUVCNnpzd0ZSVEdhdXVfbFhYT0Nfb0o5NlpSeEl5ck4yMTYyYjdPN0dIZlI4RS1sMDFwZE0wNEVxRDZyc3pXNVhZTHhwdHJqMXZvWkNEMkJJMTNXOTRUeC1Qc05QdlNWNXJBbnZpNFllamRXMHlSUDdGWWdqLV9LWEd6U2pZWWxTdmVyaVlpSVNmQzQ5ZHJoWmVjcDhJTURkQk50eXJydEpBYUNpUzRrTXEtaEE3T2JIQ0UyV2xNcjFOazkwQjFtaFN4YmFMa1ZsVndxNzIzSXZVbkhneHc6OldoZXJlIGNhbiBJIGJ1eSB0aGUgYXBwbGUgbGlnaHRuaW5nIHRvIDMuNSBjYWJsZT8gLSBSZWRkaXRCpAFodHRwczovL3d3dy48Yj5zaG9weXZpc2lvbjwvYj4uY29tL3Byb2R1Y3QvYXBwbGUtbGlnaHRuaW5nLXRvLTMtNW1tLWhlYWRwaG9uZS1qYWNrLWFkYXB0ZXIvP2dhZF9zb3VyY2U9MSZhbXA7Z2FkX2NhbXBhaWduaWQ9MjAxMjk2NTQ3NjMmYW1wO2djbGlkPUNqd0tDQWlBbCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Reddit \u00b7 r/iPhoneWale"
+  }
+ ],
+ "serpapi_pagination": {
+  "current": 1,
+  "next": "https://serpapi.com/search.json?device=desktop&engine=google_forums&gl=in&hl=en&q=%22shopyvision%22&start=10"
+ }
+}

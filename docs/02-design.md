@@ -1,8 +1,8 @@
 # Parakh - Design
 
-Version 1.5, 10 Oct 2026. Implements docs/01-requirements.md.
+Version 1.6, 10 Oct 2026. Implements docs/01-requirements.md.
 
-Changes in 1.1 to 1.5 come from the live recordings and milestone reviews; see section 11.
+Changes in 1.1 to 1.6 come from the live recordings and milestone reviews; see section 11.
 
 ## 1. Architecture
 
@@ -92,6 +92,11 @@ runner while this maximum holds.
 | record | live, and also writes the response to tests/fixtures/serp/<cache_key>.json |
 | replay | fixture file only; missing fixture raises FixtureMissing; no key needed |
 
+SerpApi reports two outcomes through its `error` field that are answers, not
+failures: "hasn't returned any results" and "Instagram profile not found". The
+client caches and records these like normal responses; every other `error` value
+raises EngineError.
+
 In replay, `REPLAY_DELAY_MS` (default 0) makes each engine call wait a random
 0.5x to 1.5x of that value, so a demo report fills in one signal at a time.
 
@@ -124,6 +129,7 @@ checks
   id TEXT PK (uuid4 hex), created_at, finished_at,
   instagram_store_id FK nullable, website_store_id FK nullable,
   product_name TEXT, quoted_price INTEGER (rupees) nullable,
+  claimed_mrp INTEGER (rupees) nullable,
   image_sha256 TEXT nullable, image_url TEXT nullable,
   status TEXT (running|done|failed),
   signal_status JSON  {"price":"done","photo":"unavailable",...},
@@ -156,7 +162,7 @@ All under `/api`. JSON. Errors: `{"error": {"code": "...", "message": "..."}}`.
 
 | Method | Path | Body / query | Response |
 |---|---|---|---|
-| POST | /checks | multipart: instagram, website, product_name, quoted_price, image (file) or image_url | 202 `{"id": "..."}` |
+| POST | /checks | multipart: instagram, website, product_name, quoted_price, claimed_mrp, image (file) or image_url | 202 `{"id": "..."}` |
 | GET | /checks/{id} | | check with status, signal_status, verdict, evidence grouped by signal, stores, credit use |
 | GET | /stores/{kind}/{key} | | store, last 20 checks (id, date, verdict), report counts by outcome, last 20 reports |
 | POST | /stores/{kind}/{key}/reports | JSON: outcome, note | 201 report |
@@ -164,7 +170,7 @@ All under `/api`. JSON. Errors: `{"error": {"code": "...", "message": "..."}}`.
 | GET | /meta/rules | | verdict rules as data, for the About page |
 | GET | /health | | `{"ok": true}` |
 
-Validation: quoted_price 1 to 10,000,000; product_name up to 120 chars; image
+Validation: quoted_price and claimed_mrp 1 to 10,000,000; product_name up to 120 chars; image
 up to 5 MB and must decode with Pillow; image_url must be http(s). The server
 never downloads image_url itself; it is passed to Lens as `url` (no SSRF path).
 
@@ -192,7 +198,9 @@ values.
      title, and containment >= 0.6, and
    - every token of product_name that contains a digit (model numbers like
      "110", "141") appears in the title, and
-   - `condition` is empty or "new" (drop used and refurbished).
+   - `condition` is empty or "new" (drop used and refurbished), and
+   - the listing is not on the store's own website domain (the store's own
+     listing is the quote itself, not a comparison).
    Tokens are lowercased alphanumerics; brand casing like "boAt" does not
    matter.
 3. product_name is required for the price signal. Without it the signal
@@ -207,6 +215,10 @@ values.
      what is included" (never good below 0.4)
    - else -> good "Price is in line with N listings"
 5. Always attach the 5 cheapest kept listings as sources.
+6. Original price. The optional input claimed_mrp is the "MRP" or "was" price
+   the store shows. If a median exists and claimed_mrp / median >= 2.0, add a
+   warn item "The original price shown (Rs X) is N.Nx the median of N listings.
+   The discount may be overstated." This item is never good.
 
 ### 6.2 Photo (FR-8)
 
@@ -230,6 +242,9 @@ website domain. When the handle split on "." and "_" gives 3 or more words,
 `"<key>"` becomes `("<handle>" OR "<spaced handle>")` in both queries, e.g.
 `("the_red.store" OR "the red store")`. Shorter handles and domains keep the
 plain form.
+Before counting, results on the store's own website domain (any subdomain)
+and the store's own instagram.com/<handle> pages are dropped: they say what the
+store wants, not what buyers report.
 A result counts as relevant if its title or snippet contains:
 - the exact Instagram handle (with or without @) or the website domain, or
 - the handle with "." and "_" as spaces, or the Instagram full_name, only
@@ -251,6 +266,10 @@ negative term.
 
 From instagram_profile. Post dates parsed from accessibility_caption with
 `on (January|...|December) (\d{1,2}), (\d{4})`.
+- the engine answers "Instagram profile not found" -> status done with one
+  warn item "No Instagram account found with this handle. It may have been
+  deleted or renamed, or the handle may be mistyped." Other engine errors keep
+  the signal unavailable.
 - is_private -> warn "Account is private"
 - oldest visible post younger than 60 days and fewer than 12 visible posts ->
   warn "Very new activity"
@@ -340,3 +359,4 @@ Plain CSS, mobile first, no UI framework.
 | 1.3 | Price ratio <= 0.4 without a brand or major-retailer listing is info, not good | "Price is in line" was wrong for a very low quote |
 | 1.4 | CORS removed; rate limits and REPLAY_DELAY_MS are config | one origin in production, proxy in development; demos fill in visibly |
 | 1.5 | Complaint queries add the spaced handle for handles of 3+ words | such handles are often written with spaces; 2-word handles keep the old query so demo 1 fixtures stay valid |
+| 1.6 | Store's own website and Instagram dropped from complaints; own listings dropped from price; claimed_mrp input with a 2.0x caution; Instagram profile not found is a caution, not unavailable | demo 2 counted its own FAQ and blog pages as buyer discussion and its own listing as a comparison; demo 3's handle does not exist |

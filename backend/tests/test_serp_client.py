@@ -175,3 +175,20 @@ async def test_timeout_raises_engine_timeout(make_client):
     respx.get(SEARCH_URL).mock(side_effect=httpx.ReadTimeout("slow"))
     with pytest.raises(EngineTimeout):
         await make_client().search("google_forums", {"q": "x"}, timeout=30)
+
+
+@respx.mock
+async def test_profile_not_found_is_cached_and_recorded(make_client, make_settings):
+    from app.serp import engines
+    body = {"search_metadata": {"status": "Success"}, "search_parameters": {"api_key": FAKE_KEY},
+            "error": "Instagram profile not found."}
+    route = respx.get(SEARCH_URL).mock(return_value=httpx.Response(200, json=body))
+    client = make_client(serpapi_mode="record")
+    for _ in range(2):
+        with pytest.raises(engines.ProfileNotFound):
+            await engines.instagram_profile(client, "gone.store")
+    assert route.call_count == 1
+    files = list(make_settings().fixture_path.glob("*.json"))
+    assert len(files) == 1 and "api_key" not in files[0].read_text()
+    with pytest.raises(engines.ProfileNotFound):
+        await engines.instagram_profile(make_client(serpapi_mode="replay", serpapi_key=None), "gone.store")

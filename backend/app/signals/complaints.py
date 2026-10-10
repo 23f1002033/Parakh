@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 from app.normalize import normalize_text
 from app.serp.engines import SearchResults
 from app.signals import rules
-from app.signals.result import Item, SignalResult, done, source
+from app.signals.result import Item, SignalResult, done, is_own_url, source
 
 
 @dataclass
@@ -40,14 +40,19 @@ def _url_key(url: str | None) -> str:
     return (url or "").split("#")[0].rstrip("/").lower()
 
 
-def evaluate(google: SearchResults | None, forums: SearchResults | None, terms: StoreTerms) -> SignalResult:
-    merged, seen = [], set()
+def evaluate(google: SearchResults | None, forums: SearchResults | None, terms: StoreTerms,
+             handle: str | None = None, store_domain: str | None = None) -> SignalResult:
+    merged, seen, own = [], set(), []
     for engine, res in (("google", google), ("google_forums", forums)):
         for r in (res.results if res else []):
             key = _url_key(r.link)
             if not key or key in seen:
                 continue
             seen.add(key)
+            # The store's own pages say what the store wants; they are not public discussion.
+            if is_own_url(r.link, handle, store_domain):
+                own.append({"engine": engine, "title": r.title, "url": r.link})
+                continue
             merged.append((engine, r))
 
     relevant = []
@@ -64,7 +69,7 @@ def evaluate(google: SearchResults | None, forums: SearchResults | None, terms: 
     relevant.sort(key=lambda x: (not x["negative"], not x["positive"]))
     negatives = sum(1 for x in relevant if x["negative"])
     positives = sum(1 for x in relevant if x["positive"])
-    data = {"searched": len(merged), "relevant": len(relevant), "negatives": negatives,
+    data = {"searched": len(merged), "own_dropped": own, "relevant": len(relevant), "negatives": negatives,
             "positives": positives, "terms": {"exact": terms.exact, "loose": terms.loose}, "results": relevant}
     sources = [source(x["title"], x["url"], x["engine"]) for x in relevant]
 

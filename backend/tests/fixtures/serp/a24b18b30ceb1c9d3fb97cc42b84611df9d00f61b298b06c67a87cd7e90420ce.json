@@ -1,0 +1,356 @@
+{
+ "search_metadata": {
+  "id": "6ac9fa07bc3f0b235b614ef8",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/7i7aMAO4mYory1CgncIjI59Q22Ht74bfrZG4PAN5-KU/6ac9fa07bc3f0b235b614ef8.json",
+  "markdown_endpoint": "https://serpapi.com/searches/7i7aMAO4mYory1CgncIjI59Q22Ht74bfrZG4PAN5-KU/6ac9fa07bc3f0b235b614ef8.md",
+  "pixel_position_endpoint": "https://serpapi.com/searches/7i7aMAO4mYory1CgncIjI59Q22Ht74bfrZG4PAN5-KU/6ac9fa07bc3f0b235b614ef8.json_with_pixel_position",
+  "created_at": "2026-10-10 08:40:39 UTC",
+  "processed_at": "2026-10-10 08:40:39 UTC",
+  "google_url": "https://www.google.com/search?q=shopyvision.com&oq=shopyvision.com&gl=in&sourceid=chrome&ie=UTF-8",
+  "raw_html_file": "https://serpapi.com/searches/7i7aMAO4mYory1CgncIjI59Q22Ht74bfrZG4PAN5-KU/6ac9fa07bc3f0b235b614ef8.html",
+  "total_time_taken": 0.31
+ },
+ "search_parameters": {
+  "engine": "google",
+  "q": "shopyvision.com",
+  "google_domain": "google.com",
+  "gl": "in",
+  "device": "desktop"
+ },
+ "search_information": {
+  "query_displayed": "shopyvision.com",
+  "total_results": 53,
+  "time_taken_displayed": 0.19,
+  "organic_results_state": "Results for exact spelling"
+ },
+ "ai_overview": {
+  "page_token": "htK0XXiczVbtcqo4GL6AvY7lV6uI9mg7w5xJ0ohYUfFr2_5hEDGgYipBKf2397Ize097NRu-KrTq6Tk_djaOxCQv7_eTxz__2rjb9T-__e0EwQu7q1bDMKwQSsnGrljUq5os2lrVJd0w33K-M7r3LdtdyJbjU88WyEZ2t0J0kOuCxWRRsF0ZGn7XDJZNtbHf3fTp0FmOcUMnQqJINuYms1fczuuKVY0qf6x_r9_zRYVV7K2hwArWNePNt5UuVCuSKNUrg6rpcRnwHw6Cgc6f_Nca4AtiAH5JnaoCgHSgvm_oKDt43-EbenzAP1hN1-S8stQ77mXmgLHqeEoIQD-XueAMLugNQWYLaEk4QB99KaDjSJXRfHk5Hycjyl6ZHoWKGT8biaqVVgARDQx5AJkN9EE6zWrJYpiIdcKBBgd4pF_0HLR10NEI0t3LYnxQpLZgrk0JeUn06oLwBharc59PtaprOVbyw2dxX6PJrUjbbey54W3T05yHXRs7a-3aUzp1UO8Owqo153Ibai7sheEY4vdkXZNqN-Jtvdm6SjBlsXdQsSKoZoqPpcdvnUeNVHoVWMvhxBN0zHO5MBDQU5VC8Qvqp9TmQ007-OOAqND2mUk1lozi_UKp0UpMXcG5vo4GYIhLStXcQ_AZTrgkkhnUs-YkJDkgWSQFjfxiOdqApbPB52g-96OGYaoYIZTqyTqTgI8ZccCoGHSpg9P8ue14ptyPEE6TPm0UXgB9yF1VP95IML4TnCysHIF5Bd1CjmE7rgc_g3jNl2PnSUej7J3EMfxeIARLvqMzVYexsqcfYOfsePiSlJrj5gMMivBRFuvo3mm92cpsh8lbm-doWRv1gkMwIKfhQr35z5GQ9f_CVE5RekZRZzEFv4QpVYWnKApnp6mvR4qKMYUIIWcw1UsxlVNUfJZT1LBoNY3mE6YwO2Iq0hOK0s5R1E9jCl7EVF6kU5iansaUeg5TCUUVMeVoeomiSlV_p6gCpn6Boh5-laISiNnpVOar_Yqc5y28wpZoXiszYK_6bYs-atK496Icnrwf89bSC-48c7G5MtzFHZS6QbS4MvgGvbMXwk5mDn2JDi5z6Tb-Kyp4G5_KonnjBo_otTEYtuezSU-ZOdMZGjzPDZ_Vn99GonSgO6l2fQ-162s_Wofjvcfwyjhsv9HV84aFTPReV3SgBD0zGO77txEiB3RojgO08_TFZPwH7TyEU4N50p52d1PS6q_YBE2U_WzT20Se9dJqi8POqOmBDjUG042e-MXkUfvRWnaf6pNwKni-JSOgNtagrwMFAJODDnQJ5Dce__K5x-ce5Xds5wno9zGKBWaZhs0OsnQjNm3TrC-XzaZkWpLgkSB6kRs1gW19ufYvPv5O6A",
+  "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=htK0XXiczVbtcqo4GL6AvY7lV6uI9mg7w5xJ0ohYUfFr2_5hEDGgYipBKf2397Ize097NRu-KrTq6Tk_djaOxCQv7_eTxz__2rjb9T-__e0EwQu7q1bDMKwQSsnGrljUq5os2lrVJd0w33K-M7r3LdtdyJbjU88WyEZ2t0J0kOuCxWRRsF0ZGn7XDJZNtbHf3fTp0FmOcUMnQqJINuYms1fczuuKVY0qf6x_r9_zRYVV7K2hwArWNePNt5UuVCuSKNUrg6rpcRnwHw6Cgc6f_Nca4AtiAH5JnaoCgHSgvm_oKDt43-EbenzAP1hN1-S8stQ77mXmgLHqeEoIQD-XueAMLugNQWYLaEk4QB99KaDjSJXRfHk5Hycjyl6ZHoWKGT8biaqVVgARDQx5AJkN9EE6zWrJYpiIdcKBBgd4pF_0HLR10NEI0t3LYnxQpLZgrk0JeUn06oLwBharc59PtaprOVbyw2dxX6PJrUjbbey54W3T05yHXRs7a-3aUzp1UO8Owqo153Ibai7sheEY4vdkXZNqN-Jtvdm6SjBlsXdQsSKoZoqPpcdvnUeNVHoVWMvhxBN0zHO5MBDQU5VC8Qvqp9TmQ007-OOAqND2mUk1lozi_UKp0UpMXcG5vo4GYIhLStXcQ_AZTrgkkhnUs-YkJDkgWSQFjfxiOdqApbPB52g-96OGYaoYIZTqyTqTgI8ZccCoGHSpg9P8ue14ptyPEE6TPm0UXgB9yF1VP95IML4TnCysHIF5Bd1CjmE7rgc_g3jNl2PnSUej7J3EMfxeIARLvqMzVYexsqcfYOfsePiSlJrj5gMMivBRFuvo3mm92cpsh8lbm-doWRv1gkMwIKfhQr35z5GQ9f_CVE5RekZRZzEFv4QpVYWnKApnp6mvR4qKMYUIIWcw1UsxlVNUfJZT1LBoNY3mE6YwO2Iq0hOK0s5R1E9jCl7EVF6kU5iansaUeg5TCUUVMeVoeomiSlV_p6gCpn6Boh5-laISiNnpVOar_Yqc5y28wpZoXiszYK_6bYs-atK496Icnrwf89bSC-48c7G5MtzFHZS6QbS4MvgGvbMXwk5mDn2JDi5z6Tb-Kyp4G5_KonnjBo_otTEYtuezSU-ZOdMZGjzPDZ_Vn99GonSgO6l2fQ-162s_Wofjvcfwyjhsv9HV84aFTPReV3SgBD0zGO77txEiB3RojgO08_TFZPwH7TyEU4N50p52d1PS6q_YBE2U_WzT20Se9dJqi8POqOmBDjUG042e-MXkUfvRWnaf6pNwKni-JSOgNtagrwMFAJODDnQJ5Dce__K5x-ce5Xds5wno9zGKBWaZhs0OsnQjNm3TrC-XzaZkWpLgkSB6kRs1gW19ufYvPv5O6A"
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "title": "st-search",
+   "link": "https://www.shopyvision.com/st-search/?srsltid=AU7gw4V6WDaUIps6ujsd_YmASHkcpesQ5vVW4uvQ80yO_W_SsZaiwPNc",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESogEB6zswFbo-Z_0O-Jdl4vz7QssT63rUdDmgGUGfB63gwpsIZm3ogmunAicCV1Oo8zs3njWaOSclnNNrE3UMu6zOYJkfZEdlB--8ZFRp3X14zP_PwuB_jbImopTPadSI_Mzmj2sQ5FFVK6zajnXN9DiHPkjeH0kXck_eG7XLI8TsX7H0KuHKp6nPfwI6UB7b0HKVjFX1OomOq9pDkqRIdh1y3os&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQFnoECBsQAQ&uoh=1",
+   "displayed_link": "https://www.shopyvision.com \u203a st-search",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp",
+   "snippet": "Let us help you find the perfect item! get free shipping on all orders over Rs.399/- INDIA'S NO.1 ELECTRONICS. Cameras (108) Adapters (96) Televisions (93) ...",
+   "snippet_highlighted_words": [
+    "get free shipping on all orders over Rs.399"
+   ],
+   "rich_snippet": {
+    "top": {
+     "detected_extensions": {
+      "rating": 3.6,
+      "store_rating": 12,
+      "day_returns": 7
+     },
+     "extensions": [
+      "3.6",
+      "store rating (12)",
+      "Free delivery over \u20b9399",
+      "7-day returns"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Let us help you find the perfect item! get free shipping on all orders over Rs.399/- INDIA'S NO.1 ELECTRONICS. Cameras (108) Adapters (96) Televisions (93) ...",
+     "source_info_link": "https://www.shopyvision.com/st-search/?srsltid=AU7gw4V6WDaUIps6ujsd_YmASHkcpesQ5vVW4uvQ80yO_W_SsZaiwPNc",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CukBL2dvdG8_dXJsPUNBRVNvZ0VCNnpzd0Ziby1aXzBPLUpkbDR2ejdRc3NUNjNyVWREbWdHVUdmQjYzZ3dwc0labTNvZ211bkFpY0NWMU9vOHpzM25qV2FPU2Nsbk5OckUzVU11NnpPWUprZlpFZGxCLS04WkZScDNYMTR6UF9Qd3VCX2piSW1vcFRQYWRTSV9Nem1qMnNRNUZGVks2emFqblhOOURpSFBramVIMGtYY2tfZUc3WExJOFRzWDdIMEt1SEtwNm5QZndJNlVCN2IwSEtWakZYMU9vbU9xOXBEa3FSSWRoMXkzb3MSBBoCCAAa5gMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoTCAESD3Nob3B5dmlzaW9uLmNvbXIAegCCQK8DCAAQABgAIAAqMgoLc2hvcHl2aXNpb24V1w6dQBoMc2hvcHkgdmlzaW9uGhBpdjtwO3Nob3B5dmlzaW9uKgoKA2NvbRVhjIZAMpEBL2dvdG8_dXJsPUNBRVNZUUhyT3pBVkhzLUFGRFM2LVl2a3pRd3ZYbXY0dG9PRUpmdE1QWmZFNF9zUzROcU5qVlJUcXFpOHlDeVhDMFAyLTRMOGZmZHRNeGdnZFcyUzRtdlFiNWVfTXVtWnVuZkRpSUFjVGFDWFp0dGxXVk1QQlVPZURZblFYVFFtUmp1MXNUUTofc3Qtc2VhcmNoIC0gPGI-U2hvcHkgVmlzaW9uPC9iPkKvAUxldCB1cyBoZWxwIHlvdSBmaW5kIHRoZSBwZXJmZWN0IGl0ZW0hIDxiPmdldCBmcmVlIHNoaXBwaW5nIG9uIGFsbCBvcmRlcnMgb3ZlciBScy4zOTk8L2I-Ly0gSU5ESUEmIzM5O1MgTk8uMSBFTEVDVFJPTklDUy4gQ2FtZXJhcyAoMTA4KSBBZGFwdGVycyAoOTYpIFRlbGV2aXNpb25zICg5MykmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CukBL2dvdG8_dXJsPUNBRVNvZ0VCNnpzd0Ziby1aXzBPLUpkbDR2ejdRc3NUNjNyVWREbWdHVUdmQjYzZ3dwc0labTNvZ211bkFpY0NWMU9vOHpzM25qV2FPU2Nsbk5OckUzVU11NnpPWUprZlpFZGxCLS04WkZScDNYMTR6UF9Qd3VCX2piSW1vcFRQYWRTSV9Nem1qMnNRNUZGVks2emFqblhOOURpSFBramVIMGtYY2tfZUc3WExJOFRzWDdIMEt1SEtwNm5QZndJNlVCN2IwSEtWakZYMU9vbU9xOXBEa3FSSWRoMXkzb3MSBBoCCAAa5gMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoTCAESD3Nob3B5dmlzaW9uLmNvbXIAegCCQK8DCAAQABgAIAAqMgoLc2hvcHl2aXNpb24V1w6dQBoMc2hvcHkgdmlzaW9uGhBpdjtwO3Nob3B5dmlzaW9uKgoKA2NvbRVhjIZAMpEBL2dvdG8_dXJsPUNBRVNZUUhyT3pBVkhzLUFGRFM2LVl2a3pRd3ZYbXY0dG9PRUpmdE1QWmZFNF9zUzROcU5qVlJUcXFpOHlDeVhDMFAyLTRMOGZmZHRNeGdnZFcyUzRtdlFiNWVfTXVtWnVuZkRpSUFjVGFDWFp0dGxXVk1QQlVPZURZblFYVFFtUmp1MXNUUTofc3Qtc2VhcmNoIC0gPGI-U2hvcHkgVmlzaW9uPC9iPkKvAUxldCB1cyBoZWxwIHlvdSBmaW5kIHRoZSBwZXJmZWN0IGl0ZW0hIDxiPmdldCBmcmVlIHNoaXBwaW5nIG9uIGFsbCBvcmRlcnMgb3ZlciBScy4zOTk8L2I-Ly0gSU5ESUEmIzM5O1MgTk8uMSBFTEVDVFJPTklDUy4gQ2FtZXJhcyAoMTA4KSBBZGFwdGVycyAoOTYpIFRlbGV2aXNpb25zICg5MykmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "Shopy Vision"
+  },
+  {
+   "position": 2,
+   "title": "electronics shopping India",
+   "link": "https://www.shopyvision.com/tag/electronics-shopping-india/?srsltid=AU7gw4U7F_ywisSkw7fIFTCJZrNCjK7ymyvtMTGCDz0ZY_n3bOGGfbNK",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEStwEB6zswFXzBeKPiQ1uLcjgfZCDgO5FW03qFU-kdqmFiRCJU7vpfwRgZcsUr1h-hZvbXT6TV5fO8CklGvZufwRqsWZNWXE2GOIMRt4hGPFXF_HopuoHuHB0_OW6UK2mxM93_E3a8UiTlaKigurAtqTk2htqtStF7hwuxszdBfoMU8vKlGcpP0pmrGQKjBq5NkFeIN4h4MyMYVNbMj1y1WeqruoGQEc-tYY4yp1mqAb7MrVbGFTZeK2w&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQFnoECB0QAQ&uoh=1",
+   "displayed_link": "https://www.shopyvision.com \u203a tag \u203a electronics-shoppi...",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp",
+   "date": "2 May 2026",
+   "snippet": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original ...",
+   "snippet_highlighted_words": [
+    "Shopy Vision is an Electronics Online Shopping E-commerce Website"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original ...",
+     "source_info_link": "https://www.shopyvision.com/tag/electronics-shopping-india/?srsltid=AU7gw4U7F_ywisSkw7fIFTCJZrNCjK7ymyvtMTGCDz0ZY_n3bOGGfbNK",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CoUCL2dvdG8_dXJsPUNBRVN0d0VCNnpzd0ZYekJlS1BpUTF1TGNqZ2ZaQ0RnTzVGVzAzcUZVLWtkcW1GaVJDSlU3dnBmd1JnWmNzVXIxaC1oWnZiWFQ2VFY1Zk84Q2tsR3ZadWZ3UnFzV1pOV1hFMkdPSU1SdDRoR1BGWEZfSG9wdW9IdUhCMF9PVzZVSzJteE05M19FM2E4VWlUbGFLaWd1ckF0cVRrMmh0cXRTdEY3aHd1eHN6ZEJmb01VOHZLbEdjcFAwcG1yR1FLakJxNU5rRmVJTjRoNE15TVlWTmJNajF5MVdlcXJ1b0dRRWMtdFlZNHlwMW1xQWI3TXJWYkdGVFplSzJ3EgQaAggAGv4DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkDHAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFdQ3pkAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VSAOKQDKtAS9nb3RvP3VybD1DQUVTZGdIck96QVZfUk9vVk1kR0F3dmlvczBZdVlNZS1ySGVPQU1Qa29aUmtUMF9SQmVzX19LSFNVRXNPbUtOS0UyQlZ4MFpxQ2U4c2ZLcUxJRUgzbFRSLVFOVEdSUi10OVNXc2NTZld4b1N5VVZ0REQ1Wi1OakFPVGJZM3JVeDFla2ltUEdxTGJULWpfQ2J1U3p6VThnbkxXLXVoeVZINnVjOjBlbGVjdHJvbmljcyBzaG9wcGluZyBJbmRpYSAtIDxiPlNob3B5IFZpc2lvbjwvYj5CmgE8Yj5TaG9weSBWaXNpb24gaXMgYW4gRWxlY3Ryb25pY3MgT25saW5lIFNob3BwaW5nIEUtY29tbWVyY2UgV2Vic2l0ZTwvYj4gb2YgTXVsdGlwbGUgQnJhbmRlZCBJdGVtcyBmcm9tIGFsbCBvdmVyIHRoZSB3b3JsZC4gR2V0IHRoZSAxMDAlIE9yaWdpbmFsJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CoUCL2dvdG8_dXJsPUNBRVN0d0VCNnpzd0ZYekJlS1BpUTF1TGNqZ2ZaQ0RnTzVGVzAzcUZVLWtkcW1GaVJDSlU3dnBmd1JnWmNzVXIxaC1oWnZiWFQ2VFY1Zk84Q2tsR3ZadWZ3UnFzV1pOV1hFMkdPSU1SdDRoR1BGWEZfSG9wdW9IdUhCMF9PVzZVSzJteE05M19FM2E4VWlUbGFLaWd1ckF0cVRrMmh0cXRTdEY3aHd1eHN6ZEJmb01VOHZLbEdjcFAwcG1yR1FLakJxNU5rRmVJTjRoNE15TVlWTmJNajF5MVdlcXJ1b0dRRWMtdFlZNHlwMW1xQWI3TXJWYkdGVFplSzJ3EgQaAggAGv4DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkDHAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFdQ3pkAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VSAOKQDKtAS9nb3RvP3VybD1DQUVTZGdIck96QVZfUk9vVk1kR0F3dmlvczBZdVlNZS1ySGVPQU1Qa29aUmtUMF9SQmVzX19LSFNVRXNPbUtOS0UyQlZ4MFpxQ2U4c2ZLcUxJRUgzbFRSLVFOVEdSUi10OVNXc2NTZld4b1N5VVZ0REQ1Wi1OakFPVGJZM3JVeDFla2ltUEdxTGJULWpfQ2J1U3p6VThnbkxXLXVoeVZINnVjOjBlbGVjdHJvbmljcyBzaG9wcGluZyBJbmRpYSAtIDxiPlNob3B5IFZpc2lvbjwvYj5CmgE8Yj5TaG9weSBWaXNpb24gaXMgYW4gRWxlY3Ryb25pY3MgT25saW5lIFNob3BwaW5nIEUtY29tbWVyY2UgV2Vic2l0ZTwvYj4gb2YgTXVsdGlwbGUgQnJhbmRlZCBJdGVtcyBmcm9tIGFsbCBvdmVyIHRoZSB3b3JsZC4gR2V0IHRoZSAxMDAlIE9yaWdpbmFsJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Shopy Vision",
+   "read_more_link": "https://www.shopyvision.com/tag/electronics-shopping-india/?srsltid=AU7gw4U7F_ywisSkw7fIFTCJZrNCjK7ymyvtMTGCDz0ZY_n3bOGGfbNK#:~:text=Shopy%20Vision%20is%20an%20Electronics,%26%20Offers%20on%20Shopy%20Vision."
+  },
+  {
+   "position": 3,
+   "title": "Online Shopping",
+   "link": "https://www.shopyvision.com/tag/online-shopping/?srsltid=AU7gw4UZLFnEdSn8sg5QASt14ZjBhkZePDK92qmMKNl5p7S7PkMk_uEq",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrAEB6zswFYGarhMPGW8An6VCVD7TpAMydFA4Ih_JpJ3MGUv8LlckiO3dy5pTDMXAMD7csREztH7THOeKpyUz4Xo6gn5qMPdnBGj3JGW3tErnVtMeyY7y-GPvalAbM4bkwXGDDoDX_Qc--H7sU1fWTgj5vCiRR_vKsAuyOeU5Jy7Dx3MQPj5mmq8OBx36sSRPR8LCTQE2QFwBujdyP5WQwow3iVW50bBZq7ie5zbs&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQFnoECB4QAQ&uoh=1",
+   "displayed_link": "https://www.shopyvision.com \u203a tag \u203a online-shopping",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp",
+   "date": "25 Feb 2024",
+   "snippet": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original ...",
+   "snippet_highlighted_words": [
+    "Shopy Vision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original ...",
+     "source_info_link": "https://www.shopyvision.com/tag/online-shopping/?srsltid=AU7gw4UZLFnEdSn8sg5QASt14ZjBhkZePDK92qmMKNl5p7S7PkMk_uEq",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvYBL2dvdG8_dXJsPUNBRVNyQUVCNnpzd0ZZR2FyaE1QR1c4QW42VkNWRDdUcEFNeWRGQTRJaF9KcEozTUdVdjhMbGNraU8zZHk1cFRETVhBTUQ3Y3NSRXp0SDdUSE9lS3B5VXo0WG82Z241cU1QZG5CR2ozSkdXM3RFcm5WdE1leVk3eS1HUHZhbEFiTTRia3dYR0REb0RYX1FjLS1IN3NVMWZXVGdqNXZDaVJSX3ZLc0F1eU9lVTVKeTdEeDNNUVBqNW1tcThPQngzNnNTUlBSOExDVFFFMlFGd0J1amR5UDVXUXdvdzNpVlc1MGJCWnE3aWU1emJzEgQaAggAGuQDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkCtAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFZxBpkAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VsASKQDKeAS9nb3RvP3VybD1DQUVTYXdIck96QVZYNlVuOFlWZEktTmlIbjdySUlzN0JJWXg0N0tZNnp3b0UxZDcyQVFWOW1yLWR2dkZXTXBLb2pRRnBzMmFzUF9LTDZ0V0VZTDBDZDAzZ0lSWko5TVJWNkFwU3VldWVRTzBpbTRjNmlzYWhNalI3TW5uaUtic3U2dER1cDJpSklUWjljaWJ4VmY1OiVPbmxpbmUgU2hvcHBpbmcgLSA8Yj5TaG9weSBWaXNpb248L2I-QpoBPGI-U2hvcHkgVmlzaW9uPC9iPiBpcyBhbiBFbGVjdHJvbmljcyBPbmxpbmUgU2hvcHBpbmcgRS1jb21tZXJjZSBXZWJzaXRlIG9mIE11bHRpcGxlIEJyYW5kZWQgSXRlbXMgZnJvbSBhbGwgb3ZlciB0aGUgd29ybGQuIEdldCB0aGUgMTAwJSBPcmlnaW5hbCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvYBL2dvdG8_dXJsPUNBRVNyQUVCNnpzd0ZZR2FyaE1QR1c4QW42VkNWRDdUcEFNeWRGQTRJaF9KcEozTUdVdjhMbGNraU8zZHk1cFRETVhBTUQ3Y3NSRXp0SDdUSE9lS3B5VXo0WG82Z241cU1QZG5CR2ozSkdXM3RFcm5WdE1leVk3eS1HUHZhbEFiTTRia3dYR0REb0RYX1FjLS1IN3NVMWZXVGdqNXZDaVJSX3ZLc0F1eU9lVTVKeTdEeDNNUVBqNW1tcThPQngzNnNTUlBSOExDVFFFMlFGd0J1amR5UDVXUXdvdzNpVlc1MGJCWnE3aWU1emJzEgQaAggAGuQDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkCtAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFZxBpkAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VsASKQDKeAS9nb3RvP3VybD1DQUVTYXdIck96QVZYNlVuOFlWZEktTmlIbjdySUlzN0JJWXg0N0tZNnp3b0UxZDcyQVFWOW1yLWR2dkZXTXBLb2pRRnBzMmFzUF9LTDZ0V0VZTDBDZDAzZ0lSWko5TVJWNkFwU3VldWVRTzBpbTRjNmlzYWhNalI3TW5uaUtic3U2dER1cDJpSklUWjljaWJ4VmY1OiVPbmxpbmUgU2hvcHBpbmcgLSA8Yj5TaG9weSBWaXNpb248L2I-QpoBPGI-U2hvcHkgVmlzaW9uPC9iPiBpcyBhbiBFbGVjdHJvbmljcyBPbmxpbmUgU2hvcHBpbmcgRS1jb21tZXJjZSBXZWJzaXRlIG9mIE11bHRpcGxlIEJyYW5kZWQgSXRlbXMgZnJvbSBhbGwgb3ZlciB0aGUgd29ybGQuIEdldCB0aGUgMTAwJSBPcmlnaW5hbCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Shopy Vision",
+   "read_more_link": "https://www.shopyvision.com/tag/online-shopping/?srsltid=AU7gw4UZLFnEdSn8sg5QASt14ZjBhkZePDK92qmMKNl5p7S7PkMk_uEq#:~:text=Shopy%20Vision%20is%20an%20Electronics,%26%20Offers%20on%20Shopy%20Vision."
+  },
+  {
+   "position": 4,
+   "title": "Tech buying guide",
+   "link": "https://www.shopyvision.com/tag/tech-buying-guide/?srsltid=AU7gw4XVEnds6GhQeY2BcX7T9NhpYCxl9ZbfAmQligwChYA8E1Fh53Ux",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrgEB6zswFYT-z1e4p1Hs5cg6nttpOQlQLz7Zf7eltpkN9DXLPnUfZaWsWJelaKVfV5QSI6ekbmyQYFnUbQQbumNcAxl42IcsPs6Gn5rwVruboh5yWDgbjo2yPQUySfa8HYZ0Hhu5rWKgCc-xMq6LZOKjaaXt8T970EMHlCFHJ-CsJbhf4jvGOg9VD5Jshc_K_5z948e_MLycSDXPyqtYrfTTZkv587X5HMIMASROnJM&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQFnoECBwQAQ&uoh=1",
+   "displayed_link": "https://www.shopyvision.com \u203a tag \u203a tech-buying-guide",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp",
+   "date": "3 Mar 2026",
+   "snippet": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original ...",
+   "snippet_highlighted_words": [
+    "Shopy Vision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original ...",
+     "source_info_link": "https://www.shopyvision.com/tag/tech-buying-guide/?srsltid=AU7gw4XVEnds6GhQeY2BcX7T9NhpYCxl9ZbfAmQligwChYA8E1Fh53Ux",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvkBL2dvdG8_dXJsPUNBRVNyZ0VCNnpzd0ZZVC16MWU0cDFIczVjZzZudHRwT1FsUUx6N1pmN2VsdHBrTjlEWExQblVmWmFXc1dKZWxhS1ZmVjVRU0k2ZWtibXlRWUZuVWJRUWJ1bU5jQXhsNDJJY3NQczZHbjVyd1ZydWJvaDV5V0RnYmpvMnlQUVV5U2ZhOEhZWjBIaHU1cldLZ0NjLXhNcTZMWk9LamFhWHQ4VDk3MEVNSGxDRkhKLUNzSmJoZjRqdkdPZzlWRDVKc2hjX0tfNXo5NDhlX01MeWNTRFhQeXF0WXJmVFRaa3Y1ODdYNUhNSU1BU1JPbkpNEgQaAggAGukDEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkCyAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFXJLpkAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VGgaKQDKhAS9nb3RvP3VybD1DQUVTYlFIck96QVYyRmlpSmFHZHJISHAyb0xrLWh1VG4wcUpEMTlZSDJ3dks1czM4dXk1MEFGejRaWTRLelpLc0diUEhOam5LMUNzVEtseUxuUWxsTTZ3U0gxSXpaOTVHMWZxLW5zMmFjQnpacngyZnZCdGhJME11UklNcjlyR2pWVmU4R3JobFNvdUNNS1hBR1Vyd1F3OidUZWNoIGJ1eWluZyBndWlkZSAtIDxiPlNob3B5IFZpc2lvbjwvYj5CmgE8Yj5TaG9weSBWaXNpb248L2I-IGlzIGFuIEVsZWN0cm9uaWNzIE9ubGluZSBTaG9wcGluZyBFLWNvbW1lcmNlIFdlYnNpdGUgb2YgTXVsdGlwbGUgQnJhbmRlZCBJdGVtcyBmcm9tIGFsbCBvdmVyIHRoZSB3b3JsZC4gR2V0IHRoZSAxMDAlIE9yaWdpbmFsJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvkBL2dvdG8_dXJsPUNBRVNyZ0VCNnpzd0ZZVC16MWU0cDFIczVjZzZudHRwT1FsUUx6N1pmN2VsdHBrTjlEWExQblVmWmFXc1dKZWxhS1ZmVjVRU0k2ZWtibXlRWUZuVWJRUWJ1bU5jQXhsNDJJY3NQczZHbjVyd1ZydWJvaDV5V0RnYmpvMnlQUVV5U2ZhOEhZWjBIaHU1cldLZ0NjLXhNcTZMWk9LamFhWHQ4VDk3MEVNSGxDRkhKLUNzSmJoZjRqdkdPZzlWRDVKc2hjX0tfNXo5NDhlX01MeWNTRFhQeXF0WXJmVFRaa3Y1ODdYNUhNSU1BU1JPbkpNEgQaAggAGukDEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkCyAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFXJLpkAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VGgaKQDKhAS9nb3RvP3VybD1DQUVTYlFIck96QVYyRmlpSmFHZHJISHAyb0xrLWh1VG4wcUpEMTlZSDJ3dks1czM4dXk1MEFGejRaWTRLelpLc0diUEhOam5LMUNzVEtseUxuUWxsTTZ3U0gxSXpaOTVHMWZxLW5zMmFjQnpacngyZnZCdGhJME11UklNcjlyR2pWVmU4R3JobFNvdUNNS1hBR1Vyd1F3OidUZWNoIGJ1eWluZyBndWlkZSAtIDxiPlNob3B5IFZpc2lvbjwvYj5CmgE8Yj5TaG9weSBWaXNpb248L2I-IGlzIGFuIEVsZWN0cm9uaWNzIE9ubGluZSBTaG9wcGluZyBFLWNvbW1lcmNlIFdlYnNpdGUgb2YgTXVsdGlwbGUgQnJhbmRlZCBJdGVtcyBmcm9tIGFsbCBvdmVyIHRoZSB3b3JsZC4gR2V0IHRoZSAxMDAlIE9yaWdpbmFsJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Shopy Vision",
+   "read_more_link": "https://www.shopyvision.com/tag/tech-buying-guide/?srsltid=AU7gw4XVEnds6GhQeY2BcX7T9NhpYCxl9ZbfAmQligwChYA8E1Fh53Ux#:~:text=Shopy%20Vision%20is%20an%20Electronics,%26%20Offers%20on%20Shopy%20Vision."
+  },
+  {
+   "position": 5,
+   "title": "Shop Now \u2714\ufe0f Buy Mobile Accessories Online",
+   "link": "https://www.shopyvision.com/shop/page/512/?srsltid=AU7gw4VHvFbHbvE4rhwp_jZ4io5BFcGYvV4aOCM8QhwZ-KCSOkiUU55h",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpgEB6zswFcf_4S62V-w4MV8lrPiUQmTdd6N7PYMyghBteSbNTXQS4mbl3_IQHmuJC2tejXm8tdgCf4p-DrHeh_I0d5RarJloLyC1Y_lWGELLUjg16GPgC47qrNr8xGRBvoo_w_t8_TosEmJ0Y4d5Jkmb1Tm-0FATzS3uBo92354NabycDUuD4aKNweHUUh4pT47-Ekp3kzDHMdcT3tD0r-Sa5wZgGP3J&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQFnoECCAQAQ&uoh=1",
+   "displayed_link": "https://www.shopyvision.com \u203a shop \u203a page",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp",
+   "snippet": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original Products, Best Deals ...",
+   "snippet_highlighted_words": [
+    "Shopy Vision is an Electronics Online Shopping E-commerce Website"
+   ],
+   "rich_snippet": {
+    "bottom": {
+     "detected_extensions": {
+      "price": 399,
+      "currency": "Free delivery over \u20b9",
+      "day_returns": 7
+     },
+     "extensions": [
+      "Free delivery over \u20b9399",
+      "7-day returns"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original Products, Best Deals ...",
+     "source_info_link": "https://www.shopyvision.com/shop/page/512/?srsltid=AU7gw4VHvFbHbvE4rhwp_jZ4io5BFcGYvV4aOCM8QhwZ-KCSOkiUU55h",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZjZl80UzYyVi13NE1WOGxyUGlVUW1UZGQ2TjdQWU15Z2hCdGVTYk5UWFFTNG1ibDNfSVFIbXVKQzJ0ZWpYbTh0ZGdDZjRwLURySGVoX0kwZDVSYXJKbG9MeUMxWV9sV0dFTExVamcxNkdQZ0M0N3FyTnI4eEdSQnZvb193X3Q4X1Rvc0VtSjBZNGQ1SmttYjFUbS0wRkFUelMzdUJvOTIzNTROYWJ5Y0RVdUQ0YUtOd2VIVVVoNHBUNDctRWtwM2t6REhNZGNUM3REMHItU2E1d1pnR1AzShIEGgIIABqPBBIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWhMIARIPc2hvcHl2aXNpb24uY29tcgB6AIJA2AMIABAAGAAgACoyCgtzaG9weXZpc2lvbhWcQKNAGgxzaG9weSB2aXNpb24aEGl2O3A7c2hvcHl2aXNpb24qCgoDY29tFS0lgEAylgEvZ290bz91cmw9Q0FFU1pRSHJPekFWbmFkaHpDcmdWc1ZUUnVNRlFxYUVhdUJnLVYzd001UnVDNzRGbnJFOF9nOHVRZWRnQ3A1ZTc1SjlWNzY0T2h1clZiMlktOXFFTlhQN1JpNTBCM0Z4TkZmMXFnNWRvSGs0WWExbFBDVFpMcXh3emdxQmtXQURqR0pXaUR1UXk0WWw6Q1Nob3AgTm93IOKclO-4jyBCdXkgTW9iaWxlIEFjY2Vzc29yaWVzIE9ubGluZSAtIDxiPlNob3B5IFZpc2lvbjwvYj5CrwE8Yj5TaG9weSBWaXNpb24gaXMgYW4gRWxlY3Ryb25pY3MgT25saW5lIFNob3BwaW5nIEUtY29tbWVyY2UgV2Vic2l0ZTwvYj4gb2YgTXVsdGlwbGUgQnJhbmRlZCBJdGVtcyBmcm9tIGFsbCBvdmVyIHRoZSB3b3JsZC4gR2V0IHRoZSAxMDAlIE9yaWdpbmFsIFByb2R1Y3RzLCBCZXN0IERlYWxzJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZjZl80UzYyVi13NE1WOGxyUGlVUW1UZGQ2TjdQWU15Z2hCdGVTYk5UWFFTNG1ibDNfSVFIbXVKQzJ0ZWpYbTh0ZGdDZjRwLURySGVoX0kwZDVSYXJKbG9MeUMxWV9sV0dFTExVamcxNkdQZ0M0N3FyTnI4eEdSQnZvb193X3Q4X1Rvc0VtSjBZNGQ1SmttYjFUbS0wRkFUelMzdUJvOTIzNTROYWJ5Y0RVdUQ0YUtOd2VIVVVoNHBUNDctRWtwM2t6REhNZGNUM3REMHItU2E1d1pnR1AzShIEGgIIABqPBBIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWhMIARIPc2hvcHl2aXNpb24uY29tcgB6AIJA2AMIABAAGAAgACoyCgtzaG9weXZpc2lvbhWcQKNAGgxzaG9weSB2aXNpb24aEGl2O3A7c2hvcHl2aXNpb24qCgoDY29tFS0lgEAylgEvZ290bz91cmw9Q0FFU1pRSHJPekFWbmFkaHpDcmdWc1ZUUnVNRlFxYUVhdUJnLVYzd001UnVDNzRGbnJFOF9nOHVRZWRnQ3A1ZTc1SjlWNzY0T2h1clZiMlktOXFFTlhQN1JpNTBCM0Z4TkZmMXFnNWRvSGs0WWExbFBDVFpMcXh3emdxQmtXQURqR0pXaUR1UXk0WWw6Q1Nob3AgTm93IOKclO-4jyBCdXkgTW9iaWxlIEFjY2Vzc29yaWVzIE9ubGluZSAtIDxiPlNob3B5IFZpc2lvbjwvYj5CrwE8Yj5TaG9weSBWaXNpb24gaXMgYW4gRWxlY3Ryb25pY3MgT25saW5lIFNob3BwaW5nIEUtY29tbWVyY2UgV2Vic2l0ZTwvYj4gb2YgTXVsdGlwbGUgQnJhbmRlZCBJdGVtcyBmcm9tIGFsbCBvdmVyIHRoZSB3b3JsZC4gR2V0IHRoZSAxMDAlIE9yaWdpbmFsIFByb2R1Y3RzLCBCZXN0IERlYWxzJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Shopy Vision",
+   "read_more_link": "https://www.shopyvision.com/shop/page/512/?srsltid=AU7gw4VHvFbHbvE4rhwp_jZ4io5BFcGYvV4aOCM8QhwZ-KCSOkiUU55h#:~:text=Shopy%20Vision%20is%20an%20Electronics,%26%20Offers%20on%20Shopy%20Vision."
+  },
+  {
+   "position": 6,
+   "title": "Shopy Vision Electronics",
+   "link": "https://www.shopyvision.com/tag/shopy-vision-electronics/?srsltid=AU7gw4XA0QolsPqYAbdh7HpXW7VsRJO6HdNZqLUccJ2_fHTeGCoavtR1",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEStQEB6zswFST5obtskyHj5QlOUGnBgdg7LwfaPR2lifGiMiA23T0DaN2jZr84efylEVE3wcmKUbAl9AP1Zmkbc6-4SsOqbFOxad6JoaQujMQISgAaFD_XbNv226irQ8qCNzryOJ-7Yn4aSzqmbTd6P-bTRtmnQqUVOk49p2YatQZJGXbduLY48c-00evhoPml80RELt7geR5Tju1bFblwi201m5JuWf-7-6eu4_cZRAH6o28Mf1Ln&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQFnoECBoQAQ&uoh=1",
+   "displayed_link": "https://www.shopyvision.com \u203a tag \u203a shopy-vision-elect...",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp",
+   "snippet": "Shopy Vision, the newest and most exciting electronics destination in the area! bringing a wide range of high-quality electronics, accessories, and smart ...",
+   "snippet_highlighted_words": [
+    "Shopy Vision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Shopy Vision, the newest and most exciting electronics destination in the area! bringing a wide range of high-quality electronics, accessories, and smart ...",
+     "source_info_link": "https://www.shopyvision.com/tag/shopy-vision-electronics/?srsltid=AU7gw4XA0QolsPqYAbdh7HpXW7VsRJO6HdNZqLUccJ2_fHTeGCoavtR1",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CoICL2dvdG8_dXJsPUNBRVN0UUVCNnpzd0ZTVDVvYnRza3lIajVRbE9VR25CZ2RnN0x3ZmFQUjJsaWZHaU1pQTIzVDBEYU4yalpyODRlZnlsRVZFM3djbUtVYkFsOUFQMVpta2JjNi00U3NPcWJGT3hhZDZKb2FRdWpNUUlTZ0FhRkRfWGJOdjIyNmlyUThxQ056cnlPSi03WW40YVN6cW1iVGQ2UC1iVFJ0bW5RcVVWT2s0OXAyWWF0UVpKR1hiZHVMWTQ4Yy0wMGV2aG9QbWw4MFJFTHQ3Z2VSNVRqdTFiRmJsd2kyMDFtNUp1V2YtNy02ZXU0X2NaUkFINm8yOE1mMUxuEgQaAggAGvkDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkDCAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFQmWpUAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VGDSAQDKqAS9nb3RvP3VybD1DQUVTZEFIck96QVY5X19GMS1sQU1iZmRfYlFjNi1vX3FjZFFERDRhWGlZamhOU0FwWlk4ZFlYLVVtdjI1djVyMWxNOFJLVzRsVW5ObzBFRy1ZblV4UzZNT1d2WGRGdlhhdnlRZWFEeVhhVkhJWDhERVZXaVAxOVNTT3JVQ1ZDckdxUHg1aUMyNE1wSUZpcGVKRWFaNHVnUmdqa2pGS0REOh88Yj5TaG9weSBWaXNpb248L2I-IEVsZWN0cm9uaWNzQqkBPGI-U2hvcHkgVmlzaW9uPC9iPiwgdGhlIG5ld2VzdCBhbmQgbW9zdCBleGNpdGluZyBlbGVjdHJvbmljcyBkZXN0aW5hdGlvbiBpbiB0aGUgYXJlYSEgYnJpbmdpbmcgYSB3aWRlIHJhbmdlIG9mIGhpZ2gtcXVhbGl0eSBlbGVjdHJvbmljcywgYWNjZXNzb3JpZXMsIGFuZCBzbWFydCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CoICL2dvdG8_dXJsPUNBRVN0UUVCNnpzd0ZTVDVvYnRza3lIajVRbE9VR25CZ2RnN0x3ZmFQUjJsaWZHaU1pQTIzVDBEYU4yalpyODRlZnlsRVZFM3djbUtVYkFsOUFQMVpta2JjNi00U3NPcWJGT3hhZDZKb2FRdWpNUUlTZ0FhRkRfWGJOdjIyNmlyUThxQ056cnlPSi03WW40YVN6cW1iVGQ2UC1iVFJ0bW5RcVVWT2s0OXAyWWF0UVpKR1hiZHVMWTQ4Yy0wMGV2aG9QbWw4MFJFTHQ3Z2VSNVRqdTFiRmJsd2kyMDFtNUp1V2YtNy02ZXU0X2NaUkFINm8yOE1mMUxuEgQaAggAGvkDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkDCAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFQmWpUAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VGDSAQDKqAS9nb3RvP3VybD1DQUVTZEFIck96QVY5X19GMS1sQU1iZmRfYlFjNi1vX3FjZFFERDRhWGlZamhOU0FwWlk4ZFlYLVVtdjI1djVyMWxNOFJLVzRsVW5ObzBFRy1ZblV4UzZNT1d2WGRGdlhhdnlRZWFEeVhhVkhJWDhERVZXaVAxOVNTT3JVQ1ZDckdxUHg1aUMyNE1wSUZpcGVKRWFaNHVnUmdqa2pGS0REOh88Yj5TaG9weSBWaXNpb248L2I-IEVsZWN0cm9uaWNzQqkBPGI-U2hvcHkgVmlzaW9uPC9iPiwgdGhlIG5ld2VzdCBhbmQgbW9zdCBleGNpdGluZyBlbGVjdHJvbmljcyBkZXN0aW5hdGlvbiBpbiB0aGUgYXJlYSEgYnJpbmdpbmcgYSB3aWRlIHJhbmdlIG9mIGhpZ2gtcXVhbGl0eSBlbGVjdHJvbmljcywgYWNjZXNzb3JpZXMsIGFuZCBzbWFydCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Shopy Vision"
+  },
+  {
+   "position": 7,
+   "title": "Electronics Shop",
+   "link": "https://www.shopyvision.com/tag/electronics-shop/?srsltid=AU7gw4Vhctn6q6W17Ggpf_FsRYPql7F82wFuksi-hY1AyxEpo3_em_7s",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrQEB6zswFWM1XbMDkSpos7FLr-gafbchcm_pxWkz25cf4dFgq6nxTN0ELrJu6smQoccg9YCcx7KlPRzxMs_Z4mra0PKyP4AsVJFr9aJmCO003qY-8juEtUh2RayeLOzrvaYWOuw5bhnWA0B6dB4gUteRbwTmiZixE457qFAq3W7tumT97KjSk-FtJ8H1HHT4sn6qlbpnY9OlArFRPxxb__yLiavEQfzsFEuap8CqQg&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQFnoECB8QAQ&uoh=1",
+   "displayed_link": "https://www.shopyvision.com \u203a tag \u203a electronics-shop",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp",
+   "date": "29 Apr 2026",
+   "snippet": "Buy Mobile Accessories Online at Great Prices \u2b50 Online Se Sasta. Shop Earphones, Powerbanks & More from Shopy Vision. Grab Offers Now!",
+   "snippet_highlighted_words": [
+    "Shop Earphones, Powerbanks & More from Shopy Vision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Buy Mobile Accessories Online at Great Prices \u2b50 Online Se Sasta. Shop Earphones, Powerbanks & More from Shopy Vision. Grab Offers Now!",
+     "source_info_link": "https://www.shopyvision.com/tag/electronics-shop/?srsltid=AU7gw4Vhctn6q6W17Ggpf_FsRYPql7F82wFuksi-hY1AyxEpo3_em_7s",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvgBL2dvdG8_dXJsPUNBRVNyUUVCNnpzd0ZXTTFYYk1Ea1Nwb3M3RkxyLWdhZmJjaGNtX3B4V2t6MjVjZjRkRmdxNm54VE4wRUxySnU2c21Rb2NjZzlZQ2N4N0tsUFJ6eE1zX1o0bXJhMFBLeVA0QXNWSkZyOWFKbUNPMDAzcVktOGp1RXRVaDJSYXllTE96cnZhWVdPdXc1YmhuV0EwQjZkQjRnVXRlUmJ3VG1pWml4RTQ1N3FGQXEzVzd0dW1UOTdLalNrLUZ0SjhIMUhIVDRzbjZxbGJwblk5T2xBckZSUHh4Yl9feUxpYXZFUWZ6c0ZFdWFwOENxUWcSBBoCCAAa4AMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoTCAESD3Nob3B5dmlzaW9uLmNvbXIAegCCQKkDCAAQABgAIAAqMgoLc2hvcHl2aXNpb24VOUemQBoMc2hvcHkgdmlzaW9uGhBpdjtwO3Nob3B5dmlzaW9uKgoKA2NvbRV_BYpAMqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVmEtdlE0QjBKek5lTm43UkIwRGo3aXp2WXB6UzRWZ041V0czOHpHZWh6ZWdnSFM5dVlCQlRuNWdJcnFDR244Y3BreUNGOHo5dUtNX3NQcWp0ajdYVzdxOElsZXZpMU5xU21icXQ5MGRibVdMQXVGU1N1RGY2UlV2N0RTSmdYNE1wWjJ0ZUE3a3BhdzomRWxlY3Ryb25pY3MgU2hvcCAtIDxiPlNob3B5IFZpc2lvbjwvYj5CkwFCdXkgTW9iaWxlIEFjY2Vzc29yaWVzIE9ubGluZSBhdCBHcmVhdCBQcmljZXMg4q2QIE9ubGluZSBTZSBTYXN0YS4gPGI-U2hvcCBFYXJwaG9uZXMsIFBvd2VyYmFua3MgJmFtcDsgTW9yZSBmcm9tIFNob3B5IFZpc2lvbjwvYj4uIEdyYWIgT2ZmZXJzIE5vdyEiAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvgBL2dvdG8_dXJsPUNBRVNyUUVCNnpzd0ZXTTFYYk1Ea1Nwb3M3RkxyLWdhZmJjaGNtX3B4V2t6MjVjZjRkRmdxNm54VE4wRUxySnU2c21Rb2NjZzlZQ2N4N0tsUFJ6eE1zX1o0bXJhMFBLeVA0QXNWSkZyOWFKbUNPMDAzcVktOGp1RXRVaDJSYXllTE96cnZhWVdPdXc1YmhuV0EwQjZkQjRnVXRlUmJ3VG1pWml4RTQ1N3FGQXEzVzd0dW1UOTdLalNrLUZ0SjhIMUhIVDRzbjZxbGJwblk5T2xBckZSUHh4Yl9feUxpYXZFUWZ6c0ZFdWFwOENxUWcSBBoCCAAa4AMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoTCAESD3Nob3B5dmlzaW9uLmNvbXIAegCCQKkDCAAQABgAIAAqMgoLc2hvcHl2aXNpb24VOUemQBoMc2hvcHkgdmlzaW9uGhBpdjtwO3Nob3B5dmlzaW9uKgoKA2NvbRV_BYpAMqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVmEtdlE0QjBKek5lTm43UkIwRGo3aXp2WXB6UzRWZ041V0czOHpHZWh6ZWdnSFM5dVlCQlRuNWdJcnFDR244Y3BreUNGOHo5dUtNX3NQcWp0ajdYVzdxOElsZXZpMU5xU21icXQ5MGRibVdMQXVGU1N1RGY2UlV2N0RTSmdYNE1wWjJ0ZUE3a3BhdzomRWxlY3Ryb25pY3MgU2hvcCAtIDxiPlNob3B5IFZpc2lvbjwvYj5CkwFCdXkgTW9iaWxlIEFjY2Vzc29yaWVzIE9ubGluZSBhdCBHcmVhdCBQcmljZXMg4q2QIE9ubGluZSBTZSBTYXN0YS4gPGI-U2hvcCBFYXJwaG9uZXMsIFBvd2VyYmFua3MgJmFtcDsgTW9yZSBmcm9tIFNob3B5IFZpc2lvbjwvYj4uIEdyYWIgT2ZmZXJzIE5vdyEiAhABSABYAGgA",
+   "source": "Shopy Vision"
+  },
+  {
+   "position": 8,
+   "title": "Generic Archives - Page 2 of 4",
+   "link": "https://www.shopyvision.com/product-brands/generic/page/2/?srsltid=AU7gw4WKu9T8vPH0oxxsOd1KB1_cB3Sj5PMz0NHiA1ql1pbk26_Fjhqm",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEStgEB6zswFUmxqq64M9AwBP6MkpBOuIgvEaSaWwng805lqXbFb-A678f6teshJCqGbsjTJohCdqq2ULrIs92JivWregraBrhzMw14DOLwgcpZztPdwq7uS5vsEGdQwPgElMm973F1ZQmAKwn9jdk9Hkh4Rh_867AG82KeguCH1UCAVcNteeMjyhRKq710wMju1roplPTGYty-CMD8Rj2s3M69HcJ2mnPlbjEfx5LWx7Q-gRxG9PxTeQ&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQFnoECCEQAQ&uoh=1",
+   "displayed_link": "https://www.shopyvision.com \u203a product-brands \u203a page",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp",
+   "snippet": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original Products, Best Deals ...",
+   "snippet_highlighted_words": [
+    "Shopy Vision is an Electronics Online Shopping E-commerce Website"
+   ],
+   "rich_snippet": {
+    "bottom": {
+     "detected_extensions": {
+      "price": 399,
+      "currency": "Free delivery over \u20b9",
+      "day_returns": 7
+     },
+     "extensions": [
+      "Free delivery over \u20b9399",
+      "7-day returns"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original Products, Best Deals ...",
+     "source_info_link": "https://www.shopyvision.com/product-brands/generic/page/2/?srsltid=AU7gw4WKu9T8vPH0oxxsOd1KB1_cB3Sj5PMz0NHiA1ql1pbk26_Fjhqm",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CoQCL2dvdG8_dXJsPUNBRVN0Z0VCNnpzd0ZVbXhxcTY0TTlBd0JQNk1rcEJPdUlndkVhU2FXd25nODA1bHFYYkZiLUE2NzhmNnRlc2hKQ3FHYnNqVEpvaENkcXEyVUxySXM5MkppdldyZWdyYUJyaHpNdzE0RE9Md2djcFp6dFBkd3E3dVM1dnNFR2RRd1BnRWxNbTk3M0YxWlFtQUt3bjlqZGs5SGtoNFJoXzg2N0FHODJLZWd1Q0gxVUNBVmNOdGVlTWp5aFJLcTcxMHdNanUxcm9wbFBUR1l0eS1DTUQ4UmoyczNNNjlIY0oybW5QbGJqRWZ4NUxXeDdRLWdSeEc5UHhUZVESBBoCCAAalgQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoTCAESD3Nob3B5dmlzaW9uLmNvbXIAegCCQN8DCAAQABgAIAAqMgoLc2hvcHl2aXNpb24VU1ijQBoMc2hvcHkgdmlzaW9uGhBpdjtwO3Nob3B5dmlzaW9uKgoKA2NvbRV2wYRAMqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVmZtZGc5X25fcnJhYzJNam9XWkc1MjBBZ1ZTVlZnb0lWRGI4UGNETXhrNUk0bFdhaTZOWTRWYVkzTmZtem9aYTdkYjFWWm1zaXdSczBFeHpJU3ZxNTZ6d24xeHFPNDdzUXJEQVdCUEZGTmhFTkEzRHg0aDVBZ0tMWnEzY2oySUpMbjlDWEhfY3hTbzdOdWp4bVBiUF9LUTo0R2VuZXJpYyBBcmNoaXZlcyAtIFBhZ2UgMiBvZiA0IC0gPGI-U2hvcHkgVmlzaW9uPC9iPkKvATxiPlNob3B5IFZpc2lvbiBpcyBhbiBFbGVjdHJvbmljcyBPbmxpbmUgU2hvcHBpbmcgRS1jb21tZXJjZSBXZWJzaXRlPC9iPiBvZiBNdWx0aXBsZSBCcmFuZGVkIEl0ZW1zIGZyb20gYWxsIG92ZXIgdGhlIHdvcmxkLiBHZXQgdGhlIDEwMCUgT3JpZ2luYWwgUHJvZHVjdHMsIEJlc3QgRGVhbHMmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CoQCL2dvdG8_dXJsPUNBRVN0Z0VCNnpzd0ZVbXhxcTY0TTlBd0JQNk1rcEJPdUlndkVhU2FXd25nODA1bHFYYkZiLUE2NzhmNnRlc2hKQ3FHYnNqVEpvaENkcXEyVUxySXM5MkppdldyZWdyYUJyaHpNdzE0RE9Md2djcFp6dFBkd3E3dVM1dnNFR2RRd1BnRWxNbTk3M0YxWlFtQUt3bjlqZGs5SGtoNFJoXzg2N0FHODJLZWd1Q0gxVUNBVmNOdGVlTWp5aFJLcTcxMHdNanUxcm9wbFBUR1l0eS1DTUQ4UmoyczNNNjlIY0oybW5QbGJqRWZ4NUxXeDdRLWdSeEc5UHhUZVESBBoCCAAalgQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoTCAESD3Nob3B5dmlzaW9uLmNvbXIAegCCQN8DCAAQABgAIAAqMgoLc2hvcHl2aXNpb24VU1ijQBoMc2hvcHkgdmlzaW9uGhBpdjtwO3Nob3B5dmlzaW9uKgoKA2NvbRV2wYRAMqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVmZtZGc5X25fcnJhYzJNam9XWkc1MjBBZ1ZTVlZnb0lWRGI4UGNETXhrNUk0bFdhaTZOWTRWYVkzTmZtem9aYTdkYjFWWm1zaXdSczBFeHpJU3ZxNTZ6d24xeHFPNDdzUXJEQVdCUEZGTmhFTkEzRHg0aDVBZ0tMWnEzY2oySUpMbjlDWEhfY3hTbzdOdWp4bVBiUF9LUTo0R2VuZXJpYyBBcmNoaXZlcyAtIFBhZ2UgMiBvZiA0IC0gPGI-U2hvcHkgVmlzaW9uPC9iPkKvATxiPlNob3B5IFZpc2lvbiBpcyBhbiBFbGVjdHJvbmljcyBPbmxpbmUgU2hvcHBpbmcgRS1jb21tZXJjZSBXZWJzaXRlPC9iPiBvZiBNdWx0aXBsZSBCcmFuZGVkIEl0ZW1zIGZyb20gYWxsIG92ZXIgdGhlIHdvcmxkLiBHZXQgdGhlIDEwMCUgT3JpZ2luYWwgUHJvZHVjdHMsIEJlc3QgRGVhbHMmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "Shopy Vision",
+   "read_more_link": "https://www.shopyvision.com/product-brands/generic/page/2/?srsltid=AU7gw4WKu9T8vPH0oxxsOd1KB1_cB3Sj5PMz0NHiA1ql1pbk26_Fjhqm#:~:text=Shopy%20Vision%20is%20an%20Electronics,%26%20Offers%20on%20Shopy%20Vision."
+  },
+  {
+   "position": 9,
+   "title": "Tech Store",
+   "link": "https://www.shopyvision.com/tag/tech-store/?srsltid=AU7gw4X3_RWbx9zHh3cWrEXDd7Lf3h0lcP2u_dYYFwxw071tMXEnP-Ss",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpwEB6zswFQ8OzeVo5eyTAskigjN1ybW8S0RvR2zxUAH8lgb1Ji_Jnlx0dbtycAQvQC9GzF_jYbmjv7B5BfTbhNTMlORCt1n9H0BArTmnFnPQjtnxUm_X0VteUl6HpkLmosu4rvE4_2bytoL0kaY2gn6ZmjGKbU3rt8Q2lS5lUwidX790pb02AIjZ6R47V2lQ6jUP4stR2q94gcOlRlH0j_h6u2i4D5baew&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQFnoECD0QAQ&uoh=1",
+   "displayed_link": "https://www.shopyvision.com \u203a tag \u203a tech-store",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp",
+   "date": "29 Apr 2026",
+   "snippet": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original ...",
+   "snippet_highlighted_words": [
+    "Shopy Vision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Shopy Vision is an Electronics Online Shopping E-commerce Website of Multiple Branded Items from all over the world. Get the 100% Original ...",
+     "source_info_link": "https://www.shopyvision.com/tag/tech-store/?srsltid=AU7gw4X3_RWbx9zHh3cWrEXDd7Lf3h0lcP2u_dYYFwxw071tMXEnP-Ss",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAw-GwkAEsc-gB0ppXge3F7WGbBD8fggp-IthEvBCyI49PpG-o4-AAA4nCyXGttT4ep89o6Chve8ku-yml2-ZeFllQgIH7Wx5lh-Xo_HvBtJG4bg0GIFGjcBJTpyR_tR_ZlxSrLoY_edmP17YGPBR-52G1QZzXGb2UETomIQQw1Jpye_2R-g3flbC4_1SwO-CzS7jdeXIlCq8c3w5aX9H3yr3bx437ufrhOOmd_yBBVjiy-O_lIHvZ1rZzrJzFmEkvJTm3ztSaa7spAuI3gTnaqTKHfYawL5Uqv5rWjH_ocYbdX_e7My20ruVLR9p1cIukP8G2tltvB1N4vAEK1wSOsQl5UfiCNtyP__XnS6E5sB42Of5bYRGDrzo7kt-IYISaTUfvyOWv2fegO2KTdU_KwTAOy7QhT4hq4QvxxYOdjxDz5SBJ_AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvABL2dvdG8_dXJsPUNBRVNwd0VCNnpzd0ZROE96ZVZvNWV5VEFza2lnak4xeWJXOFMwUnZSMnp4VUFIOGxnYjFKaV9Kbmx4MGRidHljQVF2UUM5R3pGX2pZYm1qdjdCNUJmVGJoTlRNbE9SQ3QxbjlIMEJBclRtbkZuUFFqdG54VW1fWDBWdGVVbDZIcGtMbW9zdTRydkU0XzJieXRvTDBrYVkyZ242Wm1qR0tiVTNydDhRMmxTNWxVd2lkWDc5MHBiMDJBSWpaNlI0N1YybFE2alVQNHN0UjJxOTRnY09sUmxIMGpfaDZ1Mmk0RDViYWV3EgQaAggAGtkDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkCiAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFWJ1pkAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VEAyKQDKYAS9nb3RvP3VybD1DQUVTWmdIck96QVZTRVFYdVVvWmlfY0x2U1NVZmJfX05pbDFPSURzdmUyMXNaUkhjUTdvcTFwUFRMNGlJU2tLRW5sd1NvY25mZ2c2b2hmb0dIcXZ0cUJTZ3l1ZHpvdWJwamZaM3IzZ0dVUkVPckJLbXRFMnN5TDU0WVRObEZfNUtUN01fNTFOcVNTZ3VnOiBUZWNoIFN0b3JlIC0gPGI-U2hvcHkgVmlzaW9uPC9iPkKaATxiPlNob3B5IFZpc2lvbjwvYj4gaXMgYW4gRWxlY3Ryb25pY3MgT25saW5lIFNob3BwaW5nIEUtY29tbWVyY2UgV2Vic2l0ZSBvZiBNdWx0aXBsZSBCcmFuZGVkIEl0ZW1zIGZyb20gYWxsIG92ZXIgdGhlIHdvcmxkLiBHZXQgdGhlIDEwMCUgT3JpZ2luYWwmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvABL2dvdG8_dXJsPUNBRVNwd0VCNnpzd0ZROE96ZVZvNWV5VEFza2lnak4xeWJXOFMwUnZSMnp4VUFIOGxnYjFKaV9Kbmx4MGRidHljQVF2UUM5R3pGX2pZYm1qdjdCNUJmVGJoTlRNbE9SQ3QxbjlIMEJBclRtbkZuUFFqdG54VW1fWDBWdGVVbDZIcGtMbW9zdTRydkU0XzJieXRvTDBrYVkyZ242Wm1qR0tiVTNydDhRMmxTNWxVd2lkWDc5MHBiMDJBSWpaNlI0N1YybFE2alVQNHN0UjJxOTRnY09sUmxIMGpfaDZ1Mmk0RDViYWV3EgQaAggAGtkDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEwgBEg9zaG9weXZpc2lvbi5jb21yAHoAgkCiAwgAEAAYACAAKjIKC3Nob3B5dmlzaW9uFWJ1pkAaDHNob3B5IHZpc2lvbhoQaXY7cDtzaG9weXZpc2lvbioKCgNjb20VEAyKQDKYAS9nb3RvP3VybD1DQUVTWmdIck96QVZTRVFYdVVvWmlfY0x2U1NVZmJfX05pbDFPSURzdmUyMXNaUkhjUTdvcTFwUFRMNGlJU2tLRW5sd1NvY25mZ2c2b2hmb0dIcXZ0cUJTZ3l1ZHpvdWJwamZaM3IzZ0dVUkVPckJLbXRFMnN5TDU0WVRObEZfNUtUN01fNTFOcVNTZ3VnOiBUZWNoIFN0b3JlIC0gPGI-U2hvcHkgVmlzaW9uPC9iPkKaATxiPlNob3B5IFZpc2lvbjwvYj4gaXMgYW4gRWxlY3Ryb25pY3MgT25saW5lIFNob3BwaW5nIEUtY29tbWVyY2UgV2Vic2l0ZSBvZiBNdWx0aXBsZSBCcmFuZGVkIEl0ZW1zIGZyb20gYWxsIG92ZXIgdGhlIHdvcmxkLiBHZXQgdGhlIDEwMCUgT3JpZ2luYWwmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "Shopy Vision",
+   "read_more_link": "https://www.shopyvision.com/tag/tech-store/?srsltid=AU7gw4X3_RWbx9zHh3cWrEXDd7Lf3h0lcP2u_dYYFwxw071tMXEnP-Ss#:~:text=Shopy%20Vision%20is%20an%20Electronics,%26%20Offers%20on%20Shopy%20Vision."
+  }
+ ],
+ "pagination": {
+  "current": 1,
+  "next": "https://www.google.com/search?q=shopyvision.com&sca_esv=2507eaa3ff772ac2&gl=in&sxsrf=APpeQnuwe72SCIftQ4V87IzSZh1MKVEbjg:1791621639596&ei=B_rJatf7I4uq5NoPhfSE4Qg&start=10&sa=N&sstk=AS6-VmKyWzd2Bpn4avY3QLkDv34hMSHbvt3CWwFdcOHHxevYNiYjLFp-FHAE5qSUZvHxfdYUUmBofz9GOEpOkl_ZdtNoZgvULhagZg&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQ8NMDegQIOxAK",
+  "other_pages": {
+   "2": "https://www.google.com/search?q=shopyvision.com&sca_esv=2507eaa3ff772ac2&gl=in&sxsrf=APpeQnuwe72SCIftQ4V87IzSZh1MKVEbjg:1791621639596&ei=B_rJatf7I4uq5NoPhfSE4Qg&start=10&sa=N&sstk=AS6-VmKyWzd2Bpn4avY3QLkDv34hMSHbvt3CWwFdcOHHxevYNiYjLFp-FHAE5qSUZvHxfdYUUmBofz9GOEpOkl_ZdtNoZgvULhagZg&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQ8tMDegQIOxAE",
+   "3": "https://www.google.com/search?q=shopyvision.com&sca_esv=2507eaa3ff772ac2&gl=in&sxsrf=APpeQnuwe72SCIftQ4V87IzSZh1MKVEbjg:1791621639596&ei=B_rJatf7I4uq5NoPhfSE4Qg&start=20&sa=N&sstk=AS6-VmKyWzd2Bpn4avY3QLkDv34hMSHbvt3CWwFdcOHHxevYNiYjLFp-FHAE5qSUZvHxfdYUUmBofz9GOEpOkl_ZdtNoZgvULhagZg&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQ8tMDegQIOxAG",
+   "4": "https://www.google.com/search?q=shopyvision.com&sca_esv=2507eaa3ff772ac2&gl=in&sxsrf=APpeQnuwe72SCIftQ4V87IzSZh1MKVEbjg:1791621639596&ei=B_rJatf7I4uq5NoPhfSE4Qg&start=30&sa=N&sstk=AS6-VmKyWzd2Bpn4avY3QLkDv34hMSHbvt3CWwFdcOHHxevYNiYjLFp-FHAE5qSUZvHxfdYUUmBofz9GOEpOkl_ZdtNoZgvULhagZg&ved=2ahUKEwiXm5nbhq-XAxULFVkFHQU6IYwQ8tMDegQIOxAI"
+  }
+ },
+ "serpapi_pagination": {
+  "current": 1,
+  "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=shopyvision.com&start=10",
+  "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=shopyvision.com&start=10",
+  "other_pages": {
+   "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=shopyvision.com&start=10",
+   "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=shopyvision.com&start=20",
+   "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=shopyvision.com&start=30"
+  }
+ }
+}

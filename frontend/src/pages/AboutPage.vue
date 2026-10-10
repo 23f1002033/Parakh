@@ -64,6 +64,11 @@ const outcomeList = (xs) => xs.map((o) => OUTCOME_LABELS[o] || o).join(', ')
             lists it ({{ list(rules.price.major_retailers) }}). Without such a listing this is a note, not a good
             sign.
           </li>
+          <li>
+            Caution: the original price the store shows is {{ rules.price.mrp_ratio }}x the median or more, so the
+            discount may be overstated. This is never a good sign.
+          </li>
+          <li>Listings from the store's own website are left out of the comparison.</li>
         </ul>
       </section>
 
@@ -83,7 +88,8 @@ const outcomeList = (xs) => xs.map((o) => OUTCOME_LABELS[o] || o).join(', ')
         <h2>Complaints</h2>
         <p>
           Parakh searches Google and Google Forums for the store name and reads only results that mention the
-          store. Finding no discussion is a note, not a good sign.
+          store. The store's own website and Instagram profile are left out. Finding no discussion is a note, not
+          a good sign.
         </p>
         <ul class="facts small">
           <li>A result mentions the store when it has the {{ rules.complaints.relevance }}.</li>
@@ -102,6 +108,7 @@ const outcomeList = (xs) => xs.map((o) => OUTCOME_LABELS[o] || o).join(', ')
         <h2>Account</h2>
         <p>Parakh reads the Instagram profile and its recent posts.</p>
         <ul class="facts small">
+          <li>Caution: no Instagram account exists with this handle.</li>
           <li>Caution: the account is private.</li>
           <li>
             Caution: the oldest visible post is under {{ rules.account.new_account_days }} days old and fewer

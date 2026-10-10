@@ -36,6 +36,7 @@ class Check(Base):
     website_store_id: Mapped[int | None] = mapped_column(ForeignKey("stores.id"))
     product_name: Mapped[str | None] = mapped_column(String(120))
     quoted_price: Mapped[int | None] = mapped_column(Integer)
+    claimed_mrp: Mapped[int | None] = mapped_column(Integer)
     image_sha256: Mapped[str | None] = mapped_column(String(64))
     image_url: Mapped[str | None] = mapped_column(Text)
     status: Mapped[str] = mapped_column(String(16), default="running")

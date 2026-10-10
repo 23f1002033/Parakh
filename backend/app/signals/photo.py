@@ -1,18 +1,11 @@
 from app.serp.engines import LensResult
 from app.signals import rules
-from app.signals.result import Item, SignalResult, domain_labels, domain_of, done, is_brand_site, is_major_retailer, source
+from app.signals.result import (
+    Item, SignalResult, domain_labels, domain_of, done, is_brand_site, is_major_retailer, is_own_url, source,
+)
 
 NO_COPIES = ("No exact copies found. Screenshots and edited photos often have none, "
              "so this is not proof the photo is original.")
-
-
-def _is_own(url: str, domain: str, handle: str | None, store_domain: str | None) -> bool:
-    if store_domain and (domain == store_domain or domain.endswith("." + store_domain)):
-        return True
-    if handle and domain == "instagram.com":
-        path = url.split("instagram.com", 1)[1].strip("/").lower()
-        return path.split("/")[0] == handle
-    return False
 
 
 def _marketplace(domain: str) -> str | None:
@@ -23,7 +16,7 @@ def evaluate(exact: LensResult, handle: str | None, store_domain: str | None, pr
     by_domain: dict[str, list] = {}
     for m in exact.matches:
         domain = domain_of(m.link)
-        if not domain or _is_own(m.link, domain, handle, store_domain):
+        if not domain or is_own_url(m.link, handle, store_domain):
             continue
         by_domain.setdefault(domain, []).append(m)
 
