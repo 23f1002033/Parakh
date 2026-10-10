@@ -1,8 +1,8 @@
 # Parakh - Design
 
-Version 1.4, 10 Oct 2026. Implements docs/01-requirements.md.
+Version 1.5, 10 Oct 2026. Implements docs/01-requirements.md.
 
-Changes in 1.1 to 1.4 come from the live recordings and milestone reviews; see section 11.
+Changes in 1.1 to 1.5 come from the live recordings and milestone reviews; see section 11.
 
 ## 1. Architecture
 
@@ -225,7 +225,11 @@ Never good: a screenshot rarely matches anything exactly (seen in M1).
 ### 6.3 Complaints (FR-9, 10)
 
 Queries: google `"<key>" scam OR fraud OR fake OR "not delivered" OR refund`;
-google_forums `"<key>"`.
+google_forums `"<key>"`. The key is the Instagram handle if given, else the
+website domain. When the handle split on "." and "_" gives 3 or more words,
+`"<key>"` becomes `("<handle>" OR "<spaced handle>")` in both queries, e.g.
+`("the_red.store" OR "the red store")`. Shorter handles and domains keep the
+plain form.
 A result counts as relevant if its title or snippet contains:
 - the exact Instagram handle (with or without @) or the website domain, or
 - the handle with "." and "_" as spaces, or the Instagram full_name, only
@@ -335,3 +339,4 @@ Plain CSS, mobile first, no UI framework.
 | 1.3 | Complaint relevance: exact handle or domain; spaced handle and full_name only with 2+ words plus a store-context word | 9 of 10 boat.nirvana forum results were boAt Nirvana product threads and counted as store mentions |
 | 1.3 | Price ratio <= 0.4 without a brand or major-retailer listing is info, not good | "Price is in line" was wrong for a very low quote |
 | 1.4 | CORS removed; rate limits and REPLAY_DELAY_MS are config | one origin in production, proxy in development; demos fill in visibly |
+| 1.5 | Complaint queries add the spaced handle for handles of 3+ words | such handles are often written with spaces; 2-word handles keep the old query so demo 1 fixtures stay valid |

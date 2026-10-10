@@ -99,8 +99,8 @@ async def run(args, settings: Settings) -> str:
         if handle:
             await _try(lines, "instagram_profile", engines.instagram_profile(client, handle, run_id), _profile)
         if store_key:
-            await _try(lines, "google complaints", engines.google_search(client, engines.complaints_query(store_key), run_id), _results)
-            await _try(lines, "google_forums", engines.google_forums(client, engines.forums_query(store_key), run_id), _results)
+            await _try(lines, "google complaints", engines.google_search(client, engines.complaints_query(handle, domain), run_id), _results)
+            await _try(lines, "google_forums", engines.google_forums(client, engines.forums_query(handle, domain), run_id), _results)
         if domain:
             await _try(lines, "google footprint", engines.website_footprint(client, domain, run_id), _results)
         if args.maps:

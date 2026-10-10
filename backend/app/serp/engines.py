@@ -1,3 +1,4 @@
+import re
 from dataclasses import dataclass, field
 from datetime import date
 
@@ -8,14 +9,27 @@ from app.serp.images import ImageRef
 COMPLAINT_TERMS = 'scam OR fraud OR fake OR "not delivered" OR refund'
 # Forums timed out at 20 s during the M1 recording.
 FORUMS_TIMEOUT = 30
+# A handle like "the.red.store" is often written as "the red store"; two-word handles
+# keep the plain query (spaced two-word names are usually product names, and demo 1
+# fixtures depend on the old query).
+SPACED_HANDLE_MIN_WORDS = 3
 
 
-def complaints_query(store_key: str) -> str:
-    return f'"{store_key}" {COMPLAINT_TERMS}'
+def store_query_term(handle: str | None, domain: str | None) -> str:
+    if handle:
+        words = [w for w in re.split(r"[._]+", handle) if w]
+        if len(words) >= SPACED_HANDLE_MIN_WORDS:
+            return f'("{handle}" OR "{" ".join(words)}")'
+        return f'"{handle}"'
+    return f'"{domain}"'
 
 
-def forums_query(store_key: str) -> str:
-    return f'"{store_key}"'
+def complaints_query(handle: str | None, domain: str | None) -> str:
+    return f"{store_query_term(handle, domain)} {COMPLAINT_TERMS}"
+
+
+def forums_query(handle: str | None, domain: str | None) -> str:
+    return store_query_term(handle, domain)
 
 
 def _list(v) -> list:

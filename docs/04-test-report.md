@@ -1,6 +1,6 @@
 # Parakh - Test Report
 
-Date: 10 Oct 2026. Test plan: docs/03-test-plan.md version 1.3. Design 1.4.
+Date: 10 Oct 2026. Test plan: docs/03-test-plan.md version 1.3. Design 1.5.
 
 ## Environment
 
@@ -15,7 +15,7 @@ Date: 10 Oct 2026. Test plan: docs/03-test-plan.md version 1.3. Design 1.4.
 
 ## pytest result
 
-Command: `cd backend && uv run pytest -q`. Result: **90 passed, 0 failed, 0
+Command: `cd backend && uv run pytest -q`. Result: **92 passed, 0 failed, 0
 skipped**. One warning comes from a library (Starlette notes that its test
 client uses httpx); it does not affect results.
 
@@ -23,7 +23,7 @@ client uses httpx); it does not affect results.
 |---|---|---|
 | tests/test_api.py | 12 | 12 |
 | tests/test_api_meta.py | 1 | 1 |
-| tests/test_engines.py | 4 | 4 |
+| tests/test_engines.py | 6 | 6 |
 | tests/test_limits.py | 3 | 3 |
 | tests/test_normalize.py | 6 | 6 |
 | tests/test_record_tool.py | 1 | 1 |
@@ -35,7 +35,7 @@ client uses httpx); it does not affect results.
 | tests/test_signals_price.py | 14 | 14 |
 | tests/test_signals_verdict.py | 8 | 8 |
 | tests/test_spa.py | 2 | 2 |
-| **Total** | **90** | **90** |
+| **Total** | **92** | **92** |
 
 ## Results by test ID
 

@@ -129,7 +129,7 @@ docs/                requirements, design, test plan and report, backlog
 cd backend && uv run pytest -q
 ```
 
-90 tests, no network: unit tests for every signal rule, the SerpApi client
+92 tests, no network: unit tests for every signal rule, the SerpApi client
 against mocked HTTP, the check runner on the recorded demo fixtures, and the API.
 See [docs/03-test-plan.md](docs/03-test-plan.md) and the results in
 [docs/04-test-report.md](docs/04-test-report.md).

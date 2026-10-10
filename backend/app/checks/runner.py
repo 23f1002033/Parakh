@@ -87,10 +87,10 @@ class Runner:
         return photo.evaluate(exact, self.inp.handle, self.inp.domain, self.inp.product_name)
 
     async def complaints(self) -> SignalResult:
-        key = self.inp.handle or self.inp.domain
+        handle, domain = self.inp.handle, self.inp.domain
         (google, g_err), (forums, f_err) = await asyncio.gather(
-            _attempt(engines.google_search(self.client, engines.complaints_query(key), self.id)),
-            _attempt(engines.google_forums(self.client, engines.forums_query(key), self.id)),
+            _attempt(engines.google_search(self.client, engines.complaints_query(handle, domain), self.id)),
+            _attempt(engines.google_forums(self.client, engines.forums_query(handle, domain), self.id)),
         )
         if google is None and forums is None:
             return unavailable(reason_for(g_err or f_err))

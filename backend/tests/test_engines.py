@@ -84,3 +84,18 @@ async def test_forums_retries_once_on_timeout():
 
     with pytest.raises(EngineTimeout):
         await engines.google_forums(Dead(), "q")
+
+
+def test_complaint_queries_keep_plain_form_for_short_handles():
+    # Same strings as the recorded demo 1 fixtures, so their cache keys do not change.
+    assert engines.complaints_query("boat.nirvana", None) == '"boat.nirvana" scam OR fraud OR fake OR "not delivered" OR refund'
+    assert engines.forums_query("boat.nirvana", None) == '"boat.nirvana"'
+    assert engines.forums_query("redstore", "red.co.in") == '"redstore"'
+    # Domains are never split, even with 3+ dot-separated parts.
+    assert engines.forums_query(None, "my.shop.co.in") == '"my.shop.co.in"'
+
+
+def test_complaint_queries_add_spaced_handle_for_three_words():
+    assert engines.complaints_query("the_red.store", None) == (
+        '("the_red.store" OR "the red store") scam OR fraud OR fake OR "not delivered" OR refund')
+    assert engines.forums_query("shop.with.priya_", "x.in") == '("shop.with.priya_" OR "shop with priya")'
