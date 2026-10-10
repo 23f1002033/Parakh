@@ -16,6 +16,10 @@ from app.serp.client import SerpClient
 from app.serp.images import ImageRef
 
 
+CALLS = ("lens_all", "lens_exact", "google_shopping", "instagram_profile", "google_complaints",
+         "google_forums", "google_footprint", "google_maps")
+
+
 def parse_args(argv):
     p = argparse.ArgumentParser(prog="python -m app.tools.record")
     p.add_argument("--instagram")
@@ -24,7 +28,11 @@ def parse_args(argv):
     p.add_argument("--product", help="product name; used for Google Shopping, not sent to Lens")
     p.add_argument("--maps", help="Google Maps query, for example 'Store name Jaipur'")
     p.add_argument("--mode", choices=["record", "replay"], default="record")
+    p.add_argument("--only", help=f"comma-separated subset of calls to make: {', '.join(CALLS)}")
     args = p.parse_args(argv)
+    args.only = set(args.only.split(",")) if args.only else set(CALLS)
+    if args.only - set(CALLS):
+        p.error(f"unknown --only names: {', '.join(sorted(args.only - set(CALLS)))}")
     if not (args.instagram or args.website or args.image or args.product or args.maps):
         p.error("give at least one of --instagram, --website, --image, --product, --maps")
     return args
@@ -33,6 +41,8 @@ def parse_args(argv):
 async def _try(lines, label, coro, fmt):
     try:
         lines.append(f"{label}: {fmt(await coro)}")
+    except engines.ProfileNotFound:
+        lines.append(f"{label}: profile not found (recorded)")
     except Exception as e:
         lines.append(f"{label}: unavailable ({type(e).__name__}: {e})")
 
@@ -89,22 +99,23 @@ async def run(args, settings: Settings) -> str:
         else:
             image = ImageRef.from_bytes(Path(args.image).read_bytes())
 
+    calls = [
+        ("lens_all", url or image, lambda: engines.lens_all(client, url=url, image=image, check_id=run_id), _lens_all),
+        ("lens_exact", url or image, lambda: engines.lens_exact(client, url=url, image=image, check_id=run_id), _lens_exact),
+        ("google_shopping", args.product, lambda: engines.google_shopping(client, args.product, run_id), _shopping),
+        ("instagram_profile", handle, lambda: engines.instagram_profile(client, handle, run_id), _profile),
+        ("google_complaints", store_key,
+         lambda: engines.google_search(client, engines.complaints_query(handle, domain), run_id), _results),
+        ("google_forums", store_key,
+         lambda: engines.google_forums(client, engines.forums_query(handle, domain), run_id), _results),
+        ("google_footprint", domain, lambda: engines.website_footprint(client, domain, run_id), _results),
+        ("google_maps", args.maps, lambda: engines.google_maps(client, args.maps, run_id), _maps),
+    ]
     lines = []
     try:
-        if url or image:
-            await _try(lines, "lens_all", engines.lens_all(client, url=url, image=image, check_id=run_id), _lens_all)
-            await _try(lines, "lens_exact", engines.lens_exact(client, url=url, image=image, check_id=run_id), _lens_exact)
-        if args.product:
-            await _try(lines, "google_shopping", engines.google_shopping(client, args.product, run_id), _shopping)
-        if handle:
-            await _try(lines, "instagram_profile", engines.instagram_profile(client, handle, run_id), _profile)
-        if store_key:
-            await _try(lines, "google complaints", engines.google_search(client, engines.complaints_query(handle, domain), run_id), _results)
-            await _try(lines, "google_forums", engines.google_forums(client, engines.forums_query(handle, domain), run_id), _results)
-        if domain:
-            await _try(lines, "google footprint", engines.website_footprint(client, domain, run_id), _results)
-        if args.maps:
-            await _try(lines, "google_maps", engines.google_maps(client, args.maps, run_id), _maps)
+        for name, needed, call, fmt in calls:
+            if needed and name in args.only:
+                await _try(lines, name, call(), fmt)
     finally:
         await client.aclose()
 

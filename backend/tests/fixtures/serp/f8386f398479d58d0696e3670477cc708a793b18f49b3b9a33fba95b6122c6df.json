@@ -1,0 +1,22 @@
+{
+ "search_metadata": {
+  "id": "6ac9f905c06680c2acd1d558",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/dBbkM39MF5__EMb0P8nrA83d3PiIjennyVQz08fe6HQ/6ac9f905c06680c2acd1d558.json",
+  "markdown_endpoint": "https://serpapi.com/searches/dBbkM39MF5__EMb0P8nrA83d3PiIjennyVQz08fe6HQ/6ac9f905c06680c2acd1d558.md",
+  "created_at": "2026-10-10 08:36:21 UTC",
+  "processed_at": "2026-10-10 08:36:21 UTC",
+  "instagram_profile_url": "https://www.instagram.com/fashion_insta_by_shanaya",
+  "raw_html_file": "https://serpapi.com/searches/dBbkM39MF5__EMb0P8nrA83d3PiIjennyVQz08fe6HQ/6ac9f905c06680c2acd1d558.html",
+  "prettify_html_file": "https://serpapi.com/searches/dBbkM39MF5__EMb0P8nrA83d3PiIjennyVQz08fe6HQ/6ac9f905c06680c2acd1d558.prettify",
+  "total_time_taken": 0.65
+ },
+ "search_parameters": {
+  "engine": "instagram_profile",
+  "profile_id": "fashion_insta_by_shanaya"
+ },
+ "search_information": {
+  "profile_results_state": "Fully empty"
+ },
+ "error": "Instagram profile not found"
+}

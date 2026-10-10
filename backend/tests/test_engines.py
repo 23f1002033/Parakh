@@ -87,8 +87,9 @@ async def test_forums_retries_once_on_timeout():
 
 
 def test_complaint_queries_keep_plain_form_for_short_handles():
-    # Same strings as the recorded demo 1 fixtures, so their cache keys do not change.
-    assert engines.complaints_query("boat.nirvana", None) == '"boat.nirvana" scam OR fraud OR fake OR "not delivered" OR refund'
+    # Complaint terms are grouped: ungrouped, Google read "<name> OR scam OR ..." and ignored the name.
+    assert engines.complaints_query("boat.nirvana", None) == (
+        '"boat.nirvana" (scam OR fraud OR fake OR "not delivered" OR refund OR complaint)')
     assert engines.forums_query("boat.nirvana", None) == '"boat.nirvana"'
     assert engines.forums_query("redstore", "red.co.in") == '"redstore"'
     # Domains are never split, even with 3+ dot-separated parts.
@@ -97,5 +98,5 @@ def test_complaint_queries_keep_plain_form_for_short_handles():
 
 def test_complaint_queries_add_spaced_handle_for_three_words():
     assert engines.complaints_query("the_red.store", None) == (
-        '("the_red.store" OR "the red store") scam OR fraud OR fake OR "not delivered" OR refund')
+        '("the_red.store" OR "the red store") (scam OR fraud OR fake OR "not delivered" OR refund OR complaint)')
     assert engines.forums_query("shop.with.priya_", "x.in") == '("shop.with.priya_" OR "shop with priya")'

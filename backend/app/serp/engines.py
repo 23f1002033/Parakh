@@ -6,7 +6,9 @@ from app.normalize import parse_caption_date, parse_currency
 from app.serp.client import PROFILE_NOT_FOUND, EngineError, EngineTimeout, SerpClient
 from app.serp.images import ImageRef
 
-COMPLAINT_TERMS = 'scam OR fraud OR fake OR "not delivered" OR refund'
+# Grouped so Google reads "<name> AND (any term)"; ungrouped it read "<name> OR scam OR ..."
+# and returned generic refund and fraud pages.
+COMPLAINT_TERMS = '(scam OR fraud OR fake OR "not delivered" OR refund OR complaint)'
 # Forums timed out at 20 s during the M1 recording.
 FORUMS_TIMEOUT = 30
 # A handle like "the.red.store" is often written as "the red store"; two-word handles

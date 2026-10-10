@@ -1,0 +1,340 @@
+{
+ "search_metadata": {
+  "id": "6aca02086a1f11f44a5ecd7b",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/NN01sTp5-H05byDJkbVAXMZpBo4JX77F2bADgUP9XOA/6aca02086a1f11f44a5ecd7b.json",
+  "markdown_endpoint": "https://serpapi.com/searches/NN01sTp5-H05byDJkbVAXMZpBo4JX77F2bADgUP9XOA/6aca02086a1f11f44a5ecd7b.md",
+  "pixel_position_endpoint": "https://serpapi.com/searches/NN01sTp5-H05byDJkbVAXMZpBo4JX77F2bADgUP9XOA/6aca02086a1f11f44a5ecd7b.json_with_pixel_position",
+  "created_at": "2026-10-10 09:14:48 UTC",
+  "processed_at": "2026-10-10 09:14:48 UTC",
+  "google_url": "https://www.google.com/search?q=%22shopyvision%22+%28scam+OR+fraud+OR+fake+OR+%22not+delivered%22+OR+refund+OR+complaint%29&oq=%22shopyvision%22+%28scam+OR+fraud+OR+fake+OR+%22not+delivered%22+OR+refund+OR+complaint%29&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+  "raw_html_file": "https://serpapi.com/searches/NN01sTp5-H05byDJkbVAXMZpBo4JX77F2bADgUP9XOA/6aca02086a1f11f44a5ecd7b.html",
+  "total_time_taken": 1.21
+ },
+ "search_parameters": {
+  "engine": "google",
+  "q": "\"shopyvision\" (scam OR fraud OR fake OR \"not delivered\" OR refund OR complaint)",
+  "google_domain": "google.com",
+  "hl": "en",
+  "gl": "in",
+  "device": "desktop"
+ },
+ "search_information": {
+  "query_displayed": "\"shopyvision\" (scam OR fraud OR fake OR \"not delivered\" OR refund OR complaint)",
+  "total_results": 8,
+  "time_taken_displayed": 0.26,
+  "organic_results_state": "Results for exact spelling"
+ },
+ "related_questions": [
+  {
+   "question": "Is Shopyvision real or fake?",
+   "type": "ai_overview",
+   "page_token": "Rfyaz3icHdBRboIwAADQ7DJ-jiLqoolZ7GwlRMtaSoH-LNCqKAUaZQP82112qp1myd4R3vePuTTV71Nadp29rxyn7_vnc9uezfFZtbWT38dGOSo3pshVtVq8LNzXk1qjew_f2h7S2FqxZYBjQhUPUCECP_EDt6jkPuIwk1cMjom4FfW8YRWa6sotZbJkeqpd7Ut-QIOlQM0EN0PMyZXE4p0KtqeNbZQXIJbcH1E1pHsOYehLnKRo4EZ_FluWEgFzgUQbARlTswS6IpC6MIumrmW-OR2x6UIhqE43XizILtzpSOzYNn5gwH0aYUAYR12pwHlGQbfNvKDO3M1YeMFIKox3lwAyn4xhIlkRl5cMzCFtJMy5Dg5ASOXhQRgCUoDGENlmclJfa2_yP7b-ONXdyt7a8x9iLnae",
+   "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=Rfyaz3icHdBRboIwAADQ7DJ-jiLqoolZ7GwlRMtaSoH-LNCqKAUaZQP82112qp1myd4R3vePuTTV71Nadp29rxyn7_vnc9uezfFZtbWT38dGOSo3pshVtVq8LNzXk1qjew_f2h7S2FqxZYBjQhUPUCECP_EDt6jkPuIwk1cMjom4FfW8YRWa6sotZbJkeqpd7Ut-QIOlQM0EN0PMyZXE4p0KtqeNbZQXIJbcH1E1pHsOYehLnKRo4EZ_FluWEgFzgUQbARlTswS6IpC6MIumrmW-OR2x6UIhqE43XizILtzpSOzYNn5gwH0aYUAYR12pwHlGQbfNvKDO3M1YeMFIKox3lwAyn4xhIlkRl5cMzCFtJMy5Dg5ASOXhQRgCUoDGENlmclJfa2_yP7b-ONXdyt7a8x9iLnae",
+   "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1Uwd3lTMVp6VXpoelUyRkljMUkyYW05MGVVMDROVVZWWVZSeGJreG1hRTlDVFdWd1VrUjFiSFZuVjFNd04xaHhSME5OVmxkVlRreFdiVlJ4ZGpCa1UxRlJSMnA2VEhSVllTMTZjSFpqTUZsQ09VSlBSRWd5ZEU1dWR4SVhRMUZNUzJGelNEaERTME5qY21aalVESnZjbkkyUVVVYUlrRkVjM0k1WmxKbFp6RllUME5yUlc1WUxVRm5iRTVoYWxKSlFVVkpMV1o0UW1jIiwiZmN2IjoiMyIsImVpIjoiQ1FMS2FzSDhDS0NjcmZjUDJvcnI2QUUiLCJxYyI6IkNoQnphRzl3ZVhacGMybHZiaUJ6WTJGdEVBQjlTbnlqUGciLCJxdWVzdGlvbiI6IklzIFNob3B5dmlzaW9uIHJlYWwgb3IgZmFrZT8iLCJsayI6IkdodHBjeUJ6YUc5d2VYWnBjMmx2YmlCeVpXRnNJRzl5SUdaaGEyVSIsImJzIjoiYy1PeTVaTHhMRllJenNndnFDekxMTTdNejFNb1NrM01VY2d2VWtoTHpFNjFONUtWa3M0c1ZpakdJU19BQ0FBIiwiaWQiOiJmY19DUUxLYXNIOENLQ2NyZmNQMm9ycjZBRV8yIn0=",
+   "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1Uwd3lTMVp6VXpoelUyRkljMUkyYW05MGVVMDROVVZWWVZSeGJreG1hRTlDVFdWd1VrUjFiSFZuVjFNd04xaHhSME5OVmxkVlRreFdiVlJ4ZGpCa1UxRlJSMnA2VEhSVllTMTZjSFpqTUZsQ09VSlBSRWd5ZEU1dWR4SVhRMUZNUzJGelNEaERTME5qY21aalVESnZjbkkyUVVVYUlrRkVjM0k1WmxKbFp6RllUME5yUlc1WUxVRm5iRTVoYWxKSlFVVkpMV1o0UW1jIiwiZmN2IjoiMyIsImVpIjoiQ1FMS2FzSDhDS0NjcmZjUDJvcnI2QUUiLCJxYyI6IkNoQnphRzl3ZVhacGMybHZiaUJ6WTJGdEVBQjlTbnlqUGciLCJxdWVzdGlvbiI6IklzIFNob3B5dmlzaW9uIHJlYWwgb3IgZmFrZT8iLCJsayI6IkdodHBjeUJ6YUc5d2VYWnBjMmx2YmlCeVpXRnNJRzl5SUdaaGEyVSIsImJzIjoiYy1PeTVaTHhMRllJenNndnFDekxMTTdNejFNb1NrM01VY2d2VWtoTHpFNjFONUtWa3M0c1ZpakdJU19BQ0FBIiwiaWQiOiJmY19DUUxLYXNIOENLQ2NyZmNQMm9ycjZBRV8yIn0%3D"
+  }
+ ],
+ "ai_overview": {
+  "page_token": "6je9GHiczVXbcqJIGH6AfY6hdiszgqAmpoqa6iattpFom5PmhkLABhVQQIm523fZp9rX2BfY5mTQqJOZi61tqmi6--c_f_39-dfC8eZ___aPHUXL8Jrn4ziuUN-nC6ti-C6vh1vP4Kf-IgwM-7u9kC2PowvZ8bjQXweG5ZiyYQe-a3HbjSxxRigLnOXICund6mHnSrlVjGBqDEQ_CBoAcak6WZvooTVj1l5nIa_x7DX_It2wRSWsWJ7WhhVEVO0tsNpdiCuiIEqVPq-7TAb8h4MiQNibfc0BOiMG4KfUYQyAQgDebRAlP9jtsA2SHLAH4WxNTyvLvGNe5g5os47bjgG4K2TOOINKemOQ2wJqGg4gw08F9D4yZX6xPJ-PoxHlvzy-C5UzfjISrO6tgEJVMGAB5DaUA-ksq3sW41SsE_dV2EdDctZz0CKKp1KFOOfF2PAVfAULbe2YlYTwJmUNLPCTgE1V3jFsI_0IwqSvlYem4HckvYrmM2d1__C2fB28St2VO4jUkdV8A7wxYXILXzctU7M14Xu6rorVy2ZDaNS_ppgywh2owjKontoBEkeNzkillV4FVgs4sQS953m_MBD4xyqlJD_gD6ktButLciCfKlNKbZ-bTCW3yX6p1MpMyFzJ9zDoqADGaE8pLjwEH-GE9kRygwRnzUlpekBLnuXi7GJ5twH3zvofgoQf-1FFMFOsKEqmJ-9MCsBBRmwwLAe918GJewQ4rWT2mR8xfEz7tFb6AdxB5io-vJFgkns7D6vwsKigU8oxbCX1YGcQzdny3h4TZQgyQOCkIdCuQApMfS_CVcp5KTUHTJSNf4Cdk-P2U1K4wM0BDMrwQU8U90kUr1ek25uvbM2JBfXVsrsmBsfh4ruTnyMh4_-FqYKiSE5RJzEFP4UpjOExikL5aW47pyiMEkwplNITmOplmCooKjkrKGpQtppF8wFTKHzH1JakFKWeoqifxhQ8i6miSMcw9XgcU_gUprB6gClbJSz88Y6i9jC1o6gSpn6Bom5_laJSiFnZtM9X6xk9yVutZbdDvwUxEpqusxqr3jMeg9u691Jf0x_y1tSNrl3dXHzVHPMait1oa37V2IZ_bZncSv4iiqHtL7cbJ3R8j60ufg8N3b3oDy-mgb420w99biUzO_X86MK0Fs7GClgYTJptB9Z07aWCDPDLhe540R-cuwh8WdAbjqZFK_q6XYmb7WCwvrd7YBi3J-aqTR5enOegLkm99Tx4uFou12SB4peGINWWS6FnEtAa3I1RE4hiqzYcAtUI39yJFjefNBOt36SbERFnEmlsTd_6Nh0PwtGsGSixcDO4R7pU39TdyCTu6N5yLzfPsTolLZp6FcqTS7p5sTbjS9Pg3MCQWYvUKLgj4BkAnUEXdClk9yYcrtjcY70y8dlN3RkDcpPcBRxLkGaFG9lo1qtVqSoZV02zZjUEzqXRdinXqlzoBXL1X0JGZ88",
+  "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=6je9GHiczVXbcqJIGH6AfY6hdiszgqAmpoqa6iattpFom5PmhkLABhVQQIm523fZp9rX2BfY5mTQqJOZi61tqmi6--c_f_39-dfC8eZ___aPHUXL8Jrn4ziuUN-nC6ti-C6vh1vP4Kf-IgwM-7u9kC2PowvZ8bjQXweG5ZiyYQe-a3HbjSxxRigLnOXICund6mHnSrlVjGBqDEQ_CBoAcak6WZvooTVj1l5nIa_x7DX_It2wRSWsWJ7WhhVEVO0tsNpdiCuiIEqVPq-7TAb8h4MiQNibfc0BOiMG4KfUYQyAQgDebRAlP9jtsA2SHLAH4WxNTyvLvGNe5g5os47bjgG4K2TOOINKemOQ2wJqGg4gw08F9D4yZX6xPJ-PoxHlvzy-C5UzfjISrO6tgEJVMGAB5DaUA-ksq3sW41SsE_dV2EdDctZz0CKKp1KFOOfF2PAVfAULbe2YlYTwJmUNLPCTgE1V3jFsI_0IwqSvlYem4HckvYrmM2d1__C2fB28St2VO4jUkdV8A7wxYXILXzctU7M14Xu6rorVy2ZDaNS_ppgywh2owjKontoBEkeNzkillV4FVgs4sQS953m_MBD4xyqlJD_gD6ktButLciCfKlNKbZ-bTCW3yX6p1MpMyFzJ9zDoqADGaE8pLjwEH-GE9kRygwRnzUlpekBLnuXi7GJ5twH3zvofgoQf-1FFMFOsKEqmJ-9MCsBBRmwwLAe918GJewQ4rWT2mR8xfEz7tFb6AdxB5io-vJFgkns7D6vwsKigU8oxbCX1YGcQzdny3h4TZQgyQOCkIdCuQApMfS_CVcp5KTUHTJSNf4Cdk-P2U1K4wM0BDMrwQU8U90kUr1ek25uvbM2JBfXVsrsmBsfh4ruTnyMh4_-FqYKiSE5RJzEFP4UpjOExikL5aW47pyiMEkwplNITmOplmCooKjkrKGpQtppF8wFTKHzH1JakFKWeoqifxhQ8i6miSMcw9XgcU_gUprB6gClbJSz88Y6i9jC1o6gSpn6Bom5_laJSiFnZtM9X6xk9yVutZbdDvwUxEpqusxqr3jMeg9u691Jf0x_y1tSNrl3dXHzVHPMait1oa37V2IZ_bZncSv4iiqHtL7cbJ3R8j60ufg8N3b3oDy-mgb420w99biUzO_X86MK0Fs7GClgYTJptB9Z07aWCDPDLhe540R-cuwh8WdAbjqZFK_q6XYmb7WCwvrd7YBi3J-aqTR5enOegLkm99Tx4uFou12SB4peGINWWS6FnEtAa3I1RE4hiqzYcAtUI39yJFjefNBOt36SbERFnEmlsTd_6Nh0PwtGsGSixcDO4R7pU39TdyCTu6N5yLzfPsTolLZp6FcqTS7p5sTbjS9Pg3MCQWYvUKLgj4BkAnUEXdClk9yYcrtjcY70y8dlN3RkDcpPcBRxLkGaFG9lo1qtVqSoZV02zZjUEzqXRdinXqlzoBXL1X0JGZ88"
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "title": "Shopy Vision Reviews | File a Complaint",
+   "link": "https://www.consumercomplaints.in/bycompany/shopy-vision-a592198.html",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgAEB6zswFRmgc82I79r_EjyTjY_B8HScXwf9WpMPzb7bfjrSBrWXwCMaBftXMWXGFkrzQgUlIc-yK8W3dqFXn0ZduVPDhBMEAqhP2mJjZ0dCNcdunCSrkunWyCk4Ng7s0R8LpTuvrw0GPCpkIoIXcMZkiro1NYvDEcKw-VVGUcZB8A&ved=2ahUKEwiBpcCsjq-XAxUgTusIHVrFGh0QFnoECCkQAQ&uoh=1",
+   "displayed_link": "https://www.consumercomplaints.in \u203a ... \u203a Rank #1-20",
+   "favicon": "https://serpapi.com/images/i/UklGRrwAAABXRUJQVlA4ILAAAABwBACdASocABwAPtEutFooIagoGAEAGglsALszNDAAELdUqulRp9FnpfDgAADWOIFCgRWshQycZA0CakK7NT5NabFzqySB_dBZgk2hoG0yy04_a1G99WU5924GlTAxX0CjlYpP3I4p8Igd5o5J61ftKJ1wP3QlHPSo-f4xzLA-62GozgX5_zsgGcZCf9ASD-0_xllSqTdCoq3TWJxMJZFSVPDyMcmEA8yA5oALWYAAAA.webp",
+   "snippet": "Shopy vision is a fake website with poor customer service and no refund on faulty products. ... Product not delivered. Website: www.shopyvision.com. I purchased a ...",
+   "snippet_highlighted_words": [
+    "fake",
+    "refund",
+    "not delivered",
+    "shopyvision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Shopy vision is a fake website with poor customer service and no refund on faulty products. ... Product not delivered. Website: www.shopyvision.com. I purchased a ...",
+     "source_info_link": "https://www.consumercomplaints.in/bycompany/shopy-vision-a592198.html",
+     "icon": "https://serpapi.com/images/i/UklGRrwAAABXRUJQVlA4ILAAAABwBACdASocABwAPtEutFooIagoGAEAGglsALszNDAAELdUqulRp9FnpfDgAADWOIFCgRWshQycZA0CakK7NT5NabFzqySB_dBZgk2hoG0yy04_a1G99WU5924GlTAxX0CjlYpP3I4p8Igd5o5J61ftKJ1wP3QlHPSo-f4xzLA-62GozgX5_zsgGcZCf9ASD-0_xllSqTdCoq3TWJxMJZFSVPDyMcmEA8yA5oALWYAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrwBL2dvdG8_dXJsPUNBRVNnQUVCNnpzd0ZSbWdjODJJNzlyX0VqeVRqWV9COEhTY1h3ZjlXcE1QemI3YmZqclNCcldYd0NNYUJmdFhNV1hHRmtyelFnVWxJYy15SzhXM2RxRlhuMFpkdVZQRGhCTUVBcWhQMm1KalowZENOY2R1bkNTcmt1bld5Q2s0Tmc3czBSOExwVHV2cncwR1BDcGtJb0lYY01aa2lybzFOWXZERWNLdy1WVkdVY1pCOEESBBoCCAAavAQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAmAQIABAAGAAgACoSCgtzaG9weXZpc2lvbhWtomU_KkEKBHNjYW0VgHKLQBoNbm90IGRlbGl2ZXJlZBoJaXY7cDtzY2FtGgppdjtwO2ZyYXVkGg5pdjtwO2NvbXBsYWludDK8AS9nb3RvP3VybD1DQUVTZ0FFQjZ6c3dGUm1nYzgySTc5cl9FanlUallfQjhIU2NYd2Y5V3BNUHpiN2JmanJTQnJXWHdDTWFCZnRYTVdYR0ZrcnpRZ1VsSWMteUs4VzNkcUZYbjBaZHVWUERoQk1FQXFoUDJtSmpaMGRDTmNkdW5DU3JrdW5XeUNrNE5nN3MwUjhMcFR1dnJ3MEdQQ3BrSW9JWGNNWmtpcm8xTll2REVjS3ctVlZHVWNaQjhBOi5TaG9weSBWaXNpb24gUmV2aWV3cyB8IEZpbGUgYSA8Yj5Db21wbGFpbnQ8L2I-QscBU2hvcHkgdmlzaW9uIGlzIGEgPGI-ZmFrZTwvYj4gd2Vic2l0ZSB3aXRoIHBvb3IgY3VzdG9tZXIgc2VydmljZSBhbmQgbm8gPGI-cmVmdW5kPC9iPiBvbiBmYXVsdHkgcHJvZHVjdHMuIC4uLiBQcm9kdWN0IDxiPm5vdCBkZWxpdmVyZWQ8L2I-LiBXZWJzaXRlOiB3d3cuPGI-c2hvcHl2aXNpb248L2I-LmNvbS4gSSBwdXJjaGFzZWQgYSZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrwBL2dvdG8_dXJsPUNBRVNnQUVCNnpzd0ZSbWdjODJJNzlyX0VqeVRqWV9COEhTY1h3ZjlXcE1QemI3YmZqclNCcldYd0NNYUJmdFhNV1hHRmtyelFnVWxJYy15SzhXM2RxRlhuMFpkdVZQRGhCTUVBcWhQMm1KalowZENOY2R1bkNTcmt1bld5Q2s0Tmc3czBSOExwVHV2cncwR1BDcGtJb0lYY01aa2lybzFOWXZERWNLdy1WVkdVY1pCOEESBBoCCAAavAQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAmAQIABAAGAAgACoSCgtzaG9weXZpc2lvbhWtomU_KkEKBHNjYW0VgHKLQBoNbm90IGRlbGl2ZXJlZBoJaXY7cDtzY2FtGgppdjtwO2ZyYXVkGg5pdjtwO2NvbXBsYWludDK8AS9nb3RvP3VybD1DQUVTZ0FFQjZ6c3dGUm1nYzgySTc5cl9FanlUallfQjhIU2NYd2Y5V3BNUHpiN2JmanJTQnJXWHdDTWFCZnRYTVdYR0ZrcnpRZ1VsSWMteUs4VzNkcUZYbjBaZHVWUERoQk1FQXFoUDJtSmpaMGRDTmNkdW5DU3JrdW5XeUNrNE5nN3MwUjhMcFR1dnJ3MEdQQ3BrSW9JWGNNWmtpcm8xTll2REVjS3ctVlZHVWNaQjhBOi5TaG9weSBWaXNpb24gUmV2aWV3cyB8IEZpbGUgYSA8Yj5Db21wbGFpbnQ8L2I-QscBU2hvcHkgdmlzaW9uIGlzIGEgPGI-ZmFrZTwvYj4gd2Vic2l0ZSB3aXRoIHBvb3IgY3VzdG9tZXIgc2VydmljZSBhbmQgbm8gPGI-cmVmdW5kPC9iPiBvbiBmYXVsdHkgcHJvZHVjdHMuIC4uLiBQcm9kdWN0IDxiPm5vdCBkZWxpdmVyZWQ8L2I-LiBXZWJzaXRlOiB3d3cuPGI-c2hvcHl2aXNpb248L2I-LmNvbS4gSSBwdXJjaGFzZWQgYSZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "consumercomplaints.in",
+   "read_more_link": "https://www.consumercomplaints.in/bycompany/shopy-vision-a592198.html#:~:text=Shopy%20vision%20is%20a%20fake,no%20refund%20on%20faulty%20products.&text=Product%20not%20delivered,I%20purchased%20a"
+  },
+  {
+   "position": 2,
+   "title": "Is Shopy vision products original?",
+   "link": "https://www.quora.com/Is-Shopy-vision-products-original",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScgHrOzAV5WBMNuK4sQ-1-Hl9GzXy9G-mCRenGvIf8R-UTxiX8xmTwD7xHVBL1X4r_4IVMjB2bAqhmICooLJ6JShXOld5Ft0NjDSp9li6mNm1eQCCkUTsZ6UQfAMJg7flfU3wM67oTRlWsOP-uYDbQyO0fA&ved=2ahUKEwiBpcCsjq-XAxUgTusIHVrFGh0QFnoECCYQAQ&uoh=1",
+   "displayed_link": "30+ answers \u00b7 2 years ago",
+   "favicon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp",
+   "snippet": "Is Shopy vision products original?",
+   "about_this_result": {
+    "source": {
+     "description": "No it's not a genuine online shopping. They are cheating the buyers by supplying a partial items only. If I complaint about the missing item, ...",
+     "source_info_link": "https://www.quora.com/Is-Shopy-vision-products-original",
+     "icon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqgBL2dvdG8_dXJsPUNBRVNjZ0hyT3pBVjVXQk1OdUs0c1EtMS1IbDlHelh5OUctbUNSZW5HdklmOFItVVR4aVg4eG1Ud0Q3eEhWQkwxWDRyXzRJVk1qQjJiQXFobUlDb29MSjZKU2hYT2xkNUZ0ME5qRFNwOWxpNm1ObTFlUUNDa1VUc1o2VVFmQU1KZzdmbGZVM3dNNjdvVFJsV3NPUC11WURiUXlPMGZBEgQaAggAGv4DEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQNoDCAAQABgAIAAqEgoLc2hvcHl2aXNpb24V3ImjPSpBCgRzY2FtFTHylT8aDW5vdCBkZWxpdmVyZWQaCWl2O3A7c2NhbRoKaXY7cDtmcmF1ZBoOaXY7cDtjb21wbGFpbnQyqAEvZ290bz91cmw9Q0FFU2NnSHJPekFWNVdCTU51SzRzUS0xLUhsOUd6WHk5Ry1tQ1Jlbkd2SWY4Ui1VVHhpWDh4bVR3RDd4SFZCTDFYNHJfNElWTWpCMmJBcWhtSUNvb0xKNkpTaFhPbGQ1RnQwTmpEU3A5bGk2bU5tMWVRQ0NrVVRzWjZVUWZBTUpnN2ZsZlUzd002N29UUmxXc09QLXVZRGJReU8wZkE6KklzIFNob3B5IHZpc2lvbiBwcm9kdWN0cyBvcmlnaW5hbD8gLSBRdW9yYUKhAU5vIGl0JiMzOTtzIG5vdCBhIGdlbnVpbmUgb25saW5lIHNob3BwaW5nLiBUaGV5IGFyZSBjaGVhdGluZyB0aGUgYnV5ZXJzIGJ5IHN1cHBseWluZyBhIHBhcnRpYWwgaXRlbXMgb25seS4gSWYgSSA8Yj5jb21wbGFpbnQ8L2I-IGFib3V0IHRoZSBtaXNzaW5nIGl0ZW0sJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqgBL2dvdG8_dXJsPUNBRVNjZ0hyT3pBVjVXQk1OdUs0c1EtMS1IbDlHelh5OUctbUNSZW5HdklmOFItVVR4aVg4eG1Ud0Q3eEhWQkwxWDRyXzRJVk1qQjJiQXFobUlDb29MSjZKU2hYT2xkNUZ0ME5qRFNwOWxpNm1ObTFlUUNDa1VUc1o2VVFmQU1KZzdmbGZVM3dNNjdvVFJsV3NPUC11WURiUXlPMGZBEgQaAggAGv4DEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQNoDCAAQABgAIAAqEgoLc2hvcHl2aXNpb24V3ImjPSpBCgRzY2FtFTHylT8aDW5vdCBkZWxpdmVyZWQaCWl2O3A7c2NhbRoKaXY7cDtmcmF1ZBoOaXY7cDtjb21wbGFpbnQyqAEvZ290bz91cmw9Q0FFU2NnSHJPekFWNVdCTU51SzRzUS0xLUhsOUd6WHk5Ry1tQ1Jlbkd2SWY4Ui1VVHhpWDh4bVR3RDd4SFZCTDFYNHJfNElWTWpCMmJBcWhtSUNvb0xKNkpTaFhPbGQ1RnQwTmpEU3A5bGk2bU5tMWVRQ0NrVVRzWjZVUWZBTUpnN2ZsZlUzd002N29UUmxXc09QLXVZRGJReU8wZkE6KklzIFNob3B5IHZpc2lvbiBwcm9kdWN0cyBvcmlnaW5hbD8gLSBRdW9yYUKhAU5vIGl0JiMzOTtzIG5vdCBhIGdlbnVpbmUgb25saW5lIHNob3BwaW5nLiBUaGV5IGFyZSBjaGVhdGluZyB0aGUgYnV5ZXJzIGJ5IHN1cHBseWluZyBhIHBhcnRpYWwgaXRlbXMgb25seS4gSWYgSSA8Yj5jb21wbGFpbnQ8L2I-IGFib3V0IHRoZSBtaXNzaW5nIGl0ZW0sJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Quora"
+  },
+  {
+   "position": 3,
+   "title": "Shopy Vision Reviews | Read Customer Service ...",
+   "link": "https://ie.trustpilot.com/review/shopyvision.com?page=9",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScgHrOzAVXOWtZFKBJLgJXZsE5J0uC0Vo_UR_PSETglTHS3WkmdkeEWXBpbxJTHCKi8rze8yMIkIATayjjeZW8L0kDU1F_W1eSnt14Oo_Ih2qOCApGHdr27GWi3C45fnyOxQkvktFfy7ibOshfVrhVaA1Ug&ved=2ahUKEwiBpcCsjq-XAxUgTusIHVrFGh0QFnoECCwQAQ&uoh=1",
+   "displayed_link": "https://ie.trustpilot.com \u203a ... \u203a Electronics Store",
+   "favicon": "https://serpapi.com/images/i/UklGRsoAAABXRUJQVlA4IL4AAABQBQCdASocABwAPtFAtFooIqgoFAEAGglsAJ0y4sr21NIh0L_Wc9XnY51oZjrqPOOkIAAA_vaB2ebx-ZQJY40G7Ms4VgSg_dfZaQYtJgcWU-beznyIjhN1wYpjmozZyeMKizLM67K23cWxCdiZlwba-kk7-n1oZp5KD3cICp5uViEzGYmX6Luef9vGzPW-lMxUcuiCxFIiXQcD3jRZPkF5WMyiAjvwk-ss_LXRvy5ZDZMeqRp7EsP_UXPsgAAA.webp",
+   "snippet": "Rated 1 out of 5 stars. Extremely disappointed with Shopyvision.com. I bought ... support@shopyvision.com \u00b7 shopyvision.com. 2.7. Poor. TrustScore 2.5 out of ...",
+   "snippet_highlighted_words": [
+    "Shopyvision",
+    "shopyvision",
+    "shopyvision"
+   ],
+   "rich_snippet": {
+    "top": {
+     "detected_extensions": {
+      "rating": 2.7,
+      "reviews": 225
+     },
+     "extensions": [
+      "2.7(225)"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Rated 1 out of 5 stars. Extremely disappointed with Shopyvision.com. I bought ... support@shopyvision.com \u00b7 shopyvision.com. 2.7. Poor. TrustScore 2.5 out of ...",
+     "source_info_link": "https://ie.trustpilot.com/review/shopyvision.com?page=9",
+     "icon": "https://serpapi.com/images/i/UklGRsoAAABXRUJQVlA4IL4AAABQBQCdASocABwAPtFAtFooIqgoFAEAGglsAJ0y4sr21NIh0L_Wc9XnY51oZjrqPOOkIAAA_vaB2ebx-ZQJY40G7Ms4VgSg_dfZaQYtJgcWU-beznyIjhN1wYpjmozZyeMKizLM67K23cWxCdiZlwba-kk7-n1oZp5KD3cICp5uViEzGYmX6Luef9vGzPW-lMxUcuiCxFIiXQcD3jRZPkF5WMyiAjvwk-ss_LXRvy5ZDZMeqRp7EsP_UXPsgAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqgBL2dvdG8_dXJsPUNBRVNjZ0hyT3pBVlhPV3RaRktCSkxnSlhac0U1SjB1QzBWb19VUl9QU0VUZ2xUSFMzV2ttZGtlRVdYQnBieEpUSENLaThyemU4eU1Ja0lBVGF5amplWlc4TDBrRFUxRl9XMWVTbnQxNE9vX0loMnFPQ0FwR0hkcjI3R1dpM0M0NWZueU94UWt2a3RGZnk3aWJPc2hmVnJoVmFBMVVnEgQaAggAGqAEEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQPwDCAAQABgAIAAqEgoLc2hvcHl2aXNpb24VEa0WQCpBCgRzY2FtFfhalT4aDW5vdCBkZWxpdmVyZWQaCWl2O3A7c2NhbRoKaXY7cDtmcmF1ZBoOaXY7cDtjb21wbGFpbnQyqAEvZ290bz91cmw9Q0FFU2NnSHJPekFWWE9XdFpGS0JKTGdKWFpzRTVKMHVDMFZvX1VSX1BTRVRnbFRIUzNXa21ka2VFV1hCcGJ4SlRIQ0tpOHJ6ZTh5TUlrSUFUYXlqamVaVzhMMGtEVTFGX1cxZVNudDE0T29fSWgycU9DQXBHSGRyMjdHV2kzQzQ1Zm55T3hRa3ZrdEZmeTdpYk9zaGZWcmhWYUExVWc6K1Nob3B5IFZpc2lvbiBSZXZpZXdzIHwgOSBvZiAxMSAtIFRydXN0cGlsb3RCwgFSYXRlZCAxIG91dCBvZiA1IHN0YXJzLiBFeHRyZW1lbHkgZGlzYXBwb2ludGVkIHdpdGggPGI-U2hvcHl2aXNpb248L2I-LmNvbS4gSSBib3VnaHQgLi4uIHN1cHBvcnRAPGI-c2hvcHl2aXNpb248L2I-LmNvbSAmbWlkZG90OyA8Yj5zaG9weXZpc2lvbjwvYj4uY29tLiAyLjcuIFBvb3IuIFRydXN0U2NvcmUgMi41IG91dCBvZiZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqgBL2dvdG8_dXJsPUNBRVNjZ0hyT3pBVlhPV3RaRktCSkxnSlhac0U1SjB1QzBWb19VUl9QU0VUZ2xUSFMzV2ttZGtlRVdYQnBieEpUSENLaThyemU4eU1Ja0lBVGF5amplWlc4TDBrRFUxRl9XMWVTbnQxNE9vX0loMnFPQ0FwR0hkcjI3R1dpM0M0NWZueU94UWt2a3RGZnk3aWJPc2hmVnJoVmFBMVVnEgQaAggAGqAEEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQPwDCAAQABgAIAAqEgoLc2hvcHl2aXNpb24VEa0WQCpBCgRzY2FtFfhalT4aDW5vdCBkZWxpdmVyZWQaCWl2O3A7c2NhbRoKaXY7cDtmcmF1ZBoOaXY7cDtjb21wbGFpbnQyqAEvZ290bz91cmw9Q0FFU2NnSHJPekFWWE9XdFpGS0JKTGdKWFpzRTVKMHVDMFZvX1VSX1BTRVRnbFRIUzNXa21ka2VFV1hCcGJ4SlRIQ0tpOHJ6ZTh5TUlrSUFUYXlqamVaVzhMMGtEVTFGX1cxZVNudDE0T29fSWgycU9DQXBHSGRyMjdHV2kzQzQ1Zm55T3hRa3ZrdEZmeTdpYk9zaGZWcmhWYUExVWc6K1Nob3B5IFZpc2lvbiBSZXZpZXdzIHwgOSBvZiAxMSAtIFRydXN0cGlsb3RCwgFSYXRlZCAxIG91dCBvZiA1IHN0YXJzLiBFeHRyZW1lbHkgZGlzYXBwb2ludGVkIHdpdGggPGI-U2hvcHl2aXNpb248L2I-LmNvbS4gSSBib3VnaHQgLi4uIHN1cHBvcnRAPGI-c2hvcHl2aXNpb248L2I-LmNvbSAmbWlkZG90OyA8Yj5zaG9weXZpc2lvbjwvYj4uY29tLiAyLjcuIFBvb3IuIFRydXN0U2NvcmUgMi41IG91dCBvZiZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Trustpilot",
+   "read_more_link": "https://ie.trustpilot.com/review/shopyvision.com?page=9#:~:text=Extremely%20disappointed%20with%20Shopyvision.com.%20I,right%20from%20the%20first%20use.&text=support%40shopyvision.com,Poor"
+  },
+  {
+   "position": 4,
+   "title": "Order Cancelled, No Support Shopy Vision is High",
+   "link": "https://www.mouthshut.com/review/shopyvision-review-sltsoplpnop",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESegHrOzAVp8ACfyn3rm-ufTDA4pG3H1twRnrxSxEPci1dQDyfS4QokFIaiLKUty3p3jj9WvD1IWCmR59QEnhDHRpOl9h15nRVKiPiTY_aa-BDy-McILbEO7OwVzYDqwThIBF5_3YlW-shxyf5pmNur7ChdDwo8hi0cMZX&ved=2ahUKEwiBpcCsjq-XAxUgTusIHVrFGh0QFnoECCUQAQ&uoh=1",
+   "displayed_link": "https://www.mouthshut.com \u203a review \u203a shopyvision-rev...",
+   "favicon": "https://serpapi.com/images/i/UklGRvIAAABXRUJQVlA4IOYAAACwBQCdASogACAAPtE-tFooIigoFAEAGglsALsvAnoCeAN4XIjxAZvpLJSRydNs6XkX4GcS6WAAzttEM-cn9oIIwE9PkSXAW-1XzF__52D494I1gZkZKoIf_hWkXqwWI2RFN2GjFE8P47G8lRtc0YDMGOyxeVOjZBH_upLr_MbUgt6GKaUI1yTTCK_-p3Uf4w_T_ZNr64l3iN9v1YCOKj2glbXREEPT4P9tF2RIJM3Wxv8BvLhkruwrZLGVFdoTPCsLK0kB-kIcL5eLsKhcGL2E2d0rIPFS1AE4CaifjKN62vIV1egAAA.webp",
+   "date": "11 Jul 2025",
+   "snippet": "Shopyvision. 0 Followers. 2.6. 47%. 737 Votes. WRITE A REVIEW. Summary ... Irrelevant Fake Junk. Upload Photos. Upload photo files with .jpg ...",
+   "snippet_highlighted_words": [
+    "Shopyvision",
+    "Fake"
+   ],
+   "rich_snippet": {
+    "top": {
+     "detected_extensions": {
+      "rating": 2.6,
+      "reviews": 62
+     },
+     "extensions": [
+      "2.6(62)"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Shopyvision. 0 Followers. 2.6. 47%. 737 Votes. WRITE A REVIEW. Summary ... Irrelevant Fake Junk. Upload Photos. Upload photo files with .jpg ...",
+     "source_info_link": "https://www.mouthshut.com/review/shopyvision-review-sltsoplpnop",
+     "icon": "https://serpapi.com/images/i/UklGRvIAAABXRUJQVlA4IOYAAACwBQCdASogACAAPtE-tFooIigoFAEAGglsALsvAnoCeAN4XIjxAZvpLJSRydNs6XkX4GcS6WAAzttEM-cn9oIIwE9PkSXAW-1XzF__52D494I1gZkZKoIf_hWkXqwWI2RFN2GjFE8P47G8lRtc0YDMGOyxeVOjZBH_upLr_MbUgt6GKaUI1yTTCK_-p3Uf4w_T_ZNr64l3iN9v1YCOKj2glbXREEPT4P9tF2RIJM3Wxv8BvLhkruwrZLGVFdoTPCsLK0kB-kIcL5eLsKhcGL2E2d0rIPFS1AE4CaifjKN62vIV1egAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVnA4QUNmeW4zcm0tdWZUREE0cEczSDF0d1JucnhTeEVQY2kxZFFEeWZTNFFva0ZJYWlMS1V0eTNwM2pqOVd2RDFJV0NtUjU5UUVuaERIUnBPbDloMTVuUlZLaVBpVFlfYWEtQkR5LU1jSUxiRU83T3dWellEcXdUaElCRjVfM1lsVy1zaHh5ZjVwbU51cjdDaGREd284aGkwY01aWBIEGgIIABqQBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDsAwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFZYlRUAqQQoEc2NhbRWa3UA8Gg1ub3QgZGVsaXZlcmVkGglpdjtwO3NjYW0aCml2O3A7ZnJhdWQaDml2O3A7Y29tcGxhaW50MrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVnA4QUNmeW4zcm0tdWZUREE0cEczSDF0d1JucnhTeEVQY2kxZFFEeWZTNFFva0ZJYWlMS1V0eTNwM2pqOVd2RDFJV0NtUjU5UUVuaERIUnBPbDloMTVuUlZLaVBpVFlfYWEtQkR5LU1jSUxiRU83T3dWellEcXdUaElCRjVfM1lsVy1zaHh5ZjVwbU51cjdDaGREd284aGkwY01aWDowT3JkZXIgQ2FuY2VsbGVkLCBObyBTdXBwb3J0IFNob3B5IFZpc2lvbiBpcyBIaWdoQqMBPGI-U2hvcHl2aXNpb248L2I-LiAwIEZvbGxvd2Vycy4gMi42LiA0NyUuIDczNyBWb3Rlcy4gV1JJVEUgQSBSRVZJRVcuIFN1bW1hcnkgLi4uIElycmVsZXZhbnQgPGI-RmFrZTwvYj4gSnVuay4gVXBsb2FkIFBob3Rvcy4gVXBsb2FkIHBob3RvIGZpbGVzIHdpdGggLmpwZyZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVnA4QUNmeW4zcm0tdWZUREE0cEczSDF0d1JucnhTeEVQY2kxZFFEeWZTNFFva0ZJYWlMS1V0eTNwM2pqOVd2RDFJV0NtUjU5UUVuaERIUnBPbDloMTVuUlZLaVBpVFlfYWEtQkR5LU1jSUxiRU83T3dWellEcXdUaElCRjVfM1lsVy1zaHh5ZjVwbU51cjdDaGREd284aGkwY01aWBIEGgIIABqQBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDsAwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFZYlRUAqQQoEc2NhbRWa3UA8Gg1ub3QgZGVsaXZlcmVkGglpdjtwO3NjYW0aCml2O3A7ZnJhdWQaDml2O3A7Y29tcGxhaW50MrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVnA4QUNmeW4zcm0tdWZUREE0cEczSDF0d1JucnhTeEVQY2kxZFFEeWZTNFFva0ZJYWlMS1V0eTNwM2pqOVd2RDFJV0NtUjU5UUVuaERIUnBPbDloMTVuUlZLaVBpVFlfYWEtQkR5LU1jSUxiRU83T3dWellEcXdUaElCRjVfM1lsVy1zaHh5ZjVwbU51cjdDaGREd284aGkwY01aWDowT3JkZXIgQ2FuY2VsbGVkLCBObyBTdXBwb3J0IFNob3B5IFZpc2lvbiBpcyBIaWdoQqMBPGI-U2hvcHl2aXNpb248L2I-LiAwIEZvbGxvd2Vycy4gMi42LiA0NyUuIDczNyBWb3Rlcy4gV1JJVEUgQSBSRVZJRVcuIFN1bW1hcnkgLi4uIElycmVsZXZhbnQgPGI-RmFrZTwvYj4gSnVuay4gVXBsb2FkIFBob3Rvcy4gVXBsb2FkIHBob3RvIGZpbGVzIHdpdGggLmpwZyZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "MouthShut.com",
+   "read_more_link": "https://www.mouthshut.com/review/shopyvision-review-sltsoplpnop#:~:text=Shopyvision,Summary&text=Other%20Searched%20Products"
+  },
+  {
+   "position": 5,
+   "title": "Shopy Vision Reviews | Read Customer Service ...",
+   "link": "https://uk.trustpilot.com/review/shopyvision.com?page=5",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScgHrOzAVOzocd_f8n1OVC_vtpeoXE3MEfJu-thOfH7gFN86_Xj8e-yUImpr_wToLlZi0WgT9sEt3V-0gbBS_SLNxCwBBggrwzCEwEte-qqYYtllXPMmkS5beCZ_Ju1NZsLsW8zV_2tlPqkWOPJjViL2v7Q&ved=2ahUKEwiBpcCsjq-XAxUgTusIHVrFGh0QFnoECC0QAQ&uoh=1",
+   "displayed_link": "https://uk.trustpilot.com \u203a ... \u203a Electronics store",
+   "favicon": "https://serpapi.com/images/i/UklGRsoAAABXRUJQVlA4IL4AAABQBQCdASocABwAPtFAtFooIqgoFAEAGglsAJ0y4sr21NIh0L_Wc9XnY51oZjrqPOOkIAAA_vaB2ebx-ZQJY40G7Ms4VgSg_dfZaQYtJgcWU-beznyIjhN1wYpjmozZyeMKizLM67K23cWxCdiZlwba-kk7-n1oZp5KD3cICp5uViEzGYmX6Luef9vGzPW-lMxUcuiCxFIiXQcD3jRZPkF5WMyiAjvwk-ss_LXRvy5ZDZMeqRp7EsP_UXPsgAAA.webp",
+   "snippet": "Rated 1 out of 5 stars. Extremely disappointed with Shopyvision.com. I bought ... support@shopyvision.com \u00b7 shopyvision.com. 2.7. Poor. TrustScore 2.5 out of ...",
+   "snippet_highlighted_words": [
+    "Shopyvision",
+    "shopyvision",
+    "shopyvision"
+   ],
+   "rich_snippet": {
+    "top": {
+     "detected_extensions": {
+      "rating": 2.7,
+      "reviews": 230
+     },
+     "extensions": [
+      "2.7(230)"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Rated 1 out of 5 stars. Extremely disappointed with Shopyvision.com. I bought ... support@shopyvision.com \u00b7 shopyvision.com. 2.7. Poor. TrustScore 2.5 out of ...",
+     "source_info_link": "https://uk.trustpilot.com/review/shopyvision.com?page=5",
+     "icon": "https://serpapi.com/images/i/UklGRsoAAABXRUJQVlA4IL4AAABQBQCdASocABwAPtFAtFooIqgoFAEAGglsAJ0y4sr21NIh0L_Wc9XnY51oZjrqPOOkIAAA_vaB2ebx-ZQJY40G7Ms4VgSg_dfZaQYtJgcWU-beznyIjhN1wYpjmozZyeMKizLM67K23cWxCdiZlwba-kk7-n1oZp5KD3cICp5uViEzGYmX6Luef9vGzPW-lMxUcuiCxFIiXQcD3jRZPkF5WMyiAjvwk-ss_LXRvy5ZDZMeqRp7EsP_UXPsgAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqgBL2dvdG8_dXJsPUNBRVNjZ0hyT3pBVk96b2NkX2Y4bjFPVkNfdnRwZW9YRTNNRWZKdS10aE9mSDdnRk44Nl9YajhlLXlVSW1wcl93VG9MbFppMFdnVDlzRXQzVi0wZ2JCU19TTE54Q3dCQmdncnd6Q0V3RXRlLXFxWVl0bGxYUE1ta1M1YmVDWl9KdTFOWnNMc1c4elZfMnRsUHFrV09QSmpWaUwydjdREgQaAggAGqgEEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQIQECAAQABgAIAAqEgoLc2hvcHl2aXNpb24VHEQcQCpBCgRzY2FtFfez7T4aDW5vdCBkZWxpdmVyZWQaCWl2O3A7c2NhbRoKaXY7cDtmcmF1ZBoOaXY7cDtjb21wbGFpbnQyqAEvZ290bz91cmw9Q0FFU2NnSHJPekFWT3pvY2RfZjhuMU9WQ192dHBlb1hFM01FZkp1LXRoT2ZIN2dGTjg2X1hqOGUteVVJbXByX3dUb0xsWmkwV2dUOXNFdDNWLTBnYkJTX1NMTnhDd0JCZ2dyd3pDRXdFdGUtcXFZWXRsbFhQTW1rUzViZUNaX0p1MU5ac0xzVzh6Vl8ydGxQcWtXT1BKalZpTDJ2N1E6M1Nob3B5IFZpc2lvbiBSZXZpZXdzIHwgNSBvZiAxMiAtIFRydXN0cGlsb3QgUmV2aWV3c0LCAVJhdGVkIDEgb3V0IG9mIDUgc3RhcnMuIEV4dHJlbWVseSBkaXNhcHBvaW50ZWQgd2l0aCA8Yj5TaG9weXZpc2lvbjwvYj4uY29tLiBJIGJvdWdodCAuLi4gc3VwcG9ydEA8Yj5zaG9weXZpc2lvbjwvYj4uY29tICZtaWRkb3Q7IDxiPnNob3B5dmlzaW9uPC9iPi5jb20uIDIuNy4gUG9vci4gVHJ1c3RTY29yZSAyLjUgb3V0IG9mJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqgBL2dvdG8_dXJsPUNBRVNjZ0hyT3pBVk96b2NkX2Y4bjFPVkNfdnRwZW9YRTNNRWZKdS10aE9mSDdnRk44Nl9YajhlLXlVSW1wcl93VG9MbFppMFdnVDlzRXQzVi0wZ2JCU19TTE54Q3dCQmdncnd6Q0V3RXRlLXFxWVl0bGxYUE1ta1M1YmVDWl9KdTFOWnNMc1c4elZfMnRsUHFrV09QSmpWaUwydjdREgQaAggAGqgEEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQIQECAAQABgAIAAqEgoLc2hvcHl2aXNpb24VHEQcQCpBCgRzY2FtFfez7T4aDW5vdCBkZWxpdmVyZWQaCWl2O3A7c2NhbRoKaXY7cDtmcmF1ZBoOaXY7cDtjb21wbGFpbnQyqAEvZ290bz91cmw9Q0FFU2NnSHJPekFWT3pvY2RfZjhuMU9WQ192dHBlb1hFM01FZkp1LXRoT2ZIN2dGTjg2X1hqOGUteVVJbXByX3dUb0xsWmkwV2dUOXNFdDNWLTBnYkJTX1NMTnhDd0JCZ2dyd3pDRXdFdGUtcXFZWXRsbFhQTW1rUzViZUNaX0p1MU5ac0xzVzh6Vl8ydGxQcWtXT1BKalZpTDJ2N1E6M1Nob3B5IFZpc2lvbiBSZXZpZXdzIHwgNSBvZiAxMiAtIFRydXN0cGlsb3QgUmV2aWV3c0LCAVJhdGVkIDEgb3V0IG9mIDUgc3RhcnMuIEV4dHJlbWVseSBkaXNhcHBvaW50ZWQgd2l0aCA8Yj5TaG9weXZpc2lvbjwvYj4uY29tLiBJIGJvdWdodCAuLi4gc3VwcG9ydEA8Yj5zaG9weXZpc2lvbjwvYj4uY29tICZtaWRkb3Q7IDxiPnNob3B5dmlzaW9uPC9iPi5jb20uIDIuNy4gUG9vci4gVHJ1c3RTY29yZSAyLjUgb3V0IG9mJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Trustpilot",
+   "read_more_link": "https://uk.trustpilot.com/review/shopyvision.com?page=5#:~:text=Extremely%20disappointed%20with%20Shopyvision.com.%20I,right%20from%20the%20first%20use.&text=support%40shopyvision.com,Poor"
+  },
+  {
+   "position": 6,
+   "title": "THIS IS A SCAMMERS WEBSITE - SHOPYVISION Review",
+   "link": "https://www.mouthshut.com/review/shopyvision-review-uqrsrqpnqop",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESegHrOzAVM98KJbnUBXwccna6w6Jkcl7OzyhN6Ko8BZnHYph3NaQLRLg9aOPXMkHPJI4fOJClIYsn3TOrc2_eLg8XGTX8OeS88D8GFwNGDdaRxFZGPeLYLB15I5hx-f1JuymRRZX5nLTGtdSNoXvsPaxFq_sy-A54RwLt&ved=2ahUKEwiBpcCsjq-XAxUgTusIHVrFGh0QFnoECEoQAQ&uoh=1",
+   "displayed_link": "https://www.mouthshut.com \u203a review \u203a shopyvision-rev...",
+   "favicon": "https://serpapi.com/images/i/UklGRvIAAABXRUJQVlA4IOYAAACwBQCdASogACAAPtE-tFooIigoFAEAGglsALsvAnoCeAN4XIjxAZvpLJSRydNs6XkX4GcS6WAAzttEM-cn9oIIwE9PkSXAW-1XzF__52D494I1gZkZKoIf_hWkXqwWI2RFN2GjFE8P47G8lRtc0YDMGOyxeVOjZBH_upLr_MbUgt6GKaUI1yTTCK_-p3Uf4w_T_ZNr64l3iN9v1YCOKj2glbXREEPT4P9tF2RIJM3Wxv8BvLhkruwrZLGVFdoTPCsLK0kB-kIcL5eLsKhcGL2E2d0rIPFS1AE4CaifjKN62vIV1egAAA.webp",
+   "date": "14 Jan 2026",
+   "snippet": "THEY WILL SEND YOU OLD USED PRODUCT AND WON'T EVEN RETURN IT. I purchased a mobile phone, before shipping shopyvision called me and asked ...",
+   "snippet_highlighted_words": [
+    "shopyvision"
+   ],
+   "rich_snippet": {
+    "top": {
+     "detected_extensions": {
+      "rating": 2.6,
+      "reviews": 61
+     },
+     "extensions": [
+      "2.6(61)"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "THEY WILL SEND YOU OLD USED PRODUCT AND WON'T EVEN RETURN IT. I purchased a mobile phone, before shipping shopyvision called me and asked ...",
+     "source_info_link": "https://www.mouthshut.com/review/shopyvision-review-uqrsrqpnqop",
+     "icon": "https://serpapi.com/images/i/UklGRvIAAABXRUJQVlA4IOYAAACwBQCdASogACAAPtE-tFooIigoFAEAGglsALsvAnoCeAN4XIjxAZvpLJSRydNs6XkX4GcS6WAAzttEM-cn9oIIwE9PkSXAW-1XzF__52D494I1gZkZKoIf_hWkXqwWI2RFN2GjFE8P47G8lRtc0YDMGOyxeVOjZBH_upLr_MbUgt6GKaUI1yTTCK_-p3Uf4w_T_ZNr64l3iN9v1YCOKj2glbXREEPT4P9tF2RIJM3Wxv8BvLhkruwrZLGVFdoTPCsLK0kB-kIcL5eLsKhcGL2E2d0rIPFS1AE4CaifjKN62vIV1egAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVk05OEtKYm5VQlh3Y2NuYTZ3NkprY2w3T3p5aE42S284QlpuSFlwaDNOYVFMUkxnOWFPUFhNa0hQSkk0Zk9KQ2xJWXNuM1RPcmMyX2VMZzhYR1RYOE9lUzg4RDhHRndOR0RkYVJ4RlpHUGVMWUxCMTVJNWh4LWYxSnV5bVJSWlg1bkxUR3RkU05vWHZzUGF4RnFfc3ktQTU0UndMdBIEGgIIABqQBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDsAwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFdpiS0AqQQoEc2NhbRXrz9w-Gg1ub3QgZGVsaXZlcmVkGglpdjtwO3NjYW0aCml2O3A7ZnJhdWQaDml2O3A7Y29tcGxhaW50MrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVk05OEtKYm5VQlh3Y2NuYTZ3NkprY2w3T3p5aE42S284QlpuSFlwaDNOYVFMUkxnOWFPUFhNa0hQSkk0Zk9KQ2xJWXNuM1RPcmMyX2VMZzhYR1RYOE9lUzg4RDhHRndOR0RkYVJ4RlpHUGVMWUxCMTVJNWh4LWYxSnV5bVJSWlg1bkxUR3RkU05vWHZzUGF4RnFfc3ktQTU0UndMdDo2VEhJUyBJUyBBIFNDQU1NRVJTIFdFQlNJVEUgLSA8Yj5TSE9QWVZJU0lPTjwvYj4gUmV2aWV3Qp0BVEhFWSBXSUxMIFNFTkQgWU9VIE9MRCBVU0VEIFBST0RVQ1QgQU5EIFdPTiYjMzk7VCBFVkVOIFJFVFVSTiBJVC4gSSBwdXJjaGFzZWQgYSBtb2JpbGUgcGhvbmUsIGJlZm9yZSBzaGlwcGluZyA8Yj5zaG9weXZpc2lvbjwvYj4gY2FsbGVkIG1lIGFuZCBhc2tlZCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVk05OEtKYm5VQlh3Y2NuYTZ3NkprY2w3T3p5aE42S284QlpuSFlwaDNOYVFMUkxnOWFPUFhNa0hQSkk0Zk9KQ2xJWXNuM1RPcmMyX2VMZzhYR1RYOE9lUzg4RDhHRndOR0RkYVJ4RlpHUGVMWUxCMTVJNWh4LWYxSnV5bVJSWlg1bkxUR3RkU05vWHZzUGF4RnFfc3ktQTU0UndMdBIEGgIIABqQBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDsAwgAEAAYACAAKhIKC3Nob3B5dmlzaW9uFdpiS0AqQQoEc2NhbRXrz9w-Gg1ub3QgZGVsaXZlcmVkGglpdjtwO3NjYW0aCml2O3A7ZnJhdWQaDml2O3A7Y29tcGxhaW50MrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVk05OEtKYm5VQlh3Y2NuYTZ3NkprY2w3T3p5aE42S284QlpuSFlwaDNOYVFMUkxnOWFPUFhNa0hQSkk0Zk9KQ2xJWXNuM1RPcmMyX2VMZzhYR1RYOE9lUzg4RDhHRndOR0RkYVJ4RlpHUGVMWUxCMTVJNWh4LWYxSnV5bVJSWlg1bkxUR3RkU05vWHZzUGF4RnFfc3ktQTU0UndMdDo2VEhJUyBJUyBBIFNDQU1NRVJTIFdFQlNJVEUgLSA8Yj5TSE9QWVZJU0lPTjwvYj4gUmV2aWV3Qp0BVEhFWSBXSUxMIFNFTkQgWU9VIE9MRCBVU0VEIFBST0RVQ1QgQU5EIFdPTiYjMzk7VCBFVkVOIFJFVFVSTiBJVC4gSSBwdXJjaGFzZWQgYSBtb2JpbGUgcGhvbmUsIGJlZm9yZSBzaGlwcGluZyA8Yj5zaG9weXZpc2lvbjwvYj4gY2FsbGVkIG1lIGFuZCBhc2tlZCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "MouthShut.com",
+   "read_more_link": "https://www.mouthshut.com/review/shopyvision-review-uqrsrqpnqop#:~:text=THEY%20WILL%20SEND%20YOU%20OLD,shopyvision%20called%20me%20and%20asked"
+  },
+  {
+   "position": 7,
+   "title": "Shopyvision.com Reviews & Complaints",
+   "link": "https://www.complaintlists.com/tag/shopyvision-com/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVjHpPEQTmhcAY9G6P3vzsBUAUVe8s5c7vz-DtXxPGJMswztHGJASqP0fA_Hf6RbY-mUzB5Okr2mLKyvGuidToEyR8KZjJg12WZQ-vdNFoM-nyh0pznQudzT1KaGB5D0nMgmKHTAxRVymi&ved=2ahUKEwiBpcCsjq-XAxUgTusIHVrFGh0QFnoECEQQAQ&uoh=1",
+   "displayed_link": "https://www.complaintlists.com \u203a tag \u203a shopyvision-com",
+   "favicon": "https://serpapi.com/images/i/UklGRsYBAABXRUJQVlA4ILoBAACwCACdASogACAAPtEutFooIagoGAEAGglsAJ0zJftOgryG2Y5nTUcvQA_UnrY5MAqwRwGzyy1aaxOjE14q_Vu4YrJfQ3y-K_taw2WWuAAA_vKT4eazc3_-Vo9y6qvNd-8v4y6Jy_vMnw3v_3iaQGF3akSW5-wvzLfuag5dq6v9Dddea2ZfoDbggMMkcsTkV3r7J0_Vu7jQK_cOmnx2vSod5aUktp_0RRgsHJ8JhkXinVCcq_-lfbe55GX_0w9Aj8rB_-rxz_PFf3Nq_xO0qQq_mfesfhKzw3hyt5jmIKX7NPqE4DR5GYKF6q7c7xvL5zf6u9ozYsv04Cc0pHH8h-P0Gfj24DoPslYW21zmPGnePbtpOEAlM0-5HFPLPi33Xk009Sxrtdbx47SanAJiusGYn-Qosx8xp7InnwxNXppjbrEZ0Ff7Ft7aql-sBaj2wnTGdH5MeICAd1LPKLHjJDbyPhlc3zQWwHQoSCbEce2TU0VWOgOJoc7EHBUWG_qB7HdV58gN94MgDc90jE35BnwLdovQPBcGns6aoIGEwhoDuTTkQPpHYoW275C56RxM2uHEHe92OdTFAAAA.webp",
+   "date": "16 Jan 2023",
+   "snippet": "Submit your complaint to Shopyvision.com customer care. Online Review & Complaint Portal. Share your experience, file your review.",
+   "snippet_highlighted_words": [
+    "complaint",
+    "Shopyvision",
+    "Complaint"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Submit your complaint to Shopyvision.com customer care. Online Review & Complaint Portal. Share your experience, file your review.",
+     "source_info_link": "https://www.complaintlists.com/tag/shopyvision-com/",
+     "icon": "https://serpapi.com/images/i/UklGRsYBAABXRUJQVlA4ILoBAACwCACdASogACAAPtEutFooIagoGAEAGglsAJ0zJftOgryG2Y5nTUcvQA_UnrY5MAqwRwGzyy1aaxOjE14q_Vu4YrJfQ3y-K_taw2WWuAAA_vKT4eazc3_-Vo9y6qvNd-8v4y6Jy_vMnw3v_3iaQGF3akSW5-wvzLfuag5dq6v9Dddea2ZfoDbggMMkcsTkV3r7J0_Vu7jQK_cOmnx2vSod5aUktp_0RRgsHJ8JhkXinVCcq_-lfbe55GX_0w9Aj8rB_-rxz_PFf3Nq_xO0qQq_mfesfhKzw3hyt5jmIKX7NPqE4DR5GYKF6q7c7xvL5zf6u9ozYsv04Cc0pHH8h-P0Gfj24DoPslYW21zmPGnePbtpOEAlM0-5HFPLPi33Xk009Sxrtdbx47SanAJiusGYn-Qosx8xp7InnwxNXppjbrEZ0Ff7Ft7aql-sBaj2wnTGdH5MeICAd1LPKLHjJDbyPhlc3zQWwHQoSCbEce2TU0VWOgOJoc7EHBUWG_qB7HdV58gN94MgDc90jE35BnwLdovQPBcGns6aoIGEwhoDuTTkQPpHYoW275C56RxM2uHEHe92OdTFAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVmpIcFBFUVRtaGNBWTlHNlAzdnpzQlVBVVZlOHM1Yzd2ei1EdFh4UEdKTXN3enRIR0pBU3FQMGZBX0hmNlJiWS1tVXpCNU9rcjJtTEt5dkd1aWRUb0V5UjhLWmpKZzEyV1pRLXZkTkZvTS1ueWgwcHpuUXVkelQxS2FHQjVEMG5NZ21LSFRBeFJWeW1pEgQaAggAGvcDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQNMDCAAQABgAIAAqEgoLc2hvcHl2aXNpb24V0kGIQCpBCgRzY2FtFS6LW0AaDW5vdCBkZWxpdmVyZWQaCWl2O3A7c2NhbRoKaXY7cDtmcmF1ZBoOaXY7cDtjb21wbGFpbnQyogEvZ290bz91cmw9Q0FFU2JnSHJPekFWakhwUEVRVG1oY0FZOUc2UDN2enNCVUFVVmU4czVjN3Z6LUR0WHhQR0pNc3d6dEhHSkFTcVAwZkFfSGY2UmJZLW1VekI1T2tyMm1MS3l2R3VpZFRvRXlSOEtaakpnMTJXWlEtdmRORm9NLW55aDBwem5RdWR6VDFLYUdCNUQwbk1nbUtIVEF4UlZ5bWk6LzxiPlNob3B5dmlzaW9uPC9iPi5jb20gUmV2aWV3cyAmYW1wOyBDb21wbGFpbnRzQpsBU3VibWl0IHlvdXIgPGI-Y29tcGxhaW50PC9iPiB0byA8Yj5TaG9weXZpc2lvbjwvYj4uY29tIGN1c3RvbWVyIGNhcmUuIE9ubGluZSBSZXZpZXcgJmFtcDsgPGI-Q29tcGxhaW50PC9iPiBQb3J0YWwuIFNoYXJlIHlvdXIgZXhwZXJpZW5jZSwgZmlsZSB5b3VyIHJldmlldy4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVmpIcFBFUVRtaGNBWTlHNlAzdnpzQlVBVVZlOHM1Yzd2ei1EdFh4UEdKTXN3enRIR0pBU3FQMGZBX0hmNlJiWS1tVXpCNU9rcjJtTEt5dkd1aWRUb0V5UjhLWmpKZzEyV1pRLXZkTkZvTS1ueWgwcHpuUXVkelQxS2FHQjVEMG5NZ21LSFRBeFJWeW1pEgQaAggAGvcDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQNMDCAAQABgAIAAqEgoLc2hvcHl2aXNpb24V0kGIQCpBCgRzY2FtFS6LW0AaDW5vdCBkZWxpdmVyZWQaCWl2O3A7c2NhbRoKaXY7cDtmcmF1ZBoOaXY7cDtjb21wbGFpbnQyogEvZ290bz91cmw9Q0FFU2JnSHJPekFWakhwUEVRVG1oY0FZOUc2UDN2enNCVUFVVmU4czVjN3Z6LUR0WHhQR0pNc3d6dEhHSkFTcVAwZkFfSGY2UmJZLW1VekI1T2tyMm1MS3l2R3VpZFRvRXlSOEtaakpnMTJXWlEtdmRORm9NLW55aDBwem5RdWR6VDFLYUdCNUQwbk1nbUtIVEF4UlZ5bWk6LzxiPlNob3B5dmlzaW9uPC9iPi5jb20gUmV2aWV3cyAmYW1wOyBDb21wbGFpbnRzQpsBU3VibWl0IHlvdXIgPGI-Y29tcGxhaW50PC9iPiB0byA8Yj5TaG9weXZpc2lvbjwvYj4uY29tIGN1c3RvbWVyIGNhcmUuIE9ubGluZSBSZXZpZXcgJmFtcDsgPGI-Q29tcGxhaW50PC9iPiBQb3J0YWwuIFNoYXJlIHlvdXIgZXhwZXJpZW5jZSwgZmlsZSB5b3VyIHJldmlldy4iAhABSABYAGgA",
+   "source": "Complaint Lists"
+  },
+  {
+   "position": 8,
+   "title": "Shopy Vision - Do Not Buy Electronics Products Online Is One ...",
+   "link": "https://www.discussguru.com/que/asked/50978/shopy-vision-do-not-buy-electronics-products-online-is-one-of-the-fake-website-do-not-purchase-anything-from-shopy-vision",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAES4QEB6zswFTC88WuRlmKpJzsK3zSfakuRw2sj7T9sih8Tijn5NRvW0v1dpr_d6N6fFe0V3ine2wVZqo4Y7KQ8Blz5Xw2XliL7BITO-m37jzFnSVNCHdGf19VOpLomybG2sUKQLolNvD0U6uhjUwSySWGXY3sPzk099IC2vREx0jTzHfYGk9s9oBIp-RqL6gy5IhyqHrS-lL0tofr6WW37txDQowGOvrpEshcDVmta65gaOEcneXIF7-ZoGPLgcoPT8O6og1OkZBJsXralvd2XfnGf3w0uOoQA8DNKiePU-ByAPgM&ved=2ahUKEwiBpcCsjq-XAxUgTusIHVrFGh0QFnoECEcQAQ&uoh=1",
+   "displayed_link": "https://www.discussguru.com \u203a que \u203a asked \u203a shopy-visi...",
+   "snippet": "I am getting Mental torture and Harassment by this. By this matter I have already written email to both contact@bharatx.tech , contact@shopyvision.com but still ...",
+   "snippet_highlighted_words": [
+    "shopyvision"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "I am getting Mental torture and Harassment by this. By this matter I have already written email to both contact@bharatx.tech , contact@shopyvision.com but still ...",
+     "source_info_link": "https://www.discussguru.com/que/asked/50978/shopy-vision-do-not-buy-electronics-products-online-is-one-of-the-fake-website-do-not-purchase-anything-from-shopy-vision"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cr0CL2dvdG8_dXJsPUNBRVM0UUVCNnpzd0ZUQzg4V3VSbG1LcEp6c0szelNmYWt1Uncyc2o3VDlzaWg4VGlqbjVOUnZXMHYxZHByX2Q2TjZmRmUwVjNpbmUyd1ZacW80WTdLUThCbHo1WHcyWGxpTDdCSVRPLW0zN2p6Rm5TVk5DSGRHZjE5Vk9wTG9teWJHMnNVS1FMb2xOdkQwVTZ1aGpVd1N5U1dHWFkzc1B6azA5OUlDMnZSRXgwalR6SGZZR2s5czlvQklwLVJxTDZneTVJaHlxSHJTLWxMMHRvZnI2V1czN3R4RFFvd0dPdnJwRXNoY0RWbXRhNjVnYU9FY25lWElGNy1ab0dQTGdjb1BUOE82b2cxT2taQkpzWHJhbHZkMlhmbkdmM3cwdU9vUUE4RE5LaWVQVS1CeUFQZ00SBBoCCAAauAUSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAlAUIABAAGAAgACoSCgtzaG9weXZpc2lvbhUuj-k9KkEKBHNjYW0VdzOjPxoNbm90IGRlbGl2ZXJlZBoJaXY7cDtzY2FtGgppdjtwO2ZyYXVkGg5pdjtwO2NvbXBsYWludDK9Ai9nb3RvP3VybD1DQUVTNFFFQjZ6c3dGVEM4OFd1UmxtS3BKenNLM3pTZmFrdVJ3MnNqN1Q5c2loOFRpam41TlJ2VzB2MWRwcl9kNk42ZkZlMFYzaW5lMndWWnFvNFk3S1E4Qmx6NVh3MlhsaUw3QklUTy1tMzdqekZuU1ZOQ0hkR2YxOVZPcExvbXliRzJzVUtRTG9sTnZEMFU2dWhqVXdTeVNXR1hZM3NQemswOTlJQzJ2UkV4MGpUekhmWUdrOXM5b0JJcC1ScUw2Z3k1SWh5cUhyUy1sTDB0b2ZyNldXMzd0eERRb3dHT3ZycEVzaGNEVm10YTY1Z2FPRWNuZVhJRjctWm9HUExnY29QVDhPNm9nMU9rWkJKc1hyYWx2ZDJYZm5HZjN3MHVPb1FBOEROS2llUFUtQnlBUGdNOkBTaG9weSBWaXNpb24gLSBEbyBOb3QgQnV5IEVsZWN0cm9uaWNzIFByb2R1Y3RzIE9ubGluZSBJcyBPbmUgLi4uQrABSSBhbSBnZXR0aW5nIE1lbnRhbCB0b3J0dXJlIGFuZCBIYXJhc3NtZW50IGJ5IHRoaXMuIEJ5IHRoaXMgbWF0dGVyIEkgaGF2ZSBhbHJlYWR5IHdyaXR0ZW4gZW1haWwgdG8gYm90aCBjb250YWN0QGJoYXJhdHgudGVjaCAsIGNvbnRhY3RAPGI-c2hvcHl2aXNpb248L2I-LmNvbSBidXQgc3RpbGwmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cr0CL2dvdG8_dXJsPUNBRVM0UUVCNnpzd0ZUQzg4V3VSbG1LcEp6c0szelNmYWt1Uncyc2o3VDlzaWg4VGlqbjVOUnZXMHYxZHByX2Q2TjZmRmUwVjNpbmUyd1ZacW80WTdLUThCbHo1WHcyWGxpTDdCSVRPLW0zN2p6Rm5TVk5DSGRHZjE5Vk9wTG9teWJHMnNVS1FMb2xOdkQwVTZ1aGpVd1N5U1dHWFkzc1B6azA5OUlDMnZSRXgwalR6SGZZR2s5czlvQklwLVJxTDZneTVJaHlxSHJTLWxMMHRvZnI2V1czN3R4RFFvd0dPdnJwRXNoY0RWbXRhNjVnYU9FY25lWElGNy1ab0dQTGdjb1BUOE82b2cxT2taQkpzWHJhbHZkMlhmbkdmM3cwdU9vUUE4RE5LaWVQVS1CeUFQZ00SBBoCCAAauAUSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAlAUIABAAGAAgACoSCgtzaG9weXZpc2lvbhUuj-k9KkEKBHNjYW0VdzOjPxoNbm90IGRlbGl2ZXJlZBoJaXY7cDtzY2FtGgppdjtwO2ZyYXVkGg5pdjtwO2NvbXBsYWludDK9Ai9nb3RvP3VybD1DQUVTNFFFQjZ6c3dGVEM4OFd1UmxtS3BKenNLM3pTZmFrdVJ3MnNqN1Q5c2loOFRpam41TlJ2VzB2MWRwcl9kNk42ZkZlMFYzaW5lMndWWnFvNFk3S1E4Qmx6NVh3MlhsaUw3QklUTy1tMzdqekZuU1ZOQ0hkR2YxOVZPcExvbXliRzJzVUtRTG9sTnZEMFU2dWhqVXdTeVNXR1hZM3NQemswOTlJQzJ2UkV4MGpUekhmWUdrOXM5b0JJcC1ScUw2Z3k1SWh5cUhyUy1sTDB0b2ZyNldXMzd0eERRb3dHT3ZycEVzaGNEVm10YTY1Z2FPRWNuZVhJRjctWm9HUExnY29QVDhPNm9nMU9rWkJKc1hyYWx2ZDJYZm5HZjN3MHVPb1FBOEROS2llUFUtQnlBUGdNOkBTaG9weSBWaXNpb24gLSBEbyBOb3QgQnV5IEVsZWN0cm9uaWNzIFByb2R1Y3RzIE9ubGluZSBJcyBPbmUgLi4uQrABSSBhbSBnZXR0aW5nIE1lbnRhbCB0b3J0dXJlIGFuZCBIYXJhc3NtZW50IGJ5IHRoaXMuIEJ5IHRoaXMgbWF0dGVyIEkgaGF2ZSBhbHJlYWR5IHdyaXR0ZW4gZW1haWwgdG8gYm90aCBjb250YWN0QGJoYXJhdHgudGVjaCAsIGNvbnRhY3RAPGI-c2hvcHl2aXNpb248L2I-LmNvbSBidXQgc3RpbGwmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "discussguru.com",
+   "read_more_link": "https://www.discussguru.com/que/asked/50978/shopy-vision-do-not-buy-electronics-products-online-is-one-of-the-fake-website-do-not-purchase-anything-from-shopy-vision#:~:text=I%20am%20getting%20Mental%20torture,getting%20regular%20calls%20and%20messages."
+  }
+ ],
+ "dmca_messages": {
+  "title": "Notices about Filtered Results",
+  "messages": [
+   {
+    "content": "In order to show you the most relevant results, we have omitted some entries very similar to the 8 already displayed.If you like, you can repeat the search with the omitted results included.",
+    "highlighted_words": [
+     {
+      "link": "https://www.google.com/search?q=%22shopyvision%22+(scam+OR+fraud+OR+fake+OR+%22not+delivered%22+OR+refund+OR+complaint)&sca_esv=c9511313c89d4e60&hl=en&gl=in&sxsrf=APpeQnvlKq2akhMm-P6PPuzDMA4x0BZBHA:1791623689165&filter=0",
+      "text": "repeat the search with the omitted results included"
+     }
+    ]
+   }
+  ]
+ }
+}

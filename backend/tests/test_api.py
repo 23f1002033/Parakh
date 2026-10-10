@@ -90,8 +90,8 @@ def test_bad_inputs(api):
 
 def test_demos_and_rules(api):
     demos = api.get("/api/demos").json()
-    assert [d["name"] for d in demos] == ["boat", "shopyvision", "shanaya"]
-    assert demos[1]["claimed_mrp"] == 1999 and demos[2]["image_path"] is None
+    assert [d["name"] for d in demos] == ["boat", "shopyvision"]
+    assert demos[1]["claimed_mrp"] == 1999
     assert demos[0]["quoted_price"] == 699 and demos[0]["product_name"] == "boAt Rockerz 110"
     img = api.get(demos[0]["image_path"])
     assert img.status_code == 200 and img.headers["content-type"] == "image/png"

@@ -53,3 +53,20 @@ async def test_record_then_replay_prints_same_summary(make_settings, tmp_path):
     assert summary(recorded) == summary(replayed)
     assert "1 priced in INR" in recorded and "posts visible=1" in recorded
     assert "google_shopping: 1 results, 1 priced in INR" in recorded
+
+
+async def test_only_limits_the_calls(make_settings):
+    argv = ["--instagram", "@red.store", "--product", "red shirt", "--only", "google_complaints,instagram_profile"]
+    with respx.mock:
+        search = respx.get(SEARCH_URL).mock(side_effect=fake_serp)
+        out = await run(parse_args(argv), make_settings())
+    assert sorted(c.request.url.params["engine"] for c in search.calls) == ["google", "instagram_profile"]
+    google = next(c.request.url.params for c in search.calls if c.request.url.params["engine"] == "google")
+    assert google["q"] == '"red.store" (scam OR fraud OR fake OR "not delivered" OR refund OR complaint)'
+    assert "google_shopping" not in out and "google_forums" not in out
+
+
+def test_only_rejects_unknown_names():
+    import pytest
+    with pytest.raises(SystemExit):
+        parse_args(["--instagram", "x", "--only", "google_typo"])

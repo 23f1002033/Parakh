@@ -1,8 +1,8 @@
 # Parakh - Design
 
-Version 1.6, 10 Oct 2026. Implements docs/01-requirements.md.
+Version 1.7, 10 Oct 2026. Implements docs/01-requirements.md.
 
-Changes in 1.1 to 1.6 come from the live recordings and milestone reviews; see section 11.
+Changes in 1.1 to 1.7 come from the live recordings and milestone reviews; see section 11.
 
 ## 1. Architecture
 
@@ -236,8 +236,10 @@ Never good: a screenshot rarely matches anything exactly (seen in M1).
 
 ### 6.3 Complaints (FR-9, 10)
 
-Queries: google `"<key>" scam OR fraud OR fake OR "not delivered" OR refund`;
-google_forums `"<key>"`. The key is the Instagram handle if given, else the
+Queries: google `"<key>" (scam OR fraud OR fake OR "not delivered" OR refund OR complaint)`;
+google_forums `"<key>"`. The terms are grouped in parentheses: without them
+Google read the query as `"<key>" OR scam OR ...` and returned generic refund
+and fraud pages. The key is the Instagram handle if given, else the
 website domain. When the handle split on "." and "_" gives 3 or more words,
 `"<key>"` becomes `("<handle>" OR "<spaced handle>")` in both queries, e.g.
 `("the_red.store" OR "the red store")`. Shorter handles and domains keep the
@@ -360,3 +362,4 @@ Plain CSS, mobile first, no UI framework.
 | 1.4 | CORS removed; rate limits and REPLAY_DELAY_MS are config | one origin in production, proxy in development; demos fill in visibly |
 | 1.5 | Complaint queries add the spaced handle for handles of 3+ words | such handles are often written with spaces; 2-word handles keep the old query so demo 1 fixtures stay valid |
 | 1.6 | Store's own website and Instagram dropped from complaints; own listings dropped from price; claimed_mrp input with a 2.0x caution; Instagram profile not found is a caution, not unavailable | demo 2 counted its own FAQ and blog pages as buyer discussion and its own listing as a comparison; demo 3's handle does not exist |
+| 1.7 | Complaint terms in the google query grouped in parentheses, "complaint" added | ungrouped, Google matched any one term and ignored the store name; demo 1 and demo 3 returned only generic refund and fraud pages |
